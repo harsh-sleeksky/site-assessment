@@ -1,0 +1,411 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteInformation",
+            "caption": "Site Information",
+            "fields": [
+                {
+                    "fieldId": "Program/Institution:",
+                    "fieldType": "Checkbox",
+                    "description": "Purpose of visit:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1. New facility"
+                        },
+                        {
+                            "label": "2. Visit with student"
+                        },
+                        {
+                            "label": "3. Visit without student"
+                        },
+                        {
+                            "label": "4. Other",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipating",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution2:",
+                    "fieldType": "Checkbox",
+                    "description": "Individuals that faculty met with:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1. SCCE"
+                        },
+                        {
+                            "label": "2. Clinical Instructor"
+                        },
+                        {
+                            "label": "3. Clinical Director"
+                        },
+                        {
+                            "label": "4. Other",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipating1",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite1",
+                    "fieldType": "Radio",
+                    "description": "<b>Tour of facility provided by site:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite12",
+                    "fieldType": "Radio",
+                    "description": "<b>Specific questions or requests facility had for you:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite2",
+                    "fieldType": "Radio",
+                    "description": "<b>Does the facility have a formal student program?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation",
+                                    "description": "If yes from above: Which of the following are available to the student?",
+                                    "fieldType": "Checkbox",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "1. student manual"
+                                        },
+                                        {
+                                            "label": "2. Weekly goals"
+                                        },
+                                        {
+                                            "label": "3. Formalized student curriculum"
+                                        },
+                                        {
+                                            "label": "4. Designated and routine meeting time"
+                                        },
+                                        {
+                                            "label": "5. Other"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated21",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite3",
+                    "fieldType": "Radio",
+                    "description": "<b>Do students have the opportunity to work with support personnel?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/InstitutionA:",
+                    "fieldType": "Checkbox",
+                    "description": "Which support personnel will the student will gain experience with:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1. ATC"
+                        },
+                        {
+                            "label": "2. PTA"
+                        },
+                        {
+                            "label": "3. Aide/tech"
+                        },
+                        {
+                            "label": "4. N/A"
+                        },
+                        {
+                            "label": "5. Other",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipating2",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PurposeEvaluation2",
+                    "description": "What level of student is most appropriate for this rotation?",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Clinical Experience I"
+                        },
+                        {
+                            "label": "Clinical Experience II"
+                        },
+                        {
+                            "label": "Clinical Experience III"
+                        },
+                        {
+                            "label": "Clinical Experience IV"
+                        },
+                        {
+                            "label": "All Clinical Experiences"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated2",
+                    "fieldType": "TextArea",
+                    "description": " Is there anything students need to know prior to choosing this site?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated3",
+                    "fieldType": "TextArea",
+                    "description": "Does the site have any feedback for the clinical education team or didactic curriculum (strengths or weaknesses)?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated4",
+                    "fieldType": "TextArea",
+                    "description": "Any other relevant comments or information."
+                },
+                {
+                    "fieldId": "Clinicalsite30",
+                    "fieldType": "Radio",
+                    "description": "<b>Does the site feel our students are adequately prepared for the clinical experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedA",
+                    "fieldType": "TextArea",
+                    "description": "Please explain:"
+                },
+                {
+                    "fieldId": "PreceptorAssociated5",
+                    "fieldType": "TextArea",
+                    "description": "How many physical therapists are staffed at your setting?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated6",
+                    "fieldType": "TextArea",
+                    "description": "What areas of specialization do the therapists at this location have?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated7",
+                    "fieldType": "TextArea",
+                    "description": " What types of patients/diagnoses are seen at this location?"
+                },
+                {
+                    "fieldId": "PurposeEvaluation20",
+                    "description": "What age ranges are students typically working with?",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1. Pediatric (0-18)"
+                        },
+                        {
+                            "label": "2. Young adult (18-35)"
+                        },
+                        {
+                            "label": "3. Middle-age adults (36-55)"
+                        },
+                        {
+                            "label": "4. Older adults (>55 years old)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated8",
+                    "fieldType": "TextArea",
+                    "description": "What types of unique experiences / equipment / learning opportunities are available to students at this setting?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated9",
+                    "fieldType": "TextArea",
+                    "description": "What other disciplines does the student interact with at this setting?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated10",
+                    "fieldType": "TextArea",
+                    "description": " How many patients are typically seen in a day?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated11",
+                    "fieldType": "TextArea",
+                    "description": "What is the model of care/treatment philosophy (productivity, pace, MSI, continuity, feedback, reflection time)?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated12",
+                    "fieldType": "TextArea",
+                    "description": "What outcome assessments do you routinely use with patients?"
+                },
+                {
+                    "fieldId": "Clinicalsite31",
+                    "fieldType": "Radio",
+                    "description": "<b>Should we continue using the site?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedB",
+                    "fieldType": "TextArea",
+                    "description": "Please explain:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Purpose",
+            "caption": "Information from Student",
+            "fields": [
+                {
+                    "fieldId": "PurposeEvaluation1",
+                    "description": "<b>In general, how is the experience going for you?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1. Very Good"
+                        },
+                        {
+                            "label": "2. Good"
+                        },
+                        {
+                            "label": "3. Acceptable"
+                        },
+                        {
+                            "label": "4. Poor"
+                        },
+                        {
+                            "label": "5. Very Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedC",
+                    "fieldType": "TextArea",
+                    "description": "What opportunities for mentorship are offered by your clinical instructor?"
+                },
+                {
+                    "fieldId": "Clinicalsite32",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you feel that you have enough supervision balanced with independence?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedD",
+                    "fieldType": "TextArea",
+                    "description": "Please explain:"
+                },
+                {
+                    "fieldId": "PreceptorAssociatedO2",
+                    "fieldType": "TextArea",
+                    "description": "What are the strengths and weaknesses of this clinical setting?"
+                },
+                {
+                    "fieldId": "PreceptorAssociatedO3",
+                    "fieldType": "TextArea",
+                    "description": "Are there any difficult situations that you have encountered during this clinical experience?"
+                },
+                {
+                    "fieldId": "Clinicalsite33",
+                    "fieldType": "Radio",
+                    "description": "<b>Would you recommend this clinical setting to another student?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedO1",
+                    "fieldType": "TextArea",
+                    "description": "Please explain:"
+                }
+            ]
+        }
+    ],
+    "id": "WUSTL.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdTAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdTAAAAAAAAAA==/",
+    "_etag": "\"76003681-0000-0100-0000-642d7b1b0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1680702235
+}

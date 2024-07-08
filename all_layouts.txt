@@ -39,9 +39,9 @@ Duplicate fieldId value found: "safety" - NEEDED - done
 
 WUSTL.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "NOTparticipating"
-Duplicate fieldId value found: "Clinicalsite1"
+Duplicate fieldId value found: "Clinicalsite1" - same section, same fieldType
 Duplicate fieldId value found: "NOTparticipating"
-Duplicate fieldId value found: "PurposeEvaluation" - NEEDED
+Duplicate fieldId value found: "PurposeEvaluation" - NEEDED - done
 
 
 USCPA.SiteAssessmentSitePreceptor.Layout.Base
