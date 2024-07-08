@@ -60,7 +60,7 @@ Duplicate fieldId value found: "Label" - UPDATED (label control)
 SRUPAInitialClinicalSite.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Phone" - UPDATED (exact duplicate)
 Duplicate fieldId value found: "B5" - NEEDED
-Duplicate fieldId value found: "Housing"
+Duplicate fieldId value found: "Housing" - done
 
 JamestownPT.SiteAssessmentSitePreceptor.Layout.Base
 Duplicate fieldId value found: "interprofessionalcare"

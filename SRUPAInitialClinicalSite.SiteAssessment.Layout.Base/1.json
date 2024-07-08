@@ -1,0 +1,907 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.YearlyClinical",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "SiteName",
+                    "fieldType": "textbox",
+                    "description": "<b>Clinical Site Name</b>"
+                },
+                {
+                    "fieldId": "preceptorName",
+                    "fieldType": "textbox",
+                    "description": "<b>Preceptor Name:</b>"
+                },
+                {
+                    "fieldId": "DatePerformed",
+                    "fieldType": "DatePicker",
+                    "description": "<b>Date Site Visit Performed:</b>"
+                },
+                {
+                    "fieldId": "StreetAddress",
+                    "fieldType": "textArea",
+                    "description": "<b>Street Address</b>"
+                },
+                {
+                    "fieldId": "City",
+                    "fieldType": "textbox",
+                    "description": "<b>City</b>"
+                },
+                {
+                    "fieldId": "State",
+                    "fieldType": "textbox",
+                    "description": "<b>State</b>"
+                },
+                {
+                    "fieldId": "Zip",
+                    "fieldType": "textbox",
+                    "description": "<b>Zip</b>"
+                },
+                {
+                    "fieldId": "Phone",
+                    "fieldType": "phone",
+                    "description": "<b>Phone</b>"
+                },
+                {
+                    "fieldId": "Fax",
+                    "fieldType": "textbox",
+                    "description": "<b>Fax</b>"
+                },
+                {
+                    "fieldId": "PrimaryContactName",
+                    "fieldType": "textbox",
+                    "description": "<b>Primary Contact Name</b>"
+                },
+                {
+                    "fieldId": "Phone1",
+                    "fieldType": "phone",
+                    "description": "<b>Phone</b>"
+                },
+                {
+                    "fieldId": "Email",
+                    "fieldType": "email",
+                    "description": "<b>Email:</b>"
+                },
+                {
+                    "fieldId": "WebsiteAddress",
+                    "fieldType": "textbox",
+                    "description": "<b>Website Address:</b>"
+                },
+                {
+                    "fieldId": "InitialSiteEvaluation",
+                    "description": "",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Initial Site Evaluation"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "InitialSiteEvaluation1",
+                                    "fieldType": "TextArea",
+                                    "description": "<b>Other, Please Specify</b>"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Discipline",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "B1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Discipline/Settings Available</b><br>(check all that apply)",
+                    "options": [
+                        {
+                            "label": "Family Medicine"
+                        },
+                        {
+                            "label": "General Surgery"
+                        },
+                        {
+                            "label": "Pediatrics"
+                        },
+                        {
+                            "label": "OB/GYN"
+                        },
+                        {
+                            "label": "Behavioral/Mental Health"
+                        },
+                        {
+                            "label": "Emergency Medicine"
+                        },
+                        {
+                            "label": "Special Populations"
+                        },
+                        {
+                            "label": "Internal Medicine"
+                        },
+                        {
+                            "label": "Elective",
+                            "fields": [
+                                {
+                                    "fieldId": "B2",
+                                    "fieldType": "TextArea",
+                                    "description": "<b>Elective, Please Specify</b>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B3",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Patient Care Exposure</b><br>(check all that apply)",
+                    "options": [
+                        {
+                            "label": "Infant"
+                        },
+                        {
+                            "label": "Child"
+                        },
+                        {
+                            "label": "Adolescent"
+                        },
+                        {
+                            "label": "Adult"
+                        },
+                        {
+                            "label": "Elderly"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B4",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Patient Care Exposure</b><br>(check all that apply)",
+                    "options": [
+                        {
+                            "label": "Acute care"
+                        },
+                        {
+                            "label": "Chronic care"
+                        },
+                        {
+                            "label": "Pre-natal care"
+                        },
+                        {
+                            "label": "Gynecologic care"
+                        },
+                        {
+                            "label": "Behavioral/Mental Health care"
+                        },
+                        {
+                            "label": "Preventative Healthcare"
+                        },
+                        {
+                            "label": "Emergent care"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B5",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Patient Care Exposure</b><br>(check all that apply)<br><br><b>Surgical exposure:</b>",
+                    "options": [
+                        {
+                            "label": "Pre-operative"
+                        },
+                        {
+                            "label": "Intra-operative"
+                        },
+                        {
+                            "label": "Post-operative"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B51",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Type of Clinical Facility</b>",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Emergency Department"
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PreceptorInformation",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "Label",
+                    "fieldType": "Label",
+                    "description": "<b>Preceptor Information</b>"
+                },
+                {
+                    "fieldId": "Name",
+                    "fieldType": "textbox",
+                    "description": "<b>Name</b>"
+                },
+                {
+                    "fieldId": "BoardCertification",
+                    "fieldType": "textbox",
+                    "description": "<b>Board Certification</b>"
+                },
+                {
+                    "fieldId": "License",
+                    "fieldType": "textbox",
+                    "description": "<b>License</b>"
+                },
+                {
+                    "fieldId": "YOE",
+                    "fieldType": "textbox",
+                    "description": "<b>Years of experience</b>"
+                },
+                {
+                    "fieldId": "B6",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "",
+                    "options": [
+                        {
+                            "label": "Information On File"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Averagepatients",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "Average",
+                    "fieldType": "textArea",
+                    "description": "<b>Average patients perDay:</b><br><b>Office:</b>"
+                },
+                {
+                    "fieldId": "Hospital",
+                    "fieldType": "textArea",
+                    "description": "<b>Hospital:</b>"
+                },
+                {
+                    "fieldId": "Other",
+                    "fieldType": "textbox",
+                    "description": "<b>Other:</b>"
+                },
+                {
+                    "fieldId": "ION",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "Interprofessionals on-site",
+                    "options": [
+                        {
+                            "label": "None"
+                        },
+                        {
+                            "label": "Fellows"
+                        },
+                        {
+                            "label": "Residents"
+                        },
+                        {
+                            "label": "Med students"
+                        },
+                        {
+                            "label": "NP students"
+                        },
+                        {
+                            "label": "PA students"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "HCTA",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "Health care team activities",
+                    "options": [
+                        {
+                            "label": "None"
+                        },
+                        {
+                            "label": "Rounds"
+                        },
+                        {
+                            "label": "Team meetings"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "HCTA1",
+                                    "fieldType": "TextArea",
+                                    "description": "<b>Other, Please Specify</b>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "responsible",
+                    "fieldType": "TextArea",
+                    "description": "<b>Who Is responsible for student orientation?</b>"
+                },
+                {
+                    "fieldId": "B7",
+                    "fieldType": "Radio",
+                    "description": "<b>Medically Underserved Area or Health Professional Shortage area?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Other1",
+                    "fieldType": "textbox",
+                    "description": "<b>Hospital(s) Name:</b>"
+                },
+                {
+                    "fieldId": "Other2",
+                    "fieldType": "textbox",
+                    "description": "<b>Hospital Education Contact Name</b>"
+                },
+                {
+                    "fieldId": "B71",
+                    "fieldType": "Radio",
+                    "description": "<b>Medically Underserved Area or Health Professional Shortage area?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Procedures",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "B31",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Procedures (Please check all that apply)",
+                    "options": [
+                        {
+                            "label": "ECG Interpretation"
+                        },
+                        {
+                            "label": "Staple and/or suture placement with local anesthesia administration"
+                        },
+                        {
+                            "label": "Staple and/or suture removal"
+                        },
+                        {
+                            "label": "Biopsy"
+                        },
+                        {
+                            "label": "Skin tag removal"
+                        },
+                        {
+                            "label": "Wart removal"
+                        },
+                        {
+                            "label": "Incision and drainage of abscess"
+                        },
+                        {
+                            "label": "Nail Care (Ingrown nail or nail avulsion management)"
+                        },
+                        {
+                            "label": "Urine dipstick evaluation"
+                        },
+                        {
+                            "label": "Male/female urinary catheterization placement or removal"
+                        },
+                        {
+                            "label": "Male genital exam"
+                        },
+                        {
+                            "label": "Digital rectal exam for male/female with hemoccult testing"
+                        },
+                        {
+                            "label": "Pelvic exam and pap smear"
+                        },
+                        {
+                            "label": "Breast exam"
+                        },
+                        {
+                            "label": "Wet mount interpretation"
+                        },
+                        {
+                            "label": "Fetal Doppler or heart tone monitoring"
+                        },
+                        {
+                            "label": "Ear canal irrigation"
+                        },
+                        {
+                            "label": "Hearing screening"
+                        },
+                        {
+                            "label": "Visual screening"
+                        },
+                        {
+                            "label": "Splint and cast application or removal"
+                        },
+                        {
+                            "label": "Wound management (dressing application, dressing change, or debridement)"
+                        },
+                        {
+                            "label": "Sterile technique (gowning and gloving)"
+                        },
+                        {
+                            "label": "Placement of intravenous lines"
+                        },
+                        {
+                            "label": "Immunizations"
+                        },
+                        {
+                            "label": "Injections (intramuscular,subcutaneous, or intradermal)"
+                        },
+                        {
+                            "label": "Venipuncture"
+                        },
+                        {
+                            "label": "Removal of foreign body from, ear, nose, and/or skin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Responsibility",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "Office",
+                    "fieldType": "textArea",
+                    "description": "<b>Hours</b><br><br><b>Regular Office Hours</b>"
+                },
+                {
+                    "fieldId": "Schedule",
+                    "fieldType": "textArea",
+                    "description": "<b>Student Schedule if differs from above (min 35 hours/week)</b>"
+                },
+                {
+                    "fieldId": "Requirements",
+                    "fieldType": "textArea",
+                    "description": "<b>On-call Requirements</b>"
+                },
+                {
+                    "fieldId": "Weekend",
+                    "fieldType": "textArea",
+                    "description": "<b>Weekend/Evening/Night Requirements</b>"
+                },
+                {
+                    "fieldId": "B8",
+                    "fieldType": "Radio",
+                    "description": "<b>Level of Student Responsibility</b><br><br><b>Do you send students in a patient’s room to evaluate and formulate a plan of their own to present to you?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B81",
+                    "fieldType": "Radio",
+                    "description": "<b>Level of Student Responsibility</b><br><br><b>Do you send students in a patient’s room to evaluate and formulate a plan of their own to present to you?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B82",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you see all patients with the student without the student examining the patient first?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B83",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you allow students to write orders?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B84",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you allow students to write/dictate progress notes?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B85",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you have any other guidance on your expectations of students (observations, hours/attendance, reading, procedures, pagers, communication…)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B86",
+                    "fieldType": "Radio",
+                    "description": "<b>Housing/Benefits/Housing Availability</b><br><br><b>Do you provide free housing:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B87",
+                    "fieldType": "Radio",
+                    "description": "<b>Will you assist with locating housing:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B88",
+                    "fieldType": "Radio",
+                    "description": "<b>No Housing available—student must locate own housing:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Housing",
+                    "fieldType": "textArea",
+                    "description": "<b>Provide Rental/Housing Fee:</b>"
+                },
+                {
+                    "fieldId": "Housing1",
+                    "fieldType": "textArea",
+                    "description": "<b>Other</b>"
+                },
+                {
+                    "fieldId": "AdditionalComments",
+                    "fieldType": "textArea",
+                    "description": "<b>Additional Comments:</b>"
+                },
+                {
+                    "fieldId": "training",
+                    "fieldType": "textArea",
+                    "description": "<b>Any other specific requirements (training or agreements) —HIPAA? EMR training? Orientation? Safety signoff? Confidentiality Agreements?</b>"
+                },
+                {
+                    "fieldId": "B10",
+                    "fieldType": "Radio",
+                    "description": "<b>Site requires student application:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B12",
+                    "fieldType": "Radio",
+                    "description": "<b>Reservations?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B121",
+                    "fieldType": "Radio",
+                    "description": "<b>Safety concerns?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B111",
+                    "fieldType": "Radio",
+                    "description": "<b>Site Security Concerns?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B112",
+                    "fieldType": "Radio",
+                    "description": "<b>Student appropriately supervised by Preceptor?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B1121",
+                    "fieldType": "Radio",
+                    "description": "<b>Does this rotation at this clinical site address the fundamental clinical principles of this discipline?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Provide",
+                    "fieldType": "textArea",
+                    "description": "<b>Provide additional explanation if needed:</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Category",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "B15",
+                    "fieldType": "Radio",
+                    "description": "<b>Category</b><br><br><b>Physical layout of facility is adequate and conducive for learning</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B151",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor available to meet</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B152",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor appears enthusiastic about teaching</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B153",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor expectation for student work hours are appropriate</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B154",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor plans for student to be integrated into healthcare team</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B155",
+                    "fieldType": "Radio",
+                    "description": "<b>Site provides appropriate responsibilities</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B156",
+                    "fieldType": "Radio",
+                    "description": "<b>Site allows students to document in chart</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B157",
+                    "fieldType": "Radio",
+                    "description": "<b>Number and diversity of patients provide well-rounded experience</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B158",
+                    "fieldType": "Radio",
+                    "description": "<b>Site provides formal lectures/conferences/teaching rounds</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B16",
+                    "fieldType": "TextBox",
+                    "description": "<b>Performed by (print name)</b>"
+                },
+                {
+                    "fieldId": "B159",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical Coordinator Approval</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Yes"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "SRUPAInitialClinicalSite.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRd2AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRd2AAAAAAAAAA==/",
+    "_etag": "\"7300ab8b-0000-0100-0000-6458a4240000\"",
+    "_attachments": "attachments/",
+    "_ts": 1683530788
+}

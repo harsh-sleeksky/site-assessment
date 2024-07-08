@@ -1,0 +1,467 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.ClinicalSite",
+            "caption": "CLINICAL SITE VISIT",
+            "fields": [
+                {
+                    "fieldId": "clinical",
+                    "description": "Clinical Site Name, City, State:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "dv",
+                    "description": "Date of visit:",
+                    "fieldType": "DatePicker"
+                },
+                {
+                    "fieldId": "pv",
+                    "description": "Purpose of visit:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Initial Site Visit"
+                        },
+                        {
+                            "label": "Annual Site Visit"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "crna",
+                    "description": "CRNA or MDA Clinical Coordinator:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "cad",
+                    "description": "Chairman of Anesthesia department:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "cna",
+                    "description": "Chief Nurse Anesthetist:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "ada",
+                    "description": "Anesthesia Department Administrator:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "ceo",
+                    "fieldType": "TextBox",
+                    "description": "Chief Executive Officer:"
+                },
+                {
+                    "fieldId": "met",
+                    "fieldType": "TextBox",
+                    "description": "Others met during this visit:"
+                },
+                {
+                    "fieldId": "sp",
+                    "fieldType": "TextBox",
+                    "description": "Students present:"
+                },
+                {
+                    "fieldId": "typical",
+                    "fieldType": "TextBox",
+                    "description": "Length of time, in weeks, that students typically spend at site:"
+                },
+                {
+                    "fieldId": "nls",
+                    "fieldType": "TextBox",
+                    "description": "Number of learners at site at one time:"
+                },
+                {
+                    "fieldId": "srna",
+                    "fieldType": "TextBox",
+                    "description": "SRNAs from Columbia:"
+                },
+                {
+                    "fieldId": "srna1",
+                    "description": "SRNAs from other programs:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "ar",
+                    "description": "Anesthesia residents:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "ol",
+                    "description": "Other learners:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Label",
+                    "fieldType": "label",
+                    "description": "Do they get specialty experience in:"
+                },
+                {
+                    "fieldId": "obstetrics",
+                    "description": "Obstetrics?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "pediatrics",
+                    "description": "Pediatrics?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment1",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "intracranial",
+                    "description": "Intracranial?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment2",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "cardiovascular",
+                    "description": "Cardiovascular?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment3",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "thoracic",
+                    "description": "Thoracic?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment4",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "trauma",
+                    "description": "Trauma?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment5",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "other",
+                    "description": "Other?",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "comment6",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "cnsr",
+                    "description": "Can non-primary students rotate through in specialty areas?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "avg",
+                    "description": "Average number of surgical procedure per year overall:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "intracran",
+                    "description": "Intracranial:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "pedia",
+                    "description": "Pediatric:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "intrath",
+                    "description": "Intrathoracic:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "obstet",
+                    "fieldType": "TextBox",
+                    "description": "Obstetric:"
+                },
+                {
+                    "fieldId": "mac",
+                    "fieldType": "TextBox",
+                    "description": "Monitored Anesthesia Care:"
+                },
+                {
+                    "fieldId": "gac",
+                    "fieldType": "TextBox",
+                    "description": "General Anesthesia Cases:"
+                },
+                {
+                    "fieldId": "rapy",
+                    "fieldType": "TextBox",
+                    "description": "Regional anesthetics per year:"
+                },
+                {
+                    "fieldId": "aaa",
+                    "fieldType": "TextBox",
+                    "description": "Average anesthetizing areas:"
+                },
+                {
+                    "fieldId": "aas",
+                    "fieldType": "TextBox",
+                    "description": "Areas available to SRNA's:"
+                },
+                {
+                    "fieldId": "asrna",
+                    "fieldType": "TextBox",
+                    "description": "Available to SRNA's:"
+                },
+                {
+                    "fieldId": "Label2",
+                    "fieldType": "label",
+                    "description": "Do they get hands-on experience with:"
+                },
+                {
+                    "fieldId": "arli",
+                    "description": "Arterial lines?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "crli",
+                    "description": "Central lines?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "neuroaxi",
+                    "description": "Neuroaxials?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PNBs",
+                    "description": "PNB's?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "type",
+                    "fieldType": "TextBox",
+                    "description": "Type:"
+                },
+                {
+                    "fieldId": "pmng",
+                    "description": "Pain management?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "call",
+                    "description": "Call?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "arest",
+                    "description": "Are there any restrictions at site (cases, techniques)?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "aprecp",
+                    "description": "Are all preceptors credentials up-to-date and on file in the department office?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "stdfed",
+                    "fieldType": "Textarea",
+                    "description": "Student Feedback:"
+                },
+                {
+                    "fieldId": "crrtym",
+                    "description": "Do the students feel that this site and rotation is meeting their needs at the current time?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "coofed",
+                    "fieldType": "Textarea",
+                    "description": "Clinical Coordinator Feedback:"
+                },
+                {
+                    "fieldId": "culfed",
+                    "fieldType": "Textarea",
+                    "description": "Columbia Faculty Feedback:"
+                },
+                {
+                    "fieldId": "facsign",
+                    "fieldType": "Label",
+                    "description": "Faculty Signature:"
+                },
+                {
+                    "fieldId": "facsign1",
+                    "fieldType": "esign",
+                    "description": "Faculty Signature:",
+                    "placeHolder": "Please sign here"
+                }
+            ]
+        }
+    ],
+    "id": "Columbia-Nursing.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdwAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdwAAAAAAAAAA==/",
+    "_etag": "\"a100d7ee-0000-0100-0000-6687a2f80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720165112
+}

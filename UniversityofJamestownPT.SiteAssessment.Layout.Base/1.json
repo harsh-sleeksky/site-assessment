@@ -1,0 +1,581 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteInformation",
+            "caption": "Questions for Clinical Instructor",
+            "fields": [
+                {
+                    "fieldId": "Instruction1:",
+                    "fieldType": "TextArea",
+                    "description": "1. How much supervision/direction does the student currently need for simple patient cases?<br>(100% = constant, 1 to 1, supervision/direction. 0% = able to work independently)"
+                },
+                {
+                    "fieldId": "Program/Institution2:",
+                    "fieldType": "TextArea",
+                    "description": "2. How much supervision/direction does the student currently need for complex patient cases?<br>(100% = constant, 1 to 1, supervision/direction. 0% = able to work independently)"
+                },
+                {
+                    "fieldId": "Clinicalsite1",
+                    "fieldType": "Radio",
+                    "description": "<b>3. Do you have any concerns regarding the student's performance thus far?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution3:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite2",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Do you have any concerns about the student’s ability to reach the expected level on the final PT CPI assessment?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution4:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite3",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Does the student have the knowledge and skills needed to meet the learning objectives for this clinical experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution5:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite4",
+                    "fieldType": "Radio",
+                    "description": "<b>6. Has the student taken an active role in their learning and progression during this clinical experience? (Examples: Discussing goals, asking questions, seeking out learning experiences, taking initiative)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution6:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Program/Institution8:",
+                    "fieldType": "Label",
+                    "description": "7. Please rate your student in each of the areas listed below based on their performance thus far during the clinical experience."
+                },
+                {
+                    "fieldId": "Clinicalsite5",
+                    "fieldType": "Radio",
+                    "description": "<b>Professionalism</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution9:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite6",
+                    "fieldType": "Radio",
+                    "description": "<b>Initiative</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution10:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite7",
+                    "fieldType": "Radio",
+                    "description": "<b>Flexibility</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite8",
+                    "fieldType": "Radio",
+                    "description": "<b>Response to constructive criticism  or feedback</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution12:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite9",
+                    "fieldType": "Radio",
+                    "description": "<b>Communication</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution13:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite10",
+                    "fieldType": "Radio",
+                    "description": "<b>Listening Skills</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution14:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite11",
+                    "fieldType": "Radio",
+                    "description": "<b>Hands-on Patient Skills</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution15:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite12",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical Reasoning</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution16:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite13",
+                    "fieldType": "Radio",
+                    "description": "<b>Problem-solving</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution16A:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite14",
+                    "fieldType": "Radio",
+                    "description": "<b>Documentation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution16B:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite15",
+                    "fieldType": "Radio",
+                    "description": "<b>Time Management</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution16C:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite16",
+                    "fieldType": "Radio",
+                    "description": "<b>8. During this clinical experience, will the student get exposure to or participate in interprofessional care (OT, SLP, Nursing, or other)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution18:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Clinicalsite161",
+                    "fieldType": "Radio",
+                    "description": "<b>9. During this clinical experience, will the student have an opportunity to collaborate with or supervise a Physical Therapist Assistant (PTA)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution19:",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Program/Institution20:",
+                    "fieldType": "TextArea",
+                    "description": "10. Is there any further information you would like to share with us?"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Purpose",
+            "caption": "Questions for Students",
+            "fields": [
+                {
+                    "fieldId": "Clinicalsite17",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Do you have an effective working relationship with your CI?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution21:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite18",
+                    "fieldType": "Radio",
+                    "description": "<b>2. Are your CI's expectations clear?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution22:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite19",
+                    "fieldType": "Radio",
+                    "description": "<b>3. Are you receiving adequate supervision and feedback from your CI?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution23:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite20",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Were there any surprises when you met with your CI to review your performance at midterm?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Not completed yet"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution24:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite21",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Do you have any concerns about your ability to reach the expected level on the final PT CPI assessment?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution25:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite22",
+                    "fieldType": "Radio",
+                    "description": "<b>6. Do you have the knowledge and skills needed to meet the learning objectives for this clinical experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution26:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite23",
+                    "fieldType": "TextArea",
+                    "description": "<b>7. What has been most challenging during this clinical experience and what could UJ have done to better prepare you for this experience?</b>"
+                },
+                {
+                    "fieldId": "Program/Institution27:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Clinicalsite24",
+                    "fieldType": "TextArea",
+                    "description": "<b>8. What questions do you have about your assignments for this clinical experience?</b>"
+                },
+                {
+                    "fieldId": "Program/Institution28:",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Program/Institution29:",
+                    "fieldType": "TextArea",
+                    "description": "9. Do you have any other comments or questions?"
+                }
+            ]
+        }
+    ],
+    "id": "UniversityofJamestownPT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdpAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdpAAAAAAAAAA==/",
+    "_etag": "\"24007116-0000-0100-0000-6480838d0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1686143885
+}
