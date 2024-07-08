@@ -586,7 +586,7 @@
                     "description": "<b>Patient Management Skills (conversation prompts; formal data derived from CPI):</b>"
                 },
                 {
-                    "fieldId": "Safety2",
+                    "fieldId": "safety2",
                     "description": "Safety:",
                     "fieldType": "Textarea"
                 },
