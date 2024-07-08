@@ -1,0 +1,478 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.ClinicalInstructor",
+            "caption": "Preceptor/Clinical Site Information",
+            "fields": [
+                {
+                    "fieldId": "preceptorName",
+                    "fieldType": "textArea",
+                    "description": "Preceptor Name:"
+                },
+                {
+                    "fieldId": "clinicalSite",
+                    "fieldType": "textArea",
+                    "description": "Clinical Site Name:"
+                },
+                {
+                    "fieldId": "Discipline",
+                    "description": "<b>Discipline:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Family"
+                        },
+                        {
+                            "label": "Pediatrics"
+                        },
+                        {
+                            "label": "Internal Medicine"
+                        },
+                        {
+                            "label": "Prenatal/Gynecology"
+                        },
+                        {
+                            "label": "Surgery"
+                        },
+                        {
+                            "label": "Behavior Medicine"
+                        },
+                        {
+                            "label": "Emergency Medicine"
+                        },
+                        {
+                            "label": "Elective/Other:",
+                            "fields": [
+                                {
+                                    "fieldId": "stProfessionalBehaviorYes",
+                                    "fieldType": "textArea",
+                                    "description": "Explain Other here:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "professionalbehaviour",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Care Setting/s:</b>",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Operating Room"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Emergency Department"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "patientEncounter",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Type of patient encounters:</b>",
+                    "options": [
+                        {
+                            "label": "Prevention"
+                        },
+                        {
+                            "label": "Acute"
+                        },
+                        {
+                            "label": "Emergent"
+                        },
+                        {
+                            "label": "Chronic"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "patientPopulation",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Patient Population:</b>",
+                    "options": [
+                        {
+                            "label": "Infant"
+                        },
+                        {
+                            "label": "Child"
+                        },
+                        {
+                            "label": "Adolescent"
+                        },
+                        {
+                            "label": "Adult"
+                        },
+                        {
+                            "label": "Elderly"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "patientPopulation",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Women's Health:</b>",
+                    "options": [
+                        {
+                            "label": "Prenatal"
+                        },
+                        {
+                            "label": "Gynecologic"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "patientPopulation",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Surgery:</b>",
+                    "options": [
+                        {
+                            "label": "Pre-Op"
+                        },
+                        {
+                            "label": "Intra-Op"
+                        },
+                        {
+                            "label": "Post Op"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentInterview",
+            "caption": "Site Evaluation",
+            "fields": [
+                {
+                    "fieldId": "medicallyUnderservedArea",
+                    "description": "<b>Medically underserved area (MUA)</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "muPopulation",
+                    "description": "<b>Medically underserved population (MUP)</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "onsite",
+                    "fieldType": "CheckBox",
+                    "description": "<b>Onsite Diagnostic and Treatment:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Laboratory"
+                        },
+                        {
+                            "label": "Radiology"
+                        },
+                        {
+                            "label": "Pharmacy"
+                        },
+                        {
+                            "label": "Procedure Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "healthActivities",
+                    "fieldType": "CheckBox",
+                    "description": "<b>Health Team Activities:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "None"
+                        },
+                        {
+                            "label": "Rounds"
+                        },
+                        {
+                            "label": "Meetings"
+                        },
+                        {
+                            "label": "Other ",
+                            "fields": [
+                                {
+                                    "fieldId": "onsiteOther",
+                                    "fieldType": "textArea",
+                                    "description": "Explain Other here:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "siteStep",
+                    "fieldType": "CheckBox",
+                    "description": "What steps does the site take to ensure the personal safety and security of students?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Security on Site"
+                        },
+                        {
+                            "label": "Well lighted parking"
+                        },
+                        {
+                            "label": "Escort"
+                        },
+                        {
+                            "label": "Other ",
+                            "fields": [
+                                {
+                                    "fieldId": "siteStepOther",
+                                    "fieldType": "textArea",
+                                    "description": "Explain Other here:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "internet",
+                    "description": "<b>Is internet access available for students:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "medicalReference",
+                    "description": "<b>Access to medical references, scientific literature, and online clinical year support services</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "physicalSpace",
+                    "description": "<b>Is physical space available for students to work:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "clinicalRoom",
+                    "description": "<b>Is there adequate space in clinical rooms for student participation:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "activeEnvi",
+                    "description": "<b>The site provides a safe, active stimulating environment appropriate for the learning needs of the student:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "clinicalSupervision",
+                    "description": "<b>The site, exposure to patients, clinical supervision, and supplemental resources are adequate for the student to meet learning objectives assigned for this specialty</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "adequateNumber",
+                    "description": "<b>The site provides students with an adequate number and variety of patient cases for a well-rounded educational experience</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.DCESummary",
+            "caption": "Preceptor: Supervision",
+            "fields": [
+                {
+                    "fieldId": "knowledgeable",
+                    "description": "<b>The preceptor is knowledgeable about the duties, responsibilities, advantages and limitations of physician assistant students</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "knowledgeablePreceptor",
+                    "description": "<b>The preceptor is knowledgeable of the assigned learning objectives for the clinical experience</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "qualifiedPreceptor",
+                    "description": "<b>The preceptor is qualified through training and licensed, in good standing, with the state medical board/regulatory agency to practice medicine</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.OverallSummary",
+            "caption": "Overall",
+            "fields": [
+                {
+                    "fieldId": "Communication",
+                    "description": "<b>Communication between the PAS program and the site are effective and positive</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "studentFeedback",
+                    "description": "<b>Overall student feedback is positive regarding the site and preceptor</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Strong"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "knowledgeablePreceptor",
+                    "description": "<b>Comments</b>",
+                    "fieldType": "textArea"
+                }
+            ]
+        }
+    ],
+    "id": "GeorgeFoxPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcyAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcyAAAAAAAAAA==/",
+    "_etag": "\"2a008457-0000-0100-0000-648b572c0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1686853420
+}

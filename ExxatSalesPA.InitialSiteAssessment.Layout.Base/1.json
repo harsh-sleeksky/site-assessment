@@ -1,0 +1,621 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Site",
+            "caption": "Site Attributes",
+            "fields": [
+                {
+                    "fieldId": "safeAccess",
+                    "fieldType": "Radio",
+                    "description": "Is there safe access to and from the work site?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "cleanHousing",
+                    "description": "Is there safe/clean housing (*if applicable)",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "adequateSpace",
+                    "description": "Is there Adequate space for students to work? ",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "accesTechnology",
+                    "description": "Does the student have access to technology resources (EMR system, internet access)?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "adequateSupervision",
+                    "description": "Is there adequate supervision of the student at this site?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PatientPopulation",
+            "caption": "Patient Population",
+            "fields": [
+                {
+                    "fieldId": "Typicalnumber",
+                    "fieldType": "rich-textbox",
+                    "description": "Typical number of patients seen per day",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "ppMedicalConditions",
+                    "description": "Medical Conditions",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Preventive"
+                        },
+                        {
+                            "label": "Emergent"
+                        },
+                        {
+                            "label": "Acute"
+                        },
+                        {
+                            "label": "Chronic"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ppAge",
+                    "description": "Lifespan",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Infants"
+                        },
+                        {
+                            "label": "Children"
+                        },
+                        {
+                            "label": "Adolescents"
+                        },
+                        {
+                            "label": "Adults"
+                        },
+                        {
+                            "label": "Older Adults"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ppWomensHealth",
+                    "description": "Women's Health",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Prenatal care"
+                        },
+                        {
+                            "label": "Gynecologic care"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ppSurgicalManagement",
+                    "description": "Surgical",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Pre-operative"
+                        },
+                        {
+                            "label": "Intra-operative"
+                        },
+                        {
+                            "label": "Post-operative"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ppPsych",
+                    "description": "Psych",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Behavioral health"
+                        },
+                        {
+                            "label": "Mental health"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Student",
+            "caption": "Student",
+            "fields": [
+                {
+                    "fieldId": "healthprofessionsstudents",
+                    "description": "Clearly distinguished from other health professions students and providers",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "themselves",
+                    "description": "Introduces themselves to patient appropriately",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "appropriatequestions",
+                    "description": "Takes history with appropriate questions and establishes rapport",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "physicalexam",
+                    "description": "Performs physical exam with correct skills/techniques",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "chiefcomplaint",
+                    "description": "Performs physical exam relevant to HPI/chief complaint",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "atypicalfindings",
+                    "description": "Able to distinguish between typical and atypical findings",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Formulatesappropriate",
+                    "description": "Formulates appropriate diagnosis",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Documentsfindings",
+                    "description": "Documents findings correctly",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Communicatesfindings",
+                    "description": "Communicates findings with preceptor in a clear, concise manner",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "workingrelationship",
+                    "description": "Appears to have good working relationship with preceptor",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Preceptor",
+            "caption": "Preceptor",
+            "fields": [
+                {
+                    "fieldId": "qualifiedorExperience",
+                    "description": "Preceptor holds valid license",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "validLicense",
+                    "description": "Preceptor holds valid certification",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "validCertification",
+                    "description": "Preceptor is qualified to teach assigned subjects",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "programsExpectations",
+                    "description": "Preceptor is effective in teaching assigned subjects",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "awareDistinguishProfession",
+                    "description": "Preceptor is knowledgeable in course content, learning outcomes and program expectations",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Evaluationprocess",
+                    "description": "Any issues with the Evaluation process?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "schedulingprocess",
+                    "description": "Any issues with the slot request/scheduling process?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "awareDistinguishProfession1",
+                    "description": "Appears to have good working relationship with student",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.OverallImpression",
+            "caption": "Overall Impression",
+            "fields": [
+                {
+                    "fieldId": "Recommendationrelationship",
+                    "description": "Recommendation for relationship with clinical site",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Continue relationship"
+                        },
+                        {
+                            "label": "Discontinue relationship"
+                        },
+                        {
+                            "label": "Provide remediation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "validLicense1",
+                    "description": "Recommendation for relationship with preceptor",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Continue relationship"
+                        },
+                        {
+                            "label": "Discontinue relationship"
+                        },
+                        {
+                            "label": "Provide remediation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Followuprequired",
+                    "description": "Follow up required?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "id": "Followuprequired_1",
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Plannedfollowup",
+                                    "description": "Planned follow up date",
+                                    "controlType": "DatePicker",
+                                    "display": "inline-grid",
+                                    "isActive": true,
+                                    "disable": false,
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please select date"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "Actualfollowup",
+                                    "description": "Actual follow up date",
+                                    "controlType": "DatePicker",
+                                    "display": "inline-grid",
+                                    "isActive": true,
+                                    "disable": false,
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please select date"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "FollowupNote",
+                                    "description": "Follow up Note",
+                                    "controlType": "rich-textbox",
+                                    "display": "inline-grid",
+                                    "isActive": true,
+                                    "disable": false,
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please describe comments"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "Followuprequired_2",
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "ExxatSalesPA.InitialSiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcZAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcZAAAAAAAAAA==/",
+    "_etag": "\"0000c421-0000-0100-0000-620e578a0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1645107082
+}

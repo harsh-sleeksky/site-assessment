@@ -1,0 +1,199 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.StudentInterview",
+            "caption": "Student Interview",
+            "fields": [
+                {
+                    "fieldId": "typesofpatients",
+                    "fieldType": "rich-textbox",
+                    "description": "How do you feel the clinical experience is progressing overall?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "seeingperday",
+                    "fieldType": "rich-textbox",
+                    "description": "What are your major areas of growth thus far in the clinical experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "NOTparticipating",
+                    "fieldType": "rich-textbox",
+                    "description": "What areas do you feel have been most challenging for you?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "concernspoint",
+                    "fieldType": "rich-textbox",
+                    "description": "In what ways is your CI doing a good job at facilitating your learning?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "assistancesupervision",
+                    "fieldType": "rich-textbox",
+                    "description": "In what ways could CI better facilitate your learning or structure the experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "supervisionprovided",
+                    "fieldType": "rich-textbox",
+                    "description": "Have you discussed the program’s expectations of this clinical experience with your CI (level of performance on the CIET)? How did that discussion go?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feedbackreceived",
+                    "fieldType": "rich-textbox",
+                    "description": "What is your understanding of a typical daily caseload in this setting? What percentage do you feel you are currently able to manage?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "learningexperiences",
+                    "fieldType": "rich-textbox",
+                    "description": "What other learning experiences have you had or are you planning during this rotation?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "academicallyprepared",
+                    "fieldType": "rich-textbox",
+                    "description": "What areas of the curriculum helped prepare you for this experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feltdeficient",
+                    "fieldType": "rich-textbox",
+                    "description": "What do you feel would have been helpful to have more content/time/focus in the curriculum to better prepare you for this experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feltdeficientA",
+                    "fieldType": "rich-textbox",
+                    "description": "Do you have any concerns about this clinical site for future student placements?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feltdeficientB",
+                    "fieldType": "rich-textbox",
+                    "description": "Final comments/Other discussion points",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.ClinicalInstructor",
+            "caption": "Clinical Instructor",
+            "fields": [
+                {
+                    "fieldId": "concernsAtPoint",
+                    "fieldType": "rich-textbox",
+                    "description": "How has the student been progressing overall?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "studentStrengths",
+                    "fieldType": "rich-textbox",
+                    "description": "Where have you seen the most growth/development for the student thus far?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "studentNeedDevelopment",
+                    "fieldType": "rich-textbox",
+                    "description": "What has been the biggest challenge for this student thus far?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "stProfessionalBehaviorYes",
+                    "fieldType": "rich-textbox",
+                    "description": "Can you comment on the student’s professional behaviors during this clinical experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "studentResponsFeedback",
+                    "fieldType": "rich-textbox",
+                    "description": "Can you describe how you integrate teaching into your day? For example, do you debrief after each patient? Do you set aside time at the beginning of the day to discuss the patients to be seen? Where does teaching and feedback typically occur? (e.g. at bedside, in patient care areas, dedicated space for teaching, etc.)",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "studentDocSkills",
+                    "fieldType": "rich-textbox",
+                    "description": "What will be this student’s focus areas for the remainder of the clinical experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "participationInPatientManagementNO",
+                    "fieldType": "rich-textbox",
+                    "description": "At this point, do you feel this student is on target to meet expectations of competency for this clinical?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "curriculumCommittee",
+                    "fieldType": "rich-textbox",
+                    "description": "What areas of our curriculum do you feel best prepared the student for this experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "quesRegardingCIET",
+                    "fieldType": "rich-textbox",
+                    "description": "What knowledge gaps or curricular weaknesses do you feel should be addressed to best prepare students for this experience?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldType": "rich-textbox",
+                    "description": "Is there anything that the clinical education team or Duke DPT can do to better support you as a clinical instructor?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam1",
+                    "fieldType": "rich-textbox",
+                    "description": "Final comments/Other discussion points",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteamA",
+                    "fieldType": "Label",
+                    "description": "Clinical Education Faculty Notes or Observations"
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteamB",
+                    "fieldType": "rich-textbox",
+                    "description": "If the clinical instructor’s teaching was observed, summarize the observations that DPT faculty made and any feedback or coaching that was provided to the clinical instructor.",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteamC",
+                    "fieldType": "Label",
+                    "description": " Follow-Up",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "awareDistinguishProfession",
+                    "description": "Does a follow-up call or visit need to be scheduled?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteamD",
+                    "fieldType": "rich-textbox",
+                    "description": "Action items/Next Steps and Responsible parties (if necessary):",
+                    "characterLimit": 500
+                }
+            ]
+        }
+    ],
+    "id": "DukePTA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcjAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcjAAAAAAAAAA==/",
+    "_etag": "\"3b01bfd7-0000-0100-0000-64db8aef0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1692109551
+}

@@ -1,0 +1,338 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.StudentInterview",
+            "caption": "Student Interview",
+            "fields": [
+                {
+                    "fieldId": "PracticeSetting",
+                    "description": "Practice Setting",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inpatient-Acute Care"
+                        },
+                        {
+                            "label": "Inpatient-Rehabilitation"
+                        },
+                        {
+                            "label": "Inpatient-Skilled Nursing Facility"
+                        },
+                        {
+                            "label": "Outpatient-Orthopedics"
+                        },
+                        {
+                            "label": "Home Health"
+                        },
+                        {
+                            "label": "Other"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "typesofpatients",
+                    "fieldType": "rich-textbox",
+                    "description": "What types of patients are you seeing:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "seeingperday",
+                    "fieldType": "rich-textbox",
+                    "description": "How many patients are you seeing per day?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "LifespanExposure",
+                    "description": "Lifespan Exposure",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Pediatrics (0-12 years)"
+                        },
+                        {
+                            "label": "Adult"
+                        },
+                        {
+                            "label": "Geriatrics"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "participatingpatient",
+                    "fieldType": "Radio",
+                    "description": "Are you participating in the entire patient management process at this time (examination, diagnosis, prognosis, interventions, documentation, and discharge planning)?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NOTparticipating",
+                    "fieldType": "rich-textbox",
+                    "description": "If not, which areas are you NOT participating in",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "concernspoint",
+                    "fieldType": "rich-textbox",
+                    "description": "Do you have any concerns at this point?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "assistancesupervision",
+                    "fieldType": "rich-textbox",
+                    "description": "Which areas do you need the most assistance/supervision:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "supervisionprovided",
+                    "fieldType": "rich-textbox",
+                    "description": "Describe the level of supervision provided by your CI:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feedbackreceived",
+                    "fieldType": "rich-textbox",
+                    "description": "Describe the feedback you have received from your CI:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "learningexperiences",
+                    "fieldType": "rich-textbox",
+                    "description": "What other kinds of learning experiences have you had at this site?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "academicallyprepared",
+                    "fieldType": "Radio",
+                    "description": "Were you academically prepared for this professional practice experience?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feltdeficient",
+                    "fieldType": "rich-textbox",
+                    "description": "If not, in what areas have you felt deficient.",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "questionspaperwork",
+                    "fieldType": "Radio",
+                    "description": "Do you have any questions about the required paperwork or assignments",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.ClinicalInstructor",
+            "caption": "Clinical Instructor",
+            "fields": [
+                {
+                    "fieldId": "concernsAtPoint",
+                    "fieldType": "rich-textbox",
+                    "description": "Do you have any concerns at this point?"
+                },
+                {
+                    "fieldId": "studentStrengths",
+                    "fieldType": "rich-textbox",
+                    "description": "What are the student’s strengths?"
+                },
+                {
+                    "fieldId": "studentNeedDevelopment",
+                    "fieldType": "rich-textbox",
+                    "description": "What are the areas in when the student needs continued development?"
+                },
+                {
+                    "fieldId": "stProfessionalBehavior",
+                    "description": "Do you have any concerns regarding the student’s professional behavior or communication skills?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "stProfessionalBehaviorYes",
+                    "fieldType": "rich-textbox",
+                    "description": "If yes, summarize the concerns:"
+                },
+                {
+                    "fieldId": "studentResponsFeedback",
+                    "fieldType": "rich-textbox",
+                    "description": "Describe the student’s response to your feedback:"
+                },
+                {
+                    "fieldId": "stAcademicallyExperience",
+                    "description": "Was the student academically prepared for this experience?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "studentDocSkills",
+                    "fieldType": "rich-textbox",
+                    "description": "Describe the student’s documentation skills:"
+                },
+                {
+                    "fieldId": "participationInPatientManagement",
+                    "description": "Is the student participating in the entire patient management process (examination, diagnosis, prognosis, interventions, documentation, and discharge planning)?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "participationInPatientManagementNO",
+                    "fieldType": "rich-textbox",
+                    "description": "If not, which areas is the student NOT participating in:"
+                },
+                {
+                    "fieldId": "Label1",
+                    "fieldType": "label",
+                    "description": "Is the student able to:"
+                },
+                {
+                    "fieldId": "identifyPatientProblem",
+                    "description": "Identify patient problems?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "developFunctionalGoals",
+                    "description": "Develop functional goals?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "designCarePlan",
+                    "description": "Design a plan of care?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "progressPatients",
+                    "description": "Progress patients?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "curriculumCommittee",
+                    "fieldType": "textbox",
+                    "description": "What suggestions do you have for the curriculum committee to consider?"
+                },
+                {
+                    "fieldId": "quesRegardingCIET",
+                    "fieldType": "textbox",
+                    "description": "Do you have any questions regarding the CIET? "
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldType": "textbox",
+                    "description": "What suggestions do you have for the clinical education team to improve our processes or to better support CIs?"
+                },
+                {
+                    "fieldId": "awareDistinguishProfession",
+                    "description": "Is the student at risk for failure based on his/her current performance (based on the CIET assessment by the CI)? ",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Other"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam1",
+                    "fieldType": "textbox",
+                    "description": "Clinical Instructor comments that require follow-up from the DCE:"
+                }
+            ]
+        }
+    ],
+    "id": "TuftsPhoenixPT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcUAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcUAAAAAAAAAA==/",
+    "_etag": "\"9200e0ac-0000-0100-0000-625834110000\"",
+    "_attachments": "attachments/",
+    "_ts": 1649947665
+}

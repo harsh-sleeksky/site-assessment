@@ -1,0 +1,186 @@
+TuftsPhoenixPT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "suggestionsForClinicalteam" - duplicated fields under same section and are of same fieldType
+
+ExxatSalesPA.OngoingSiteAssessment.Layout.Base
+Duplicate fieldId value found: "awareDistinguishProfession" - under same section, fieldType radio, same options
+Duplicate fieldId value found: "validLicense" - NEEDED - added in script
+
+ExxatSalesPA.InitialSiteAssessment.Layout.Base
+Duplicate fieldId value found: "awareDistinguishProfession" - under same section, fieldType radio, same options
+Duplicate fieldId value found: "validLicense" - NEEDED - added in script
+
+DukePTA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "suggestionsForClinicalteam" - under same section, fieldTypes same
+
+GeorgeFoxPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "patientPopulation" - NEEDED
+Duplicate fieldId value found: "patientPopulation" - NEEDED
+Duplicate fieldId value found: "knowledgeablePreceptor" - NEEDED
+
+UMT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "questionspaperwork"
+Duplicate fieldId value found: "suggestionsForClinicalteam"
+Duplicate fieldId value found: "suggestionsForClinicalteam"
+
+PITT.SiteAssessmentSitePreceptor.Layout.Base
+Duplicate fieldId value found: "NOTparticipating" - NEEDED
+
+PITT.SiteAssessmentClinicalPreceptorInitial.Layout.Base
+Duplicate fieldId value found: "Label2" - UPDATED (label control)
+
+HPUPA.ContinuingSiteAssessment.Layout.Base
+Duplicate fieldId value found: "Care1" - NEEDED
+GWUSMHS.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Label1" - UPDATED (label control)
+Duplicate fieldId value found: "safety" - NEEDED
+WUSTL.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "NOTparticipating"
+Duplicate fieldId value found: "Clinicalsite1"
+Duplicate fieldId value found: "NOTparticipating"
+Duplicate fieldId value found: "PurposeEvaluation" - NEEDED
+USCPA.SiteAssessmentSitePreceptor.Layout.Base
+Duplicate fieldId value found: "Email" - NEEDED
+Duplicate fieldId value found: "lactation"
+RUSHPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "LO19" - NEEDED
+UniversityofJamestownPT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Clinicalsite16"
+Columbia-Nursing.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Label" - UPDATED (label control)
+SRUPAInitialClinicalSite.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Phone" - UPDATED (exact duplicate)
+Duplicate fieldId value found: "B5" - NEEDED
+Duplicate fieldId value found: "Housing"
+JamestownPT.SiteAssessmentSitePreceptor.Layout.Base
+Duplicate fieldId value found: "interprofessionalcare"
+TTUHSC.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Program/Institution10B:"
+Duplicate fieldId value found: "Program/Institution10C:"
+FAMUPTCI.SiteAssessmentSitePreceptor.Layout.Base
+Duplicate fieldId value found: "interprofessionalcare"
+UWLAXPT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Clinicalsite24" - NEEDED
+ClinicalSiteValparisoU.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "B13" - NEEDED
+TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "HospitalAffiliations" - UPDATED (exact duplicate)
+WalshPTMidtermMeeting.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "DP1" - NEEDED
+OhioStateUniversity.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Adequatesupervisionchild:"
+Duplicate fieldId value found: "Attendsorganized" - NEEDED
+STSInitialAssessment.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "" - NEEDED
+STSOngoingAssessment.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Site" - UPDATED (label control)
+Duplicate fieldId value found: "overridden2" - UPDATED (removed duplicate (incompletely configured checkbox control configured with no options))
+Duplicate fieldId value found: "Observations" - UPDATED (label control)
+SFCCSAQuestionnaire1.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "A26"
+Duplicate fieldId value found: "L16" - UPDATED (label control)
+BlinnPTASiteVisit.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "adequatelyprepared" - NEEDED
+MarquetteOngoingPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "OngoingBC"
+SiteAssessmentCUPT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Field1a" - NEEDED
+ISVCSSPASA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Site2C"
+
+CSVFROCKHURSTPT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "CIEC"
+Duplicate fieldId value found: "CIHC"
+Duplicate fieldId value found: "CIIC"
+Duplicate fieldId value found: "CIJC"
+Duplicate fieldId value found: "CIKC"
+Duplicate fieldId value found: "CILC"
+Duplicate fieldId value found: "CIMC"
+Duplicate fieldId value found: "CINC"
+Duplicate fieldId value found: "CIOC"
+Duplicate fieldId value found: "CIPC"
+Duplicate fieldId value found: "CISC"
+Duplicate fieldId value found: "CIPC"
+Duplicate fieldId value found: "CIPC"
+Duplicate fieldId value found: "student1c"
+Duplicate fieldId value found: "student2c"
+Duplicate fieldId value found: "student3c"
+Duplicate fieldId value found: "student5c"
+Duplicate fieldId value found: "student6c"
+Duplicate fieldId value found: "student7c"
+Duplicate fieldId value found: "student8c"
+Duplicate fieldId value found: "student11c"
+Duplicate fieldId value found: "student12c"
+
+FUSVWCUPF.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "P1C"
+Duplicate fieldId value found: "P2C"
+Duplicate fieldId value found: "P3C"
+Duplicate fieldId value found: "P4C"
+Duplicate fieldId value found: "P5C"
+Duplicate fieldId value found: "P6C"
+Duplicate fieldId value found: "P7C"
+EVMSPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Hospital3"
+Duplicate fieldId value found: "Ruralpopulation"
+Duplicate fieldId value found: "Ruralpopulation"
+SVFMUDPT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Z1"
+Duplicate fieldId value found: "G1"
+Duplicate fieldId value found: "Z3"
+Duplicate fieldId value found: "X1"
+Duplicate fieldId value found: "X2"
+Duplicate fieldId value found: "X3"
+Duplicate fieldId value found: "ACB1"
+ShenandoahUniversityPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Supervisedclinicalpractice"
+NCATSUPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "reason"
+ACHEEduOT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "SocialParticipation"
+Duplicate fieldId value found: "Education"
+Duplicate fieldId value found: "Introduction5"
+ExxatOT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "SocialParticipation"
+Duplicate fieldId value found: "Education"
+Duplicate fieldId value found: "Introduction5"
+ExxatSalesOT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "SocialParticipation"
+Duplicate fieldId value found: "Education"
+Duplicate fieldId value found: "Introduction5"
+Rush-OT.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "A7"
+Duplicate fieldId value found: "DirectorFax"
+NorthCentralCollege-PA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Interventions"
+CincinnatiUNew.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+Duplicate fieldId value found: "comments"
+MercyUniversity-PA-Site-Student.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "Feedback/Communication"
+Duplicate fieldId value found: "CLINICALINSTRUCTORINPUT/CONCERNSClinicalKnowledgeBase"
+FranuPTAClinicalEducation.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "CE08"
+Duplicate fieldId value found: "CE13"
+IthacaPA-Initial.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "awareDistinguishProfession"
+Duplicate fieldId value found: "validLicense"
+IthacaPA-Ongoing.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "awareDistinguishProfession"
+Duplicate fieldId value found: "validLicense"
+AmericanInternationalCollege.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "education"
+Duplicate fieldId value found: "Comments3"
+BethelUniversityMW.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "antepartum"
+HardinSimmonsUniversityPAClinicalSiteEvaluation.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "BD6"
+WISCPA.SiteAssessment.Layout.Base
+Duplicate fieldId value found: "PatientCarePerWeek"
+Duplicate fieldId value found: "sufficient"
