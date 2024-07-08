@@ -1,0 +1,474 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Information",
+            "caption": "Questions for Clinical Instructor",
+            "fields": [
+                {
+                    "fieldId": "Label",
+                    "fieldType": "label",
+                    "description": "<b>1.How well do you think the FAMU student was prepared for this clinical internship?</b>"
+                },
+                {
+                    "fieldId": "RegularlyScheduled",
+                    "fieldType": "Radio",
+                    "description": "<br>-Well prepared",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "studentperformance",
+                    "fieldType": "Radio",
+                    "description": "-Demonstrating good assessment and treatment skills",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "clinicalexperience",
+                    "fieldType": "Radio",
+                    "description": "-Willing to learn",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LabelB",
+                    "fieldType": "label",
+                    "description": "<b>2.How well has our student protected patient safety?</b>"
+                },
+                {
+                    "fieldId": "Professionalism",
+                    "fieldType": "Radio",
+                    "description": "<br>-Patient handling",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Initiative",
+                    "fieldType": "Radio",
+                    "description": "-Medical history",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Flexibility",
+                    "fieldType": "Radio",
+                    "description": "Precautions/Contraindications",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LabelC",
+                    "fieldType": "label",
+                    "description": "<b>3.Has our student consistently demonstrated professional behavior?</b>"
+                },
+                {
+                    "fieldId": "constructive",
+                    "fieldType": "Radio",
+                    "description": "<br>-Communication (verbal and written)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Communication",
+                    "fieldType": "Radio",
+                    "description": "-Dress & Grooming",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ListeningSkills",
+                    "fieldType": "Radio",
+                    "description": "-Name Badge/Identification",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatientSkills",
+                    "fieldType": "Radio",
+                    "description": "Timeliness",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LabelD",
+                    "fieldType": "label",
+                    "description": "<b>4.Has our student demonstrated accountability for his/her actions?</b>"
+                },
+                {
+                    "fieldId": "ClinicalReasoning",
+                    "fieldType": "Radio",
+                    "description": "<br>-Accepted critical input without defensiveness",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Problemsolving",
+                    "fieldType": "Radio",
+                    "description": "Demonstrated effort to correct errors",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LabelE",
+                    "fieldType": "label",
+                    "description": "<b>5.Has our student demonstrated effective communication?</b>"
+                },
+                {
+                    "fieldId": "Documentation",
+                    "fieldType": "Radio",
+                    "description": "<br>-Documentation quality and speed",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "TimeManagement",
+                    "fieldType": "Radio",
+                    "description": "-Verbal communication",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LabelF",
+                    "fieldType": "label",
+                    "description": "<b>6.Has our student demonstrated strong clinical reasoning?</b>"
+                },
+                {
+                    "fieldId": "interprofessionalcare",
+                    "fieldType": "Radio",
+                    "description": "<br>-Examinations and Evaluations",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "interprofessionalcare1",
+                    "fieldType": "Radio",
+                    "description": "-Problem solving/Critical thinking",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Poorly - 0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5 - Very Well"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments1",
+                    "fieldType": "TextArea",
+                    "description": "7.What can we do as a program to better prepare FAMU students for the clinic?"
+                },
+                {
+                    "fieldId": "Comments2",
+                    "fieldType": "TextArea",
+                    "description": "Evaluator Comments:"
+                }
+            ]
+        }
+    ],
+    "id": "FAMUPTCI.SiteAssessmentSitePreceptor.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdReIAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdReIAAAAAAAAAA==/",
+    "_etag": "\"0200dbbe-0000-0100-0000-646e5ab30000\"",
+    "_attachments": "attachments/",
+    "_ts": 1684953779
+}

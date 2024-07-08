@@ -1,0 +1,578 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Information",
+            "caption": "Questions for Clinical Instructor",
+            "fields": [
+                {
+                    "fieldId": "supervision",
+                    "fieldType": "TextBox",
+                    "description": "<b>1.How much supervision/direction does the student currently need for <u>simple</u> patient cases? (100% = constant, 1 to 1, supervision/direction. 0% = able to work independently)</b>",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "complex",
+                    "fieldType": "TextBox",
+                    "description": "<b>2.How much supervision/direction does the student currently need for <u>complex</u> patient cases? (100% = constant, 1 to 1, supervision/direction. 0% = able to work independently)</b>",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "RegularlyScheduled",
+                    "fieldType": "Radio",
+                    "description": "<b>3.Does the student have the knowledge and skills needed to meet the learning objectives and expected performance level for this clinical experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments1",
+                    "fieldType": "TextArea",
+                    "description": "COMMENTS"
+                },
+                {
+                    "fieldId": "studentperformance",
+                    "fieldType": "Radio",
+                    "description": "<b>4.Do you have any concerns regarding the student's performance thus far?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments2",
+                    "fieldType": "TextArea",
+                    "description": "COMMENTS"
+                },
+                {
+                    "fieldId": "clinicalexperience",
+                    "fieldType": "Radio",
+                    "description": "<b>5.Has the student been self-directed in their approach to learning during this clinical experience? (Examples: Discussing goals, asking questions, seeking out learning experiences, taking initiative)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments3",
+                    "fieldType": "TextArea",
+                    "description": "COMMENTS"
+                },
+                {
+                    "fieldId": "Label",
+                    "fieldType": "label",
+                    "description": "<b>6.Please rate your student in each of the areas listed below based on their performance thus far during the clinical experience.</b>"
+                },
+                {
+                    "fieldId": "Professionalism",
+                    "fieldType": "Radio",
+                    "description": "<br><b>Professionalism</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments4",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Initiative",
+                    "fieldType": "Radio",
+                    "description": "<b>Initiative</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments5",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Flexibility",
+                    "fieldType": "Radio",
+                    "description": "<b>Flexibility</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments6",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "constructive",
+                    "fieldType": "Radio",
+                    "description": "<b>Response to constructive criticism or feedback</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments7",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Communication",
+                    "fieldType": "Radio",
+                    "description": "<b>Communication</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments8",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "ListeningSkills",
+                    "fieldType": "Radio",
+                    "description": "<b>Listening Skills</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments9",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "PatientSkills",
+                    "fieldType": "Radio",
+                    "description": "<b>Hands-on Patient Skills</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments10",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "ClinicalReasoning",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical Reasoning</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments11",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Problemsolving",
+                    "fieldType": "Radio",
+                    "description": "<b>Problem-solving</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments12",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "Documentation",
+                    "fieldType": "Radio",
+                    "description": "<b>Documentation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments13",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "TimeManagement",
+                    "fieldType": "Radio",
+                    "description": "<b>Time Management</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Concern"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Exceeds Expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments14",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "interprofessionalcare",
+                    "fieldType": "Radio",
+                    "description": "<b>7.During this clinical experience, will the student get exposure to or participate in interprofessional care (OT, SLP, Nursing, or other)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments15",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "interprofessionalcare1",
+                    "fieldType": "Radio",
+                    "description": "<b>8.During this clinical experience, will the student have an opportunity to collaborate with and/or supervise a Physical Therapist Assistant (PTA)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments16",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "credentials",
+                    "fieldType": "TextBox",
+                    "description": "<b>9.Is there any further information you would like to share with us?</b>",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Midterm",
+            "caption": "Midterm Questions for Student",
+            "fields": [
+                {
+                    "fieldId": "relationshipCI",
+                    "fieldType": "Radio",
+                    "description": "<b>1.Do you have an effective working relationship with your CI?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments17",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "expectationsclear",
+                    "fieldType": "Radio",
+                    "description": "<b>2.Are your CI's expectations clear?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments18",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "adequatesupervision",
+                    "fieldType": "Radio",
+                    "description": "<b>3.Are you receiving adequate supervision and feedback from your CI?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments18A",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "midtermperformance",
+                    "fieldType": "Radio",
+                    "description": "<b>4.Were there any surprises or concerns when you reviewed your midterm performance assessment with your CI?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Not completed yet"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments19",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "learningobjectives",
+                    "fieldType": "Radio",
+                    "description": "<b>5.Do you have the knowledge and skills needed to meet the learning objectives and expected performance level for this clinical experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments20",
+                    "fieldType": "TextArea",
+                    "description": "Comments"
+                },
+                {
+                    "fieldId": "clinicalconcerns",
+                    "fieldType": "Radio",
+                    "description": "<b>6.Do you have any concerns about this clinical experience thus far?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments21",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "anythingUJ",
+                    "fieldType": "Radio",
+                    "description": "<b>7.Is there anything UJ could have done to better prepare you for this experience or anything that has been particularly challenging during this experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments22",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "assignmentsMyUJ",
+                    "fieldType": "Radio",
+                    "description": "<b>8.Do you have any questions about any of the course assignments on MyUJ or Exxat?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments23",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "commentsquestions",
+                    "fieldType": "TextBox",
+                    "description": "<b>9. Do you have any other comments or questions?</b>",
+                    "characterLimit": 500
+                }
+            ]
+        }
+    ],
+    "id": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRd3AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRd3AAAAAAAAAA==/",
+    "_etag": "\"960052d1-0000-0100-0000-64622df10000\"",
+    "_attachments": "attachments/",
+    "_ts": 1684155889
+}

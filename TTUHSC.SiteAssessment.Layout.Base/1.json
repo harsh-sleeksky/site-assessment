@@ -1,0 +1,630 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteInformation",
+            "caption": "Basic Information",
+            "fields": [
+                {
+                    "fieldId": "Program/Institution:",
+                    "fieldType": "TextBox",
+                    "description": "Preceptor/Practice Name:"
+                },
+                {
+                    "fieldId": "Program/Institution2:",
+                    "fieldType": "Checkbox",
+                    "description": "Completed By:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "In-person"
+                        },
+                        {
+                            "label": "Electronic"
+                        },
+                        {
+                            "label": "Video conference"
+                        },
+                        {
+                            "label": "Phone"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution3:",
+                    "fieldType": "Checkbox",
+                    "description": "Forms completed:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Clinical Contact Form"
+                        },
+                        {
+                            "label": "W9"
+                        },
+                        {
+                            "label": "Copy of Current CV's"
+                        },
+                        {
+                            "label": "Copy of Board Certification"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution4:",
+                    "fieldType": "TextBox",
+                    "description": "Preceptor Specialty:"
+                },
+                {
+                    "fieldId": "Program/Institution5:",
+                    "fieldType": "TextBox",
+                    "description": "Years in Practice:"
+                },
+                {
+                    "fieldId": "Program/Institution6:",
+                    "fieldType": "TextBox",
+                    "description": "Current License #: "
+                },
+                {
+                    "fieldId": "Program/Institution7:",
+                    "fieldType": "TextBox",
+                    "description": "State: "
+                },
+                {
+                    "fieldId": "Program/Institution8:",
+                    "fieldType": "Radio",
+                    "description": "<b>Any restrictions: </b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution9:",
+                    "fieldType": "TextBox",
+                    "description": "Hospital Affiliations: "
+                },
+                {
+                    "fieldId": "Program/Institution9A:",
+                    "fieldType": "TextBox",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution9B:",
+                    "fieldType": "TextBox",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution10A:",
+                    "fieldType": "TextBox",
+                    "description": "# beds"
+                },
+                {
+                    "fieldId": "Program/Institution10B:",
+                    "fieldType": "TextBox",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution10C:",
+                    "fieldType": "TextBox",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution8A:",
+                    "fieldType": "Radio",
+                    "description": "<b>Have you trained PA, MD, DO, or NP students in the past?</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution10B:1",
+                    "fieldType": "Label",
+                    "description": "List the names of other providers who may be responsible for part of the student's training:"
+                },
+                {
+                    "fieldId": "Program/Institution10C:1",
+                    "fieldType": "TextArea",
+                    "description": "Name/Title"
+                },
+                {
+                    "fieldId": "Program/Institution10D:",
+                    "fieldType": "TextArea",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution101E:",
+                    "fieldType": "TextArea",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution101D:",
+                    "fieldType": "TextArea",
+                    "description": "License"
+                },
+                {
+                    "fieldId": "Program/Institution101F:",
+                    "fieldType": "TextArea",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution102F:",
+                    "fieldType": "TextArea",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution10E:",
+                    "fieldType": "TextArea",
+                    "description": "Restriction (Y/N)"
+                },
+                {
+                    "fieldId": "Program/Institution103F:",
+                    "fieldType": "TextArea",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Program/Institution104F:",
+                    "fieldType": "TextArea",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.STUDENT",
+            "caption": "General:",
+            "fields": [
+                {
+                    "fieldId": "Program/Institution10:",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Safety and Security of Student Adequate?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated",
+                    "fieldType": "TextArea",
+                    "description": "2. Comments Regarding Safety (e.g. 24 hr security, escort available, secured parking, etc.)"
+                },
+                {
+                    "fieldId": "Program/Institution11:",
+                    "fieldType": "Radio",
+                    "description": "<b>3. Student Access to Dining or other common areas?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11A:",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Adequate Student Orientation to Site Provided? </b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11B:",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Student Access to EMR?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated3",
+                    "fieldType": "TextArea",
+                    "description": "6. Additional Comments:"
+                },
+                {
+                    "fieldId": "Program/Institution13:",
+                    "fieldType": "Radio",
+                    "description": "<b>7. Is the site rural?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipatingA",
+                                    "fieldType": "Radio",
+                                    "description": "<b>If yes, is housing available?</b>",
+                                    "options": [
+                                        {
+                                            "label": "Yes",
+                                            "fields": [
+                                                {
+                                                    "fieldId": "NOTparticipatingB",
+                                                    "fieldType": "TextBox",
+                                                    "description": "Contact "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11E:",
+                    "fieldType": "Radio",
+                    "description": "<b>8. Medically Underserved Area Designation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated4",
+                    "fieldType": "TextArea",
+                    "description": "Student Access to EMR?"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SITE",
+            "caption": "Additional Information",
+            "fields": [
+                {
+                    "fieldId": "Program/Institution12:",
+                    "fieldType": "Checkbox",
+                    "description": "1. What type(s) of setting(s) would the student be exposed to? (Check all that apply)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Emergency Department"
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated5",
+                    "fieldType": "TextArea",
+                    "description": "2. What are your normal working hours? (M-F, 8-5, evening of weekend call, rounds, etc.)"
+                },
+                {
+                    "fieldId": "PreceptorAssociated6",
+                    "fieldType": "TextArea",
+                    "description": "3. What is the approximate patient load per day?"
+                },
+                {
+                    "fieldId": "Program/Institution123:",
+                    "fieldType": "Checkbox",
+                    "description": "4. Patient Age Demographics",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Infants (Birth-1yr)"
+                        },
+                        {
+                            "label": "Children (1-11yrs)"
+                        },
+                        {
+                            "label": "Adolescents (12-17yrs)"
+                        },
+                        {
+                            "label": "Adults (18-64yrs)"
+                        },
+                        {
+                            "label": "Elderly (>65yrs)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution129:",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Acuity Levels</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Acute"
+                        },
+                        {
+                            "label": "Chronic "
+                        },
+                        {
+                            "label": "Preventative "
+                        },
+                        {
+                            "label": "Emergent"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11f:",
+                    "fieldType": "Radio",
+                    "description": "<b>6. If this is a surgical site, will the student be able to assist in surgery (first or second) and be involved in pre- and post-operative care? </b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution113:",
+                    "fieldType": "Radio",
+                    "description": "<b>7. If this is a women’s health site, will the student be able to be involved in prenatal and gynecologic care?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11g:",
+                    "fieldType": "Radio",
+                    "description": "<b>8. Are the patients and your staff aware of the PA concept? </b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipatingA1",
+                                    "fieldType": "Radio",
+                                    "description": "<b>If no, do you want assistance in introducing the concept?</b>",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution11h:",
+                    "fieldType": "Radio",
+                    "description": "<b>9. Would the student be permitted to see patients in the hospital?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution110:",
+                    "fieldType": "Radio",
+                    "description": "<b>10. Will the student be expected to be 'on call'?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution21:",
+                    "fieldType": "Radio",
+                    "description": "<b>11. Do you foresee specific limitations on what the student can do?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution22:",
+                    "fieldType": "Radio",
+                    "description": "<b>12. Do you have any specific student preferences that could affect student assignment to your preceptorship?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/Institution22A:",
+                    "fieldType": "Radio",
+                    "description": "<b>a. Is the preceptor appropriately supervising the student?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociated67",
+                    "fieldType": "TextArea",
+                    "description": "b.  If new clinical site, how will the preceptor appropriately supervise the student?"
+                },
+                {
+                    "fieldId": "PreceptorAssociated678",
+                    "fieldType": "TextArea",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Actions",
+            "caption": "HRSA Specific: ",
+            "fields": [
+                {
+                    "fieldId": "PreceptorAssociatedO1",
+                    "fieldType": "TextArea",
+                    "description": "13. What type of CME activities would you be interested in? Any topics that are specific to your area of practice?"
+                },
+                {
+                    "fieldId": "Program/Institution221:",
+                    "fieldType": "Radio",
+                    "description": "<b>a. Would the preceptors be interested in ultrasound training for CME?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedO21",
+                    "fieldType": "Radio",
+                    "description": "<b>14. Are there any opportunities for the student to become involved with the community? Examples include but are not limited to volunteer hours, public speaking, service-learning projects, interprofessional collaboration, etc.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipatingA13",
+                                    "fieldType": "TextArea",
+                                    "description": "If there are opportunities, how specifically would you like the student to engage and become involved in the community?"
+                                },
+                                {
+                                    "fieldId": "NOTparticipatingA131",
+                                    "fieldType": "TextArea",
+                                    "description": ""
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorAssociatedO1A",
+                    "fieldType": "TextArea",
+                    "description": "15. Regarding the rural health track, is there anything you think we need to include in the didactic and/or clinical curriculum? "
+                },
+                {
+                    "fieldId": "PreceptorAssociatedO1B",
+                    "fieldType": "TextArea",
+                    "description": "16. What additional training and/or resources do you need prior to the longitudinal rotation?"
+                },
+                {
+                    "fieldId": "Program/Institution123A:",
+                    "fieldType": "Checkbox",
+                    "description": "Discussed with Primary Site Contact",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Preceptor Evaluation of Student"
+                        },
+                        {
+                            "label": "Preceptor Handbook/Policies"
+                        },
+                        {
+                            "label": "Learning outcomes & objectives"
+                        },
+                        {
+                            "label": "Contacting the program"
+                        },
+                        {
+                            "label": "Students not substitute for clinical/admin staff"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Program/InstitutionS:",
+                    "fieldType": "Radio",
+                    "description": "<b>Is the Clinical Site and Preceptor appropriate for meeting the Program Learning Outcomes and Standards?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "TTUHSC.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRd-AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRd-AAAAAAAAAA==/",
+    "_etag": "\"0000b097-0000-0100-0000-6467a7a20000\"",
+    "_attachments": "attachments/",
+    "_ts": 1684514722
+}
