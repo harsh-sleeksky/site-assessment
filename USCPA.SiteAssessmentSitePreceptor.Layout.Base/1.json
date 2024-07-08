@@ -1,0 +1,636 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Information",
+            "caption": "Information",
+            "fields": [
+                {
+                    "fieldId": "Evaluation",
+                    "description": "<b>Type of evaluation:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Initial"
+                        },
+                        {
+                            "label": "Continuing"
+                        },
+                        {
+                            "label": "Special"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "RegularlyScheduled",
+                    "fieldType": "Radio",
+                    "description": "Completed",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "In person"
+                        },
+                        {
+                            "label": "Virtual"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Assignments",
+                    "fieldType": "TextBox",
+                    "description": "<b>Name of Site</b>",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Date",
+                    "fieldType": "DatePicker",
+                    "description": "<b>Date of Visit</b>"
+                },
+                {
+                    "fieldId": "PreceptorName",
+                    "fieldType": "TextBox",
+                    "description": "Preceptor Name/Title",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Contact",
+                    "fieldType": "TextBox",
+                    "description": "Best contact number",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Administrator",
+                    "fieldType": "TextBox",
+                    "description": "Administrator",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Alternatenumber",
+                    "fieldType": "TextBox",
+                    "description": "Administrator’s contact",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Practice",
+                    "fieldType": "TextBox",
+                    "description": "Practice Specialty",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Email",
+                    "fieldType": "email",
+                    "description": "Preceptor’s Email",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Distance",
+                    "fieldType": "TextBox",
+                    "description": "Distance from Program in miles",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Hours",
+                    "fieldType": "TextBox",
+                    "description": "Hours of Operation",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Average",
+                    "fieldType": "TextBox",
+                    "description": "Average number of patients/day per provider?",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SitePersonnel",
+            "caption": "Site Personnel",
+            "fields": [
+                {
+                    "fieldId": "physicians",
+                    "fieldType": "Radio",
+                    "description": "Number of physicians (including preceptor) on site",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4 or more"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Number",
+                    "fieldType": "Radio",
+                    "description": "Number of PA-C's/ NP's on site",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "0"
+                        },
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4 or more"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "credentials",
+                    "fieldType": "TextBox",
+                    "description": "Please identify credentials",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Supervision",
+                    "fieldType": "Radio",
+                    "description": "Is the practice using electronic medical records (EMR)?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Individual",
+                    "fieldType": "Radio",
+                    "description": "Does the student have access to EMR?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Onboarding",
+                    "fieldType": "TextBox",
+                    "description": "Onboarding administrator's name:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Email1",
+                    "fieldType": "TextBox",
+                    "description": "Email/Phone:",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PhysicalSpace",
+            "caption": "Physical Space",
+            "fields": [
+                {
+                    "fieldId": "examination",
+                    "fieldType": "Radio",
+                    "description": "Number of examination rooms",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4 or more"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "workspace",
+                    "fieldType": "Radio",
+                    "description": "Is there workspace available for the student?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "laboratory",
+                    "fieldType": "Radio",
+                    "description": "Is there an onsite laboratory for basic diagnostics?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "studentaccess",
+                    "fieldType": "Radio",
+                    "description": "Does the student have access?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "radiology",
+                    "fieldType": "Radio",
+                    "description": "Is there an onsite radiology service?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "access1",
+                    "fieldType": "Radio",
+                    "description": "Does the student have access?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "onsite",
+                    "fieldType": "Radio",
+                    "description": "Is there onsite parking?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "lotwell",
+                    "fieldType": "Radio",
+                    "description": "If yes, is the lot well lit?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "access2",
+                    "fieldType": "Radio",
+                    "description": "Does the student have access?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Permit",
+                    "fieldType": "Radio",
+                    "description": " Permit or fees required?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "cost",
+                                    "fieldType": "TextBox",
+                                    "description": " If yes, cost?",
+                                    "characterLimit": 500
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "security",
+                    "fieldType": "Radio",
+                    "description": "Are security measures in place?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "facilitiesaccessible",
+                    "fieldType": "Radio",
+                    "description": "Are kitchen facilities accessible to the student?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "lactation",
+                    "fieldType": "Radio",
+                    "description": "Is there a lactation room available (private, secure, etc.)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "lactation1",
+                    "fieldType": "Radio",
+                    "description": "Are there other locations where the student might practice other than the primary location?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Address",
+                    "fieldType": "TextBox",
+                    "description": "Address:",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PracticeInformation ",
+            "caption": "Practice Information ",
+            "fields": [
+                {
+                    "fieldId": "studentsupervision",
+                    "fieldType": "Radio",
+                    "description": "Is there adequate student supervision?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "studentlearning",
+                    "fieldType": "Radio",
+                    "description": "Are there sufficient numbers of patients to meet the student learning needs?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "learningexperiences",
+                    "fieldType": "Radio",
+                    "description": "Does the clinical setting offer a variety of learning experiences?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "patientspreceptor",
+                    "fieldType": "Radio",
+                    "description": "Is the student given adequate time to see patients and report to the preceptor?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PhysicianAssistant",
+                    "fieldType": "Radio",
+                    "description": "Is the preceptor familiar with the role and scope of practice of a Physician Assistant?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "clinicalencounter",
+                    "fieldType": "Radio",
+                    "description": "Will the student be actively engaged in all aspects of the clinical encounter (history, PE, diagnosis, treatment)?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supervisionteaching",
+                    "fieldType": "Radio",
+                    "description": "Will the preceptor be on site and available for supervision, teaching and feedback?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "clinicalcases",
+                    "fieldType": "TextBox",
+                    "description": "Types of clinical cases seen in practice? ",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "languagespoken",
+                    "fieldType": "TextBox",
+                    "description": "Predominant language spoken by patients?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Predominant",
+                    "fieldType": "Radio",
+                    "description": "If applicable, are translators available?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "voluntaryfaculty",
+                    "fieldType": "Radio",
+                    "description": "Is the preceptor interested in a voluntary faculty appointment?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PPEneeded",
+                    "fieldType": "Radio",
+                    "description": "Does the program need to provide any necessary PPE?",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PPEitems",
+                                    "fieldType": "TextBox",
+                                    "description": " If yes, list PPE items:",
+                                    "characterLimit": 500
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Additionalcomments",
+            "caption": "Additional comments or concerns:",
+            "fields": [
+                {
+                    "fieldId": "Comments",
+                    "fieldType": "TextArea",
+                    "description": "Additional comments or concerns:"
+                },
+                {
+                    "fieldId": "Reviewedoutcomes",
+                    "fieldType": "Checkbox",
+                    "description": "",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Signature",
+                    "description": "Evaluator's Signature",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                },
+                {
+                    "fieldId": "Name",
+                    "fieldType": "TextBox",
+                    "description": "Name",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Date2",
+                    "fieldType": "DatePicker",
+                    "description": "Date"
+                }
+            ]
+        }
+    ],
+    "id": "USCPA.SiteAssessmentSitePreceptor.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdXAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdXAAAAAAAAAA==/",
+    "_etag": "\"63008b02-0000-0100-0000-6554c2d70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1700053719
+}

@@ -46,17 +46,22 @@ Duplicate fieldId value found: "PurposeEvaluation" - NEEDED - done
 
 USCPA.SiteAssessmentSitePreceptor.Layout.Base
 Duplicate fieldId value found: "Email" - NEEDED
-Duplicate fieldId value found: "lactation"
+Duplicate fieldId value found: "lactation" - same section, same fieldType
+
 RUSHPA.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "LO19" - NEEDED
+
 UniversityofJamestownPT.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Clinicalsite16"
+
 Columbia-Nursing.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Label" - UPDATED (label control)
+
 SRUPAInitialClinicalSite.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Phone" - UPDATED (exact duplicate)
 Duplicate fieldId value found: "B5" - NEEDED
 Duplicate fieldId value found: "Housing"
+
 JamestownPT.SiteAssessmentSitePreceptor.Layout.Base
 Duplicate fieldId value found: "interprofessionalcare"
 TTUHSC.SiteAssessment.Layout.Base
