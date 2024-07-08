@@ -1,0 +1,475 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.EvaluationType",
+            "caption": "Type of Evaluation",
+            "fields": [
+                {
+                    "fieldId": "Care1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "",
+                    "options": [
+                        {
+                            "label": "1st HPU PA Student with Preceptor/Site"
+                        },
+                        {
+                            "label": "Continous Monitoring"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Other1",
+                                    "fieldType": "Textarea",
+                                    "description": "<b>Describe:</b>",
+                                    "characterLimit": 500,
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please select an appropriate option"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentPreceptor",
+            "caption": "Student and Preceptor Encounter:",
+            "fields": [
+                {
+                    "fieldId": "SPE1",
+                    "description": "<b>The student was correctly wearing their HPU student identification.</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SPE2",
+                    "description": "<b>During the visit, staff, and preceptor are observed interacting with the student.</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SPE3",
+                    "description": "<b>Observed student examining a patient.</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SPE4",
+                    "description": "<b>Observed student presenting a case to the preceptor.</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SPE5",
+                    "description": "List any perceived student <b>strengths</b> noted during the site visit.<br>Comment:",
+                    "fieldType": "textArea"
+                },
+                {
+                    "fieldId": "SPE6",
+                    "description": "List any perceived student <b>weaknesses</b> noted during the site visit.<br>Comment:",
+                    "fieldType": "textArea"
+                },
+                {
+                    "fieldId": "SPE7",
+                    "description": "<b>Preceptor feels the student was adequately prepared for the SCPE.</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No (explain)",
+                            "fields": [
+                                {
+                                    "fieldId": "NO1",
+                                    "fieldType": "TextBox",
+                                    "description": "<b>Comment:</b>",
+                                    "characterLimit": 500
+                                }
+                            ],
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please select an appropriate option"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SiteDetailSafety",
+            "caption": "Site Details & Safety",
+            "fields": [
+                {
+                    "fieldId": "SDS1",
+                    "description": "<b>Does the student have access to EMR utilized at practice:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS2",
+                    "description": "<b>Does the site have internet access:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS3",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "Office/Practice Hours (check all that apply)",
+                    "options": [
+                        {
+                            "label": "Monday"
+                        },
+                        {
+                            "label": "Tuesday"
+                        },
+                        {
+                            "label": "Wednesday"
+                        },
+                        {
+                            "label": "Thursday"
+                        },
+                        {
+                            "label": "Friday"
+                        },
+                        {
+                            "label": "Saturday"
+                        },
+                        {
+                            "label": "Sunday"
+                        },
+                        {
+                            "label": "Days"
+                        },
+                        {
+                            "label": "Evenings"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS4",
+                    "description": "Average number of patients seen per day:",
+                    "fieldType": "textArea"
+                },
+                {
+                    "fieldId": "SDS5",
+                    "description": "<b>Does the facility allow for student access to physical facility pertaining to the planned rotation experience and including a workstation/area:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS6",
+                    "description": "<b>Sharps containers are accessible, secure, and not overflowing:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS7",
+                    "description": "<b>Site has fire alarms and extinguisher(s) that clearly identified:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS8",
+                    "description": "<b>Site has fire exit(s) clearly marked:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS9",
+                    "description": "<b>Site’s aisles and doorways are free from obstructions:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS10",
+                    "description": "<b>Floors of the site are clean and dry:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS11",
+                    "description": "<b>Overall, the site presents a safe environment and atmosphere for students:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS12",
+                    "description": "Parking (please explain parking availability):",
+                    "fieldType": "textArea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SCPEINFO",
+            "caption": "SCPE Information",
+            "fields": [
+                {
+                    "fieldId": "CareExperiences1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "The site provides the following experiences for the PA students to meet learning outcomes (<b>ARC Standard B3.03 a, c, d, e</b>):",
+                    "options": [
+                        {
+                            "label": "Gynecological Care Experiences"
+                        },
+                        {
+                            "label": "Prenatal Care Experiences"
+                        },
+                        {
+                            "label": "Pre-operative Care Experiences"
+                        },
+                        {
+                            "label": "Intra-operative Care Experiences"
+                        },
+                        {
+                            "label": "Post-operative Care Experiences "
+                        },
+                        {
+                            "label": "Behavioral Health Care Experience"
+                        },
+                        {
+                            "label": "Preventative Care Experiences"
+                        },
+                        {
+                            "label": "Acute Care Experiences"
+                        },
+                        {
+                            "label": "Chronic Care Experiences"
+                        },
+                        {
+                            "label": "Emergent Care Experiences"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "AgesandStages1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "The site provides the following experiences for the PA students to meet learning outcomes (<b>ARC Standard B3.03 b</b>):",
+                    "options": [
+                        {
+                            "label": "Infants (birth-12mos.)"
+                        },
+                        {
+                            "label": "Children (2-11/12yrs. Puberty)"
+                        },
+                        {
+                            "label": "Adolescents (Menarche/Puberty (11-12 yrs. -18 yrs.)"
+                        },
+                        {
+                            "label": "Adult (19-64 yrs.)"
+                        },
+                        {
+                            "label": "Elderly/Geriatrics (65 yrs+)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Care2",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "The site provides the following types of settings for PA students (<b>ARC Standard B3.04a-d</b>):",
+                    "options": [
+                        {
+                            "label": "Inpatient Care"
+                        },
+                        {
+                            "label": "Out-patient Care"
+                        },
+                        {
+                            "label": "Emergency Department "
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Label1",
+                    "fieldType": "label",
+                    "description": "<b>I. Review Contractual (Clinical site Affiliation agreement) obligations</b>"
+                },
+                {
+                    "fieldId": "SDS13",
+                    "description": "<b>The site understands that their Agency is responsible for managing any work-related injury sustained by a student in accordance with the Agency’s policies and procedures, AND they must make these policies and procedures known to the student at the beginning of their rotation:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS14",
+                    "description": "<b>The site understands that their Agency is responsible for providing emergency care in the event that a student is exposed to an infectious or environmental hazard or other occupational injuries (i.e., needle stick) during their rotation in compliance with state and federal workplace safety laws:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SDS15",
+                    "description": "<b>The site understands that their Agency is responsible for orienting students, before direct patient care, to the following information: (1) the Agency’s Exposure Control Plan for borne pathogens and how students can obtain a copy of the written plan; (2) Agency rules, regulations, policies, and procedures; (3) Applicable work schedule and on-call schedule:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Label2",
+                    "fieldType": "label",
+                    "description": "<b>II. Comments/Plan (suggested changes, if any):<br><br>Disposition/Follow-up:</b>"
+                },
+                {
+                    "fieldId": "SCPE4",
+                    "description": "For the student:",
+                    "fieldType": "textArea"
+                },
+                {
+                    "fieldId": "SCPE5",
+                    "description": "For the site:",
+                    "fieldType": "textArea"
+                }
+            ]
+        }
+    ],
+    "id": "HPUPA.ContinuingSiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdFAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdFAAAAAAAAAA==/",
+    "_etag": "\"0400635a-0000-0100-0000-6411760e0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1678865934
+}

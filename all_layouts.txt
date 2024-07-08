@@ -18,26 +18,32 @@ Duplicate fieldId value found: "patientPopulation" - NEEDED
 Duplicate fieldId value found: "knowledgeablePreceptor" - NEEDED
 
 UMT.SiteAssessment.Layout.Base
-Duplicate fieldId value found: "questionspaperwork"
-Duplicate fieldId value found: "suggestionsForClinicalteam"
+Duplicate fieldId value found: "questionspaperwork" - same section, same fieldType
+Duplicate fieldId value found: "suggestionsForClinicalteam" - same section, same fieldType
 Duplicate fieldId value found: "suggestionsForClinicalteam"
 
 PITT.SiteAssessmentSitePreceptor.Layout.Base
-Duplicate fieldId value found: "NOTparticipating" - NEEDED
+Duplicate fieldId value found: "NOTparticipating" - NEEDED - done
 
 PITT.SiteAssessmentClinicalPreceptorInitial.Layout.Base
 Duplicate fieldId value found: "Label2" - UPDATED (label control)
 
 HPUPA.ContinuingSiteAssessment.Layout.Base
 Duplicate fieldId value found: "Care1" - NEEDED
+
+
 GWUSMHS.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Label1" - UPDATED (label control)
 Duplicate fieldId value found: "safety" - NEEDED
+
+
 WUSTL.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "NOTparticipating"
 Duplicate fieldId value found: "Clinicalsite1"
 Duplicate fieldId value found: "NOTparticipating"
 Duplicate fieldId value found: "PurposeEvaluation" - NEEDED
+
+
 USCPA.SiteAssessmentSitePreceptor.Layout.Base
 Duplicate fieldId value found: "Email" - NEEDED
 Duplicate fieldId value found: "lactation"
