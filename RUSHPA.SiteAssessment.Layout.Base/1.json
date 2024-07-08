@@ -1,0 +1,365 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "LO1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor Credentials:</b>",
+                    "options": [
+                        {
+                            "label": "PA"
+                        },
+                        {
+                            "label": "MD"
+                        },
+                        {
+                            "label": "DO"
+                        },
+                        {
+                            "label": "NP"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "TA1",
+                                    "fieldType": "TextBox",
+                                    "description": "<b>If other please mention</b>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LA1",
+                    "fieldType": "Label",
+                    "description": "<b>Practice Information:<b/>l"
+                },
+                {
+                    "fieldId": "LO2",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Community Type:</b>",
+                    "options": [
+                        {
+                            "label": "Rural"
+                        },
+                        {
+                            "label": "Suburban"
+                        },
+                        {
+                            "label": "Urban"
+                        },
+                        {
+                            "label": "Inner City"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO3",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Patient Population:</b>",
+                    "options": [
+                        {
+                            "label": "Infants"
+                        },
+                        {
+                            "label": "Children"
+                        },
+                        {
+                            "label": "Adolescents"
+                        },
+                        {
+                            "label": "Adults"
+                        },
+                        {
+                            "label": "Elderly"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO4",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Practice Setting(s):</b>",
+                    "options": [
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Operating Room"
+                        },
+                        {
+                            "label": " Emergency Dept."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO4A",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Encounter type(s):</b>",
+                    "options": [
+                        {
+                            "label": "Preventative"
+                        },
+                        {
+                            "label": "Chronic"
+                        },
+                        {
+                            "label": "Emergent"
+                        },
+                        {
+                            "label": "Acute"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO4AB",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>This rotation accommodates:</b>",
+                    "options": [
+                        {
+                            "label": "2nd year students"
+                        },
+                        {
+                            "label": "3rd year students"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO5",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Type of Visit:</b>",
+                    "options": [
+                        {
+                            "label": "Phone visit"
+                        },
+                        {
+                            "label": "Zoom visit"
+                        },
+                        {
+                            "label": "In-person Site visit"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO6",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>This site enables students to meet program expectations and acquire the competencies needed for clinical practice through preventive, emergent, acute, and chronic patient encounters. [Standard B3.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO7",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>This site provides sufficient clinical exposure and patient volume for the specialty as outlined in the objectives, goal, and competencies. [Standard B3.03]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO8",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b> Instructional faculty at this site are compromised mainly of board-certified physicians or physician assistants in their area of specialty. [Standard B3.05, B3.06, & B3.07]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "CILO7child:",
+                                    "fieldType": "TextArea",
+                                    "description": "(If no, please comment below)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO9",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>The preceptor understands and agrees that they will supervise students at all times. [Standard C4.02] </b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO10",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b> The site ensures student safety and has measures in place in case of an emergency. [Standard A1.03G]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO11",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b> The site facilities are clean, well organized, and have adequate space to accommodate the needs of all students. [Standard C4.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO12",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>A signed affiliation agreement is in place. [Standard A1.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO13",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>The preceptor has been notified and understands the Rush University PA Program mission, goals, objectives and competency requirements. [Standard B3.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO14",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>The preceptor has been notified and understands the Rush University PA Program policies and procedures as outlined in the Clinical Preceptor Handbook. [Standard B3.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO15",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>The preceptor understands they must provide feedback and mentoring to students at this site. [Standard C4.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO17",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>This rotation site’s clinical experiences and opportunities clearly accomplish the Rush PA Programs expected learning outcomes as defined by the clinical year’s goals, objectives, and competencies. [Standard C4.02]</b>",
+                    "options": [
+                        {
+                            "label": "Yes "
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LO18",
+                    "fieldType": "TextArea",
+                    "description": "<b>List the strong points of this rotation:</b>"
+                },
+                {
+                    "fieldId": "LO19",
+                    "fieldType": "TextArea",
+                    "description": "<b>List any suggestion for improvement of this rotation site: </b>"
+                },
+                {
+                    "fieldId": "LO191",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>My overall evaluation of this rotation site is (please choose one):</b>",
+                    "options": [
+                        {
+                            "label": "Excellent—the rotation site consistently exceeds program expectations. "
+                        },
+                        {
+                            "label": "Good—the rotation site consistently meets program expectations"
+                        },
+                        {
+                            "label": "Poor—the rotation site consistently does not meet program expectations."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "TA2",
+                    "fieldType": "TextBox",
+                    "description": "<b>PA Program Faculty Name<b/>"
+                },
+                {
+                    "fieldId": "LO20",
+                    "fieldType": "DatePicker",
+                    "description": "<b>Date</b>"
+                }
+            ]
+        }
+    ],
+    "id": "RUSHPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdgAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdgAAAAAAAAAA==/",
+    "_etag": "\"0400cc0f-0000-0100-0000-64cc7b510000\"",
+    "_attachments": "attachments/",
+    "_ts": 1691122513
+}

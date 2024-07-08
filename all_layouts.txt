@@ -49,7 +49,7 @@ Duplicate fieldId value found: "Email" - NEEDED
 Duplicate fieldId value found: "lactation" - same section, same fieldType
 
 RUSHPA.SiteAssessment.Layout.Base
-Duplicate fieldId value found: "LO19" - NEEDED
+Duplicate fieldId value found: "LO19" - NEEDED - done
 
 UniversityofJamestownPT.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Clinicalsite16"
