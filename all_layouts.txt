@@ -29,12 +29,12 @@ PITT.SiteAssessmentClinicalPreceptorInitial.Layout.Base
 Duplicate fieldId value found: "Label2" - UPDATED (label control)
 
 HPUPA.ContinuingSiteAssessment.Layout.Base
-Duplicate fieldId value found: "Care1" - NEEDED
+Duplicate fieldId value found: "Care1" - NEEDED - done
 
 
 GWUSMHS.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Label1" - UPDATED (label control)
-Duplicate fieldId value found: "safety" - NEEDED
+Duplicate fieldId value found: "safety" - NEEDED - done
 
 
 WUSTL.SiteAssessment.Layout.Base

@@ -1,0 +1,726 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.DiscussionStudent",
+            "caption": "DISCUSSION WITH THE STUDENT",
+            "fields": [
+                {
+                    "fieldId": "Label",
+                    "fieldType": "label",
+                    "description": "<b>Academic Preparation:</b>"
+                },
+                {
+                    "fieldId": "general",
+                    "fieldType": "Radio",
+                    "description": "General:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "st1",
+                    "description": "Strengths:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ai1",
+                    "description": "Areas for Improvement:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "clinicalReasoning",
+                    "description": "Clinical Reasoning:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "st2",
+                    "description": "Strengths:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ai2",
+                    "description": "Areas for Improvement:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Label1",
+                    "fieldType": "label",
+                    "description": "<b>Safety:</b>"
+                },
+                {
+                    "fieldId": "safety",
+                    "description": "Establishes a safe working environment for the patient and therapist during the encounter.",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "supervision",
+                    "description": "Level of Supervision:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Could be more independent"
+                        },
+                        {
+                            "label": "Sufficient"
+                        },
+                        {
+                            "label": "Too little"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Label2",
+                    "fieldType": "label",
+                    "description": "<b>Clinic Information:</b>"
+                },
+                {
+                    "fieldId": "clinicInformation",
+                    "fieldType": "TextBox",
+                    "description": "Average # patients/day:"
+                },
+                {
+                    "fieldId": "clinicInformation1",
+                    "fieldType": "TextBox",
+                    "description": "Overall independence (%):"
+                },
+                {
+                    "fieldId": "overall",
+                    "description": "Overall Effectiveness of the CI:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "typical",
+                    "description": "Typical Practice Patterns:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Musculoskeletal"
+                        },
+                        {
+                            "label": "Neuromuscular"
+                        },
+                        {
+                            "label": "Integumentary"
+                        },
+                        {
+                            "label": "Cardiopulmonary"
+                        },
+                        {
+                            "label": "Other (e.g. Renal, Metabolic, GI, GU)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "example",
+                    "description": "Examples:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "feedback",
+                    "description": "Feedback:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Timely"
+                        },
+                        {
+                            "label": "Clear"
+                        },
+                        {
+                            "label": "Concise"
+                        },
+                        {
+                            "label": "Verbal"
+                        },
+                        {
+                            "label": "Written"
+                        },
+                        {
+                            "label": "Need more"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Too much"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "lifespan",
+                    "description": "Lifespan:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "0-3"
+                        },
+                        {
+                            "label": "4-12"
+                        },
+                        {
+                            "label": "13-21"
+                        },
+                        {
+                            "label": "22-65"
+                        },
+                        {
+                            "label": "65+"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "relationship",
+                    "description": "Relationship with CI:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment1",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "additional",
+                    "description": "Additional Learning Experiences:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "inService",
+                    "description": "Inservice Topic/QIP:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Label2",
+                    "fieldType": "label",
+                    "description": "<b>Personal Strengths/Weaknesses:</b>"
+                },
+                {
+                    "fieldId": "st3",
+                    "description": "Strengths:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ai3",
+                    "description": "Areas for Improvement:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "meeting",
+                    "description": "Is the clinical education team meeting your needs?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment2",
+                    "description": "Additional Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "facultyNotes",
+                    "description": "Faculty Notes:",
+                    "fieldType": "Textarea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.DiscussionInstructor",
+            "caption": "DISCUSSION WITH THE CLINICAL INSTRUCTOR",
+            "fields": [
+                {
+                    "fieldId": "impressions",
+                    "fieldType": "Radio",
+                    "description": "Overall impressions:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment3",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "expectations",
+                    "description": "Do you anticipate the student to meet the CPI expectations for the experience?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment4",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "followup",
+                    "description": " Follow up call/visit?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "suggested",
+                    "fieldType": "TextBox",
+                    "description": "If yes, suggested date/time"
+                },
+                {
+                    "fieldId": "Label3",
+                    "fieldType": "label",
+                    "description": "<b>Academic Preparation:</b>"
+                },
+                {
+                    "fieldId": "general1",
+                    "fieldType": "Radio",
+                    "description": "General:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "st4",
+                    "description": "Strengths:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ai4",
+                    "description": "Areas for Improvement:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "clinicalReasoning1",
+                    "description": "Clinical Reasoning:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Poor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "st5",
+                    "description": "Strengths:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ai5",
+                    "description": "Areas for Improvement:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Label4",
+                    "fieldType": "label",
+                    "description": "<b>Safety:</b>"
+                },
+                {
+                    "fieldId": "safety1",
+                    "description": "Establishes a safe working environment for the patient and therapist during the encounter.",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment5",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Label5",
+                    "fieldType": "label",
+                    "description": "<b>Professional Behaviors:</b>"
+                },
+                {
+                    "fieldId": "communicates",
+                    "description": "Communicates well with others:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment6",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "assessment",
+                    "description": "Accurate self-assessment:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "constructive",
+                    "description": "Accepts constructive feedback:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment7",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "constructivefeedback",
+                    "description": "Utilizes/carries over constructive feedback:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment8",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "responsibilitylearning",
+                    "description": "Takes responsibility for learning:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment9",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "overallProfessionalism",
+                    "description": "Overall Professionalism (attire, attitude, timeliness, etc.)",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Exceptional"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Needs Improvement"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment10",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Label6",
+                    "fieldType": "label",
+                    "description": "<b>Patient Management Skills (conversation prompts; formal data derived from CPI):</b>"
+                },
+                {
+                    "fieldId": "Safety2",
+                    "description": "Safety:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "encounter",
+                    "description": "Preparation for encounter:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "elements",
+                    "description": "Elements of PCMM (Exam, Eval, Dx, Prognosis, Intervention, Outcomes):",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "skills",
+                    "description": "Psychomotor skills related to Exam and Interventions:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "reimbursement",
+                    "description": "Management of reimbursement/regulatory issues:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "education",
+                    "description": "Patient education:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "documentation:",
+                    "description": "Documentation:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "participated",
+                    "description": "Participated in direction/supervision of a PTA or other PT personnel:",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "describe",
+                    "description": "If yes, describe:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "describe1",
+                    "description": "If no, describe future plans:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "clinicalEducation",
+                    "description": "Is the clinical education team meeting your needs?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comment11",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "comment12",
+                    "description": "General Comments:",
+                    "fieldType": "Textarea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SpecificSite",
+            "caption": "SPECIFIC SITE TRAINING NEEDS",
+            "fields": [
+                {
+                    "fieldId": "siteTraining",
+                    "description": "Does the site have any specific training needs?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "trainingProvided",
+                    "description": " If yes provide specific needs and/or training provided",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "additionalTraining",
+                    "description": "Follow up for additional training needs?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "suggestedDatetime",
+                    "description": "If yes, suggested date/time OR type of follow up needed (e.g. handouts, curriculum information, clinical education training guides)",
+                    "fieldType": "Textarea"
+                }
+            ]
+        }
+    ],
+    "id": "GWUSMHS.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdQAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdQAAAAAAAAAA==/",
+    "_etag": "\"3100325f-0000-0100-0000-641d96d40000\"",
+    "_attachments": "attachments/",
+    "_ts": 1679660756
+}
