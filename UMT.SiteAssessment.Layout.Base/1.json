@@ -1,0 +1,179 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.StudentInterview",
+            "caption": "Student Interview",
+            "fields": [
+                {
+                    "fieldId": "typesofpatients",
+                    "fieldType": "textarea",
+                    "description": "1. Overall, how is your clinical experience going so far?  Explain why",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "seeingperday",
+                    "fieldType": "textarea",
+                    "description": "2. Rate your CI's performance as an instructor on a scale of 1-10 (10 being excellent) and explain why you rated them that way.",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "NOTparticipating",
+                    "fieldType": "textarea",
+                    "description": "3. How is your rapport like with your CI?  How does your CI provide you with feedback and answer your questions?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "concernspoint",
+                    "fieldType": "textarea",
+                    "description": "4. During your first two weeks, describe how you were oriented to the clinical site.",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "assistancesupervision",
+                    "fieldType": "textarea",
+                    "description": "5. Did you have an opportunity to talk with your CI about your learning objectives for this clinical?  If so when? If not, let’s talk about when and how to do that",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "supervisionprovided",
+                    "fieldType": "textarea",
+                    "description": "6. Has the progression of responsibility been appropriate and how has it been managed?  ",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feedbackreceived",
+                    "fieldType": "textarea",
+                    "description": "7. What are/were your biggest challenges?  ",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "learningexperiences",
+                    "fieldType": "textarea",
+                    "description": "8. What are your remaining goals, if applicable?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "academicallyprepared",
+                    "fieldType": "textarea",
+                    "description": "9. Do you have time during your clinic hours to prepare for patients and complete your documentation?   ",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "feltdeficient",
+                    "fieldType": "textarea",
+                    "description": "10. Do you have any questions about your other course assignments this summer, such as the online forum or case study preparation?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "questionspaperwork",
+                    "fieldType": "textarea",
+                    "description": "11. Do you have any questions about the assessment process of this experience and how that works?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "questionspaperworkA",
+                    "fieldType": "textarea",
+                    "description": "12. Were you prepared academically for this experience?  ",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "questionspaperworkB",
+                    "fieldType": "textarea",
+                    "description": "13. What other health care professionals have you worked with?  Any other unique experiences such as observing surgery or wound care?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "questionspaperworkC",
+                    "fieldType": "textarea",
+                    "description": "14. Is there anything I should know about this clinical site or clinical instructor (positive and/or negative)?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "questionspaperwork",
+                    "fieldType": "textarea",
+                    "description": "15. Other feedback, concerns, information:  ",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.ClinicalInstructor",
+            "caption": "CI Interview",
+            "fields": [
+                {
+                    "fieldId": "concernsAtPoint",
+                    "fieldType": "textarea",
+                    "description": "1. On a one to ten scale (1 = unacceptable and 10 = Exceptional), please rate the student’s overall performance, given where they are in school so far and comment."
+                },
+                {
+                    "fieldId": "studentStrengths",
+                    "fieldType": "textarea",
+                    "description": "2. What do they do particularly well?"
+                },
+                {
+                    "fieldId": "studentNeedDevelopment",
+                    "fieldType": "textarea",
+                    "description": "What are the areas in when the student needs continued development?"
+                },
+                {
+                    "fieldId": "stProfessionalBehavior",
+                    "description": "3. Do you have any concerns regarding this student, and if so what are they?",
+                    "fieldType": "textarea"
+                },
+                {
+                    "fieldId": "stProfessionalBehaviorYes",
+                    "fieldType": "textarea",
+                    "description": "If not, what are you focusing on during the remainder of the experience?"
+                },
+                {
+                    "fieldId": "studentResponsFeedback",
+                    "fieldType": "textarea",
+                    "description": "4. What % supervision and guidance for pts with simple problems? "
+                },
+                {
+                    "fieldId": "studentDocSkills",
+                    "fieldType": "textarea",
+                    "description": "5. What % supervision and guidance for pts with complex problems?  "
+                },
+                {
+                    "fieldId": "participationInPatientManagementNO",
+                    "fieldType": "textarea",
+                    "description": "6. What % case load are they capable of managing now?"
+                },
+                {
+                    "fieldId": "curriculumCommittee",
+                    "fieldType": "textarea",
+                    "description": "7. Has the student had the opportunity to complete any initial examinations? Please comment on how much exposure they have received for examinations, and how much supervision and guidance is required."
+                },
+                {
+                    "fieldId": "quesRegardingCIET",
+                    "fieldType": "textarea",
+                    "description": "8. Describe how you prefer to manage providing supervision and feedback to the student.  How does the student respond to feedback?   "
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldType": "textarea",
+                    "description": "9. Do you have any questions about the assessment process of this experience and how that works?"
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldType": "textarea",
+                    "description": "10. Is there anything you would like to discuss regarding this student or clinical education in general?"
+                },
+                {
+                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldType": "textarea",
+                    "description": "11. Is there anything we can do to make the clinical education process easier for you?"
+                }
+            ]
+        }
+    ],
+    "id": "UMT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRc3AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRc3AAAAAAAAAA==/",
+    "_etag": "\"0900c45b-0000-0100-0000-63bc38fd0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1673279741
+}

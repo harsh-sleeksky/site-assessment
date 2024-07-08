@@ -1,0 +1,353 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.ContactInformation",
+            "caption": "Demographic/Contact Information",
+            "fields": [
+                {
+                    "fieldId": "Label1A",
+                    "fieldType": "label",
+                    "description": "<b>Preceptor Information (A2.13)</b>"
+                },
+                {
+                    "fieldId": "PreceptorName",
+                    "fieldType": "TextBox",
+                    "description": "<br>Preceptor Name:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Degree",
+                    "fieldType": "TextBox",
+                    "description": "Profession/Degree:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "AreaofInstruction",
+                    "fieldType": "TextBox",
+                    "description": "Specialty/Area of Instruction",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "YearExp",
+                    "fieldType": "TextBox",
+                    "description": "Years of Experience:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "ContactA",
+                    "fieldType": "TextBox",
+                    "description": "Contact Information (phone, email, etc.):",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Label1",
+                    "fieldType": "label",
+                    "description": "<b>If Preceptor is a PA/Nurse Practitioner/Nurse Midwife, if any</b>"
+                },
+                {
+                    "fieldId": "Supervising",
+                    "fieldType": "TextBox",
+                    "description": "Supervising/Collaborating Physician Name:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Label2",
+                    "fieldType": "label",
+                    "description": "<b>Additional/Preferred Contact Information (if other than Preceptor)</b>"
+                },
+                {
+                    "fieldId": "ContactB",
+                    "fieldType": "TextBox",
+                    "description": "Contact Person Name:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Title",
+                    "fieldType": "TextBox",
+                    "description": "Title:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Email",
+                    "fieldType": "TextBox",
+                    "description": "Email:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Phone",
+                    "fieldType": "TextBox",
+                    "description": "Phone:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Label3",
+                    "fieldType": "label",
+                    "description": "Years of experience practicing in this specialty/profession at this level (as a physician, surgeon, PA, nurse practitioner, or nurse-midwife)"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Purpose",
+            "caption": "Purpose of the Evaluation",
+            "fields": [
+                {
+                    "fieldId": "PurposeEvaluation",
+                    "description": "Purpose of the Evaluation",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Annual/Ongoing Evaluation"
+                        },
+                        {
+                            "label": "Student Initiated Evaluation"
+                        },
+                        {
+                            "label": "Preceptor Initiated Evaluation"
+                        },
+                        {
+                            "label": "Program Initiated Evaluation "
+                        },
+                        {
+                            "label": "Performance Follow-up"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Documentation",
+            "caption": "Documentation",
+            "fields": [
+                {
+                    "fieldId": "Label4",
+                    "fieldType": "label",
+                    "description": "<b>Evidence of Educational and Experiential Qualifications to Perform Assigned Duties (A2.01, A2.02, A2.13, B3.05, B3.06)</b>"
+                },
+                {
+                    "fieldId": "CurriculumVitae",
+                    "fieldType": "Radio",
+                    "description": "<br><b>Curriculum Vitae/Resume on File (updated within past 2 years)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OtherEvidence",
+                    "fieldType": "Radio",
+                    "description": "<b>Other Evidence of Educational and Experiential Qualifications on File (provide details in comments section below)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Label5",
+                    "fieldType": "label",
+                    "description": "<b>License (A2.13, A2.16, B3.06)</b>"
+                },
+                {
+                    "fieldId": "CurrentlyLicensed",
+                    "fieldType": "Radio",
+                    "description": "<br><b>Currently Licensed:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NOTparticipating",
+                    "fieldType": "TextBox",
+                    "description": "State(s)/Commonwealth(s) of License:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "LicenseExpiration",
+                    "fieldType": "DatePicker",
+                    "description": "License Expiration Date:"
+                },
+                {
+                    "fieldId": "VerificationLicense",
+                    "fieldType": "Radio",
+                    "description": "<b>Verification of License and Expiration by Program Faculty with documentation on file in Program records:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Label6",
+                    "fieldType": "label",
+                    "description": "<b>Certification (A2.13, B3.06)</b>"
+                },
+                {
+                    "fieldId": "CurrentlyCertified",
+                    "fieldType": "Radio",
+                    "description": "<br><b>Currently Certified:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "AreaofCertification",
+                    "fieldType": "TextBox",
+                    "description": "Area of Certification (Certifying Board/Body):",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "InitialCertification",
+                    "fieldType": "DatePicker",
+                    "description": "Date of Initial Certification:"
+                },
+                {
+                    "fieldId": "ExpirationDate",
+                    "fieldType": "DatePicker",
+                    "description": "Certification Expiration Date:"
+                },
+                {
+                    "fieldId": "VerificationCertification",
+                    "fieldType": "Radio",
+                    "description": "<b>Verification of Certification and Expiration by Program Faculty with documentation on file in Program records:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Label7",
+                    "fieldType": "label",
+                    "description": "<b>Attestation (A2.13, A2.16, A2.17, B3.07)</b>"
+                },
+                {
+                    "fieldId": "AttestationOrientation",
+                    "fieldType": "Radio",
+                    "description": "<br><b>Preceptor Attestation of Orientation to and Ability to Supervise Students in a Manner that Enables Students to Meet the Course Learning Outcomes (CLOs) for their Supervised Clinical Practice Experience (SCPE) Course with Documentation on File in Program Records.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "AttestationProgramDirector",
+                    "fieldType": "Radio",
+                    "description": "<b>Attestation by Program Director or Principal Faculty that Clinical Preceptor has been oriented to the Program Policies and Procedures</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Effectiveness",
+            "caption": "Effectiveness as a Member of Program Instructional Faculty (A2.13, A2.16 C1.01, C1.02, C2.01)",
+            "fields": [
+                {
+                    "fieldId": "ClinicalPreceptor",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical Preceptor, by way of the Program’s ongoing self-assessment process, is determined to be effective in teaching assigned subjects and enable all students to meet the CLOs for their assigned SCPE course</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "NOTparticipating1",
+                                    "fieldType": "TextBox",
+                                    "description": " If 'No', state conclusion(s) from ongoing self-assessment process and any action plans below:",
+                                    "characterLimit": 500
+                                }
+                            ],
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "This field is required"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Comments",
+            "caption": "Comments Section",
+            "fields": [
+                {
+                    "fieldId": "Comments",
+                    "fieldType": "TextArea",
+                    "description": "Comments, Areas of Concerns, Requirements not Met, Areas in Need of Program Assistance:"
+                },
+                {
+                    "fieldId": "Label8",
+                    "fieldType": "label",
+                    "description": "<b>Based on the above information, the PA Studies Residential Program Director or Principal Faculty signature below indicates verification of all of the following:</b> <li>The instructional faculty serving as a SCPE preceptor holds a valid license that allows them to practice at the clinical site and the Program has written documentation to evidence this (A2.16, B3.06).</li><li>The instructional faculty serving as a SCPE preceptor holds valid certification that allows them to practice in the area of instruction, and the Program has written documentation to evidence this (A2.13, B3.06)</li><li>The instructional faculty serving as a SCPE preceptor has been oriented to the current specific CLOs for their associated SCPE course (A2.17)</li><li>The instructional faculty serving as a SCPE preceptor is qualified through academic preparation and/or experience to teach the assigned subjects of the SCPE course (A2.13)</li><li>The instructional faculty serving as a SCPE preceptor is knowledgeable in course content and is effective in teaching the assigned subjects of the SCPE course (A2.13)</li><li>The instructional faculty serving as a SCPE preceptor enables students to meet the CLOs for their SCPE course. (A2.17, B3.07)</li>"
+                },
+                {
+                    "fieldId": "ResidentialProgram",
+                    "fieldType": "TextBox",
+                    "description": "<br>PA Studies Residential Program Director or Principal Faculty Name:  ",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Date2",
+                    "fieldType": "DatePicker",
+                    "description": "Date: "
+                }
+            ]
+        }
+    ],
+    "id": "PITT.SiteAssessmentSitePreceptor.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRc9AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRc9AAAAAAAAAA==/",
+    "_etag": "\"9d013386-0000-0100-0000-6402d0930000\"",
+    "_attachments": "attachments/",
+    "_ts": 1677906067
+}
