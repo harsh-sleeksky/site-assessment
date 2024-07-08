@@ -1,0 +1,311 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.OngoingPA",
+            "caption": "Ongoing Evaluation",
+            "fields": [
+                {
+                    "fieldId": "OngoingA",
+                    "fieldType": "Radio",
+                    "description": "1. The site and instructional faculty/preceptor are determined to provide the student access to the physical facilities, patient population, and supervision necessary to fulfill program expectations for learning outcomes and performance evaluation measures. (B3.07, C2.01)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingB",
+                    "fieldType": "Radio",
+                    "description": "2. Is the current evaluation of the SCPE congruent with what is documented in the onboarding site assessment (average daily census, patient population, clinical setting, plan for student integration)? (C2.01)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "OngoingBC",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Specify:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "OngoingBC1",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Specify:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingC",
+                    "fieldType": "Radio",
+                    "description": "3. The core or elective clinical rotation enables the student to meet the MU PA program’s learning outcomes and the course learning outcomes. (B3.03)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingD",
+                    "fieldType": "Radio",
+                    "description": "4. There is a qualified instructional faculty/preceptor designated to assess and supervise the student's progress in achieving learning outcomes. (A2.17a, C2.01)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingE",
+                    "fieldType": "Radio",
+                    "description": "5. The instructional faculty/preceptor rates the effectiveness of the didactic curriculum in preparing the student to be successful for clinical rotations: (Select 1 option)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Very effective"
+                        },
+                        {
+                            "label": "Moderately effective"
+                        },
+                        {
+                            "label": "Minimally effective"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingF",
+                    "fieldType": "TextArea",
+                    "description": "6. The instructional faculty/preceptor gives the following curriculum suggestions for the MU PA Program based on current or prior student performance:"
+                },
+                {
+                    "fieldId": "OngoingG",
+                    "fieldType": "checkbox",
+                    "description": "7. The SCPE ARC setting is verified as: (Check all that apply (B3.04a-d))",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Emergency Department"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingH",
+                    "fieldType": "Radio",
+                    "description": "8. During the visit, the instructional faculty/preceptor(s) is seen interacting, providing feedback, and mentoring the student. (C2.01c)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingI",
+                    "fieldType": "Radio",
+                    "description": "9. Students see the appropriate types of patients and is allowed hands-on experiences with preceptor observation and supervision. (C2.01b-c)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingJ",
+                    "fieldType": "Radio",
+                    "description": "10. The site is assessed and deemed to provide appropriate security and personal safety measures for PA students. (A1.02g)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingK",
+                    "fieldType": "Radio",
+                    "description": "11. Discussed prior/current student concerns regarding the preceptor and/or site.",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingL",
+                    "fieldType": "Radio",
+                    "description": "12. The preceptor handbook, course syllabus, learning outcomes, and required competencies are reviewed with instructional faculty/preceptor. (A2.17b)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingM",
+                    "fieldType": "checkbox",
+                    "description": "13. Age demographics served at this location: (Check all that apply (B3.03b, C2.01))",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Infants and children"
+                        },
+                        {
+                            "label": "Adults"
+                        },
+                        {
+                            "label": "Geriatrics"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingN",
+                    "fieldType": "checkbox",
+                    "description": "14. Type of patients being seen at this location: (Check all that apply (C2.01))",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Minority patient population"
+                        },
+                        {
+                            "label": "Underserved"
+                        },
+                        {
+                            "label": "Underinsured or non-insured"
+                        },
+                        {
+                            "label": "Medicare/Medicaid (government-insured population)"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingO",
+                    "fieldType": "Radio",
+                    "description": "15. Location of clinic/hospital: (Select 1 option (C2.01))",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Urban"
+                        },
+                        {
+                            "label": "Rural"
+                        },
+                        {
+                            "label": "Suburban"
+                        },
+                        {
+                            "label": "Other"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingP",
+                    "fieldType": "Radio",
+                    "description": "16. Case logs submitted by student(s) on the identified SCPE site were reviewed by Marquette faculty. Deficiencies were discussed with instructional faculty, including the creation of a plan about how those deficiencies might be met in the remaining weeks.",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingQ",
+                    "fieldType": "Radio",
+                    "description": "17. The instructional faculty/preceptor and site enable the student to meet the program’s learning outcomes (B3.03)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OngoingR",
+                    "fieldType": "Radio",
+                    "description": "18. The site and instructional faculty/preceptor are acceptable for continued clinical rotations.",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "MarquetteOngoingPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRf5AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRf5AAAAAAAAAA==/",
+    "_etag": "\"200092de-0000-0100-0000-650475240000\"",
+    "_attachments": "attachments/",
+    "_ts": 1694790948
+}

@@ -1,0 +1,961 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.DiscussionWithCI",
+            "caption": "I. Discussion with Clinical Instructor",
+            "fields": [
+                {
+                    "fieldId": "OverallCommunicationSkills",
+                    "fieldType": "Radio",
+                    "description": "<b>A. Overall Communication Skills:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Could Improve"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Above average"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "DoesStudentaskquestions",
+                    "fieldType": "Radio",
+                    "description": "<b>Does Student ask questions:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Aretheyappropriatelevelquestions",
+                    "fieldType": "Radio",
+                    "description": "<b>Are they appropriate level questions:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "communicatepertinentinformation",
+                    "fieldType": "Radio",
+                    "description": "<b>Does the student understand when to communicate pertinent information back to the Supervising PT?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments1",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments:</b>"
+                },
+                {
+                    "fieldId": "Professionalism",
+                    "fieldType": "label",
+                    "description": "<br><b>B. Professionalism/ Interpersonal Skills</b>"
+                },
+                {
+                    "fieldId": "Organizationskills",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Organization skills:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Could Improve"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Above average"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "organizingthedaily",
+                    "fieldType": "Radio",
+                    "description": "<b>Is the student organizing the daily schedule?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments2",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "TimeManagementSkills",
+                    "fieldType": "Radio",
+                    "description": "<b>2. Time Management Skills:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Could Improve"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Above average"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments3",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Abilitytoevaluateoneself",
+                    "fieldType": "Radio",
+                    "description": "<b>3. Ability to evaluate oneself:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Accurate"
+                        },
+                        {
+                            "label": "Not accurate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "strengthsandweaknesses",
+                    "fieldType": "Radio",
+                    "description": "<b>Does student have a clear understanding of their strengths and weaknesses?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments4",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Abilitytoacceptcriticism",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Ability to accept criticism:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Receptive"
+                        },
+                        {
+                            "label": "Not receptive"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feedbackappropriately",
+                    "fieldType": "Radio",
+                    "description": "<b>Utilizes feedback appropriately at a later time:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments5",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Interactionwithstaff",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Interaction with staff:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate"
+                        },
+                        {
+                            "label": "Inappropriate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments6",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Confidence6",
+                    "fieldType": "Radio",
+                    "description": "<b>6. Confidence:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Lacking"
+                        },
+                        {
+                            "label": "Appropriate"
+                        },
+                        {
+                            "label": "Over confident"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments7",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Punctuality7",
+                    "fieldType": "Radio",
+                    "description": "<b>7. Punctuality:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Always on time/early"
+                        },
+                        {
+                            "label": "Runs late occasionally"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Absences88",
+                    "fieldType": "Radio",
+                    "description": "<b>Absences:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "makingupabsences",
+                    "fieldType": "TextArea",
+                    "description": "How does student plan on making up absences"
+                },
+                {
+                    "fieldId": "UseofFreeTime",
+                    "fieldType": "Radio",
+                    "description": "<b>8. Use of Free Time:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Could Improve"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Above average"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments9",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "PatientCare",
+                    "fieldType": "label",
+                    "description": "<br><b>C. Patient Care</b>"
+                },
+                {
+                    "fieldId": "patientsonaverage",
+                    "fieldType": "label",
+                    "description": "<br><b>1. How many patients on average does student interact with per day</b>"
+                },
+                {
+                    "fieldId": "Cotreat",
+                    "fieldType": "TextBox",
+                    "description": "Co-treat:"
+                },
+                {
+                    "fieldId": "Independent",
+                    "fieldType": "TextBox",
+                    "description": "Independent:"
+                },
+                {
+                    "fieldId": "studentscaseload",
+                    "fieldType": "Radio",
+                    "description": "<b>2. Is the students case load:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Below Expectations"
+                        },
+                        {
+                            "label": "Where Expected"
+                        },
+                        {
+                            "label": "Above expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Typesofptstreated",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>3. Types of pts treated?</b>",
+                    "options": [
+                        {
+                            "label": "Orthopedic"
+                        },
+                        {
+                            "label": "Neuro"
+                        },
+                        {
+                            "label": "Integumentary"
+                        },
+                        {
+                            "label": "Musculoskeletal"
+                        },
+                        {
+                            "label": "General Medical"
+                        },
+                        {
+                            "label": "Cardio"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Anyissueswithpatient",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Any issues with patient safety:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Documentation",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Documentation:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Below Expectations"
+                        },
+                        {
+                            "label": "Where Expected"
+                        },
+                        {
+                            "label": "Above expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "AreaNeedingImprovement",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Area Needing Improvement:</b>",
+                    "options": [
+                        {
+                            "label": "S"
+                        },
+                        {
+                            "label": "O"
+                        },
+                        {
+                            "label": "A"
+                        },
+                        {
+                            "label": "P"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments111",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "ProblemSolvingSkills",
+                    "fieldType": "Radio",
+                    "description": "<b>6. Problem Solving Skills:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Beginning - able to recognize there is a problem"
+                        },
+                        {
+                            "label": "Developing - recognize problem and formulate solution"
+                        },
+                        {
+                            "label": "Entry Level - recognize problem, formulate solution and implement solution"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments011",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Abilitytoprogresspts",
+                    "fieldType": "Radio",
+                    "description": "<b>7. Ability to progress pts:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Beginning - recognizes need for progression"
+                        },
+                        {
+                            "label": "Developing - recognizes need for progression, formulate plan"
+                        },
+                        {
+                            "label": "Entry Level - recognizes need for progression, formulate and implement plan"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments0111",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "Interactswithpatients",
+                    "fieldType": "Radio",
+                    "description": "<b>8. Interacts with patients:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate"
+                        },
+                        {
+                            "label": "Inappropriate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Commentss1",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "ClinicalSkills",
+                    "fieldType": "label",
+                    "description": "<br><b>D. Clinical Skills</b>"
+                },
+                {
+                    "fieldId": "OverallAssessmentSkills",
+                    "fieldType": "Radio",
+                    "description": "<b>Overall Assessment Skills:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate"
+                        },
+                        {
+                            "label": "Inappropriate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Areaneedingimprovement",
+                    "fieldType": "TextArea",
+                    "description": "Area/s needing improvement:"
+                },
+                {
+                    "fieldId": "AdditionalLearningOpportunities",
+                    "fieldType": "TextArea",
+                    "description": "E. Additional Learning Opportunities"
+                },
+                {
+                    "fieldId": "OverallStrengths",
+                    "fieldType": "TextArea",
+                    "description": "F. Overall Strengths"
+                },
+                {
+                    "fieldId": "AreasNeedingImprovement",
+                    "fieldType": "TextArea",
+                    "description": "G. Areas Needing Improvement"
+                },
+                {
+                    "fieldId": "AcademicPreparation",
+                    "fieldType": "Radio",
+                    "description": "<b>H. Academic Preparation:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Below Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Above Average"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "adequatelyprepared",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you feel student was adequately prepared for this clinical site?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Areastheschoolcould",
+                    "fieldType": "TextArea",
+                    "description": "Areas the school could improve on:"
+                },
+                {
+                    "fieldId": "AnalogScale",
+                    "fieldType": "label",
+                    "description": "<br><b>I. Analog Scale 1-10 (10 entry level)</b>"
+                },
+                {
+                    "fieldId": "ClinicalSkills1",
+                    "fieldType": "TextBox",
+                    "description": "1. Clinical Skills:"
+                },
+                {
+                    "fieldId": "Professionalism2",
+                    "fieldType": "TextBox",
+                    "description": "2. Professionalism:"
+                },
+                {
+                    "fieldId": "affiliation",
+                    "fieldType": "label",
+                    "description": "<br><b>List three goals you would like to see the student achieve prior to ending this affiliation:</b>"
+                },
+                {
+                    "fieldId": "Areastheschoolcould1",
+                    "fieldType": "TextArea",
+                    "description": "1."
+                },
+                {
+                    "fieldId": "Areastheschoolcould2",
+                    "fieldType": "TextArea",
+                    "description": "2."
+                },
+                {
+                    "fieldId": "Areastheschoolcould3",
+                    "fieldType": "TextArea",
+                    "description": "3."
+                },
+                {
+                    "fieldId": "employment1",
+                    "fieldType": "Radio",
+                    "description": "<b>If your facility was hiring, would you consider or recommend this student for employment?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "overridden1",
+                                    "description": "If No describe why:",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentDiscussion",
+            "caption": "II. Student Discussion: Evaluation of Self and Clinic",
+            "fields": [
+                {
+                    "fieldId": "Overallimpression",
+                    "fieldType": "Radio",
+                    "description": "<b>Overall impression of this affiliation and learning opportunities:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Not Recommend"
+                        },
+                        {
+                            "label": "Recommend"
+                        },
+                        {
+                            "label": "Highly Recommend"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Why1",
+                    "fieldType": "TextArea",
+                    "description": "Why?"
+                },
+                {
+                    "fieldId": "PatientCare11",
+                    "fieldType": "label",
+                    "description": "<br><b>A. Strengths</b>"
+                },
+                {
+                    "fieldId": "CI1",
+                    "fieldType": "TextArea",
+                    "description": "1. CI:"
+                },
+                {
+                    "fieldId": "Student2",
+                    "fieldType": "TextArea",
+                    "description": "2. Student:"
+                },
+                {
+                    "fieldId": "NeedingImprovement11",
+                    "fieldType": "label",
+                    "description": "<br><b>B. Areas Needing Improvement</b>"
+                },
+                {
+                    "fieldId": "CI2",
+                    "fieldType": "TextArea",
+                    "description": "1. CI:"
+                },
+                {
+                    "fieldId": "Student22",
+                    "fieldType": "TextArea",
+                    "description": "2. Student"
+                },
+                {
+                    "fieldId": "Communication1",
+                    "fieldType": "label",
+                    "description": "<br><b>C. Communication</b>"
+                },
+                {
+                    "fieldId": "FeedbackfromCI",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Feedback from CI:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Not enough"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Too Much"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feelchallenged",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you feel challenged:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "RelationshipwithCI",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>2. Relationship with CI:</b>",
+                    "options": [
+                        {
+                            "label": "Could be better"
+                        },
+                        {
+                            "label": "Good"
+                        },
+                        {
+                            "label": "Great"
+                        },
+                        {
+                            "label": "Open to questions"
+                        },
+                        {
+                            "label": "Makes me feel inferior"
+                        },
+                        {
+                            "label": "Ever feel like you are a burden"
+                        },
+                        {
+                            "label": "Do you ever feel as you are being utilized as free labor and this is not a learning opportunity?"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatientCareD",
+                    "fieldType": "label",
+                    "description": "<br><b>D. Patient Care</b>"
+                },
+                {
+                    "fieldId": "PatientCareD1",
+                    "fieldType": "label",
+                    "description": "<br><b>1. How many patients on average does student interact with per day</b>"
+                },
+                {
+                    "fieldId": "Cotreat1",
+                    "fieldType": "TextBox",
+                    "description": "Co-treat:"
+                },
+                {
+                    "fieldId": "Independent11",
+                    "fieldType": "TextBox",
+                    "description": "Independent:"
+                },
+                {
+                    "fieldId": "Isthecaseload",
+                    "fieldType": "Radio",
+                    "description": "<b>2. Is the case load:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Too much"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Not enough"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Typesofptstreated1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>3. Types of pts treated?</b>",
+                    "options": [
+                        {
+                            "label": "Orthopedic"
+                        },
+                        {
+                            "label": "Neuro"
+                        },
+                        {
+                            "label": "Integumentary"
+                        },
+                        {
+                            "label": "Musculoskeletal"
+                        },
+                        {
+                            "label": "General Medical"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Supervision4",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Supervision:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Too much"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Not enough"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "AdditionalLearningOpportunities1",
+                    "fieldType": "TextArea",
+                    "description": "Additional Learning Opportunities"
+                },
+                {
+                    "fieldId": "AnalogScale1",
+                    "fieldType": "label",
+                    "description": "<br><b>Analog Scale 1-10 (10 entry level)</b>"
+                },
+                {
+                    "fieldId": "ClinicalSkills2",
+                    "fieldType": "TextBox",
+                    "description": "1. Clinical Skills:"
+                },
+                {
+                    "fieldId": "Professionalism22",
+                    "fieldType": "TextBox",
+                    "description": "2. Professionalism:"
+                },
+                {
+                    "fieldId": "adequatelyprepared1",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you feel you were adequately prepared for this clinical affiliation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Anyareayoufeeltheschool",
+                    "fieldType": "TextArea",
+                    "description": "Any area you feel the school could improve on?"
+                },
+                {
+                    "fieldId": "Listthreegoalsyouwould",
+                    "fieldType": "label",
+                    "description": "<br><b>List three goals you would like to achieve prior to ending this affiliation:</b>"
+                },
+                {
+                    "fieldId": "Anyareayoufeeltheschool1",
+                    "fieldType": "TextArea",
+                    "description": "1."
+                },
+                {
+                    "fieldId": "Anyareayoufeeltheschool2",
+                    "fieldType": "TextArea",
+                    "description": "2."
+                },
+                {
+                    "fieldId": "Anyareayoufeeltheschool3",
+                    "fieldType": "TextArea",
+                    "description": "3."
+                },
+                {
+                    "fieldId": "TopicForInservice",
+                    "fieldType": "TextArea",
+                    "description": "Topic For In-service:"
+                },
+                {
+                    "fieldId": "EBMCaseStudy",
+                    "fieldType": "label",
+                    "description": "<br><b>EBM Case Study</b>"
+                },
+                {
+                    "fieldId": "PatientIdentified",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Patient Identified:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "DX",
+                    "fieldType": "TextArea",
+                    "description": "DX:"
+                },
+                {
+                    "fieldId": "PTAMACS",
+                    "fieldType": "Radio",
+                    "description": "<b>PTA MACS</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Skills Meet Criteria"
+                        },
+                        {
+                            "label": "Skills DO NOT meet Criteria"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SkillsnomeetingCriteria",
+                    "fieldType": "TextArea",
+                    "description": "A. Skills not meeting Criteria:"
+                },
+                {
+                    "fieldId": "orchallenges",
+                    "fieldType": "TextArea",
+                    "description": "B. NI’s or challenges:"
+                },
+                {
+                    "fieldId": "SummaryofClinical",
+                    "fieldType": "TextArea",
+                    "description": "Summary of Clinical Instructor Concerns"
+                },
+                {
+                    "fieldId": "StudentConcerns",
+                    "fieldType": "TextArea",
+                    "description": "Summary of Student Concerns:"
+                },
+                {
+                    "fieldId": "DX1",
+                    "fieldType": "TextArea",
+                    "description": "Recommendations or plan of action:"
+                },
+                {
+                    "fieldId": "Willrecommendations",
+                    "fieldType": "Radio",
+                    "description": "<b>Will recommendations or plan of action require a follow up report?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "BlinnPTASiteVisit.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRf0AAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRf0AAAAAAAAAA==/",
+    "_etag": "\"6800923b-0000-0100-0000-6509b4a50000\"",
+    "_attachments": "attachments/",
+    "_ts": 1695134885
+}

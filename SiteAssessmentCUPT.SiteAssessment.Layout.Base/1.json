@@ -1,0 +1,631 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.General",
+            "caption": "General Site Questions",
+            "fields": [
+                {
+                    "fieldId": "Field1",
+                    "fieldType": "checkbox",
+                    "description": "<b>Setting:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inpatient Acute Care"
+                        },
+                        {
+                            "label": "Inpatient Rehabilitation"
+                        },
+                        {
+                            "label": "Skilled Nursing/Sub-acute"
+                        },
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Homecare"
+                        },
+                        {
+                            "label": "School-based"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Field1a",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Specify:",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "This field is required",
+                                            "validator": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field2",
+                    "fieldType": "checkbox",
+                    "description": "<b>Patient population (lifespan):</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Peds"
+                        },
+                        {
+                            "label": "Adult"
+                        },
+                        {
+                            "label": "Mixed"
+                        }
+                    ],
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field3",
+                    "fieldType": "textArea",
+                    "description": "<b>Examples of most recent diagnoses seen:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field4",
+                    "fieldType": "textArea",
+                    "description": "<b>Caseload expectations of entry level clinician (per day):</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field5",
+                    "fieldType": "textArea",
+                    "description": "<b>Caseload expected (per day) of student in final week:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Current",
+            "caption": "Current Student Performance",
+            "fields": [
+                {
+                    "fieldId": "Field6",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Is the student meeting professionalism expectations in communication, preparedness, accountability, follow-through? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field7",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Is student on track to meet performance expectations for this experience?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field8",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Would you trust the student to complete an exam/eval/develop POC on a loved one?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field9",
+                    "fieldType": "label",
+                    "description": "<b>CI and Student: What is the current level of student participation in evaluation and treatment sessions?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field10",
+                    "fieldType": "textArea",
+                    "description": "<b>CI response:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field11",
+                    "fieldType": "textArea",
+                    "description": "<b>Student response:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Safety",
+            "caption": "Safety",
+            "fields": [
+                {
+                    "fieldId": "Field12",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Does the student consistently practice in a safe manner, minimizing risk to patients, self, and others?Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Communication",
+            "caption": "CI and Student Communication",
+            "fields": [
+                {
+                    "fieldId": "Field13",
+                    "fieldType": "textArea",
+                    "description": "<b>CI/Student: What formal strategies are used for planning and feedback? (For example, daily meetings, weekly meetings, use of weekly planning sheets)?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field14",
+                    "fieldType": "label",
+                    "description": "<b>CI/Student: Do you believe that your teaching and learning styles are productive and effective?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field15",
+                    "fieldType": "textArea",
+                    "description": "<b>CI response:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field16",
+                    "fieldType": "textArea",
+                    "description": "<b>Student response:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field17",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Does the student effectively communicate with you? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field18",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Does the student accept constructive feedback without defensiveness? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field19",
+                    "fieldType": "textArea",
+                    "description": "<b>Student: Are you satisfied with the level of communication you have with your CI? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Interprofessional",
+            "caption": "Interprofessional Team Communication",
+            "fields": [
+                {
+                    "fieldId": "Field20",
+                    "fieldType": "checkbox",
+                    "description": "<b>CI/Student: Which interprofessional team colleagues is the student communicating with regularly?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "PT"
+                        },
+                        {
+                            "label": "PTA"
+                        },
+                        {
+                            "label": "OT"
+                        },
+                        {
+                            "label": "SLP"
+                        },
+                        {
+                            "label": "Rehab aid"
+                        },
+                        {
+                            "label": "Case manager/SW"
+                        },
+                        {
+                            "label": "Nurse"
+                        },
+                        {
+                            "label": "MD/DO/PA"
+                        },
+                        {
+                            "label": "Administrative team"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Field1a1",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Describe:",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "This field is required",
+                                            "validator": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field21",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Is the student’s communication style matching the expectations of the setting and other team members? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Goals",
+            "caption": "Student Performance Goals",
+            "fields": [
+                {
+                    "fieldId": "Field22",
+                    "fieldType": "label",
+                    "description": "<b>CI and Student: What are the most important areas for growth for the second half?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field23",
+                    "fieldType": "textArea",
+                    "description": "<b>CI response:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field24",
+                    "fieldType": "textArea",
+                    "description": "<b>Student response:</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field25",
+                    "fieldType": "textArea",
+                    "description": "<b>Student: Are you clear about the expectations of you in this facility and what you need to do to successfully complete this experience? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field26",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Any risk of the student not meeting criteria for passing this experience? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Curriculum",
+            "caption": "Curriculum and Preparation",
+            "fields": [
+                {
+                    "fieldId": "Field27",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: What are the characteristics of a successful student in this environment? Please describe?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field28",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: What educational content is critical for students to be successful in this environment? Please be specific and describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field29",
+                    "fieldType": "textArea",
+                    "description": "<b>CI: Do you feel there are any gaps in the student’s knowledge that you would have expected them to know at this point in their education?</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field30",
+                    "fieldType": "textArea",
+                    "description": "<b>Student: What specific classes or course activities prepared you for this experience? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field31",
+                    "fieldType": "textArea",
+                    "description": "<b>Student: What specific class materials are you using during this experience? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field32",
+                    "fieldType": "textArea",
+                    "description": "<b>Student: Is there any didactic content that you feel was missing from the curriculum that is critical for your success in this experience? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Summary",
+            "caption": "Site Visit Summary",
+            "fields": [
+                {
+                    "fieldId": "Field33",
+                    "fieldType": "textArea",
+                    "description": "<b>Does this clinic meets the needs of our students? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field34",
+                    "fieldType": "textArea",
+                    "description": "<b>Is the student maximizing their learning and making adequate progress? Please describe</b>",
+                    "display": "inline-grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Field35",
+                    "fieldType": "Radio",
+                    "description": "<b>Is there a need for DCE follow up?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Field35a",
+                                    "fieldType": "label",
+                                    "description": "<b>Please contact DCE via phone/email immediately<b>",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "This field is required",
+                                            "validator": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ],
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "SiteAssessmentCUPT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcMAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcMAQAAAAAAAA==/",
+    "_etag": "\"1a014223-0000-0100-0000-6569f9aa0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1701444010
+}

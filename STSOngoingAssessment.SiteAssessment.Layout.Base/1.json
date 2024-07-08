@@ -1,0 +1,844 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Site",
+            "caption": "Healthcare Site:",
+            "fields": [
+                {
+                    "fieldId": "Date",
+                    "fieldType": "DatePicker",
+                    "description": "<b>Date:</b>"
+                },
+                {
+                    "fieldId": "ClinicalRotationName",
+                    "fieldType": "TextBox",
+                    "description": "<b>Name of student currently on this rotation:</b>"
+                },
+                {
+                    "fieldId": "Site",
+                    "fieldType": "label",
+                    "description": ""
+                },
+                {
+                    "fieldId": "Site1",
+                    "fieldType": "label",
+                    "description": "<u><b>SITE SECTION</b></u>"
+                },
+                {
+                    "fieldId": "SiteSpeciality",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Site Speciality:</b>",
+                    "options": [
+                        {
+                            "label": "Primary Care"
+                        },
+                        {
+                            "label": "Inpatient Medicine"
+                        },
+                        {
+                            "label": "Women's Health"
+                        },
+                        {
+                            "label": "Pediatrics"
+                        },
+                        {
+                            "label": "Emergency Medicine"
+                        },
+                        {
+                            "label": "Behavioral Medicine"
+                        },
+                        {
+                            "label": "Surgery"
+                        },
+                        {
+                            "label": "Elective",
+                            "fields": [
+                                {
+                                    "fieldId": "overridden1",
+                                    "description": "(Please Specify: )",
+                                    "fieldType": "textbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Setting",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "description": "<b>Setting(Check all that apply):</b>",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Emergency Room"
+                        },
+                        {
+                            "label": "Operating Room"
+                        },
+                        {
+                            "label": "Telemedicine"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Encounter",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "description": "<b>Encounter Types (Check all that apply):</b>",
+                    "options": [
+                        {
+                            "label": "Acute Care"
+                        },
+                        {
+                            "label": "Chronic Care"
+                        },
+                        {
+                            "label": "Preventive Care"
+                        },
+                        {
+                            "label": "Emergency Care"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Patient",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "description": "<b>Patient Types Available(Check all that apply):</b>",
+                    "options": [
+                        {
+                            "label": "Geriatric"
+                        },
+                        {
+                            "label": "Women's Health",
+                            "fields": [
+                                {
+                                    "fieldId": "Prenatal",
+                                    "description": "<b>Women's Health</b>",
+                                    "fieldType": "Checkbox",
+                                    "options": [
+                                        {
+                                            "label": "Prenatal"
+                                        },
+                                        {
+                                            "label": "Gynecologic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Behavioral Health"
+                        },
+                        {
+                            "label": "Surgical",
+                            "fields": [
+                                {
+                                    "fieldId": "SurgicalOptions",
+                                    "description": "<b>Surgical</b>",
+                                    "fieldType": "Checkbox",
+                                    "options": [
+                                        {
+                                            "label": "Pre-operative"
+                                        },
+                                        {
+                                            "label": "Intra-operative"
+                                        },
+                                        {
+                                            "label": "Post-operative"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatientAges",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Patient Ages Available (Check all that apply)</b>",
+                    "options": [
+                        {
+                            "label": "Infant (0-2)"
+                        },
+                        {
+                            "label": "Child (3-10)"
+                        },
+                        {
+                            "label": "Adolescent(11-24)"
+                        },
+                        {
+                            "label": "Adult (25-64)"
+                        },
+                        {
+                            "label": "Elderly (>=65)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Technical",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "description": "<b>Technical Procedures Available for Instruction (Check all that apply):</b>",
+                    "options": [
+                        {
+                            "label": "Venipuncture"
+                        },
+                        {
+                            "label": "Breast Exam"
+                        },
+                        {
+                            "label": "IV Insertion"
+                        },
+                        {
+                            "label": "Cervical Cancer screening"
+                        },
+                        {
+                            "label": "Pharyngeal Swab"
+                        },
+                        {
+                            "label": "Vaginal Swab/Wet Prep/KOH collection"
+                        },
+                        {
+                            "label": "Nasopharyngeal Swab"
+                        },
+                        {
+                            "label": "Assessment of Fundamental Height"
+                        },
+                        {
+                            "label": "Intramuscular Injections"
+                        },
+                        {
+                            "label": "Fetal Heart Tone Identification"
+                        },
+                        {
+                            "label": "Nebulizer treatments"
+                        },
+                        {
+                            "label": "Prenatal Exam"
+                        },
+                        {
+                            "label": "Peak flow assessments"
+                        },
+                        {
+                            "label": "Operating Room Sterile Technique"
+                        },
+                        {
+                            "label": "Ear irrigation/Cerumen Removal"
+                        },
+                        {
+                            "label": "Rectal/Prostate Exam"
+                        },
+                        {
+                            "label": "Local Anesthesia"
+                        },
+                        {
+                            "label": "Simple Suture closure of Laceration/Incision"
+                        },
+                        {
+                            "label": "Skin Biopsy"
+                        },
+                        {
+                            "label": "Incision & Drainage"
+                        },
+                        {
+                            "label": "Wound Culture"
+                        },
+                        {
+                            "label": "Cryotherapy"
+                        },
+                        {
+                            "label": "Fluorescein Eye Staining/Slit Lamp"
+                        },
+                        {
+                            "label": "Vision Screening"
+                        },
+                        {
+                            "label": "Splinting/casting extremities"
+                        },
+                        {
+                            "label": "Arthrocentesis/joint injection"
+                        },
+                        {
+                            "label": "Preoperative Exam"
+                        },
+                        {
+                            "label": "Tympanometry/Audiometry"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Learning",
+            "caption": "Learning Environment:",
+            "fields": [
+                {
+                    "fieldId": "PRECEPTORSECTION",
+                    "fieldType": "label",
+                    "description": "<u><b>PRECEPTOR SECTION</b></u>"
+                },
+                {
+                    "fieldId": "Observations1",
+                    "fieldType": "label",
+                    "description": "<b>General Student Observations by Preceptor:</b>"
+                },
+                {
+                    "fieldId": "StudentPerformance",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Student Performance:</b>",
+                    "options": [
+                        {
+                            "label": "Unsatisfactory"
+                        },
+                        {
+                            "label": "Competent"
+                        },
+                        {
+                            "label": "Outstanding"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentAppearance",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Student Appearance/Punctuality:</b>",
+                    "options": [
+                        {
+                            "label": "Unsatisfactory"
+                        },
+                        {
+                            "label": "Competent"
+                        },
+                        {
+                            "label": "Outstanding"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PRECEPTORASSESSMENT",
+                    "fieldType": "label",
+                    "description": "<b>Preceptor Assessment</b>"
+                },
+                {
+                    "fieldId": "Preceptor1",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor appears to be enthusiastic/advocate for student learning</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptor2",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor has current copy of rotation learning objectives</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptor3",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor knows who to contact should they have course/teaching questions</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptor4",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor has clear understanding of PA role</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptor5",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor has concerns about delegating authority and assigning patients to PA Student</b>",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "overridden2",
+                                    "description": "If yes, please explain:",
+                                    "fieldType": "textArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptor6",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Preceptor appears to be an enthusiastic/advocate for student learning</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptor7",
+                    "description": "Preceptor Comments/Concerns: ",
+                    "fieldType": "textArea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Student",
+            "caption": "Student Section:",
+            "fields": [
+                {
+                    "fieldId": "StudentAssessment",
+                    "fieldType": "label",
+                    "description": "<b>Student Assessment:</b>"
+                },
+                {
+                    "fieldId": "Student1",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student has opportunity to attend formal lectures/teaching rounds",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student2",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student has dedicated and adequate space to work",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student3",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student works as an active member of the healthcare team",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student4",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student reports adequate supervision provided by preceptor",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student5",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student reports that they are not being utilized as clinical or administrative staff",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student6",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student is clearly identified in the clinical environment",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student7",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student works an appropriate number of hours",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student8",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student is permitted to document in patient charts",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student9",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student is assigned a diverse population of patients",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student10",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student has concerns about delegated authority and assignment of patients",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "overridden3",
+                                    "description": "If yes, please explain:",
+                                    "fieldType": "textArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student11",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student has been oriented to safety policies/procedures",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student12",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student knows who to contact at site for general and personal safety concerns",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student13",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Does the student have any safety concerns",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PS1",
+                                    "description": "If yes, please explain: ",
+                                    "fieldType": "textBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student14",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Patients are accepting of student learner",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PS2",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "textBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student15",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Staff are supportive of student learner",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PS3",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Student Assessment",
+                    "fieldType": "label",
+                    "description": "<b>Percent of time spent in each Clinical Setting:</b>"
+                },
+                {
+                    "fieldId": "ta1",
+                    "description": "Outpatient:",
+                    "fieldType": "textBox"
+                },
+                {
+                    "fieldId": "ta2",
+                    "description": "Inpatient:",
+                    "fieldType": "textBox"
+                },
+                {
+                    "fieldId": "ta3",
+                    "description": "Operating Room:",
+                    "fieldType": "textBox"
+                },
+                {
+                    "fieldId": "ta4",
+                    "description": "Emergency Room:",
+                    "fieldType": "textBox"
+                },
+                {
+                    "fieldId": "ta5",
+                    "description": "Approximate number of patient contacts daily:",
+                    "fieldType": "textBox"
+                },
+                {
+                    "fieldId": "ta6",
+                    "description": "Student Comments/Concerns:",
+                    "fieldType": "textBox"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.School",
+            "caption": "School Section",
+            "fields": [
+                {
+                    "fieldId": "Observations",
+                    "fieldType": "label",
+                    "description": "<b>Faculty & Staff (Evaluator) Assessment:</b>"
+                },
+                {
+                    "fieldId": "fsa1",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student performance on rotation appears appropriate.",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PleaseSpecify1",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "textbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "fsa2",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student adherence to syllabus and assignments is adequate.",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PleaseSpecify2",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "textbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "fsa3",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Student professionalism appears appropriate.",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PleaseSpecify3",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "textbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "fsa4",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Recommended continued use of the site.",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PleaseSpecify4",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "textbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "fsa5",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "Recommended continued use of the preceptor.",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PleaseSpecify5",
+                                    "description": "If no, please explain:",
+                                    "fieldType": "textbox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Concerns",
+                    "description": "Faculty/Staff Comments/Concerns:",
+                    "fieldType": "textArea"
+                }
+            ]
+        }
+    ],
+    "id": "STSOngoingAssessment.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRfhAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRfhAAAAAAAAAA==/",
+    "_etag": "\"a300c2b8-0000-0100-0000-6687bfca0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720172490
+}

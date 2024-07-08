@@ -1,0 +1,695 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.InitialAssessment",
+            "caption": "Clinical Site Assessment",
+            "fields": [
+                {
+                    "fieldId": "Setting",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "description": "<b>Setting (Check all that apply):</b>",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Emergency Room"
+                        },
+                        {
+                            "label": "Operating Room"
+                        },
+                        {
+                            "label": "Telemedicine"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteAccreditation",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>Site Accreditation Current:</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Facility",
+                    "fieldType": "label",
+                    "description": "<b>Facility:</b>"
+                },
+                {
+                    "fieldId": "Facility1",
+                    "fieldType": "textbox",
+                    "description": "# of exam rooms"
+                },
+                {
+                    "fieldId": "Facility2",
+                    "fieldType": "textbox",
+                    "description": "# of procedure rooms"
+                },
+                {
+                    "fieldId": "Facility3",
+                    "description": "Adherence to local, state, and federal safety standards?",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FacilityContacts",
+                    "fieldType": "label",
+                    "description": "<b>Facility Contacts</b>"
+                },
+                {
+                    "fieldId": "FacilityContacts1",
+                    "fieldType": "label",
+                    "description": "<b>Point of Contact for scheduling:</b>"
+                },
+                {
+                    "fieldId": "FacilityContacts1option1",
+                    "fieldType": "textbox",
+                    "description": "Name:"
+                },
+                {
+                    "fieldId": "FacilityContacts1option2",
+                    "fieldType": "textbox",
+                    "description": "Title:"
+                },
+                {
+                    "fieldId": "FacilityContacts1option3",
+                    "fieldType": "textbox",
+                    "description": "Phone:"
+                },
+                {
+                    "fieldId": "FacilityContacts1option4",
+                    "fieldType": "textbox",
+                    "description": "Email:"
+                },
+                {
+                    "fieldId": "FacilityContacts2",
+                    "fieldType": "label",
+                    "description": "<b>Point of contact for student orientation (if different from above):</b>"
+                },
+                {
+                    "fieldId": "FacilityContacts2option1",
+                    "fieldType": "textbox",
+                    "description": "Name:"
+                },
+                {
+                    "fieldId": "FacilityContacts2option2",
+                    "fieldType": "textbox",
+                    "description": "Title:"
+                },
+                {
+                    "fieldId": "FacilityContacts2option3",
+                    "fieldType": "textbox",
+                    "description": "Phone:"
+                },
+                {
+                    "fieldId": "FacilityContacts2option4",
+                    "fieldType": "textbox",
+                    "description": "Email:"
+                },
+                {
+                    "fieldId": "FacilityContacts3",
+                    "fieldType": "label",
+                    "description": "<b>Preceptor Information:</b>"
+                },
+                {
+                    "fieldId": "FacilityContacts3option1",
+                    "fieldType": "textbox",
+                    "description": "Name:"
+                },
+                {
+                    "fieldId": "FacilityContacts3option2",
+                    "fieldType": "textbox",
+                    "description": "Degree:"
+                },
+                {
+                    "fieldId": "FacilityContacts3option3",
+                    "fieldType": "textbox",
+                    "description": "Medical Discipline/Specialty:"
+                },
+                {
+                    "fieldId": "FacilityContacts3option4",
+                    "fieldType": "textbox",
+                    "description": "Professional Certifying Board:"
+                },
+                {
+                    "fieldId": "FacilityContacts3option5",
+                    "fieldType": "datePicker",
+                    "description": "Board Expiration Date:"
+                },
+                {
+                    "fieldId": "FacilityContacts3option6",
+                    "fieldType": "textbox",
+                    "description": "Phone:"
+                },
+                {
+                    "fieldId": "FacilityContacts3option62323",
+                    "fieldType": "textbox",
+                    "description": "Email:"
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices",
+                    "fieldType": "label",
+                    "description": "<b>Onsite Clinical Services:</b>"
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices1",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Ages (Check all that apply):</li>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Infant (0-2)"
+                        },
+                        {
+                            "label": "Child (3-10)"
+                        },
+                        {
+                            "label": "Adolescent (11-24)"
+                        },
+                        {
+                            "label": "Adult (25-64)"
+                        },
+                        {
+                            "label": "Elderly (>=65)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices2",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Type of service (Check all that apply):</li>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Acute Care"
+                        },
+                        {
+                            "label": "Chronic Care"
+                        },
+                        {
+                            "label": "Prenatal Care"
+                        },
+                        {
+                            "label": "Gynecologic Care"
+                        },
+                        {
+                            "label": "Mental Health Care"
+                        },
+                        {
+                            "label": "Preventive Care"
+                        },
+                        {
+                            "label": "Emergency Care"
+                        },
+                        {
+                            "label": "Surgical Care"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices3",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Laboratory testing:</li>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Rapid Analysis Testing"
+                        },
+                        {
+                            "label": "Microscopy"
+                        },
+                        {
+                            "label": "Basic Serology"
+                        },
+                        {
+                            "label": "Gynecologic Care"
+                        },
+                        {
+                            "label": "Full-service"
+                        },
+                        {
+                            "label": "None"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices4",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Pharmacy:</li>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Dispensary/Samples Only"
+                        },
+                        {
+                            "label": "Full Pharmacy"
+                        },
+                        {
+                            "label": "None"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices5",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Radiology Services:</li>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Plain Film"
+                        },
+                        {
+                            "label": "Ultrasonography"
+                        },
+                        {
+                            "label": "Full Radiology"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "comment",
+                                    "description": "Please specify",
+                                    "fieldType": "textArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "None"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OnsiteClinicalServices6",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Other diagnostic testing:</li>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "ECG"
+                        },
+                        {
+                            "label": "PFT"
+                        },
+                        {
+                            "label": "POCUS"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "comment1",
+                                    "description": "Please specify",
+                                    "fieldType": "textArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "None"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "TechnicalProcedures",
+                    "fieldType": "Checkbox",
+                    "description": "<b>Technical Procedures Available for Instruction (Check all that apply):</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Venipuncture"
+                        },
+                        {
+                            "label": "Breast Exam"
+                        },
+                        {
+                            "label": "IV Insertion"
+                        },
+                        {
+                            "label": "Cervical Cancer screening"
+                        },
+                        {
+                            "label": "Pharyngeal Swab"
+                        },
+                        {
+                            "label": "Vaginal Swab/Wet Prep/KOH collection"
+                        },
+                        {
+                            "label": "Nasopharyngeal Swab"
+                        },
+                        {
+                            "label": "Assessment of Fundal Height"
+                        },
+                        {
+                            "label": "Intramuscular Injections"
+                        },
+                        {
+                            "label": "Fetal Heart Tone Identification"
+                        },
+                        {
+                            "label": "Nebulizer treatments"
+                        },
+                        {
+                            "label": "Prenatal Exam"
+                        },
+                        {
+                            "label": "Peak flow assessments"
+                        },
+                        {
+                            "label": "Operating Room Sterile Technique"
+                        },
+                        {
+                            "label": "Ear irrigation/Cerumen Removal"
+                        },
+                        {
+                            "label": "Rectal/Prostate Exam"
+                        },
+                        {
+                            "label": "Local Anesthesia"
+                        },
+                        {
+                            "label": "Simple Suture closure of Laceration/Incision"
+                        },
+                        {
+                            "label": "Skin Biopsy"
+                        },
+                        {
+                            "label": "Incision & Drainage"
+                        },
+                        {
+                            "label": "Wound Culture"
+                        },
+                        {
+                            "label": "Cryotherapy"
+                        },
+                        {
+                            "label": "Fluorescein Eye Staining/Slit Lamp"
+                        },
+                        {
+                            "label": "Vision Screening"
+                        },
+                        {
+                            "label": "Splinting/casting extremities"
+                        },
+                        {
+                            "label": "Arthrocentesis/joint injection"
+                        },
+                        {
+                            "label": "Preoperative Exam"
+                        },
+                        {
+                            "label": "Tympanometry/Audiometry"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PracticeBased",
+                    "fieldType": "label",
+                    "description": "<b>Practice Based Learning and System Based Practice Opportunities:</b>"
+                },
+                {
+                    "fieldId": "PracticeBased1",
+                    "fieldType": "textbox",
+                    "description": "Anticipated average number of student-patient encounters/day"
+                },
+                {
+                    "fieldId": "PracticeBased2",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "description": "Other onsite learners?",
+                    "options": [
+                        {
+                            "label": "Fellows"
+                        },
+                        {
+                            "label": "Residents"
+                        },
+                        {
+                            "label": "Medical students"
+                        },
+                        {
+                            "label": "NP students"
+                        },
+                        {
+                            "label": "PA students"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PracticeBased3",
+                    "fieldType": "Checkbox",
+                    "description": "<li>Interprofessional Healthcare Team Meetings</li>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Rounds"
+                        },
+                        {
+                            "label": "Team Meetings"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "fsffd",
+                                    "description": "Please explain:",
+                                    "fieldType": "textArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PracticeBased4",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Onsite case management services?</li>",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "FieldEdited",
+                                    "description": "(Please Specify)",
+                                    "fieldType": "textBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PracticeBased5",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Onsite Continuing Education Activities?</li>",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "FieldEdited1",
+                                    "description": "(Please Specify)",
+                                    "fieldType": "textBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StaffingPlan",
+                    "fieldType": "label",
+                    "description": "<b>Daily Clinic Staffing Plan:</b>"
+                },
+                {
+                    "fieldId": "StaffingPlan1",
+                    "fieldType": "textbox",
+                    "description": "# MD/DO"
+                },
+                {
+                    "fieldId": "StaffingPlan2",
+                    "fieldType": "textbox",
+                    "description": "# PA"
+                },
+                {
+                    "fieldId": "StaffingPlan3",
+                    "fieldType": "textbox",
+                    "description": "# NP"
+                },
+                {
+                    "fieldId": "StaffingPlan4",
+                    "fieldType": "textbox",
+                    "description": "# Other clinicians"
+                },
+                {
+                    "fieldId": "StaffingPlan5",
+                    "fieldType": "textbox",
+                    "description": "# Nurses"
+                },
+                {
+                    "fieldId": "StaffingPlan6",
+                    "fieldType": "textbox",
+                    "description": "# Medical Assistants"
+                },
+                {
+                    "fieldId": "StaffingPlan7",
+                    "fieldType": "textbox",
+                    "description": "# Support Staff"
+                },
+                {
+                    "fieldId": "StaffingPlan8",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Will the primary preceptor be available to teach at least four (preferably five) days each week?</li>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StaffingPlan9",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Is another clinician available to act as a preceptor in the absence of the primary preceptor?</li>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Resources",
+                    "fieldType": "label",
+                    "description": "<b>Resources:</b>"
+                },
+                {
+                    "fieldId": "Resources1",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Will the student have internet access?</li>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Resources2",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Is there onsite medical reference access for the student?</li>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Resources3",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Will the student need to participate in orientation or safety training prior to the clinical rotation?</li>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Information",
+                    "fieldType": "label",
+                    "description": "<b>Information for students:</b>"
+                },
+                {
+                    "fieldId": "Information1",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Housing provided?</li>",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "sp1",
+                                    "description": "If yes, who should the student contact:",
+                                    "fieldType": "textBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Information2",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<li>Parking provided?</li>",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "sp2",
+                                    "description": "If yes, please provide more information:",
+                                    "fieldType": "textBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "STSInitialAssessment.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRfgAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRfgAAAAAAAAAA==/",
+    "_etag": "\"46003a1c-0000-0100-0000-64fdda390000\"",
+    "_attachments": "attachments/",
+    "_ts": 1694358073
+}

@@ -1,0 +1,856 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SAQuestionnaire1",
+            "caption": "ASSESSMENT OF CLINICAL CENTER",
+            "fields": [
+                {
+                    "fieldId": "TB",
+                    "fieldType": "textbox",
+                    "description": "<b>Clinic Name:</b>"
+                },
+                {
+                    "fieldId": "L1",
+                    "fieldType": "Label",
+                    "description": "<b>1.0 The clinical center’s philosophy for patient care and clinical education are compatible with those of the academic program.</b><br><br>"
+                },
+                {
+                    "fieldId": "B5",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>1.4 After reviewing the academic program’s philosophy, do you believe the physical therapy service philosophy is compatible with that of the academic program?</b><br>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L2",
+                    "fieldType": "Label",
+                    "description": "<b>2.0 Clinical education programs for students are planned to meet specific objectives of the academic program, the physical therapy service and the individual student.</b><br><br>"
+                },
+                {
+                    "fieldId": "B1",
+                    "fieldType": "Radio",
+                    "description": "<b>2.2 a Does your physical therapy service have objectives for clinical education?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B2",
+                    "fieldType": "Radio",
+                    "description": "<b>2.5 Does the Site Coordinator of Clinical Education (SCCE) or the Clinical Instructor (CI) discuss with the student objectives for this experience prior to establishing the individual student’s clinical learning experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B3",
+                    "fieldType": "Radio",
+                    "description": "<b>2.6 Are there organized procedures for the orientation of students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B4",
+                    "fieldType": "Radio",
+                    "description": "<b>2.7 Do your clinical instructors participate in providing student feedback? (Daily, weekly, oral or written)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L3",
+                    "fieldType": "Label",
+                    "description": "<b>3.0 The physical therapy staff practices ethically and legally.</b><br><br>"
+                },
+                {
+                    "fieldId": "B7",
+                    "fieldType": "Radio",
+                    "description": "<b>3.2 Does your physical therapy service policy and procedure manual contain:</b><br><b>a. A current copy of the APTA Code of Ethics and Standard for Ethical Conduct of the Physical Therapist Assistant, and Guide for Professional Conduct and Guide for Conduct of the Affiliated Member, and a clinical center code of ethics?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B8",
+                    "fieldType": "Radio",
+                    "description": "<b>b. A current copy of the State Practice Act and interpretive rules and regulations?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B9",
+                    "fieldType": "Radio",
+                    "description": "<b>3.3 Does your clinical center have written policies which include statements on patients’ rights, release of confidential information, photographic permission, clinical research, etc.?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B10",
+                    "fieldType": "Radio",
+                    "description": "<b>3.5 Does your clinical center have evidence of current licensure or registration for all physical therapists and physical therapist assistants, where appropriate?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L4",
+                    "fieldType": "Label",
+                    "description": "<b>4.0 The clinical center is committed to the principle of equal opportunity and affirmative action as required by federal legislation.</b><br><br>"
+                },
+                {
+                    "fieldId": "B11",
+                    "fieldType": "Radio",
+                    "description": "<b>4.1 Does your clinical center have written policies prohibiting discrimination on the basis of sex, race, creed, color, age, religion, sexual orientation, national or ethnic origin, disability, or health status?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B12",
+                    "fieldType": "Radio",
+                    "description": "<b>4.2 Does your clinical center ensure each student is provided equal opportunities?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B13",
+                    "fieldType": "Radio",
+                    "description": "<b>4.3 Does your clinical center demonstrate evidence of the above through an affiliation agreement, policies and procedures, or organized activities addressing issues of cultural diversity?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L5",
+                    "fieldType": "Label",
+                    "description": "<b>5.0 The clinical center demonstrates administrative support of physical therapy clinical education.</b><br><br>"
+                },
+                {
+                    "fieldId": "B14",
+                    "fieldType": "Radio",
+                    "description": "<b>5.3 Does your clinical center demonstrate continued support for clinical education by:</b><br><b>a. Maintaining current affiliation agreements?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B15",
+                    "fieldType": "Radio",
+                    "description": "<b>d. providing job flexibility to accommodate additional responsibilities in clinical education?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B16",
+                    "fieldType": "Radio",
+                    "description": "<b>e. Supporting clinical education in other professional disciplines?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L6",
+                    "fieldType": "Label",
+                    "description": "<b>6.0 The clinical center has a variety of learning experiences, appropriate to the setting, available to students.</b><br><br>"
+                },
+                {
+                    "fieldId": "B17",
+                    "fieldType": "Radio",
+                    "description": "<b>6.1 Do you believe you can provide quality learning experiences for:</b><br><b>a. observational experiences?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A1A",
+                    "fieldType": "Radio",
+                    "description": "<b>b. part-time experiences (less than 30 hours/week)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A2A",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "description": "<b>c. full-time experiences (greater than 30 hours/week)?</b><br>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A6",
+                    "fieldType": "Radio",
+                    "description": "<b>6.3 Do you provide supplemental learning experiences, such as: case conferences, observation of other health professionals?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A7",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you provide care across the lifespan & continuum of care?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A8",
+                    "fieldType": "Radio",
+                    "description": "<b>6.7 a. Does your clinical center have opportunities for students to participate in teaching experiences, such as in-services?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L7",
+                    "fieldType": "Label",
+                    "description": "<b>7.0 The clinical center provides an active stimulating environment appropriate for the learning needs of students.</b><br><br>"
+                },
+                {
+                    "fieldId": "A10",
+                    "fieldType": "Radio",
+                    "description": "<b>7.1 b. Does your physical therapy staff demonstrate characteristics, such as: EBP, diversity, expertise and flexibility?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A11",
+                    "fieldType": "Radio",
+                    "description": "<b>7.3 a. Are there regular formal mechanisms for communication within the clinical center, such as staff meetings?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A12",
+                    "fieldType": "Radio",
+                    "description": "<b>7.4 Does the physical environment include appropriate space for:</b><br><b>a. patient care services?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A13",
+                    "fieldType": "Radio",
+                    "description": "<b>d. consultative functions?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A15",
+                    "fieldType": "Radio",
+                    "description": "<b>e. documentation services?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A16",
+                    "fieldType": "Radio",
+                    "description": "<b>f. personal belongings?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L8",
+                    "fieldType": "Label",
+                    "description": "<b>8.0 Selected support services are available to students.</b><br><br>"
+                },
+                {
+                    "fieldId": "A17",
+                    "fieldType": "Radio",
+                    "description": "<b>8.2 Does your clinical center provide for special learning needs of students, within reasonable accommodations?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L9",
+                    "fieldType": "Label",
+                    "description": "<b>9.0 Roles of physical therapy personnel are clearly defined and distinguished from one another.</b><br><br>"
+                },
+                {
+                    "fieldId": "A18",
+                    "fieldType": "Radio",
+                    "description": "<b>9.0 Do you utilize PT/PTA team roles in clinical environment?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A19",
+                    "fieldType": "Radio",
+                    "description": "<b>9.1 Do you have a job description for each type of personnel in the physical therapy service?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A20",
+                    "fieldType": "Radio",
+                    "description": "<b>9.3 Are the roles of the various physical therapy personnel explained to the students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L10",
+                    "fieldType": "Label",
+                    "description": "<b>10.0 The physical therapy staff is adequate in number to provide an educational program for students.</b><br><br>"
+                },
+                {
+                    "fieldId": "A21",
+                    "fieldType": "Radio",
+                    "description": "<b>10.2 Does your staff have adequate time, in addition to service responsibilities, to assume responsibility for the education of students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A22",
+                    "fieldType": "Checkbox",
+                    "description": "<b>10.4 Are you currently using or willing to consider alternative student to staff ratios for clinical education? Examples of such ratios are:  (check those used)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1 CI : 1 student"
+                        },
+                        {
+                            "label": "1 CI : 2 students"
+                        },
+                        {
+                            "label": "1 CI : > 2 students"
+                        },
+                        {
+                            "label": "2 CIs : 2 students"
+                        },
+                        {
+                            "label": "2 CIs (split rotations) : 1 student"
+                        },
+                        {
+                            "label": "1 PT/PTA (CI team) : 1 PT/PTA (student team)"
+                        },
+                        {
+                            "label": "Others"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L11",
+                    "fieldType": "Label",
+                    "description": "<b>11.0 A site coordinator of clinical education, with specific qualifications, is responsible for coordinating the assignments and activities of students at the clinical center.</b><br><br>"
+                },
+                {
+                    "fieldId": "A23",
+                    "fieldType": "Radio",
+                    "description": "<b>11.2 Are the criteria based on the APTA Guidelines for Site Coordinator of Clinical Education?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L12",
+                    "fieldType": "Label",
+                    "description": "<b>12.0 Physical therapy clinical instructors are selected based on specific criteria.</b><br><br>"
+                },
+                {
+                    "fieldId": "A24",
+                    "fieldType": "Radio",
+                    "description": "<b>12.3 Do your clinical instructors have at least one year of clinical experience or meet the recommended criteria as outlined by the APTA Guidelines for Clinical Instructors?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A25",
+                    "fieldType": "Radio",
+                    "description": "<b>12.5 Have your clinical instructors attended any formal clinical instructor training?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L13",
+                    "fieldType": "Label",
+                    "description": "<b>13.0 Special expertise of the clinical center staff is available to students.</b><br><br>"
+                },
+                {
+                    "fieldId": "A26",
+                    "fieldType": "Radio",
+                    "description": "<b>13.1 Are there any areas of special expertise within your clinical center?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A261",
+                    "fieldType": "Radio",
+                    "description": "<b>a. Are these experiences available to students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L14",
+                    "fieldType": "Label",
+                    "description": "<b>14.0 The clinical center encourages clinical educator (CI and SCCE) training and development.</b><br><br>"
+                },
+                {
+                    "fieldId": "A27",
+                    "fieldType": "Radio",
+                    "description": "<b>14.1 a. Does the clinical center foster formal and informal clinical educator training by providing support for attendance at clinical education training seminars?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L15",
+                    "fieldType": "Label",
+                    "description": "<b>15.0 There is an active support staff development program for the clinical center.</b><br><br>"
+                },
+                {
+                    "fieldId": "A28",
+                    "fieldType": "Radio",
+                    "description": "<b>15.5 Is student participation in staff development activities expected and encouraged?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L16",
+                    "fieldType": "Label",
+                    "description": "<b>16.0 The physical therapy staff is active in professional activities.</b><br><br>"
+                },
+                {
+                    "fieldId": "A29",
+                    "fieldType": "Radio",
+                    "description": "<b>16.2 Is the physical therapy staff encouraged to be professionally active?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A30",
+                    "fieldType": "Radio",
+                    "description": "<b>16.4 Does your physical therapy staff provide students with information about professional activities and encourage them to participate?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "L161",
+                    "fieldType": "Label",
+                    "description": "<b>17.0 The physical therapy service has an active and viable process of internal evaluation of its own affairs and is receptive to procedures of review and audit approved by appropriate external agencies and consumers.</b><br><br>"
+                },
+                {
+                    "fieldId": "A31",
+                    "fieldType": "Radio",
+                    "description": "<b>17.2 a. Is the physical therapy service, including patient care, teaching and scholarly activities, evaluated at regularly scheduled intervals?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "N/A"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "TA1",
+                    "fieldType": "textarea",
+                    "description": "<b>Additional Comments:</b>"
+                }
+            ]
+        }
+    ],
+    "id": "SFCCSAQuestionnaire1.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRfsAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRfsAAAAAAAAAA==/",
+    "_etag": "\"a30079ce-0000-0100-0000-6687c0550000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720172629
+}
