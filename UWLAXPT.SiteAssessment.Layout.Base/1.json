@@ -1,0 +1,556 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteInformation",
+            "caption": "Basic Information",
+            "fields": [
+                {
+                    "fieldId": "Program/Institution:",
+                    "fieldType": "TextBox",
+                    "description": "Student Name:"
+                },
+                {
+                    "fieldId": "Program/Institution4:",
+                    "fieldType": "TextBox",
+                    "description": "Facility:"
+                },
+                {
+                    "fieldId": "Program/Institution3:",
+                    "fieldType": "TextBox",
+                    "description": "CI Name:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.CI",
+            "caption": "CI Section",
+            "fields": [
+                {
+                    "fieldId": "Clinicalsite2",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Is this student meeting the expectations of you and your clinical education program?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationM1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationM2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite3",
+                    "fieldType": "Radio",
+                    "description": "<b>2. Does the student’s knowledge base seem appropriate for this experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationL1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationL2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite4",
+                    "fieldType": "Radio",
+                    "description": "<b>3. Are the student’s hands on skills appropriate for this experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationK1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationK2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite5",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Are the student’s interpersonal skills (with patient and staff) appropriate for this experience?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationJ1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationJ2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite6",
+                    "fieldType": "Radio",
+                    "description": "<b>5. Is this student meeting you expectations regarding professional behaviors?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationI1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationI2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite7",
+                    "fieldType": "Radio",
+                    "description": "<b>6. How is the student at accepting and responding to feedback?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationH1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationH2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite8",
+                    "fieldType": "Radio",
+                    "description": "<b>7. Are they taking initiative for their own learning? For example, are they seeking evidence and additional resources to answer some of their questions?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationG1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationG2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite9",
+                    "fieldType": "Radio",
+                    "description": "<b>8. Do you anticipate the student will meet entry level in all performance criteria of the CPI?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationF1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationF2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite10",
+                    "fieldType": "Label",
+                    "description": "***Only need to fill out the below questions for one of your students"
+                },
+                {
+                    "fieldId": "Clinicalsite11",
+                    "fieldType": "Radio",
+                    "description": "<b>9. While you are working with our students, do you feel supported by our clinical education team?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationE1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationE2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite12",
+                    "fieldType": "Radio",
+                    "description": "<b>10. Do you have any suggestions on how the UWL PT Clinical Education Program can better meet your needs? Are there any policies and/or procedures that other programs utilize that  you prefer?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationD1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationD2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite13",
+                    "fieldType": "Radio",
+                    "description": "<b>11. Any suggestions on how the UWL PT program, academically or clinically, can better prepare our students for a clinical rotation at your site?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationC1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationC2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.STUDENT",
+            "caption": "Student Section",
+            "fields": [
+                {
+                    "fieldId": "Clinicalsite14",
+                    "fieldType": "Radio",
+                    "description": "<b>1. Did you have an adequate orientation to your clinical site? Do you feel welcomed as a student?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationB",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluationA",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite15",
+                    "fieldType": "Radio",
+                    "description": "<b>2. Have you and your clinical instructor established a communication strategy that is working?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation8",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation7",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite16",
+                    "fieldType": "Radio",
+                    "description": "<b>3. What plan have you established for feedback and questions? Is this working for you?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation6",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation9",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite17",
+                    "fieldType": "Radio",
+                    "description": "<b>4. Do you understand the clinical expectations of your CI and clinical site? Do you feel challenged, but not overwhelmed?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation5",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation5A",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite18",
+                    "fieldType": "TextArea",
+                    "description": "5. Describe the level of supervision you are receiving"
+                },
+                {
+                    "fieldId": "Clinicalsite19",
+                    "fieldType": "Label",
+                    "description": "<b>6. Describe your experience/caseload:</b><br>"
+                },
+                {
+                    "fieldId": "Clinicalsite20",
+                    "fieldType": "TextArea",
+                    "description": "a. Setting"
+                },
+                {
+                    "fieldId": "Clinicalsite21",
+                    "fieldType": "TextArea",
+                    "description": "b. Case Mix (Diagnoses)"
+                },
+                {
+                    "fieldId": "Clinicalsite22",
+                    "fieldType": "TextArea",
+                    "description": "c. Lifespan"
+                },
+                {
+                    "fieldId": "Clinicalsite23",
+                    "fieldType": "TextArea",
+                    "description": "7. What other learning opportunities have been offered by this clinical site?"
+                },
+                {
+                    "fieldId": "Clinicalsite24",
+                    "fieldType": "Radio",
+                    "description": "<b>8. Do you feel academically prepared to be performing the duties expected of you at this stage of your academia?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation4",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation3",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Clinicalsite241",
+                    "fieldType": "Radio",
+                    "description": "<b>9. Do you feel you are on track to meet entry level performance criteria by the end of this clinical placement (ONLY REQUIRED FOR THE 800 SERIES)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation2",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PurposeEvaluation1",
+                                    "description": "Comments",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "UWLAXPT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdReRAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdReRAAAAAAAAAA==/",
+    "_etag": "\"0c006e66-0000-0100-0000-6478d1220000\"",
+    "_attachments": "attachments/",
+    "_ts": 1685639458
+}

@@ -1,0 +1,324 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+            "caption": "CLINICAL SITE INFORMATION",
+            "fields": [
+                {
+                    "fieldId": "CIRCLEONE",
+                    "fieldType": "Radio",
+                    "description": "<b>CIRCLE ONE:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Initial Clinical Site Visit"
+                        },
+                        {
+                            "label": "Established Clinical Site Visit"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteName",
+                    "fieldType": "textbox",
+                    "description": "<b>Name:</b>"
+                },
+                {
+                    "fieldId": "RotationName",
+                    "fieldType": "textbox",
+                    "description": "<b>Type of Rotation:</b>"
+                },
+                {
+                    "fieldId": "PreceptorSupervisor",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor/Supervisor:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "MD"
+                        },
+                        {
+                            "label": "DO"
+                        },
+                        {
+                            "label": "PA"
+                        },
+                        {
+                            "label": "NP"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supervisingphysician",
+                    "fieldType": "textbox",
+                    "description": "<b>If PA/NP, name of supervising physician:</b>"
+                },
+                {
+                    "fieldId": "HospitalRounds",
+                    "fieldType": "Radio",
+                    "description": "<b>Hospital Rounds:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "affiliationagreement",
+                    "fieldType": "Radio",
+                    "description": "<b>Is affiliation agreement in place:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorSchedule",
+                    "fieldType": "textarea",
+                    "description": "<b>Preceptor Schedule: (Include specific days, hours, weekends, nights, on-call schedule, etc.)</b>"
+                },
+                {
+                    "fieldId": "B1",
+                    "fieldType": "Radio",
+                    "description": "<b>Does student have physical access to clinical site?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B2",
+                    "fieldType": "Radio",
+                    "description": "<b>Are computers, internet available to students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B3",
+                    "fieldType": "Radio",
+                    "description": "<b>Does clinical site utilize electronic medical records?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "B13",
+                                    "fieldType": "TextArea",
+                                    "description": "<b>If yes, what program?</b>"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B4",
+                    "fieldType": "Radio",
+                    "description": "<b>Does student have access to patient records?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B5",
+                    "fieldType": "Radio",
+                    "description": "<b>Are student’s clinical skills appropriate for current level?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B6",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical site provides:<br><br><li>Safe and secure environment for student education.</li></b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B8",
+                    "fieldType": "Radio",
+                    "description": "<b><li>Access to patient population necessary to fulfill expectations.</li></b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B9",
+                    "fieldType": "Radio",
+                    "description": "<b><li>Sufficient opportunities to learn clinical procedures (if appropriate)</li></b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B10",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor provides appropriate observation and supervision.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B11",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor provides sufficient feedback and mentoring.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B12",
+                    "fieldType": "Radio",
+                    "description": "<b>Does preceptor have a copy of:<br><br><li>Valparaiso PA syllabus for rotation?</li></b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B131",
+                    "fieldType": "Radio",
+                    "description": "<b><li>Valparaiso PA preceptor handbook?</li></b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B14",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical site concerns requiring follow-up?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentObservationSummary:",
+                    "fieldType": "textarea",
+                    "description": "<b>Student Observation Summary:</b>"
+                },
+                {
+                    "fieldId": "Goalsforstudentimprovement",
+                    "fieldType": "textarea",
+                    "description": "<b>Goals for student improvement:</b>"
+                },
+                {
+                    "fieldId": "Feedbackfrompreceptor",
+                    "fieldType": "textarea",
+                    "description": "<b>Feedback from preceptor:</b>"
+                },
+                {
+                    "fieldId": "AdditionalComments",
+                    "fieldType": "textarea",
+                    "description": "<b>Additional Comments:</b>"
+                },
+                {
+                    "fieldId": "Label1",
+                    "fieldType": "Label",
+                    "description": "<b>Site Visitor Signature</b>"
+                },
+                {
+                    "fieldId": "TA4",
+                    "fieldType": "esign",
+                    "description": "<b>Site Visitor Signature</b>"
+                },
+                {
+                    "fieldId": "TA5",
+                    "fieldType": "datepicker",
+                    "description": "<b>Date:</b>"
+                }
+            ]
+        }
+    ],
+    "id": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdReqAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdReqAAAAAAAAAA==/",
+    "_etag": "\"5f0030e1-0000-0100-0000-649bfa6e0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1687943790
+}

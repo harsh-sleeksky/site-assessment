@@ -73,10 +73,10 @@ FAMUPTCI.SiteAssessmentSitePreceptor.Layout.Base
 Duplicate fieldId value found: "interprofessionalcare" - done
 
 UWLAXPT.SiteAssessment.Layout.Base
-Duplicate fieldId value found: "Clinicalsite24" - NEEDED
+Duplicate fieldId value found: "Clinicalsite24" - NEEDED - done
 
 ClinicalSiteValparisoU.SiteAssessment.Layout.Base
-Duplicate fieldId value found: "B13" - NEEDED
+Duplicate fieldId value found: "B13" - NEEDED - done
 
 TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "HospitalAffiliations" - UPDATED (exact duplicate)
