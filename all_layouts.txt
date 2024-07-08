@@ -86,7 +86,7 @@ Duplicate fieldId value found: "DP1" - NEEDED - done
 
 OhioStateUniversity.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Adequatesupervisionchild:"
-Duplicate fieldId value found: "Attendsorganized" - NEEDED
+Duplicate fieldId value found: "Attendsorganized" - NEEDED - done
 
 STSInitialAssessment.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "" - NEEDED

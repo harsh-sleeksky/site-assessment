@@ -1,0 +1,454 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteInformation",
+            "caption": "Fieldwork Education Processes:",
+            "fields": [
+                {
+                    "fieldId": "InformationA",
+                    "fieldType": "TextBox",
+                    "description": "<b>Type Facility</b>",
+                    "display": "inline-grid"
+                },
+                {
+                    "fieldId": "InformationB",
+                    "fieldType": "TextBox",
+                    "description": "<b>Facility Accreditation</b>",
+                    "display": "inline-grid"
+                },
+                {
+                    "fieldId": "OSUFaculty",
+                    "fieldType": "TextBox",
+                    "description": "<b>OSU Faculty</b>",
+                    "display": "inline-grid"
+                },
+                {
+                    "fieldId": "Label1A",
+                    "fieldType": "label",
+                    "description": "<b>Fieldwork Education Processes:</b>"
+                },
+                {
+                    "fieldId": "OtherEvidence",
+                    "fieldType": "Radio",
+                    "description": "<b>Uses a variety of supervisory approaches with students (e.g., written, supportive, constructive, multiple supervisors, etc) (C.1.16, C.1.17)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Adequatesupervision",
+                    "fieldType": "Radio",
+                    "description": "<b>Adequate supervision to meet students' educational needs (C.1.16)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Adequatesupervisionchild:",
+                                    "fieldType": "TextArea",
+                                    "description": "# Per Week:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "Adequatesupervisionchild1:",
+                                    "fieldType": "TextArea",
+                                    "description": "# Per Week:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "experiencesubsequent",
+                    "fieldType": "Radio",
+                    "description": "<b>FWE ' s have a minimum of 1 year practice experience subsequent to initial certification (for level II) (C.1.14)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Providesevaluation",
+                    "fieldType": "Radio",
+                    "description": "<b>Provides the student with a formal FW evaluation at midterm and end of placement (C.1.18)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "engagementoccupation",
+                    "fieldType": "Radio",
+                    "description": "<b>Encourages the student to understand how psychosocial factors influence client engagement in occupation (C.1.7)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Questions",
+            "caption": "Fieldwork Objectives (C.1.2, C.1.3)",
+            "fields": [
+                {
+                    "fieldId": "ReviewedFWPE",
+                    "fieldType": "Radio",
+                    "description": "<b>Reviewed site’s FWPE student objectives</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FDF2018",
+                    "fieldType": "Radio",
+                    "description": "<b>Updated FDF</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "objectiveoutlining",
+                    "fieldType": "Radio",
+                    "description": "<b>Site has developed 12 week timeline/ site specific objective outlining student performance expectations</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comment1",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Curriculum",
+            "caption": "Curriculum Themes during fieldwork experience: (C.1.1, C,1.11)Site provides the student opportunities to experience a facility/department that promotes:",
+            "fields": [
+                {
+                    "fieldId": "Occupationbased",
+                    "fieldType": "Radio",
+                    "description": "<b>Occupation based practice</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "professionalparticipation",
+                    "fieldType": "Radio",
+                    "description": "<b>Client and professional participation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "developmentprofessional",
+                    "fieldType": "Radio",
+                    "description": "<b>Student’s development in professional reasoning, communication and reflection</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comment2",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Studentopportunities",
+            "caption": "Student opportunities during FW:",
+            "fields": [
+                {
+                    "fieldId": "Reviewsprogram",
+                    "fieldType": "Radio",
+                    "description": "<b> Reviews program manual at the beginning of fieldwork, indicating learning objectives</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Attendsorganized",
+                    "fieldType": "Radio",
+                    "description": "<b>Attends an organized orientation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supervisorexpectations",
+                    "fieldType": "Radio",
+                    "description": "<b>Discuss supervisor expectations, student assignments, schedule</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Observesother",
+                    "fieldType": "Radio",
+                    "description": "<b> Observes other services.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "varietyclients",
+                    "fieldType": "Radio",
+                    "description": "<b>Sees a variety of clients at this setting</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Communicateduring",
+                    "fieldType": "Radio",
+                    "description": "<b>Communicate during team meetings</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "resourcessite",
+                    "fieldType": "Radio",
+                    "description": "<b>Access to resources at the site (e.g., fieldwork manual, library, other staff).</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.OTHER",
+            "caption": "OTHER:",
+            "fields": [
+                {
+                    "fieldId": "Label2",
+                    "fieldType": "label",
+                    "description": "<b>Questions regarding supervision, resources for fieldwork education, etc. (C.1.15)</b>"
+                },
+                {
+                    "fieldId": "Anythingaddress",
+                    "fieldType": "Radio",
+                    "description": "<b>Anything that we need to discuss or address?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Attendsorganized1",
+                    "fieldType": "Radio",
+                    "description": "<b>exxat - do you need additional resources/support</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feedbackprocess",
+                    "fieldType": "Radio",
+                    "description": "<b>Any feedback for process?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "adequatelyprepared",
+                    "fieldType": "Radio",
+                    "description": "<b>Were you adequately prepared to the meet the tasks of fieldwork?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "recommendations",
+                    "fieldType": "Radio",
+                    "description": "<b>Any recommendations for us?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comment3",
+                    "fieldType": "TextArea",
+                    "description": "<b>Site visit Notes</b>"
+                },
+                {
+                    "fieldId": "Followneeded",
+                    "fieldType": "Radio",
+                    "description": "<b>AFWC Follow up needed?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Followneededchild:",
+                                    "fieldType": "TextArea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "Followneededchild1:",
+                                    "fieldType": "TextArea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "OhioStateUniversity.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRfGAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRfGAAAAAAAAAA==/",
+    "_etag": "\"86015451-0000-0100-0000-65dc80fc0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1708949756
+}
