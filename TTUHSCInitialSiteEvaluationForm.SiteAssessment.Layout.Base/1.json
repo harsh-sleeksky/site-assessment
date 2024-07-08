@@ -1,0 +1,335 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.TTUHSCInitialSiteEvaluationForm",
+            "caption": "",
+            "fields": [
+                {
+                    "fieldId": "B5",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Forms completed:</b><br>",
+                    "options": [
+                        {
+                            "label": "Clinical Contact Form"
+                        },
+                        {
+                            "label": "W9"
+                        },
+                        {
+                            "label": "Copy of Current CV’s"
+                        },
+                        {
+                            "label": "Copy of Board Certification"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteName",
+                    "fieldType": "textbox",
+                    "description": "<b>Preceptor Speciality:</b>"
+                },
+                {
+                    "fieldId": "preceptorName",
+                    "fieldType": "textbox",
+                    "description": "<b>Years in Practice:</b>"
+                },
+                {
+                    "fieldId": "CurrentLicense",
+                    "fieldType": "textbox",
+                    "description": "<b>Current License #:</b>"
+                },
+                {
+                    "fieldId": "State",
+                    "fieldType": "textbox",
+                    "description": "<b>State:</b>"
+                },
+                {
+                    "fieldId": "B1",
+                    "fieldType": "Radio",
+                    "description": "<b>Any restrictions:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "HospitalAffiliations",
+                    "fieldType": "textbox",
+                    "description": "<b>Hospital Affiliations:</b>"
+                },
+                {
+                    "fieldId": "beds",
+                    "fieldType": "textbox",
+                    "description": "<b># beds</b>"
+                },
+                {
+                    "fieldId": "bedsA",
+                    "fieldType": "textbox",
+                    "description": "<b># beds:</b>"
+                },
+                {
+                    "fieldId": "B2",
+                    "fieldType": "Radio",
+                    "description": "<b>Have you trained PA, MD, DO, or NP students in the past?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PrimaryContactName",
+                    "fieldType": "textbox",
+                    "description": "<b>List the names of other providers who may be responsible for part of the student’s training:<br>Name/Title</b>"
+                },
+                {
+                    "fieldId": "License",
+                    "fieldType": "textbox",
+                    "description": "<b>License</b>"
+                },
+                {
+                    "fieldId": "Restriction",
+                    "fieldType": "textbox",
+                    "description": "<b>Restriction (Y/N)</b>"
+                },
+                {
+                    "fieldId": "WebsiteAddress",
+                    "fieldType": "textbox",
+                    "description": "<b>List the names of other providers who may be responsible for part of the student’s training:<br>Name/Title</b>"
+                },
+                {
+                    "fieldId": "License1",
+                    "fieldType": "textbox",
+                    "description": "<b>License</b>"
+                },
+                {
+                    "fieldId": "Restriction1",
+                    "fieldType": "textbox",
+                    "description": "<b>Restriction (Y/N)</b>"
+                },
+                {
+                    "fieldId": "Anyuniqueremarks",
+                    "fieldType": "textarea",
+                    "description": "<b>Any unique remarks of information about the practice:</b>"
+                },
+                {
+                    "fieldId": "B3",
+                    "fieldType": "Radio",
+                    "description": "<b>Is the site rural?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B4",
+                    "fieldType": "Radio",
+                    "description": "<b>If yes, is housing available?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ContactA",
+                    "fieldType": "textarea",
+                    "description": "<b>Contact :</b>"
+                },
+                {
+                    "fieldId": "B6",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>Additional Information:<br>1.What type(s) of setting(s) would the student be exposed to? (Check all that apply)</b><br>",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Emergency Department"
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "normalworking",
+                    "fieldType": "textbox",
+                    "description": "<b>2.What are your normal working hours? (M-F, 8-5, evening of weekend call, rounds, etc.)</b>"
+                },
+                {
+                    "fieldId": "approximate",
+                    "fieldType": "textarea",
+                    "description": "<b> 3.What is the approximate patient load per day?</b>"
+                },
+                {
+                    "fieldId": "A1",
+                    "fieldType": "textbox",
+                    "description": "<b> 4.For statistical purposes, the patient population is (Provide the answers in % )<br>a. Uninsured</b>"
+                },
+                {
+                    "fieldId": "A2",
+                    "fieldType": "textbox",
+                    "description": "<b> b. Medicaid</b>"
+                },
+                {
+                    "fieldId": "A3",
+                    "fieldType": "textbox",
+                    "description": "<b> c. Middle Class</b>"
+                },
+                {
+                    "fieldId": "A4",
+                    "fieldType": "textbox",
+                    "description": "<b> d. Other</b>"
+                },
+                {
+                    "fieldId": "A5",
+                    "fieldType": "textarea",
+                    "description": "<b>5.For profit or non-profit facility?</b>"
+                },
+                {
+                    "fieldId": "A6",
+                    "fieldType": "Radio",
+                    "description": "<b>6.Are the patients and you staff aware of the PA concept?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "PlannedfollowupA",
+                                    "description": "a.If no, do you want assistance in introducing the concept?",
+                                    "fieldType": "TextArea",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please enter"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A8",
+                    "fieldType": "Radio",
+                    "description": "<b>7.Would the student be permitted to see patients in the hospital?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A9",
+                    "fieldType": "Radio",
+                    "description": "<b>8.Will the student be expected to be “on call”?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A10",
+                    "fieldType": "Radio",
+                    "description": "<b>9.Do you foresee specific limitations on what the student can do?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A11",
+                    "fieldType": "Radio",
+                    "description": "<b>10.Do you have any specific student preferences that could affect student assignment to your preceptorship?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A12",
+                    "fieldType": "Radio",
+                    "description": "<b>11.If this is a surgical site, will the student be able to assist in surgery (first or second) and be involved in pre- and post-operative care?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A13",
+                    "fieldType": "Radio",
+                    "description": "<b>12.If this is a women’s health site, will the student be able to be involved in prenatal and gynecologic care?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRexAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRexAAAAAAAAAA==/",
+    "_etag": "\"a3006535-0000-0100-0000-6687bc3d0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720171581
+}

@@ -1,0 +1,241 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.MidtermMeeting",
+            "caption": "Midterm Meeting Form",
+            "fields": [
+                {
+                    "fieldId": "B1",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>CASE LOAD</b>",
+                    "options": [
+                        {
+                            "label": "MS"
+                        },
+                        {
+                            "label": "Neuromuscular"
+                        },
+                        {
+                            "label": "Cardiopulmonary"
+                        },
+                        {
+                            "label": "Integumentary"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "B2",
+                                    "fieldType": "TextArea",
+                                    "description": "<b>Other, Please Specify</b>",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please enter other"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B3",
+                    "fieldType": "TextArea",
+                    "description": "<br><b>Case load: Defined by current status and goal, and comments</b>"
+                },
+                {
+                    "fieldId": "B4",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<br><b>PATIENT-CLIENT MANAGEMENT PROCESS</b>",
+                    "options": [
+                        {
+                            "label": "History"
+                        },
+                        {
+                            "label": "Examination"
+                        },
+                        {
+                            "label": "Evaluation-POC development"
+                        },
+                        {
+                            "label": "Interventions (start-progression)"
+                        },
+                        {
+                            "label": "Patient care skills"
+                        },
+                        {
+                            "label": "Discharge planning"
+                        },
+                        {
+                            "label": "Supervision/Delegation"
+                        },
+                        {
+                            "label": "Problem solving/critical thinking skills"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B5",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<br><b>PATIENT-CLIENT MANAGEMENT PROCESS</b>",
+                    "options": [
+                        {
+                            "label": "Student: Making Progress"
+                        },
+                        {
+                            "label": "Student: Area of Concern"
+                        },
+                        {
+                            "label": "CI: Making Progress"
+                        },
+                        {
+                            "label": "CI: Area of Concern"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B6",
+                    "fieldType": "TextArea",
+                    "description": "<b>Patient-Client Management Process: Student Comments</b>"
+                },
+                {
+                    "fieldId": "B7",
+                    "fieldType": "TextArea",
+                    "description": "<b>Patient-Client Management Process: CI Comments:</b>"
+                },
+                {
+                    "fieldId": "B8",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<br><b>PROFESSIONALISM</b>",
+                    "options": [
+                        {
+                            "label": "Student: Acceptable"
+                        },
+                        {
+                            "label": "Student: Area of Concern"
+                        },
+                        {
+                            "label": "CI: Acceptable"
+                        },
+                        {
+                            "label": "CI: Area of Concern"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B9",
+                    "fieldType": "TextArea",
+                    "description": "<br><b>Professionalism: Student comments on interpersonal communication with colleagues and/or patients and time management</b>"
+                },
+                {
+                    "fieldId": "B10",
+                    "fieldType": "TextArea",
+                    "description": "<b>Professionalism: CI comments on interpersonal communication with colleagues and/or patients and time management</b>"
+                },
+                {
+                    "fieldId": "B11",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "description": "<b>DOCUMENTATION</b>",
+                    "options": [
+                        {
+                            "label": "Student: Meets Expectation"
+                        },
+                        {
+                            "label": "Student: Area of Concern"
+                        },
+                        {
+                            "label": "CI: Meets Expectation"
+                        },
+                        {
+                            "label": "CI: Area of Concern"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B12",
+                    "fieldType": "TextArea",
+                    "description": "<br><b>Documentation: System used and Comments</b>"
+                },
+                {
+                    "fieldId": "B13",
+                    "fieldType": "Radio",
+                    "description": "<b>INSTRUCTIONAL PROCESS used by CI</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Acceptable"
+                        },
+                        {
+                            "label": "Area of Concern"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B14",
+                    "fieldType": "TextArea",
+                    "description": "<b>Instructional Process: Comments</b>"
+                },
+                {
+                    "fieldId": "B15",
+                    "fieldType": "TextArea",
+                    "description": "<b>Goals for remainder of Internship</b>"
+                },
+                {
+                    "fieldId": "B16",
+                    "fieldType": "TextArea",
+                    "description": "<b>Curricular Comments</b>"
+                },
+                {
+                    "fieldId": "B17",
+                    "fieldType": "Radio",
+                    "description": "<b>Follow-up needed</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "DP1",
+                                    "fieldType": "datepicker",
+                                    "description": "<b>Enter the date or week planned</b>"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        },
+                        {
+                            "label": "Maybe",
+                            "fields": [
+                                {
+                                    "fieldId": "DP1-Maybe",
+                                    "fieldType": "datepicker",
+                                    "description": "<b>Enter the date or week planned</b>"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "B19",
+                    "fieldType": "TextArea",
+                    "description": "<b>Additional comments</b>"
+                }
+            ]
+        }
+    ],
+    "id": "WalshPTMidtermMeeting.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRfFAAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRfFAAAAAAAAAA==/",
+    "_etag": "\"09005168-0000-0100-0000-64c092cc0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1690342092
+}

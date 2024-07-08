@@ -1,7 +1,6 @@
 function updateResponse(response) {
   let sectionIndex = response.sections.findIndex(
-    (section) =>
-      section.sectionId == "Section.SiteAssessment.ClinicalSiteInformation"
+    (section) => section.sectionId == "Section.SiteAssessment.MidtermMeeting"
   );
 
   if (sectionIndex !== -1) {
@@ -10,8 +9,9 @@ function updateResponse(response) {
     for (const [key, value] of Object.entries(
       response.sections[sectionIndex].values
     )) {
-      if (key == "B13" && ["Yes", "No"].includes(value)) {
-        updatedvalues["B131"] = value;
+      if (key == "DP1") {
+        const parentValue = response.sections[sectionIndex].values["B17"];
+        if (parentValue == "Maybe") updatedvalues["DP1-Maybe"] = value;
       } else updatedvalues[key] = value;
     }
 

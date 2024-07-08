@@ -82,7 +82,7 @@ TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "HospitalAffiliations" - UPDATED (exact duplicate)
 
 WalshPTMidtermMeeting.SiteAssessment.Layout.Base
-Duplicate fieldId value found: "DP1" - NEEDED
+Duplicate fieldId value found: "DP1" - NEEDED - done
 
 OhioStateUniversity.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Adequatesupervisionchild:"
