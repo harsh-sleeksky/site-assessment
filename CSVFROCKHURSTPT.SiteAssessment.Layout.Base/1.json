@@ -1,0 +1,754 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteSection",
+            "caption": "Site Section:",
+            "fields": [
+                {
+                    "fieldId": "SiteA",
+                    "fieldType": "textbox",
+                    "description": "<b>Faculty Name:</b>"
+                },
+                {
+                    "fieldId": "SiteB",
+                    "fieldType": "textbox",
+                    "description": "<b>Student Name:</b>"
+                },
+                {
+                    "fieldId": "SiteC",
+                    "fieldType": "textbox",
+                    "description": "<b>Cohort:</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.CISection",
+            "caption": "CI QUESTIONS",
+            "fields": [
+                {
+                    "fieldId": "CIA",
+                    "fieldType": "textbox",
+                    "description": "<b>1. CI Name:</b>"
+                },
+                {
+                    "fieldId": "CIB",
+                    "fieldType": "textbox",
+                    "description": "<b>a. Credentials:</b>"
+                },
+                {
+                    "fieldId": "CIC",
+                    "fieldType": "textbox",
+                    "description": "<b>b. Certifications:</b>"
+                },
+                {
+                    "fieldId": "CID",
+                    "fieldType": "textbox",
+                    "description": "<b>C. Years of experience/Professional interest:</b>"
+                },
+                {
+                    "fieldId": "CIE",
+                    "fieldType": "radio",
+                    "description": "<b>d. Supervised students in the past</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "CIEC",
+                                    "fieldType": "textbox",
+                                    "description": "How many students supervised in the past:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "CIEC1",
+                                    "fieldType": "textbox",
+                                    "description": "How many students supervised in the past:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIF",
+                    "fieldType": "textbox",
+                    "description": "<b>e. SITE/CITY/STATE</b>"
+                },
+                {
+                    "fieldId": "CIG",
+                    "fieldType": "radio",
+                    "description": "<b>f. APTA CI Trained</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIH",
+                    "fieldType": "radio",
+                    "description": "<b>2. Student skills related to safety.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIHC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIHC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CII",
+                    "fieldType": "radio",
+                    "description": "<b>3. Professional Behaviors (commitment to learning, use of constructive feedback, professionalism, responsibility and initiative, stress management)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIIC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIIC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIJ",
+                    "fieldType": "radio",
+                    "description": "<b>4. Communication/Interpersonal Skills (with clients, CI, other staff, etc.)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIJC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIJC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIK",
+                    "fieldType": "radio",
+                    "description": "<b>5. Documentation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIKC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIKC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIL",
+                    "fieldType": "radio",
+                    "description": "<b>6. Patient Examination</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CILC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CILC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIM",
+                    "fieldType": "radio",
+                    "description": "<b>7. Critical Thinking and Problem-Solving (try to get an example)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIMC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIMC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIN",
+                    "fieldType": "radio",
+                    "description": "<b>8. Student Intervention/Planning/Implementation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CINC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CINC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIO",
+                    "fieldType": "radio",
+                    "description": "<b>9. Hands on or manual therapy skills/ability to move clients.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIOC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIOC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIP",
+                    "fieldType": "radio",
+                    "description": "<b>10. Time Management.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "CIPC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "CIPC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIQ",
+                    "fieldType": "textarea",
+                    "description": "<b>11. Summary of student strengths</b>"
+                },
+                {
+                    "fieldId": "CIR",
+                    "fieldType": "textarea",
+                    "description": "<b>12. Summary of area student needs to improve.</b>"
+                },
+                {
+                    "fieldId": "CIS",
+                    "fieldType": "radio",
+                    "description": "<b>13. Do you foresee any reason this student will not successfully complete this clinical rotation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "CISC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "CISC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIT",
+                    "fieldType": "radio",
+                    "description": "<b>14. Would you recommend this student for hire?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "CITC",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "CITC1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIU",
+                    "fieldType": "textarea",
+                    "description": "<b>15. What would you state are reasons future students should consider this site?</b>"
+                },
+                {
+                    "fieldId": "CIV",
+                    "fieldType": "radio",
+                    "description": "<b>16. Are you getting appropriate support from RU?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CIW",
+                    "fieldType": "textarea",
+                    "description": "<b>17. Is there anything Rockhurst University could do to assist you in providing high quality clinical internships?</b>"
+                },
+                {
+                    "fieldId": "CIX",
+                    "fieldType": "textarea",
+                    "description": "<b>18. Is there a need for Rockhurst University to intervene?</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentSection",
+            "caption": "STUDENT QUESTIONS",
+            "fields": [
+                {
+                    "fieldId": "student1",
+                    "fieldType": "radio",
+                    "description": "<b>19. Level of supervision</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "student1c",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "student1c1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student2",
+                    "fieldType": "radio",
+                    "description": "<b>20. Is the timing, frequency, and feedback appropriate (daily/weekly, formal/informal)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Appropriate",
+                            "fields": [
+                                {
+                                    "fieldId": "student2c",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Needs Improvement",
+                            "fields": [
+                                {
+                                    "fieldId": "student2c1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student3",
+                    "fieldType": "radio",
+                    "description": "<b>21. Have you observed professional role models in this setting?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student3c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student3c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student4",
+                    "fieldType": "textarea",
+                    "description": "<b>22. What are your perceived strengths and areas for improvement (check for consistency with CI)?</b>"
+                },
+                {
+                    "fieldId": "student5",
+                    "fieldType": "radio",
+                    "description": "<b>23. Are you progressing towards your goals?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student5c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student5c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student6",
+                    "fieldType": "radio",
+                    "description": "<b>24. Is your Student Caseload appropriate: is it reasonable based on your level in the program and are Medicare B guidelines being followed (for students in O/P setting only)?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student6c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student6c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student7",
+                    "fieldType": "radio",
+                    "description": "<b>25. Are you aware of strengths and areas of improvement based on CI feedback.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student7c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student7c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student8",
+                    "fieldType": "radio",
+                    "description": "<b>26. Would you recommend this site to future DPT students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student8c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student8c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student9",
+                    "fieldType": "textarea",
+                    "description": "<b>27. Are there reasons other students should consider the site (unique learning experiences)?</b>"
+                },
+                {
+                    "fieldId": "student10",
+                    "fieldType": "textarea",
+                    "description": "<b>28. Are there opportunities for interprofessional practice?</b>"
+                },
+                {
+                    "fieldId": "student11",
+                    "fieldType": "radio",
+                    "description": "<b>29. Do you have other concerns the academic institution should be aware of?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student11c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student11c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "student12",
+                    "fieldType": "radio",
+                    "description": "<b>30. Is there a need for Rockhurst University to intervene?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "student12c",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "student12c1",
+                                    "fieldType": "textbox",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.FacultySection",
+            "caption": "FACULTY QUESTIONS:",
+            "fields": [
+                {
+                    "fieldId": "Faculty1",
+                    "fieldType": "radio",
+                    "description": "<b>31. Recommendations:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Continuing relationship"
+                        },
+                        {
+                            "label": "Intervene with site"
+                        },
+                        {
+                            "label": "Discontinue relationship"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Faculty2",
+                    "fieldType": "textarea",
+                    "description": "<b>32. Are there changes to this location requirements or information?</b>"
+                }
+            ]
+        }
+    ],
+    "id": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcUAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcUAQAAAAAAAA==/",
+    "_etag": "\"1c02abe8-0000-0100-0000-652d81890000\"",
+    "_attachments": "attachments/",
+    "_ts": 1697481097
+}

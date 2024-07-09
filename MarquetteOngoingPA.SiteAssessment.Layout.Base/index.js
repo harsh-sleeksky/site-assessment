@@ -12,6 +12,7 @@ function updateResponse(response) {
       if (key == "OngoingBC") {
         const parentValue = response.sections[sectionIndex].values["OngoingB"];
         if (parentValue == "No") updatedvalues["OngoingBC1"] = value;
+        else updatedvalues[key] = value;
       } else updatedvalues[key] = value;
     }
 

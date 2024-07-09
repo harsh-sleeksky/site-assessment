@@ -113,16 +113,16 @@ ISVCSSPASA.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "Site2C"
 
 CSVFROCKHURSTPT.SiteAssessment.Layout.Base
-Duplicate fieldId value found: "CIEC"
-Duplicate fieldId value found: "CIHC"
-Duplicate fieldId value found: "CIIC"
-Duplicate fieldId value found: "CIJC"
-Duplicate fieldId value found: "CIKC"
-Duplicate fieldId value found: "CILC"
+Duplicate fieldId value found: "CIEC" - done
+Duplicate fieldId value found: "CIHC" - done
+Duplicate fieldId value found: "CIIC" - done
+Duplicate fieldId value found: "CIJC" - done
+Duplicate fieldId value found: "CIKC" - done
+Duplicate fieldId value found: "CILC" - done
 Duplicate fieldId value found: "CIMC"
 Duplicate fieldId value found: "CINC"
 Duplicate fieldId value found: "CIOC"
-Duplicate fieldId value found: "CIPC"
+Duplicate fieldId value found: "CIPC" - done
 Duplicate fieldId value found: "CISC"
 Duplicate fieldId value found: "CIPC"
 Duplicate fieldId value found: "CIPC"
@@ -134,7 +134,7 @@ Duplicate fieldId value found: "student6c"
 Duplicate fieldId value found: "student7c"
 Duplicate fieldId value found: "student8c"
 Duplicate fieldId value found: "student11c"
-Duplicate fieldId value found: "student12c"
+Duplicate fieldId value found: "student12c" - done
 
 FUSVWCUPF.SiteAssessment.Layout.Base
 Duplicate fieldId value found: "P1C"

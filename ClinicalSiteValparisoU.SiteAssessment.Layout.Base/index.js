@@ -14,6 +14,7 @@ function updateResponse(response) {
           response.sections[sectionIndex].values["Adequatesupervision"];
         if (parentValue == "No")
           updatedvalues["Adequatesupervisionchild1:"] = value;
+        else updatedvalues[key] = value;
       } else updatedvalues[key] = value;
     }
 
