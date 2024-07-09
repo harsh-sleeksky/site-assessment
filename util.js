@@ -1,4 +1,6 @@
-const layouts = require("./layouts.json");
+const fs = require("fs");
+const path = require("path");
+
 function hasDuplicateFields(layout) {
   const fieldIdset = new Set();
   let fieldCount = 0;
@@ -29,11 +31,49 @@ function hasDuplicateFields(layout) {
       handleField(field);
     }
   };
-  return fieldIdset.size == fieldCount;
+  return fieldIdset.size != fieldCount;
 }
 
-const result = layouts
-  .filter((layout) => hasDuplicateFields(layout))
-  .map((layout) => layout.id);
-console.log(result);
-console.dir(result);
+let count = 0;
+
+// Function to process each JSON file
+const processJsonFile = (filePath) => {
+  fs.readFile(filePath, "utf8", (err, data) => {
+    if (err) {
+      console.error(`Error reading file ${filePath}:`, err);
+      return;
+    }
+    try {
+      const jsonData = JSON.parse(data);
+      // Your processing logic here
+      console.log(jsonData.id, hasDuplicateFields(jsonData));
+    } catch (jsonErr) {
+      console.error(`Error parsing JSON from file ${filePath}:`, jsonErr);
+    }
+  });
+};
+
+// Function to search for all 1.json files in directories
+const searchAndProcessFiles = (dir) => {
+  fs.readdir(dir, { withFileTypes: true }, (err, files) => {
+    if (err) {
+      console.error(`Error reading directory ${dir}:`, err);
+      return;
+    }
+
+    files.forEach((file) => {
+      const fullPath = path.join(dir, file.name);
+      if (file.isDirectory()) {
+        // Recursively search in subdirectories
+        searchAndProcessFiles(fullPath);
+      } else if (file.isFile() && file.name === "1.json") {
+        // Process the 1.json file
+        processJsonFile(fullPath);
+      }
+    });
+  });
+};
+
+// Start searching from the current directory
+const startDir = __dirname;
+searchAndProcessFiles(startDir);
