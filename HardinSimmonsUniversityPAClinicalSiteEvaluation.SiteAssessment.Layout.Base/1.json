@@ -1,0 +1,368 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.BasicDetails",
+            "caption": "Clinical Site Evaluation",
+            "fields": [
+                {
+                    "fieldId": "BD1",
+                    "fieldType": "Radio",
+                    "description": "<b>Select one: </b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Initial Clinical Site Visit"
+                        },
+                        {
+                            "label": "Established Clinical Site Visit"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD2",
+                    "fieldType": "Radio",
+                    "description": "<b>Type of Rotation/Specialty (Circle):</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Surgery"
+                        },
+                        {
+                            "label": "Women’s Health/Obgyn"
+                        },
+                        {
+                            "label": "Family Med."
+                        },
+                        {
+                            "label": "Internal Med."
+                        },
+                        {
+                            "label": "Emergency Med."
+                        },
+                        {
+                            "label": "Pediatrics"
+                        },
+                        {
+                            "label": "Mental Health"
+                        },
+                        {
+                            "label": "Elective",
+                            "fields": [
+                                {
+                                    "fieldId": "BD3",
+                                    "fieldType": "TextArea",
+                                    "description": "Elective"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD4",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor/Supervisor:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "MD/DO"
+                        },
+                        {
+                            "label": "PA",
+                            "fields": [
+                                {
+                                    "fieldId": "BD5",
+                                    "fieldType": "TextArea",
+                                    "description": "If PA, supervising physician:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "NP",
+                            "fields": [
+                                {
+                                    "fieldId": "BD6",
+                                    "fieldType": "TextArea",
+                                    "description": "If NP, supervising physician:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD8",
+                    "fieldType": "Radio",
+                    "description": "<b>Hospital Rounds?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "BD61",
+                                    "fieldType": "Radio",
+                                    "description": "If Yes, is affiliation agreement in place?",
+                                    "options": [
+                                        {
+                                            "label": "YES"
+                                        },
+                                        {
+                                            "label": "NO"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD28",
+                    "fieldType": "TextBox",
+                    "description": "Site/Preceptor Schedule/Working hours:",
+                    "characterLimit": 50
+                },
+                {
+                    "fieldId": "BD27",
+                    "fieldType": "CheckBox",
+                    "description": "<b>Types of Encounter Settings?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Intraoperative"
+                        },
+                        {
+                            "label": "Pre-Operative"
+                        },
+                        {
+                            "label": "Post-Operative"
+                        },
+                        {
+                            "label": "Emergency Dept."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD10",
+                    "fieldType": "Radio",
+                    "description": "<b>Area (circle):</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "In State"
+                        },
+                        {
+                            "label": "Out of State"
+                        },
+                        {
+                            "label": "Considered Rural"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD11",
+                    "fieldType": "Radio",
+                    "description": "<b>Pt. population Seen?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Pediatric (0-17)"
+                        },
+                        {
+                            "label": "Adult (18-64)"
+                        },
+                        {
+                            "label": "Geriatric (65+ years)"
+                        },
+                        {
+                            "label": "Underserved"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD12",
+                    "fieldType": "textarea",
+                    "description": "Typical Pt. Volume per Day:",
+                    "characterLimit": 3000
+                },
+                {
+                    "fieldId": "BD13",
+                    "fieldType": "Radio",
+                    "description": "<b>Does student have physical access to clinical site?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD14",
+                    "fieldType": "Radio",
+                    "description": "<b>Are computers, internet available to students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD15",
+                    "fieldType": "Radio",
+                    "description": "<b>Does clinical site utilize electronic medical records?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD16",
+                    "fieldType": "Radio",
+                    "description": "<b>Does student have access to patient records?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD17",
+                    "fieldType": "Radio",
+                    "description": "<b>Does site precept other students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD18",
+                    "fieldType": "Radio",
+                    "description": "<b>Does site require application/specific onboarding from students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD19",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical site provides safe and secure environment for student education?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD20",
+                    "fieldType": "label",
+                    "description": "<b>Does the preceptor have a copy of:</b>"
+                },
+                {
+                    "fieldId": "BD21",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'><b>HSU PA syllabus for rotation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD22",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'><b>HSU PA liability insurance?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD23",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'><b>HSU PA preceptor handbook?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "YES"
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "BD24",
+                    "fieldType": "textarea",
+                    "description": "Clinical observation comments:",
+                    "characterLimit": 3000
+                },
+                {
+                    "fieldId": "BD25",
+                    "description": "<b>Faculty Signature:</b>",
+                    "fieldType": "label"
+                },
+                {
+                    "fieldId": "BD26",
+                    "description": "Faculty Signature:",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                }
+            ]
+        }
+    ],
+    "id": "HardinSimmonsUniversityPAClinicalSiteEvaluation.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRe9AQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRe9AQAAAAAAAA==/",
+    "_etag": "\"ae014584-0000-0100-0000-667ab4250000\"",
+    "_attachments": "attachments/",
+    "_ts": 1719317541
+}

@@ -1,0 +1,526 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Site-StudentAssessmentForm",
+            "caption": "Site Assessment (for Health Systems/Physical Facility)",
+            "fields": [
+                {
+                    "fieldId": "TypeofVisit",
+                    "fieldType": "Radio",
+                    "description": "<br><b>Type of Visit:</b></br>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "New "
+                        },
+                        {
+                            "label": "Maintenance"
+                        },
+                        {
+                            "label": "Issues/Concerns"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatientLocations",
+                    "fieldType": "Checkbox",
+                    "description": "<u>Patient Locations Available (Multi-select)</u>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Emergency Department"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatientEncounter",
+                    "fieldType": "Checkbox",
+                    "description": "<u>Patient Encounter Exposure (Multi-select)</u>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Chronic"
+                        },
+                        {
+                            "label": "Acute/Urgent"
+                        },
+                        {
+                            "label": "Emergent"
+                        },
+                        {
+                            "label": "Preventative"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Physicalfacilities",
+                    "fieldType": "Radio",
+                    "description": "<b>Physical facilities are sufficient to meet rotation specific learning outcomes:</br>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "safetyconcerns",
+                    "fieldType": "Radio",
+                    "description": "<b>Are there any safety concerns:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Commentsrequired",
+                    "fieldType": "TextArea",
+                    "description": "Comments required:"
+                },
+                {
+                    "fieldId": "Meetsprogram ",
+                    "fieldType": "Radio",
+                    "description": "<b>Meets program requirements to continue as active site:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Commentsrequired1",
+                    "fieldType": "TextArea",
+                    "description": "Comments required:"
+                },
+                {
+                    "fieldId": "Housing",
+                    "fieldType": "Radio",
+                    "description": "<b>Housing Available:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "BD6",
+                                    "fieldType": "TextBox",
+                                    "characterLimit": 100,
+                                    "description": "If available, free or at cost to students?<br>Comments:</br>"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "NO"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Wasapreceptor",
+                    "fieldType": "Radio",
+                    "description": "<b>Was a preceptor evaluated on this site visit:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "NO"
+                        },
+                        {
+                            "label": "Yes (fill out Preceptor Assessment)",
+                            "fields": [
+                                {
+                                    "fieldId": "Label1111",
+                                    "fieldType": "label",
+                                    "description": "<b><u>Preceptor Assessment</u></b> (for locations within sites)"
+                                },
+                                {
+                                    "fieldId": "TypeofVisit1",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Type of Visit:</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "New "
+                                        },
+                                        {
+                                            "label": "Maintenance"
+                                        },
+                                        {
+                                            "label": "Issues/Concerns"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "lastvisit",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Has there been any changes to your practice since your last visit?</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PreceptorCredentials",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Preceptor Credentials</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "MD"
+                                        },
+                                        {
+                                            "label": "DO"
+                                        },
+                                        {
+                                            "label": "PA"
+                                        },
+                                        {
+                                            "label": "NP"
+                                        },
+                                        {
+                                            "label": "Other"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PracticeInformation",
+                                    "fieldType": "label",
+                                    "description": "<b><u>Practice Information</b></u>"
+                                },
+                                {
+                                    "fieldId": "TypicalSchedule",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Typical Schedule:<b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "M-F"
+                                        },
+                                        {
+                                            "label": "Rotating shifts"
+                                        },
+                                        {
+                                            "label": "Nights"
+                                        },
+                                        {
+                                            "label": "Weekends"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "OnCall",
+                                    "fieldType": "Radio",
+                                    "description": "<b>On-Call requirements:</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "OtherPreceptors",
+                                    "fieldType": "TextArea",
+                                    "description": "Other Preceptors on Site:"
+                                },
+                                {
+                                    "fieldId": "PatientLocations1",
+                                    "fieldType": "Checkbox",
+                                    "description": "<u>Patient Locations Available (Multi-select)</u>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Emergency Department"
+                                        },
+                                        {
+                                            "label": "Inpatient"
+                                        },
+                                        {
+                                            "label": "Outpatient"
+                                        },
+                                        {
+                                            "label": "Operating Room"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PatientEncounter1",
+                                    "fieldType": "Checkbox",
+                                    "description": "<u>Patient Encounter Type(Multi-select)</u>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Chronic"
+                                        },
+                                        {
+                                            "label": "Acute/Urgent"
+                                        },
+                                        {
+                                            "label": "Emergent"
+                                        },
+                                        {
+                                            "label": "Preventative"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PatientAge",
+                                    "fieldType": "Checkbox",
+                                    "description": "<u>Patient Age Demographic (Multi-select)</u>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Infant(<2)"
+                                        },
+                                        {
+                                            "label": "Child(2-10)"
+                                        },
+                                        {
+                                            "label": "Adol(11-17)"
+                                        },
+                                        {
+                                            "label": "Adult (18-64)"
+                                        },
+                                        {
+                                            "label": "Elderly (>60)"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "AdditionalExposure",
+                                    "fieldType": "Checkbox",
+                                    "description": "<b><u>Additional Exposure (Multi-select)</u></b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Pediatrics"
+                                        },
+                                        {
+                                            "label": "Behavioral Health"
+                                        },
+                                        {
+                                            "label": "Women’s Health with OB"
+                                        },
+                                        {
+                                            "label": "Women’s Health without OB"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "AvailableSurgical",
+                                    "fieldType": "Checkbox",
+                                    "description": "<b><u>Available Surgical Exposure(Multi-select)</u></b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Pre-op"
+                                        },
+                                        {
+                                            "label": "Intra-Op"
+                                        },
+                                        {
+                                            "label": "Post-Op"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PatientsPerDay",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Average Number of Patients Per Day</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "1-5"
+                                        },
+                                        {
+                                            "label": "6-10"
+                                        },
+                                        {
+                                            "label": "11-15"
+                                        },
+                                        {
+                                            "label": "Over 15"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PatientCarePerWeek",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Average Hours Performing Patient Care Per Week<b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "<30"
+                                        },
+                                        {
+                                            "label": "30-40"
+                                        },
+                                        {
+                                            "label": "40-50"
+                                        },
+                                        {
+                                            "label": ">50"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "PatientCarePerWeek1",
+                                    "fieldType": "label",
+                                    "description": "<b><u>Ability to Meet Learning Outcomes</u></b>"
+                                },
+                                {
+                                    "fieldId": "rotation",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Preceptor has been oriented to Learning Outcomes and rotation objectives:<b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "learningoutcomes",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Location enables students to meet learning outcomes:<b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "sufficient1",
+                                    "fieldType": "Radio",
+                                    "description": "<b>The supervision at the location is sufficient to obtain learning outcomes:<b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "sufficient",
+                                    "fieldType": "TextBox",
+                                    "description": "Please comment on any No selections:"
+                                },
+                                {
+                                    "fieldId": "AdditionalInformation",
+                                    "fieldType": "label",
+                                    "description": "<b><u>Additional Information</u></b>"
+                                },
+                                {
+                                    "fieldId": "EMR/chart",
+                                    "fieldType": "Radio",
+                                    "description": "<b>There is EMR/chart access for student:</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "safetyconcern",
+                                    "fieldType": "Radio",
+                                    "description": "<b>There are safety concern at this location:</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "Meetsprogram",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Meets program requirements to continue as active preceptor:</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "Additionallearning1",
+                                    "fieldType": "Radio",
+                                    "description": "<b>Additional learning opportunities available:</b>",
+                                    "display": "inline-grid",
+                                    "options": [
+                                        {
+                                            "label": "Yes"
+                                        },
+                                        {
+                                            "label": "No"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "fieldId": "Comments",
+                                    "fieldType": "TextArea",
+                                    "description": "Comments:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "WISCPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRfEAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRfEAQAAAAAAAA==/",
+    "_etag": "\"6c00fc9e-0000-0100-0000-6683e4780000\"",
+    "_attachments": "attachments/",
+    "_ts": 1719919736
+}
