@@ -1,0 +1,513 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.General",
+            "caption": "General",
+            "fields": [
+                {
+                    "fieldId": "SiteVisit",
+                    "fieldType": "Radio",
+                    "description": "<b>1.This site visit is:</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "An initial site visit"
+                        },
+                        {
+                            "label": "An ongoing site visit"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorName",
+                    "fieldType": "TextBox",
+                    "description": "2.Name of the preceptor with whom the site visit was conducted:",
+                    "characterLimit": 500,
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SCPEsite",
+                    "fieldType": "Radio",
+                    "description": "<b>3.Does the student feel safe at this SCPE site?</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "Comments",
+                                    "fieldType": "TextArea",
+                                    "description": "Comments if 'No':",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "Please enter comments",
+                                            "validator": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SiteSpecificQuestions(B3.03)",
+            "caption": "Site Specific Questions (B3.03)",
+            "fields": [
+                {
+                    "fieldId": "StudentExposure",
+                    "fieldType": "Checkbox",
+                    "description": "1.This SCPE provides the student exposure to (check all that apply)",
+                    "display": "grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "options": [
+                        {
+                            "label": "Preventive patient encounters"
+                        },
+                        {
+                            "label": "Emergent patient encounters"
+                        },
+                        {
+                            "label": "Acute patient encounters"
+                        },
+                        {
+                            "label": "Chronic patient encounters"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SCPEStudentExposure",
+                    "fieldType": "Checkbox",
+                    "description": "2.This SCPE provides student exposure to patients across the life span (check all that apply)",
+                    "display": "grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "options": [
+                        {
+                            "label": "Infants"
+                        },
+                        {
+                            "label": "Children"
+                        },
+                        {
+                            "label": "Adolescents"
+                        },
+                        {
+                            "label": "Adults"
+                        },
+                        {
+                            "label": "Elderly"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SCPEPatients",
+                    "fieldType": "Radio",
+                    "description": "<b>3.This SCPE provides exposure to patients with behavioral and mental health conditions.</b>",
+                    "display": "grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SiteSetting(B3.04)",
+            "caption": "Site Setting (B3.04)",
+            "fields": [
+                {
+                    "fieldId": "Supervisedclinicalpractice",
+                    "fieldType": "Checkbox",
+                    "description": "1.What settings does this Supervised clinical practice experiences occur (check all that apply)",
+                    "display": "grid",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "options": [
+                        {
+                            "label": "Emergency department"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Operating room"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PreceptorCredentials(B3.06)",
+            "caption": "Preceptor Credentials (B3.06)",
+            "fields": [
+                {
+                    "fieldId": "Supervisedclinicalpractice1",
+                    "fieldType": "Radio",
+                    "description": "<b>1.Primary preceptor’s title:</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "MD - Board certification confirmed"
+                        },
+                        {
+                            "label": "DO - Board certification confirmed"
+                        },
+                        {
+                            "label": "PA - NCCPA certification confirmed"
+                        },
+                        {
+                            "label": "NP - Board certification confirmed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentEvaluation(C2.01)",
+            "caption": "Student Evaluation (C2.01)",
+            "fields": [
+                {
+                    "fieldId": "PhysicalFacilities",
+                    "fieldType": "Radio",
+                    "description": "<b>1.The student feels their access to physical facilities at this SCPE site allows them to fulfill program learning outcomes.</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments2",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatientPopulations",
+                    "fieldType": "Radio",
+                    "description": "<b>2.The student feels their access to patient populations at this SCPE site allows them to fulfill program learning outcomes with access to patient populations</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments3",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "AccessToSupervision",
+                    "fieldType": "Radio",
+                    "description": "<b>3.The student feels their access to supervision is adequate to fulfill program learning outcomes with access to supervision</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments4",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.DeficiencyIdentification(B4.01)",
+            "caption": "Deficiency Identification (B4.01)",
+            "fields": [
+                {
+                    "fieldId": "MedicalKnowledge",
+                    "fieldType": "Radio",
+                    "description": "<b>1.Does the student’s medical knowledge align with what is expected of a PA student at the current point in their training?</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments5",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentDeficiencies",
+                    "fieldType": "Radio",
+                    "description": "<b>2.Does the student note any deficiencies which they would like to provide feedback to the program?</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments6",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorDeficiencies",
+                    "fieldType": "Radio",
+                    "description": "<b>3.Does the preceptor note any deficiencies which they would like to provide feedback to the program?</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments7",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorFeedback",
+                    "fieldType": "Radio",
+                    "description": "<b>4.Does the preceptor have feedback for the clinical team regarding communication/ onboarding for this SCPE?</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ],
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "validations": [
+                                {
+                                    "name": "required",
+                                    "message": "Please enter comments",
+                                    "validator": ""
+                                }
+                            ],
+                            "fields": [
+                                {
+                                    "fieldId": "Comments8",
+                                    "fieldType": "TextArea",
+                                    "description": "If 'No' - provide details in text box below:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.FacultyAttestation",
+            "caption": "Faculty Attestation *",
+            "fields": [
+                {
+                    "fieldId": "FacultyAttestation",
+                    "fieldType": "TextBox",
+                    "description": "<b>I reviewed with student and preceptor appropriate contact information for this SCPE.</b>",
+                    "characterLimit": 500,
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "This Field is required",
+                            "validator": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "ShenandoahUniversityPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcqAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcqAQAAAAAAAA==/",
+    "_etag": "\"b300ea8d-0000-0100-0000-655e0dc10000\"",
+    "_attachments": "attachments/",
+    "_ts": 1700662721
+}

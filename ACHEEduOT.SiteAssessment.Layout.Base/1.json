@@ -1,0 +1,1931 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Introduction5",
+            "caption": "Introduction:",
+            "fields": [
+                {
+                    "fieldId": "Introduction5",
+                    "description": "The primary purpose of the Fieldwork Data Form is to summarize information regarding the program at a fieldwork site. Occupational therapy (OT) and occupational therapy assistant (OTA) students will find valuable information describing the characteristics of the fieldwork setting; the client population; commonly used assessments; interventions; and expectations and opportunities for students. The Fieldwork Data Form has been developed to reflect the Occupational Therapy Practice Framework: Domain and Process, 3rd Edition (American Occupational Therapy Association [AOTA], 2014) terminology and best practice in occupational therapy to promote quality fieldwork experiences. The data gathering processes used in completion of this form entails a collaborative effort that facilitates communication between OT and OTA academic programs, students, and fieldwork educators. This form may be completed by the combined efforts of the fieldwork educator, the OT or OTA student assigned to the site for fieldwork, and/or the Academic Fieldwork Coordinator (AFWC) from the program. Fieldwork sites are encouraged to update the form annually and provide a copy to the educational program(s) where they have a current memorandum of understanding (MOU).<br><br>The secondary purpose of the Fieldwork Data Form is to document the connection between the curriculum design of a given OT or OTA educational program with its fieldwork component. The AFWC will use the data entered on the form to document fieldwork related Accreditation Council for Occupational Therapy (ACOTE) Standards (ACOTE, 2012). The standards are outlined in Section C of the 2011 ACOTE standards and are denoted on the form. Educational programs can revise the form to suit the needs of their respective fieldwork programs.<br><br>The Fieldwork Data Form was developed through the joint efforts of the Commission on Education (COE) and the Academic Education (formerly Education) Special Interest Section Fieldwork Community of Practice with input from many dedicated AFWCs and fieldwork educators.",
+                    "fieldType": "Label"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.FWI",
+            "caption": "FW I",
+            "fields": [
+                {
+                    "fieldId": "ContactPerson",
+                    "description": "<b>Contact Person:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Credentials",
+                    "description": "<b>Credentials:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Phone",
+                    "description": "<b>Phone:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Email",
+                    "description": "<b>Email:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.FWII",
+            "caption": "FW II",
+            "fields": [
+                {
+                    "fieldId": "ContactPerson1",
+                    "description": "<b>Contact Person:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Credentials1",
+                    "description": "<b>Credentials:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Phone1",
+                    "description": "<b>Phone:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Email1",
+                    "description": "<b>Email:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Director",
+            "caption": "Site Information",
+            "fields": [
+                {
+                    "fieldId": "Director1",
+                    "description": "<b>Director:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DirectorPhone",
+                    "description": "<b>Phone:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DirectorFax",
+                    "description": "<b>Fax:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DirectorWebsiteaddress",
+                    "description": "<b>Website address:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "InitiationSource",
+                    "description": "<b>Initiation Source:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "FW Office"
+                        },
+                        {
+                            "label": "FW Site"
+                        },
+                        {
+                            "label": "Student"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CorporateStatus",
+                    "description": "<b>Corporate Status:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "For Profit"
+                        },
+                        {
+                            "label": "Nonprofit"
+                        },
+                        {
+                            "label": "State Gov’t"
+                        },
+                        {
+                            "label": "Federal Gov’t"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreferredSequenceofFW",
+                    "description": "<b>Preferred Sequence of FW:</b> <font size='1.5'><em>ACOTE Standards B.10.6</em></font>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Any"
+                        },
+                        {
+                            "label": "Second/Third only;",
+                            "fields": [
+                                {
+                                    "fieldId": "firstSequence",
+                                    "fieldType": "TextBox",
+                                    "description": "First must be in:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Full-time only"
+                        },
+                        {
+                            "label": "Part-time option"
+                        },
+                        {
+                            "label": "Prefer full-time"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.OTFieldworkPracticeSettings",
+            "caption": "OT Fieldwork Practice Settings:",
+            "fields": [
+                {
+                    "fieldId": "Hospitalbasedsettings",
+                    "description": "<b>Hospital-based settings</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Inpatient Acute"
+                        },
+                        {
+                            "label": "Inpatient Rehab"
+                        },
+                        {
+                            "label": "SNF/Sub-Acute/Acute Long-Term Care"
+                        },
+                        {
+                            "label": "General Rehab Outpatient"
+                        },
+                        {
+                            "label": "Outpatient Hands"
+                        },
+                        {
+                            "label": "Pediatric Hospital/Unit"
+                        },
+                        {
+                            "label": "Pediatric Hospital Outpatient"
+                        },
+                        {
+                            "label": "Inpatient Psychiatric"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Communitybasedsettings",
+                    "description": "<b>Community-based settings</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Pediatric Community"
+                        },
+                        {
+                            "label": "Behavioral Health Community"
+                        },
+                        {
+                            "label": "Older Adult Community Living"
+                        },
+                        {
+                            "label": "Older Adult Day Program"
+                        },
+                        {
+                            "label": "Outpatient/hand private practice"
+                        },
+                        {
+                            "label": "Adult Day Program for DD"
+                        },
+                        {
+                            "label": "Home Health"
+                        },
+                        {
+                            "label": "Pediatric Outpatient Clinic"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Schoolbasedsettings",
+                    "description": "<b>School-based settings</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Early Intervention"
+                        },
+                        {
+                            "label": "School"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Otherarea",
+                    "description": "<b>Other area(s)</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "specify",
+                    "fieldType": "Textarea",
+                    "description": "Please specify:"
+                },
+                {
+                    "fieldId": "AgeGroups",
+                    "description": "<b>Age Groups:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "0–5"
+                        },
+                        {
+                            "label": "6–12"
+                        },
+                        {
+                            "label": "13–21"
+                        },
+                        {
+                            "label": "22–64"
+                        },
+                        {
+                            "label": "65+"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff",
+                    "description": "<b>Number of Staff:</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "NumberofStaff1",
+                    "fieldType": "TextBox",
+                    "description": "OTRs:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff2",
+                    "fieldType": "TextBox",
+                    "description": "OTAs/COTAs:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff3",
+                    "fieldType": "TextBox",
+                    "description": "Aides:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff4",
+                    "fieldType": "TextBox",
+                    "description": "PT:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff5",
+                    "fieldType": "TextBox",
+                    "description": "Speech:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff6",
+                    "fieldType": "TextBox",
+                    "description": "Resource Teacher:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff7",
+                    "fieldType": "TextBox",
+                    "description": "Counselor/Psychologist:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff8",
+                    "fieldType": "TextBox",
+                    "description": "Other:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentPrerequisites",
+                    "description": "<b>Student Prerequisites (check all that apply)</b> <font color = 'black' style='font-style: italic'  size='1.5'>ACOTE Standard C.1.2</font>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "CPR"
+                        },
+                        {
+                            "label": "Medicare/Medicaid fraud check"
+                        },
+                        {
+                            "label": "Criminal background check"
+                        },
+                        {
+                            "label": "Child protection/abuse check"
+                        },
+                        {
+                            "label": "Adult abuse check"
+                        },
+                        {
+                            "label": "Fingerprinting"
+                        },
+                        {
+                            "label": "First aid"
+                        },
+                        {
+                            "label": "Infection control training"
+                        },
+                        {
+                            "label": "HIPAA training"
+                        },
+                        {
+                            "label": "Prof. liability ins."
+                        },
+                        {
+                            "label": "Own transportation"
+                        },
+                        {
+                            "label": "Interview"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentPrerequisites2",
+                    "description": "Health requirements:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "HepB"
+                        },
+                        {
+                            "label": "MMR"
+                        },
+                        {
+                            "label": "Tetanus"
+                        },
+                        {
+                            "label": "Chest x-ray"
+                        },
+                        {
+                            "label": "Drug screening"
+                        },
+                        {
+                            "label": "TB/Mantoux"
+                        },
+                        {
+                            "label": "Physical Check up"
+                        },
+                        {
+                            "label": "Varicella"
+                        },
+                        {
+                            "label": "Influenza"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Listrequirements",
+                    "description": "<b>Please list any other requirements:</b>",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "FWIIplacement",
+                    "fieldType": "TextArea",
+                    "description": "Please list how students should prepare for a FW II placement such as doing readings, learning specific evaluations and interventions used in your setting: <font size='1.5'><em>ACOTE Standards C.1.2, C.1.11</em></font>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.workschedule",
+            "caption": "Student work schedule and outside study expected:",
+            "fields": [
+                {
+                    "fieldId": "Schedule",
+                    "description": "Schedule hrs/week/day:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "weekends",
+                    "description": "<b>Do students work weekends?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "evenings",
+                    "description": "<b>Do students work evenings?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Other",
+            "caption": "Other",
+            "fields": [
+                {
+                    "fieldId": "Roomprovided",
+                    "description": "<b>Room provided</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Meals",
+                    "description": "<b>Meals</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Stipendamount",
+                    "description": "Stipend amount:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "structure",
+                    "description": "<b>Describe level of structure for student?</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "High"
+                        },
+                        {
+                            "label": "Moderate"
+                        },
+                        {
+                            "label": "Low"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supervisory",
+                    "description": "<b>Describe level of supervisory support for student?</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "High"
+                        },
+                        {
+                            "label": "Moderate"
+                        },
+                        {
+                            "label": "Low"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FWenvironment",
+                    "description": "Describe the FW environment/atmosphere for student learning:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "public",
+                    "description": "Describe available public transportation:",
+                    "fieldType": "TextArea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.interventions",
+            "caption": "Types of OT interventions addressed in this setting (check all that apply):",
+            "fields": [
+                {
+                    "fieldId": "Client-directed",
+                    "description": "Occupations: Client-directed occupations that match and support identified participation level goals (check all that apply): <font size='1.5'><em>ACOTE Standards C.1.8, C.1.11, C.1.12</em></font>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "DailyLiving",
+                    "description": "Activities of Daily Living (ADL)",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Bathing/showering"
+                        },
+                        {
+                            "label": "Toileting and toilet hygiene"
+                        },
+                        {
+                            "label": "Dressing"
+                        },
+                        {
+                            "label": "Swallowing/eating"
+                        },
+                        {
+                            "label": "Feeding"
+                        },
+                        {
+                            "label": "Functional mobility"
+                        },
+                        {
+                            "label": "Personal device care"
+                        },
+                        {
+                            "label": "Personal hygiene and grooming"
+                        },
+                        {
+                            "label": "Sexual activity"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Instrumental",
+                    "description": "Instrumental Activities of Daily Living (IADL)",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Care of others/pets"
+                        },
+                        {
+                            "label": "Care of pets"
+                        },
+                        {
+                            "label": "Child rearing"
+                        },
+                        {
+                            "label": "Communication management"
+                        },
+                        {
+                            "label": "Driving and community mobility"
+                        },
+                        {
+                            "label": "Financial management"
+                        },
+                        {
+                            "label": "Health management and maintenance"
+                        },
+                        {
+                            "label": "Home establishment and management"
+                        },
+                        {
+                            "label": "Meal preparation and clean up"
+                        },
+                        {
+                            "label": "Religious / spiritual activities and expression"
+                        },
+                        {
+                            "label": "Safety and emergency maintenance"
+                        },
+                        {
+                            "label": "Shopping"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Education1",
+                    "description": "Education",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Formal education participation"
+                        },
+                        {
+                            "label": "Informal personal education needs or interests exploration"
+                        },
+                        {
+                            "label": "Informal personal education participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Work",
+                    "description": "Work",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Employment interests and pursuits"
+                        },
+                        {
+                            "label": "Employment seeking and acquisition"
+                        },
+                        {
+                            "label": "Job performance"
+                        },
+                        {
+                            "label": "Retirement preparation and adjustment"
+                        },
+                        {
+                            "label": "Volunteer exploration"
+                        },
+                        {
+                            "label": "Volunteer participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "RestandSleep",
+                    "description": "Rest and Sleep",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Rest"
+                        },
+                        {
+                            "label": "Sleep preparation"
+                        },
+                        {
+                            "label": "Sleep participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Play",
+                    "description": "Play",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Play exploration"
+                        },
+                        {
+                            "label": "Play participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Leisure",
+                    "description": "Leisure",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Leisure exploration"
+                        },
+                        {
+                            "label": "Leisure participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SocialParticipation",
+                    "description": "Social Participation",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Community"
+                        },
+                        {
+                            "label": "Family"
+                        },
+                        {
+                            "label": "Peer/friend"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Activities",
+                    "description": "Activities: Designed and selected to support the development of skills, performance patterns, roles, habits, and routines that enhance occupational engagement",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Practicing an activity"
+                        },
+                        {
+                            "label": "Simulation of activity"
+                        },
+                        {
+                            "label": "Role play"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Examples",
+                    "description": "Examples:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "PreparatoryMethods",
+                    "description": "Preparatory Methods and Tasks: Methods, adaptations and techniques that prepare the client for occupational performance",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Preparatory tasks"
+                        },
+                        {
+                            "label": "Exercises"
+                        },
+                        {
+                            "label": "Physical agent modalities"
+                        },
+                        {
+                            "label": "Splinting"
+                        },
+                        {
+                            "label": "Assistive technology"
+                        },
+                        {
+                            "label": "Wheelchair mobility"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Examples2",
+                    "description": "Examples:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "SocialParticipation1",
+                    "description": "Social Participation",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Community"
+                        },
+                        {
+                            "label": "Family"
+                        },
+                        {
+                            "label": "Peer/friend"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Education",
+                    "description": "Education: describe",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Training",
+                    "description": "Training: describe",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Advocacy",
+                    "description": "Advocacy: describe",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Interventions",
+                    "description": "Group Interventions: describe",
+                    "fieldType": "TextBox"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.MethodIntervention",
+            "caption": "Method of Intervention",
+            "fields": [
+                {
+                    "fieldId": "ServicesCaseload",
+                    "description": "Direct Services/Caseload for entry-level OT",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "One-to-one:",
+                            "fields": [
+                                {
+                                    "fieldId": "Onetoone",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Small group(s):",
+                            "fields": [
+                                {
+                                    "fieldId": "Smallgroup",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Large group:",
+                            "fields": [
+                                {
+                                    "fieldId": "Largegroup",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Discharge/Outcomes",
+                    "description": "Discharge/Outcomes of Clients (% clients)",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Home"
+                        },
+                        {
+                            "label": "Another medical facility"
+                        },
+                        {
+                            "label": "Home health"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OutcomesIntervention",
+                    "description": "Outcomes of Intervention",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Occupational performance improvement and/or enhancement"
+                        },
+                        {
+                            "label": "Health and Wellness"
+                        },
+                        {
+                            "label": "Prevention"
+                        },
+                        {
+                            "label": "Quality of life"
+                        },
+                        {
+                            "label": "Role competence"
+                        },
+                        {
+                            "label": "Participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Approaches",
+                    "description": "OT Intervention Approaches",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Create, promote  health/habits"
+                        },
+                        {
+                            "label": "Establish, restore, remediate"
+                        },
+                        {
+                            "label": "Maintain"
+                        },
+                        {
+                            "label": "Modify, facilitate compensation, adaptation"
+                        },
+                        {
+                            "label": "Prevent disability"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Theory/Frames",
+                    "description": "Theory/Frames of Reference/Models of Practice",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Acquisitional"
+                        },
+                        {
+                            "label": "Biomechanical"
+                        },
+                        {
+                            "label": "Cognitive/Behavioral"
+                        },
+                        {
+                            "label": "Coping"
+                        },
+                        {
+                            "label": "Developmental"
+                        },
+                        {
+                            "label": "Ecology of Human Performance"
+                        },
+                        {
+                            "label": "Model of Human Occupation (MOHO)"
+                        },
+                        {
+                            "label": "Occupational Adaptation"
+                        },
+                        {
+                            "label": "Occupational Performance"
+                        },
+                        {
+                            "label": "Person-Environment-Occupation (PEO)"
+                        },
+                        {
+                            "label": "Person-Environment-Occupational Performance (PEOP)"
+                        },
+                        {
+                            "label": "Psychosocial"
+                        },
+                        {
+                            "label": "Rehabilitation frames of reference"
+                        },
+                        {
+                            "label": "Sensory Integration"
+                        },
+                        {
+                            "label": "Other (please list):",
+                            "fields": [
+                                {
+                                    "fieldId": "pleaselist",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "screenings",
+                    "description": "Please list the most common screenings and evaluations used in your setting:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "precautions",
+                    "description": "Identify safety precautions important at your FW site",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Medications"
+                        },
+                        {
+                            "label": "Postsurgical (list procedures)"
+                        },
+                        {
+                            "label": "Contact guard for ambulation"
+                        },
+                        {
+                            "label": "Fall risk"
+                        },
+                        {
+                            "label": "Swallowing/choking risks"
+                        },
+                        {
+                            "label": "Behavioral system/ privilege level (locked areas, grounds)"
+                        },
+                        {
+                            "label": "Sharps count"
+                        },
+                        {
+                            "label": "1 to 1 safety/suicide precautions"
+                        },
+                        {
+                            "label": "Other (describe):",
+                            "fields": [
+                                {
+                                    "fieldId": "describe",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Performanceskills",
+            "caption": "Performance skills, patterns, contexts and client factors addressed in this setting (check all that apply): ACOTE Standard C. 1.12",
+            "fields": [
+                {
+                    "fieldId": "PerformanceSkills",
+                    "description": "Performance Skills:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Motor skills"
+                        },
+                        {
+                            "label": "Process skills"
+                        },
+                        {
+                            "label": "Social interaction skills"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PatternsPerson",
+                    "description": "Performance Patterns:<br><br>Person:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Habits"
+                        },
+                        {
+                            "label": "Routines"
+                        },
+                        {
+                            "label": "Rituals"
+                        },
+                        {
+                            "label": "Roles"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "GrouporPo",
+                    "description": "Group or Population:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Habits"
+                        },
+                        {
+                            "label": "Routines"
+                        },
+                        {
+                            "label": "Rituals"
+                        },
+                        {
+                            "label": "Roles"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ClientFa",
+                    "description": "Client Factors:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Values"
+                        },
+                        {
+                            "label": "Beliefs"
+                        },
+                        {
+                            "label": "Spirituality"
+                        },
+                        {
+                            "label": "Mental functions (affective, cognitive, perceptual)"
+                        },
+                        {
+                            "label": "Sensory functions"
+                        },
+                        {
+                            "label": "Neuromusculoskeletal and movement-related functions"
+                        },
+                        {
+                            "label": "Muscle functions"
+                        },
+                        {
+                            "label": "Movement functions"
+                        },
+                        {
+                            "label": "Cardiovascular, hematological, immunological, and respiratory system functions"
+                        },
+                        {
+                            "label": "Voice and speech functions; digestive, metabolic, and endocrine system functions;"
+                        },
+                        {
+                            "label": "Skin and related-structure functions"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Conte",
+                    "description": "Context(s):",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Cultural"
+                        },
+                        {
+                            "label": "Personal"
+                        },
+                        {
+                            "label": "Temporal"
+                        },
+                        {
+                            "label": "Virtual"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Environ",
+                    "description": "Environment:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Physical"
+                        },
+                        {
+                            "label": "Social"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "servicesprior",
+                    "description": "Most common services priorities (check all that apply):",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Direct service"
+                        },
+                        {
+                            "label": "Discharge planning"
+                        },
+                        {
+                            "label": "Evaluation"
+                        },
+                        {
+                            "label": "Meetings (team, department, family)"
+                        },
+                        {
+                            "label": "Client education"
+                        },
+                        {
+                            "label": "Intervention"
+                        },
+                        {
+                            "label": "Consultation"
+                        },
+                        {
+                            "label": "In-service training"
+                        },
+                        {
+                            "label": "Billing"
+                        },
+                        {
+                            "label": "Documentation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Targetcaseload",
+                    "description": "<b>Target caseload/productivity for fieldwork students:</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "workweek",
+                    "fieldType": "TextBox",
+                    "description": "Productivity ( %) per 40-hour work week:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "endofFW",
+                    "fieldType": "TextBox",
+                    "description": "Caseload expectation at end of FW:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "hourday",
+                    "fieldType": "TextBox",
+                    "description": "Productivity (%) per 8-hour day:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "groupsperday",
+                    "fieldType": "TextBox",
+                    "description": "Number groups per day expected at end of FW:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Frequency/Format",
+                    "description": "Documentation: Frequency/Format (briefly describe):",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Handwritten documentation:",
+                            "fields": [
+                                {
+                                    "fieldId": "handwrit",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Computerized medical records:",
+                            "fields": [
+                                {
+                                    "fieldId": "Computerized",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "framerequirements",
+                    "fieldType": "TextBox",
+                    "description": "Time frame requirements to complete documentation:",
+                    "characterLimit": 50
+                },
+                {
+                    "fieldId": "OTOTAStudent",
+                    "description": "Administrative/Management Duties or Responsibilities of the OT/OTA Student:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Schedule own clients"
+                        },
+                        {
+                            "label": "Supervision of others (Level I students, aides, OTA, volunteers)"
+                        },
+                        {
+                            "label": "Budgeting"
+                        },
+                        {
+                            "label": "Procuring supplies (shopping for cooking groups, client/intervention-related items)"
+                        },
+                        {
+                            "label": "Participating in supply or environmental maintenance"
+                        },
+                        {
+                            "label": "Other:",
+                            "fields": [
+                                {
+                                    "fieldId": "Other6",
+                                    "description": "Other",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentAssignments",
+                    "description": "Student Assignments. Students will be expected to successfully complete:",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Research/EBP/Literature review"
+                        },
+                        {
+                            "label": "In-service"
+                        },
+                        {
+                            "label": "Case study"
+                        },
+                        {
+                            "label": "In-service participation/grand rounds"
+                        },
+                        {
+                            "label": "Fieldwork project (describe):",
+                            "fields": [
+                                {
+                                    "fieldId": "Fieldworkproject5",
+                                    "description": "Fieldwork project (describe):",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Field visits/rotations to other areas of service"
+                        },
+                        {
+                            "label": "Observation of other units/disciplines"
+                        },
+                        {
+                            "label": "Other assignments (please list):",
+                            "fields": [
+                                {
+                                    "fieldId": "Otherassignments15",
+                                    "description": "Other assignments (please list):",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.OPTIONALDATA",
+            "caption": "OPTIONAL DATA COLLECTION:",
+            "fields": [
+                {
+                    "fieldId": "OPTIONALDATA",
+                    "description": "The question includes in this section may be used by academic programs to demonstrate compliance with the Accreditation Council for Occupational Therapy Education (ACOTE) Standards documentation for fieldwork.",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "Introduction51",
+                    "description": "<b>1. Please identify any external review agencies that accredit/recognize this FW setting and year of accreditation/recognition. Examples:  JCAHO, CARF, Department of Health, etc.</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "ExternalReview",
+                    "description": "Agency for External Review: (name)",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "mostrecent",
+                    "description": "Year of most recent review:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "outcomesofOT",
+                    "description": "Summary of outcomes of OT Department review:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ExternalReview1",
+                    "description": "Agency for External Review: (name)",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "mostrecent1",
+                    "description": "Year of most recent review:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "outcomesofOT1",
+                    "description": "Summary of outcomes of OT Department review:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "ExternalReview2",
+                    "description": "Agency for External Review: (name)",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "mostrecent2",
+                    "description": "Year of most recent review:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "outcomesofOT2",
+                    "description": "Summary of outcomes of OT Department review:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "statedmission",
+                    "description": "2. Describe the fieldwork site agency stated mission or purpose (can be attached).",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "DesignIntegrated",
+                    "description": "<b>3. OT Curriculum Design Integrated with Fieldwork Site (insert key OT academic curricular themes here)</b> <font size='1.5'><em>ACOTE Standards C.1.2, C.1.3,C.1.7, C.1.8, C.1.11,C.1.12<font size='1.5'><em>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "DesignIntegrated1",
+                    "description": "a. How are occupation-based needs evaluated and addressed in your OT program??",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DesignIntegrated2",
+                    "description": "b. Describe how you seek to include client-centered OT practice. How do clients participate in goal setting and intervention activities?",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DesignIntegrated3",
+                    "description": "c. Describe how psychosocial factors influence engagement in occupational therapy services.",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DesignIntegrated4",
+                    "description": "d. Describe how you address clients’ community-based needs in your setting.",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "evidencebased",
+                    "description": "4. How do you incorporate evidence-based practice into interventions and decision making? Are FW students encouraged to provide evidence for their practice? <font size='1.5'><em>ACOTE Standards C.1.3, C.1.11</em></font>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "progressionofstudent",
+                    "description": "5. Please describe the FW Program and how students fit into the program. Describe the progression of student supervision from novice to entry-level practitioner using direct supervision, co-treatment, and monitoring, as well as regular formal and informal supervisory meetings. Describe the fieldwork objectives, weekly fieldwork expectations, and record keeping of supervisory sessions conducted with student. Please mail a copy of the FW student objectives, weekly expectations for the Level II FW placement, dress code, and copy of an entry-level job description with essential job functions to the AFWC. <font size='1.5'><em>ACOTE Standards C.1.1, C.1.2, C.1.3, C.1.4, C.1.8, C.1.9</em></font>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "practitionersw",
+                    "description": "6. Please describe the background of supervisors by attaching a list of practitioners who are FW educators including their academic program, degree, years of experience since initial certification, and years of experience supervising students) <font size='1.5'><em>ACOTE Standards C.1.9, C.1.14, C.1.17, C.1.19</em></font>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "staffforeffective",
+                    "description": "7. Describe the training provided for OT staff for effective supervision of students (check all that apply). <font size='1.5'><em>ACOTE Standards C.1.9, C.1.15, C.1.16</em></font>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Supervisory models",
+                            "fields": [
+                                {
+                                    "fieldId": "Fieldworkproject55",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Training on use of FW assessment tools (such as the AOTA Fieldwork Performance Evaluation–FWPE, the Student Evaluation of Fieldwork Experience–SEFWE, and the Fieldwork Experience Assessment Tool–FEAT)",
+                            "fields": [
+                                {
+                                    "fieldId": "Fieldworkproject60",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Clinical reasoning",
+                            "fields": [
+                                {
+                                    "fieldId": "Fieldworkproject54",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Reflective practice",
+                            "fields": [
+                                {
+                                    "fieldId": "Fieldworkproject15",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments25",
+                    "description": "Comments:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "orientationprocess1",
+                    "description": "8. Please describe the process for record keeping of supervisory sessions with a student, the student orientation process to the agency, OT services, and the fieldwork experience. <font size='1.5'><em>ACOTE Standards C.1.2, C.1.3, C.1.10</em></font>",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "PatternsDescription4",
+                    "description": "Supervisory Patterns–Description (respond to all that apply)",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "1:1 Supervision model:",
+                            "fields": [
+                                {
+                                    "fieldId": "Supervision30",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Multiple students supervised by one supervisor:",
+                            "fields": [
+                                {
+                                    "fieldId": "Supervision31",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Collaborative supervision model:",
+                            "fields": [
+                                {
+                                    "fieldId": "Supervision32",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Multiple supervisors share supervision of one student; number of supervisors per student:",
+                            "fields": [
+                                {
+                                    "fieldId": "Supervision33",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Non-OT supervisors:",
+                            "fields": [
+                                {
+                                    "fieldId": "Supervision34",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "fundingandreimbursement",
+                    "description": "9. Describe funding and reimbursement sources and their impact on student supervision.",
+                    "fieldType": "Textarea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.SENTTOFACILITY",
+            "caption": "STATUS/TRACKING INFORMATION SENT TO FACILITY:",
+            "fields": [
+                {
+                    "fieldId": "Date35",
+                    "description": "Date:",
+                    "fieldType": "DatePicker"
+                },
+                {
+                    "fieldId": "fieldworksiteneed",
+                    "description": "<font size='1.5'><em>ACOTE Standard C.1.6</em></font><br><b>Which documentation does the fieldwork site need?</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Fieldwork Agreement/Contract?",
+                            "fields": [
+                                {
+                                    "fieldId": "Agreement/Contract2",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Memorandum of Understanding (MOU)?",
+                            "fields": [
+                                {
+                                    "fieldId": "Agreement/Contract5",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FWAgreement58",
+                    "description": "<b>Which FW Agreement will be used?:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "OT Academic Program Fieldwork Agreement"
+                        },
+                        {
+                            "label": "Fieldwork Site Agreement/ Contract"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "parentcorporation5",
+                    "description": "<b>Title of parent corporation (if different from facility name):</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "businessorganization5",
+                    "description": "<b>Type of business organization (Corporation, partnership, sole proprietor, etc.):</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "businessorganization65",
+                    "description": "<b>State of incorporation:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "agreementnegotiator",
+                    "description": "<b>Fieldwork site agreement negotiator:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "agreementnegotiator2",
+                    "description": "<b>Phone:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "agreementnegotiator3",
+                    "description": "<b>Email:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Address35",
+                    "description": "<b>Address</b> (if different from facility):",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "Address36",
+                    "description": "Street:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Address37",
+                    "description": "City:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Address38",
+                    "description": "State:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Address39",
+                    "description": "Zip:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Nameof2",
+                    "description": "<b>Name of student:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Nameof23",
+                    "description": "<b>Potential start date for fieldwork:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Nameof25",
+                    "description": "Any notation or changes that you want to include in the initial contact letter:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "StatusACOTE",
+                    "description": "Information Status<font size='1.5'><em> ACOTE Standards C.1.1, C.1.2, C.1.3, C.1.8</em></font>",
+                    "fieldType": "Checkbox",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "New general facility letter sent:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter",
+                                    "description": "New general facility letter sent:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Level I Information Packet sent:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter2",
+                                    "description": "Level I Information Packet sent:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Level II Information Packet sent:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter3",
+                                    "description": "Level II Information Packet sent:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Mail contract with intro letter (sent):",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter4",
+                                    "description": "Mail contract with intro letter (sent):",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Confirmation sent:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter5",
+                                    "description": "Confirmation sent:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Model behavioral objectives:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter6",
+                                    "description": "Model behavioral objectives:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Week-by-week outline:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter7",
+                                    "description": "Week-by-week outline:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Other information:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter8",
+                                    "description": "Other information:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Database entry:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter9",
+                                    "description": "Database entry:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Facility information:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter10",
+                                    "description": "Facility information:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Student fieldwork information:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter11",
+                                    "description": "Student fieldwork information:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Make facility folder:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter12",
+                                    "description": "Make facility folder:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Print facility sheet:",
+                            "fields": [
+                                {
+                                    "fieldId": "facilityletter13",
+                                    "description": "Print facility sheet:",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "ACHEEduOT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRc2AQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRc2AQAAAAAAAA==/",
+    "_etag": "\"08020578-0000-0100-0000-65a6186e0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1705384046
+}

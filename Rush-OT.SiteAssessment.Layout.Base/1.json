@@ -1,0 +1,1495 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.FWI",
+            "caption": "FWI",
+            "fields": [
+                {
+                    "fieldId": "ContactPerson",
+                    "description": "<b>Contact Person:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Credentials",
+                    "description": "<b>Credentials:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Phone11",
+                    "fieldType": "textbox",
+                    "description": "<b>Phone Number</b>",
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "[0-9]{10}",
+                            "message": "Please enter 10 digits only"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Email22",
+                    "fieldType": "textbox",
+                    "description": "<b>Email Address</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "Please enter email"
+                        },
+                        {
+                            "name": "pattern",
+                            "validator": "[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?",
+                            "message": "Please enter valid email"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.FWII",
+            "caption": "FWII",
+            "fields": [
+                {
+                    "fieldId": "ContactPerson1",
+                    "description": "<b>Contact Person:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Credentials1",
+                    "description": "<b>Credentials:</b>",
+                    "fieldType": "TextBox",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "A7",
+                    "fieldType": "phone",
+                    "description": "<b>Phone Number</b>",
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "[0-9]{10}",
+                            "message": "Please enter 10 digits only"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A6",
+                    "fieldType": "email",
+                    "description": "<b>Email Address</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "Please enter email"
+                        },
+                        {
+                            "name": "pattern",
+                            "validator": "[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?",
+                            "message": "Please enter valid email"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Director",
+            "caption": "Site Information",
+            "fields": [
+                {
+                    "fieldId": "Director1",
+                    "description": "<b>Director:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "A71",
+                    "fieldType": "phone",
+                    "description": "<b>Phone Number</b>",
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "[0-9]{10}",
+                            "message": "Please enter 10 digits only"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "DirectorFax",
+                    "description": "<b>Fax:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DirectorFax1",
+                    "description": "<b>Fax:</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "DirectorWebsiteaddress",
+                    "fieldType": "textbox",
+                    "description": "<b>Web site address:</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "Please enter website only"
+                        },
+                        {
+                            "name": "pattern",
+                            "validator": "[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?",
+                            "message": "Please enter valid website"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "InitiationSource",
+                    "description": "<b>Initiation Source:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "FW Office"
+                        },
+                        {
+                            "label": "FW Site"
+                        },
+                        {
+                            "label": "Student"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CorporateStatus",
+                    "description": "<b>Corporate Status:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "For Profit"
+                        },
+                        {
+                            "label": "Nonprofit"
+                        },
+                        {
+                            "label": "State Gov’t"
+                        },
+                        {
+                            "label": "Federal Gov’t"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreferredSequenceofFW",
+                    "description": "<b>Preferred Sequence of FW:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Any"
+                        },
+                        {
+                            "label": "Second/Third only"
+                        },
+                        {
+                            "label": "Full-time only"
+                        },
+                        {
+                            "label": "Part-time option"
+                        },
+                        {
+                            "label": "Prefer full-time"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.OTFieldworkPracticeSettings",
+            "caption": "OT Fieldwork Practice Settings (ACOTE Form A #s noted):",
+            "fields": [
+                {
+                    "fieldId": "Hospitalbasedsettings",
+                    "description": "<b>Hospital-based settings</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inpatient Acute 1.1"
+                        },
+                        {
+                            "label": "Inpatient Rehab 1.2 "
+                        },
+                        {
+                            "label": "SNF/Sub-Acute/Acute Long-Term Care 1.3"
+                        },
+                        {
+                            "label": "General Rehab Outpatient 1.4"
+                        },
+                        {
+                            "label": "Outpatient Hands 1.5"
+                        },
+                        {
+                            "label": "Pediatric Hospital/Unit 1.6"
+                        },
+                        {
+                            "label": "Peds Hospital Outpatient 1.7"
+                        },
+                        {
+                            "label": "Inpatient Psych 1.8"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Communitybasedsettings",
+                    "description": "<b>Community-based settings</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Peds Community 2.1"
+                        },
+                        {
+                            "label": "Behavioral Health Community 2.2"
+                        },
+                        {
+                            "label": "Older Adult Community Living 2.3"
+                        },
+                        {
+                            "label": "Older Adult Day Program 2.4"
+                        },
+                        {
+                            "label": "Outpatient/hand private practice 2.5"
+                        },
+                        {
+                            "label": "Adult Day Program for DD 2.6"
+                        },
+                        {
+                            "label": "Home Health 2.7"
+                        },
+                        {
+                            "label": "Peds Outpatient Clinic 2.8"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Schoolbasedsettings",
+                    "description": "<b>School-based settings</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Early Intervention 3.1"
+                        },
+                        {
+                            "label": "School 3.2"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Otherarea",
+                    "description": "<b>Other area(s)</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "specify",
+                    "fieldType": "Textarea",
+                    "description": "Please specify:"
+                },
+                {
+                    "fieldId": "AgeGroups",
+                    "description": "<b>Age-Groups:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "0–5"
+                        },
+                        {
+                            "label": "6–12"
+                        },
+                        {
+                            "label": "13–21"
+                        },
+                        {
+                            "label": "22–64"
+                        },
+                        {
+                            "label": "65+"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff",
+                    "description": "<b>Number of Staff:</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "NumberofStaff1",
+                    "fieldType": "TextBox",
+                    "description": "OTRs:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff2",
+                    "fieldType": "TextBox",
+                    "description": "COTAs:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff3",
+                    "fieldType": "TextBox",
+                    "description": "Aides:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff4",
+                    "fieldType": "TextBox",
+                    "description": "PT:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff5",
+                    "fieldType": "TextBox",
+                    "description": "Speech:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff6",
+                    "fieldType": "TextBox",
+                    "description": "Resource Teacher:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff7",
+                    "fieldType": "TextBox",
+                    "description": "Counselor/Psychologist:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "NumberofStaff8",
+                    "fieldType": "TextBox",
+                    "description": "Other:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentPrerequisites",
+                    "description": "<b>Student Prerequisites (check all that apply)",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "CPR"
+                        },
+                        {
+                            "label": "Medicare/Medicaid fraud check"
+                        },
+                        {
+                            "label": "Criminal background check"
+                        },
+                        {
+                            "label": "Child protection/abuse check"
+                        },
+                        {
+                            "label": "Adult abuse check"
+                        },
+                        {
+                            "label": "Fingerprinting"
+                        },
+                        {
+                            "label": "First Aid"
+                        },
+                        {
+                            "label": "Infection Control training"
+                        },
+                        {
+                            "label": "HIPAA"
+                        },
+                        {
+                            "label": "Prof. liability ins."
+                        },
+                        {
+                            "label": "Car Required"
+                        },
+                        {
+                            "label": "Interview"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentPrerequisites2",
+                    "description": "Health requirements:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "HepB"
+                        },
+                        {
+                            "label": "MMR"
+                        },
+                        {
+                            "label": "Tetanus"
+                        },
+                        {
+                            "label": "Chest x-ray"
+                        },
+                        {
+                            "label": "Drug screening"
+                        },
+                        {
+                            "label": "TB/Mantoux"
+                        },
+                        {
+                            "label": "Physical Check up"
+                        },
+                        {
+                            "label": "Varicella"
+                        },
+                        {
+                            "label": "Influenza"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Listrequirements",
+                    "description": "<b>Please list any other requirements:</b>",
+                    "fieldType": "Textarea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Performanceskills",
+            "caption": "Performance skills, patterns, contexts and client factors addressed in this setting (check all that apply)",
+            "fields": [
+                {
+                    "fieldId": "PerformanceSkills10",
+                    "description": "<b><u>Performance Skills:</u></b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "PerformanceSkills1",
+                    "description": "Motor Skills",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Posture"
+                        },
+                        {
+                            "label": "Mobility"
+                        },
+                        {
+                            "label": "Coordination"
+                        },
+                        {
+                            "label": "Strength & effort"
+                        },
+                        {
+                            "label": "Energy"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PerformanceSkills2",
+                    "description": "Process Skills",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Energy"
+                        },
+                        {
+                            "label": "Knowledge"
+                        },
+                        {
+                            "label": "Temporal organization"
+                        },
+                        {
+                            "label": "Organizing space & objects"
+                        },
+                        {
+                            "label": "Adaption"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PerformanceSkills3",
+                    "description": "Communication/ Interaction Skills",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Physicality - non verbal"
+                        },
+                        {
+                            "label": "Information exchange"
+                        },
+                        {
+                            "label": "Relations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ClientFactors10",
+                    "description": "<b><u>Client Factors:</u></b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "ClientFactors1",
+                    "description": "Body functions/ structures:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Mental functions - affective"
+                        },
+                        {
+                            "label": "Mental functions - cognitive"
+                        },
+                        {
+                            "label": "Mental functions - perceptual"
+                        },
+                        {
+                            "label": "Sensory functions & pain"
+                        },
+                        {
+                            "label": "Voice & speech functions"
+                        },
+                        {
+                            "label": "Major organ systems: heart, lungs, blood, immune"
+                        },
+                        {
+                            "label": "Digestion/ metabolic/ endocrine systems"
+                        },
+                        {
+                            "label": "Reproductive functions"
+                        },
+                        {
+                            "label": "Neuromusculoskeletal & movement functions"
+                        },
+                        {
+                            "label": "Skin"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ClientFactors2",
+                    "description": "Context(s):",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Cultural- ethnic beliefs & values"
+                        },
+                        {
+                            "label": "Physical environment"
+                        },
+                        {
+                            "label": "Social Relationships"
+                        },
+                        {
+                            "label": "Personal- age, gender, etc"
+                        },
+                        {
+                            "label": "Spiritual"
+                        },
+                        {
+                            "label": "Temporal- life stages, etc"
+                        },
+                        {
+                            "label": "Virtual- simulation of env, chat room, etc"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ClientFactors3",
+                    "description": " Performance Patterns/ Habits",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Impoverished habits"
+                        },
+                        {
+                            "label": "Useful habits"
+                        },
+                        {
+                            "label": "Dominating habits"
+                        },
+                        {
+                            "label": "Routine sequences"
+                        },
+                        {
+                            "label": "Roles"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ClientFactors4",
+                    "description": "Most common services priorities (check all that apply)",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Direct service"
+                        },
+                        {
+                            "label": "Discharge planning"
+                        },
+                        {
+                            "label": "Evaluation"
+                        },
+                        {
+                            "label": "Meetings(team, department, family)"
+                        },
+                        {
+                            "label": "Client education"
+                        },
+                        {
+                            "label": "Intervention"
+                        },
+                        {
+                            "label": "Consultation"
+                        },
+                        {
+                            "label": "In-service training"
+                        },
+                        {
+                            "label": "Billing"
+                        },
+                        {
+                            "label": "Documentation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.interventions",
+            "caption": "Types of OT interventions addressed in this setting (check all that apply):",
+            "fields": [
+                {
+                    "fieldId": "Occupationalbasedactivity",
+                    "description": "<b>Occupational-based activity- within client's own environmental context; based on their goals addressed in this setting (check all that apply):</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "DailyLiving",
+                    "description": "Activities of Daily Living (ADL)",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Bathing/showering"
+                        },
+                        {
+                            "label": "Bowl and bladder mgmt"
+                        },
+                        {
+                            "label": "Dressing"
+                        },
+                        {
+                            "label": "Eating"
+                        },
+                        {
+                            "label": "Feeding"
+                        },
+                        {
+                            "label": "Functional mobility"
+                        },
+                        {
+                            "label": "Personal device care"
+                        },
+                        {
+                            "label": "Personal hygiene and grooming"
+                        },
+                        {
+                            "label": "Sexual activity"
+                        },
+                        {
+                            "label": "Sleep/ rest"
+                        },
+                        {
+                            "label": "Toilet hygiene"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "MethodIntervention",
+                    "description": "<b>Method of Intervention</b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "MethodIntervention1",
+                    "description": "Direct Services/ case load for entry-level OT",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Care of others/pets"
+                        },
+                        {
+                            "label": "Child rearing"
+                        },
+                        {
+                            "label": "Communication device use"
+                        },
+                        {
+                            "label": "Community mobility"
+                        },
+                        {
+                            "label": "Financial management"
+                        },
+                        {
+                            "label": "Health management and maintenance"
+                        },
+                        {
+                            "label": "Home establishment and management"
+                        },
+                        {
+                            "label": "Meal preparation and clean up"
+                        },
+                        {
+                            "label": "Safety procedures & emergency responses"
+                        },
+                        {
+                            "label": "Shopping"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Education",
+                    "description": "Education",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Formal education participation"
+                        },
+                        {
+                            "label": "Exploration of informal personal education needs or interests"
+                        },
+                        {
+                            "label": "Informal personal education participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Work",
+                    "description": "Work",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Employment interests and pursuits"
+                        },
+                        {
+                            "label": "Employment seeking and acquisition"
+                        },
+                        {
+                            "label": "Job performance"
+                        },
+                        {
+                            "label": "Retirement preparation and adjustment"
+                        },
+                        {
+                            "label": "Volunteer exploration / participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Play",
+                    "description": "Play",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Play exploration"
+                        },
+                        {
+                            "label": "Play participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Leisure",
+                    "description": "Leisure",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Leisure exploration"
+                        },
+                        {
+                            "label": "Leisure participation"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SocialParticipation",
+                    "description": "Social Participation",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Community"
+                        },
+                        {
+                            "label": "Family"
+                        },
+                        {
+                            "label": "Peer/friend"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Activities",
+                    "description": "Purposeful Activity- therapeutic context leading to occupation, practice in preparation for natural context",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Practicing an activity"
+                        },
+                        {
+                            "label": "Simulation of activity"
+                        },
+                        {
+                            "label": "Role play"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Examples",
+                    "description": "Examples:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "PreparatoryMethods",
+                    "description": "Preparatory Methods- preparation for purposeful and occupation-based activity",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Sensory - Stimulation"
+                        },
+                        {
+                            "label": "Physical agent modalities"
+                        },
+                        {
+                            "label": "Splinting"
+                        },
+                        {
+                            "label": "Exercise"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Examples2",
+                    "description": "Examples:",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Therapeutic",
+                    "description": "Therapeutic Use-of-Self- describe",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "Consultation",
+                    "description": " Consultation Process- describe",
+                    "fieldType": "Textarea"
+                },
+                {
+                    "fieldId": "EducationProcess",
+                    "description": "  Education Process- describe",
+                    "fieldType": "Textarea"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.MethodIntervention",
+            "caption": "Method of Intervention",
+            "fields": [
+                {
+                    "fieldId": "ServicesCaseload",
+                    "description": "Direct Services/Caseload for entry-level OT",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "One-to-one:",
+                            "fields": [
+                                {
+                                    "fieldId": "Onetoone",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Small group(s):",
+                            "fields": [
+                                {
+                                    "fieldId": "Smallgroup",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Large group:",
+                            "fields": [
+                                {
+                                    "fieldId": "Largegroup",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Discharge/Outcomes",
+                    "description": "Discharge/Outcomes of Clients (% clients)",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Home"
+                        },
+                        {
+                            "label": "Another medical facility"
+                        },
+                        {
+                            "label": "Home health"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "OutcomesIntervention",
+                    "description": "Outcomes of Intervention",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Occupational performance - improve &/ or enhance"
+                        },
+                        {
+                            "label": "Client Satisfaction"
+                        },
+                        {
+                            "label": "Role competence"
+                        },
+                        {
+                            "label": "Adaptation"
+                        },
+                        {
+                            "label": "Health and Wellness"
+                        },
+                        {
+                            "label": "Prevention"
+                        },
+                        {
+                            "label": "Quality of life"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Approaches",
+                    "description": "OT Intervention Approaches",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Create, promote (health promotion)"
+                        },
+                        {
+                            "label": "Establish, restore, remediation"
+                        },
+                        {
+                            "label": "Maintain"
+                        },
+                        {
+                            "label": "Modify, compensation, adaptation"
+                        },
+                        {
+                            "label": "Prevent, disability prevention"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Theory/Frames",
+                    "description": "Theory/Frames of Reference/Models of Practice",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Acquisitional"
+                        },
+                        {
+                            "label": "Biomechanical"
+                        },
+                        {
+                            "label": "Cognitive/Behavioral"
+                        },
+                        {
+                            "label": "Coping"
+                        },
+                        {
+                            "label": "Developmental"
+                        },
+                        {
+                            "label": "Ecology of Human Performance"
+                        },
+                        {
+                            "label": "Model of Human Occupation (MOHO)"
+                        },
+                        {
+                            "label": "Occupational Adaptation"
+                        },
+                        {
+                            "label": "Occupational Performance Model"
+                        },
+                        {
+                            "label": "Person/ Environment/ Occupation (P-E-O)"
+                        },
+                        {
+                            "label": "Person-Environment-Occupational Performance"
+                        },
+                        {
+                            "label": "Psychosocial"
+                        },
+                        {
+                            "label": "Rehabilitation frames of reference"
+                        },
+                        {
+                            "label": "Sensory Integration"
+                        },
+                        {
+                            "label": "Other (please list)",
+                            "fields": [
+                                {
+                                    "fieldId": "pleaselist",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "screenings",
+                    "description": "Please list most common screenings and evaluations used in your setting:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "precautions",
+                    "description": "Identify safety precautions important at your FW site",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Medications"
+                        },
+                        {
+                            "label": "Post-surgical (list procedures)"
+                        },
+                        {
+                            "label": "Contact guard for ambulation"
+                        },
+                        {
+                            "label": "Fall risk"
+                        },
+                        {
+                            "label": "Swallowing/choking risks"
+                        },
+                        {
+                            "label": "Behavioral system/ privilege level (locked areas, grounds)"
+                        },
+                        {
+                            "label": "Sharps count"
+                        },
+                        {
+                            "label": "1:1 safety/ suicide precautions"
+                        },
+                        {
+                            "label": "Other (describe):",
+                            "fields": [
+                                {
+                                    "fieldId": "describe",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FWIIplacement",
+                    "fieldType": "TextArea",
+                    "description": "Please list how students should preapare for a FW II placement such as doing readings, learb specific evaluations and interventions used in your setting:"
+                },
+                {
+                    "fieldId": "Targetcaseload",
+                    "description": "<b><u>Target caseload/productivity for fieldwork students:</u></b>",
+                    "fieldType": "Label"
+                },
+                {
+                    "fieldId": "workweek",
+                    "fieldType": "TextBox",
+                    "description": "Productivity % per 40 hour work week:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "endofFW",
+                    "fieldType": "TextBox",
+                    "description": "Caseload expectataionat the end of FW:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "hourday",
+                    "fieldType": "TextBox",
+                    "description": "Productivity % per 8 hour day:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "groupsperday",
+                    "fieldType": "TextBox",
+                    "description": "# Groups per day expectation at the end of FW:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Frequency/Format",
+                    "description": "Documentation: Frequency/ Format (briefly describe):",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Hand-written documentation",
+                            "fields": [
+                                {
+                                    "fieldId": "handwrit",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Computerized Medical Records",
+                            "fields": [
+                                {
+                                    "fieldId": "Computerized",
+                                    "fieldType": "Textarea"
+                                },
+                                {
+                                    "fieldId": "Describe1",
+                                    "fieldType": "TextArea",
+                                    "description": "Please Describe:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "framerequirements",
+                    "fieldType": "TextBox",
+                    "description": "Time frame requirements to complete documentation:",
+                    "characterLimit": 50
+                },
+                {
+                    "fieldId": "OTOTAStudent",
+                    "description": "Administrative/ Management duties or responsibilities of the OT/OTA student:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Schedule own clients"
+                        },
+                        {
+                            "label": "Supervision of others (Level I students, aides, OTA, volunteers)"
+                        },
+                        {
+                            "label": "Budgeting"
+                        },
+                        {
+                            "label": "Procuring supplies (shopping for cooking groups, client/ intervention related items)"
+                        },
+                        {
+                            "label": "Participating in supply or environmental maintenance"
+                        },
+                        {
+                            "label": "Other:",
+                            "fields": [
+                                {
+                                    "fieldId": "Other6",
+                                    "description": "Other",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentAssignments2",
+                    "description": "Student Assignments. Students will be expected to successfully complete:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Research/EBP/Literature review"
+                        },
+                        {
+                            "label": "In-service"
+                        },
+                        {
+                            "label": "Case study"
+                        },
+                        {
+                            "label": "Participate in in-services/ grand rounds"
+                        },
+                        {
+                            "label": "Fieldwork project (describe):",
+                            "fields": [
+                                {
+                                    "fieldId": "Fieldworkproject5",
+                                    "description": "Fieldwork project (describe):",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Field visits/ rotations to other areas of service"
+                        },
+                        {
+                            "label": "Observation of other units/disciplines"
+                        },
+                        {
+                            "label": "Other assignments (please list):",
+                            "fields": [
+                                {
+                                    "fieldId": "Otherassignments15",
+                                    "description": "Other assignments (please list):",
+                                    "fieldType": "Textarea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.workschedule",
+            "caption": "Student work schedule and outside study expected:",
+            "fields": [
+                {
+                    "fieldId": "Schedule",
+                    "description": "Schedule hrs/week/day:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "weekends",
+                    "description": "<b>Do students work weekends?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "evenings",
+                    "description": "<b>Do students work evenings?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Other",
+            "caption": "Other",
+            "fields": [
+                {
+                    "fieldId": "Roomprovided",
+                    "description": "<b>Room provided</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Meals",
+                    "description": "<b>Meals</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "yes"
+                        },
+                        {
+                            "label": "no"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Stipendamount",
+                    "fieldType": "TextBox",
+                    "description": "Stipend amount:",
+                    "characterLimit": 50,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "structure",
+                    "description": "<b>Describe level of structure for student?</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "High"
+                        },
+                        {
+                            "label": "Moderate"
+                        },
+                        {
+                            "label": "Low"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supervisory",
+                    "description": "<b>Describe level of supervisory support for student?</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "High"
+                        },
+                        {
+                            "label": "Moderate"
+                        },
+                        {
+                            "label": "Low"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FWenvironment",
+                    "description": "Describe the FW environment/ atmosphere for student learning:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "public",
+                    "description": "Describe public transportation available:",
+                    "fieldType": "TextArea"
+                }
+            ]
+        }
+    ],
+    "id": "Rush-OT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdTAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdTAQAAAAAAAA==/",
+    "_etag": "\"ba0173ca-0000-0100-0000-65b79c850000\"",
+    "_attachments": "attachments/",
+    "_ts": 1706531973
+}

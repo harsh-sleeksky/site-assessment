@@ -1,0 +1,574 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SurveyFlow",
+            "caption": "Survey Flow",
+            "fields": [
+                {
+                    "fieldId": "speciality",
+                    "fieldType": "Radio",
+                    "description": "<b>Q1 Select the site speciality:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Family Medicine"
+                        },
+                        {
+                            "label": "Inpatient Internal Medicine"
+                        },
+                        {
+                            "label": "Women's Health & Prenatal Care"
+                        },
+                        {
+                            "label": "Pediatrics"
+                        },
+                        {
+                            "label": "Surgery"
+                        },
+                        {
+                            "label": "Emergency Medicine"
+                        },
+                        {
+                            "label": "Psychiatry and Behavioral Health"
+                        },
+                        {
+                            "label": "Primary Care"
+                        },
+                        {
+                            "label": "Elective",
+                            "fields": [
+                                {
+                                    "fieldId": "Electivespecialty",
+                                    "fieldType": "TextArea",
+                                    "description": "If the clinical site is an elective, indicate the specialty.If it is not, please indicate N/A:",
+                                    "validations": [
+                                        {
+                                            "name": "required",
+                                            "message": "This Field is required",
+                                            "validator": ""
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorInfo",
+                    "fieldType": "TextBox",
+                    "description": "Q2 Name of preceptor"
+                },
+                {
+                    "fieldId": "StudentGlobalPerformance1",
+                    "fieldType": "Radio",
+                    "description": "<b>Q3 General Student Observations of Program Defined Competencies: Student Global Performance of Medical Knowledge</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstrates Limited Competence (Needs to meet with Director of Clinical Education for ILP)"
+                        },
+                        {
+                            "label": "Demonstrates Competence"
+                        },
+                        {
+                            "label": "Demonstrates Advanced Competence"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentGlobalPerformance2",
+                    "fieldType": "Radio",
+                    "description": "<b>Q4 General Student Observations of Program Defined Competencies: Student Global Performance of Clinical Skills</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstrates Limited Competence (Needs to meet with Director of Clinical Education for ILP)"
+                        },
+                        {
+                            "label": "Demonstrates Competence"
+                        },
+                        {
+                            "label": "Demonstrates Advanced Competence"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentGlobalPerformance3",
+                    "fieldType": "Radio",
+                    "description": "<b>Q5 General Student Observations of Program Defined Competencies: Student Global Performance of Interpersonal & Communications Skills</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstrates Limited Competence (Needs to meet with Director of Clinical Education for ILP)"
+                        },
+                        {
+                            "label": "Demonstrates Competence"
+                        },
+                        {
+                            "label": "Demonstrates Advanced Competence"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentGlobalPerformance5",
+                    "fieldType": "Radio",
+                    "description": "<b>Q6 General Student Observations of Program Defined Competencies: Student Global Performance of Systems-Based Practice</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstrates Limited Competence (Needs to meet with Director of Clinical Education for ILP)"
+                        },
+                        {
+                            "label": "Demonstrates Competence"
+                        },
+                        {
+                            "label": "Demonstrates Advanced Competence"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentGlobalPerformance6",
+                    "fieldType": "Radio",
+                    "description": "<b>Q7 General Student Observations of Program Defined Competencies: Student Global Performance of Self-Assessment and Ongoing Professional Development.</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstrates Limited Competence (Needs to meet with Director of Clinical Education for ILP)"
+                        },
+                        {
+                            "label": "Demonstrates Competence"
+                        },
+                        {
+                            "label": "Demonstrates Advanced Competence"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentGlobalPerformance7",
+                    "fieldType": "Radio",
+                    "description": "<b>Q8 General Student Observations of Program Defined Competencies: Student Global Performance of Professionalism and Cultural Sensitivity & Humility.</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstrates Limited Competence (Needs to meet with Director of Clinical Education for ILP)"
+                        },
+                        {
+                            "label": "Demonstrates Competence"
+                        },
+                        {
+                            "label": "Demonstrates Advanced Competence"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteSafety",
+                    "fieldType": "Radio",
+                    "description": "<b>Q9 Clinical Site Safety: Clinical site provides a safe working environment for the student:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteAccess",
+                    "fieldType": "Radio",
+                    "description": "<b>Q10 Clinical Site Access: Clinical site provides student with access to physical facilities:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteOrientation",
+                    "fieldType": "Radio",
+                    "description": "<b>Q11 Clinical Site Orientation: Clinical site/preceptor orientates students to clinical site policies and procedures, to include emergency protocols and emergency/safety contact numbers:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "SiteNeedlestick",
+                    "fieldType": "Radio",
+                    "description": "<b>Q12 Clinical Site Blood Borne Pathogen/Needlestick: Clinical site/preceptor provides students with policies and procedures regarding infectious disease exposure to include blood borne pathogen exposure/needlestick:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentObservations",
+                    "fieldType": "Radio",
+                    "description": "<b>Q13 General Student Observations:Appearance and punctuality.Wears the required white coat and name badge.</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Unsatisfactoy"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Excellent"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment1",
+                    "fieldType": "Radio",
+                    "description": "<b>Q14 Learning Environment: Preceptor appears to be enthusiastic/advocate for student learning:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment2",
+                    "fieldType": "Radio",
+                    "description": "<b>Q15 Learning Environment: Preceptor has a current copy of syllabus or is able to locate it on our program's website:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment3",
+                    "fieldType": "Radio",
+                    "description": "<b>Q16 Learning Environment: Preceptor is familiar with the programs preceptor webpage with available teaching resources and preceptor handbook:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment4",
+                    "fieldType": "Radio",
+                    "description": "<b>Q17 Learning Environment: Students have opportunity to attend formal lectures/teaching:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment5",
+                    "fieldType": "Radio",
+                    "description": "<b>Q18 Learning Environment: Clinical site has adequate space for students to work:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment6",
+                    "fieldType": "Radio",
+                    "description": "<b>Q19 Learning Environment: Preceptor has clear understanding of PA role:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "LearningEnvironment7",
+                    "fieldType": "Radio",
+                    "description": "<b>Q20 Learning Environment: Preceptor is providing continuous formative feedback to the students:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentAssignment1",
+                    "fieldType": "Radio",
+                    "description": "<b>Q21 Student Assignment: Students works as an active member of the healthcare team:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentAssignment2",
+                    "fieldType": "Radio",
+                    "description": "<b>Q22 Student Assignment: Students are permitted to document in patient charts:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentAssignment3",
+                    "fieldType": "Radio",
+                    "description": "<b>Q23 Student Assignment: Students are assigned a diverse population of patients:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Strongly agree"
+                        },
+                        {
+                            "label": "Somewhat agree"
+                        },
+                        {
+                            "label": "Satisfactory"
+                        },
+                        {
+                            "label": "Somewhat disagree"
+                        },
+                        {
+                            "label": "Strongly disagree"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "contacts",
+                    "fieldType": "TextBox",
+                    "description": "Q24 Number of daily patient contacts"
+                },
+                {
+                    "fieldId": "Evaluatornote1",
+                    "fieldType": "TextArea",
+                    "description": "Q25 Evaluator notes/concerns on student performance:"
+                },
+                {
+                    "fieldId": "Evaluatornote2",
+                    "fieldType": "TextArea",
+                    "description": "Q26 Evaluator notes/concerns on patient acceptance of students:"
+                },
+                {
+                    "fieldId": "staffconcerns",
+                    "fieldType": "TextArea",
+                    "description": "Q27 Practice staff concerns about PA student(s):"
+                },
+                {
+                    "fieldId": "Evaluatornote3",
+                    "fieldType": "TextArea",
+                    "description": "Q28 Evaluator notes/concerns about delegating authority and assigning patients to PA student(s):"
+                },
+                {
+                    "fieldId": "Evaluatornote4",
+                    "fieldType": "TextArea",
+                    "description": "Q29 Evaluator notes/concerns about clinical site/preceptor:"
+                },
+                {
+                    "fieldId": "Recommendcontinueduse",
+                    "fieldType": "Radio",
+                    "description": "<b>Q30 Recommend continued use of preceptor and clinical site:</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "Maybe",
+                            "fields": [
+                                {
+                                    "fieldId": "reason",
+                                    "fieldType": "TextArea",
+                                    "description": "If select maybe, please indicate reason below:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "c",
+                            "fields": [
+                                {
+                                    "fieldId": "reason1",
+                                    "fieldType": "TextArea",
+                                    "description": "If select no, please indicate reason below:"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "NCATSUPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcuAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcuAQAAAAAAAA==/",
+    "_etag": "\"f600cac3-0000-0100-0000-656747ee0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1701267438
+}

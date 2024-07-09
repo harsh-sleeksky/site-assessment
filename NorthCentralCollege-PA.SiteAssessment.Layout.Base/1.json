@@ -1,0 +1,264 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Information",
+            "caption": "Information",
+            "fields": [
+                {
+                    "fieldId": "FWExperience",
+                    "description": "FW Experience:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Level 1"
+                        },
+                        {
+                            "label": "Level 2"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Supervisor/Contact",
+                    "description": "Supervisor/Contact:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "FacultyMember",
+                    "description": "Faculty Member:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Week",
+                    "description": "Week:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Setting",
+                    "description": "Setting:",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "Studentscaseload",
+                    "description": "Student's caseload (age range, diagnoses, etc.):",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "Studentassignments",
+                    "description": "<b><font size='5.5'>Student Assignments</b>",
+                    "fieldType": "label"
+                },
+                {
+                    "fieldId": "Evaluations",
+                    "description": "<br>Evaluations",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Progressnotes",
+                    "description": "Progress notes",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "D/Csummary",
+                    "description": "D/C summary",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Interventions",
+                    "description": "Interventions",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Casestudies/In-service/projects",
+                    "description": "Case studies/In-service/projects",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Other",
+                    "description": "Other Comments",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Supervision",
+                    "description": "Supervision:# of supervisors to 1 student",
+                    "fieldType": "TextBox",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "FWEpreparation",
+                    "fieldType": "label",
+                    "description": "<B><font size='5.5'>FWE preparation</B>"
+                },
+                {
+                    "fieldId": "sessions",
+                    "description": "<br>Supervision sessions are regularly scheduled",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Sufficient",
+                    "description": "Sufficient time scheduled for supervision",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feedback",
+                    "description": "Student thinks/feels supervision, support and feedback are adequate",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Style",
+                    "description": "Style of supervision meets student needs",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Objectives/expectations",
+                    "description": "Objectives/expectations are communicated at the beginning of FW",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feedback/generalizes/applies",
+                    "description": "Student response to feedback/generalizes/applies",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "occupation-based",
+                    "description": "% of patient time occupation-based:",
+                    "fieldType": "TextBox",
+                    "characterLimit": 50
+                },
+                {
+                    "fieldId": "opportunities",
+                    "description": "Optional learning opportunities made available to the student (fieldtrips, in-services attended, trainings):",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "COTA",
+                    "description": "Exposure to roles of COTA, OT Aide, other professionals:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "Studentprogress",
+                    "description": "<b><font size='5.5'>Student progress</B>",
+                    "fieldType": "label"
+                },
+                {
+                    "fieldId": "Strengths",
+                    "description": "<br>Strengths:</br>",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "challenges",
+                    "description": "Challenges:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "problems",
+                    "description": "Problems:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "academicprep",
+                    "description": "Academic prepration:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "professionalism",
+                    "description": "Professionalism:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "addressmoving",
+                    "description": "Areas to address moving forward:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "FWEstrengths",
+                    "description": "FWE strengths:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "learned",
+                    "description": "One thing you have learned about yourself during this experience:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "Interventions1",
+                    "description": "Interventions taken to address any concerns/problems to date/Results/Recommendation for further actions:",
+                    "fieldType": "TextArea"
+                },
+                {
+                    "fieldId": "student/site/AFWC",
+                    "description": "Additional comments from student/site/AFWC:",
+                    "fieldType": "TextArea"
+                }
+            ]
+        }
+    ],
+    "id": "NorthCentralCollege-PA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdlAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdlAQAAAAAAAA==/",
+    "_etag": "\"88009712-0000-0100-0000-65d4ce020000\"",
+    "_attachments": "attachments/",
+    "_ts": 1708445186
+}

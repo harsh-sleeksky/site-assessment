@@ -159,35 +159,35 @@ Duplicate fieldId value found: "X2"
 Duplicate fieldId value found: "X3"
 Duplicate fieldId value found: "ACB1"
 
-ShenandoahUniversityPA.SiteAssessment.Layout.Base
+ShenandoahUniversityPA.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "Supervisedclinicalpractice"
 
-NCATSUPA.SiteAssessment.Layout.Base
+NCATSUPA.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "reason"
 
-ACHEEduOT.SiteAssessment.Layout.Base
+ACHEEduOT.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "SocialParticipation"
 Duplicate fieldId value found: "Education"
 Duplicate fieldId value found: "Introduction5"
 
-ExxatOT.SiteAssessment.Layout.Base
+ExxatOT.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "SocialParticipation"
 Duplicate fieldId value found: "Education"
 Duplicate fieldId value found: "Introduction5"
 
-ExxatSalesOT.SiteAssessment.Layout.Base
+ExxatSalesOT.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "SocialParticipation"
 Duplicate fieldId value found: "Education"
 Duplicate fieldId value found: "Introduction5"
 
-Rush-OT.SiteAssessment.Layout.Base
+Rush-OT.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "A7"
 Duplicate fieldId value found: "DirectorFax"
 
-NorthCentralCollege-PA.SiteAssessment.Layout.Base
+NorthCentralCollege-PA.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "Interventions"
 
-CincinnatiUNew.SiteAssessment.Layout.Base
+CincinnatiUNew.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "comments"
 Duplicate fieldId value found: "comments"
 Duplicate fieldId value found: "comments"

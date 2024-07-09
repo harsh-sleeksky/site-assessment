@@ -1,0 +1,383 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteInformation",
+            "caption": "Site Information",
+            "fields": [
+                {
+                    "fieldId": "contact",
+                    "fieldType": "TextBox",
+                    "description": "Contact Person:"
+                },
+                {
+                    "fieldId": "phone",
+                    "fieldType": "TextBox",
+                    "description": "Phone:",
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "email",
+                    "fieldType": "TextBox",
+                    "description": "E-mail:"
+                },
+                {
+                    "fieldId": "site",
+                    "fieldType": "Checkbox",
+                    "description": "Site to be used for:",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Level I:",
+                            "fields": [
+                                {
+                                    "fieldId": "a1",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Level II:",
+                            "fields": [
+                                {
+                                    "fieldId": "a2",
+                                    "fieldType": "TextBox"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "evaluation",
+                    "fieldType": "Label",
+                    "description": "Site to be evaluated on a scale of 1-5 on the following criteria (“1” unacceptable, “5” exceptional):"
+                },
+                {
+                    "fieldId": "adequate",
+                    "fieldType": "Radio",
+                    "description": "1. Site has adequate space/resources:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "staffing",
+                    "fieldType": "Radio",
+                    "description": "2. Site has adequate staffing:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments1",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "objectives",
+                    "fieldType": "Radio",
+                    "description": "3. Site has objectives for FW students established:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments2",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "assignments",
+                    "fieldType": "Radio",
+                    "description": "4. Site has specific assignments for students:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments3",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "disciplines",
+                    "fieldType": "Radio",
+                    "description": "5. Team approach with other disciplines is evident:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments4",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "staff",
+                    "fieldType": "Radio",
+                    "description": "6. Experience level of staff therapists:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments5",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "supervisors",
+                    "fieldType": "Radio",
+                    "description": "7. Experience level of student supervisors:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments6",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "coordinator",
+                    "fieldType": "Radio",
+                    "description": "8. Site FW Coordinator/Director appears organized and willing to coordinate efforts with UC Academic Fieldwork Coordinator:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments7",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "caseload",
+                    "fieldType": "Radio",
+                    "description": "9. OT caseload is large enough to accommodate both student and supervisor:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments8",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "accredited",
+                    "fieldType": "Radio",
+                    "description": "10. Site/Supervisors are accredited/licensed by appropriate authorities:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "comments9",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "c1",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "afwc",
+                    "fieldType": "Label",
+                    "description": "AFWC Signature:"
+                },
+                {
+                    "fieldId": "Signature",
+                    "description": "AFWC Signature:",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                },
+                {
+                    "fieldId": "school",
+                    "fieldType": "Label",
+                    "description": "School Signature"
+                },
+                {
+                    "fieldId": "Signature1",
+                    "description": "School Signature",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                },
+                {
+                    "fieldId": "Date",
+                    "fieldType": "DatePicker",
+                    "description": "<b>Date</b>"
+                }
+            ]
+        }
+    ],
+    "id": "CincinnatiUNew.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRdqAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRdqAQAAAAAAAA==/",
+    "_etag": "\"9c00c3ab-0000-0100-0000-65d5f31c0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1708520220
+}
