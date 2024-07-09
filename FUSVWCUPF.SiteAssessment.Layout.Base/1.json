@@ -1,0 +1,324 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteSection",
+            "caption": "Follow-Up Site Visit",
+            "fields": [
+                {
+                    "fieldId": "Site1",
+                    "fieldType": "label",
+                    "description": "<b><u>Site Information:</u></b>"
+                },
+                {
+                    "fieldId": "SiteA",
+                    "fieldType": "textbox",
+                    "description": "<b>Name of Site/Practice:</b>"
+                },
+                {
+                    "fieldId": "SiteB",
+                    "fieldType": "textarea",
+                    "description": "<b>Address:</b>"
+                },
+                {
+                    "fieldId": "SiteC",
+                    "fieldType": "textbox",
+                    "description": "<b>Phone Number:</b>"
+                },
+                {
+                    "fieldId": "SiteD",
+                    "fieldType": "textbox",
+                    "description": "<b>Conducted by:</b>"
+                },
+                {
+                    "fieldId": "SiteE",
+                    "fieldType": "datepicker",
+                    "description": "<b>Date:</b>"
+                },
+                {
+                    "fieldId": "SiteF",
+                    "fieldType": "radio",
+                    "description": "<b>Initiation Visit Method:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "On Site"
+                        },
+                        {
+                            "label": "Phone"
+                        },
+                        {
+                            "label": "Video Telecommunications (ie Zoom, TEAMs)"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Site2",
+                    "fieldType": "label",
+                    "description": "<b><u>Preceptor Information:</u></b>"
+                },
+                {
+                    "fieldId": "A1",
+                    "fieldType": "textbox",
+                    "description": "<b>Name:</b>"
+                },
+                {
+                    "fieldId": "A2",
+                    "fieldType": "textbox",
+                    "description": "<b>Email:</b>"
+                },
+                {
+                    "fieldId": "A3",
+                    "fieldType": "textbox",
+                    "description": "<b>Phone:</b>"
+                },
+                {
+                    "fieldId": "Site3",
+                    "fieldType": "label",
+                    "description": "<b><u>Please answer the following questions:</u></b>"
+                },
+                {
+                    "fieldId": "P1",
+                    "fieldType": "radio",
+                    "description": "<b>Have there been any significant changes since the last evaluation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P1C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P1C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P2",
+                    "fieldType": "radio",
+                    "description": "<b>Can the Preceptor provide adequate supervision during this rotation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P2C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P2C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P3",
+                    "fieldType": "radio",
+                    "description": "<b>Are there appropriate safety and security measures in place to provide students with a safe learning environment?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P3C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P3C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P4",
+                    "fieldType": "radio",
+                    "description": "<b>Have there been any security or personal safety incidents or concerns?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P4C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P4C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P5",
+                    "fieldType": "radio",
+                    "description": "<b>Does the Preceptor or clinic have any volunteer opportunities, educational projects, or quality improvement initiatives our students could support?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P5C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P5C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P6",
+                    "fieldType": "radio",
+                    "description": "<b>Does the Preceptor have any recommendations regarding the curriculum?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P6C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P6C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P7",
+                    "fieldType": "radio",
+                    "description": "<b>Recommendations on how students can better prepare for this clinical rotation?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "P7C",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "P7C1",
+                                    "fieldType": "textarea",
+                                    "description": "Explain"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P8",
+                    "fieldType": "textarea",
+                    "description": "<b>Additional Comments, suggestions, or questions:</b>"
+                },
+                {
+                    "fieldId": "Site5",
+                    "fieldType": "label",
+                    "description": "<b>Based on my conversation and visit with the Preceptor, I certify that the following are acceptable</b>"
+                },
+                {
+                    "fieldId": "P9",
+                    "fieldType": "radio",
+                    "description": "<b>Preceptor</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "P10",
+                    "fieldType": "radio",
+                    "description": "<b>Location Site</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "FUSVWCUPF.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcYAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcYAQAAAAAAAA==/",
+    "_etag": "\"6c00a862-0000-0100-0000-65310bfa0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1697713146
+}

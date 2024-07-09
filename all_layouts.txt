@@ -145,12 +145,12 @@ Duplicate fieldId value found: "P5C"
 Duplicate fieldId value found: "P6C"
 Duplicate fieldId value found: "P7C"
 
-EVMSPA.SiteAssessment.Layout.Base
+EVMSPA.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "Hospital3"
 Duplicate fieldId value found: "Ruralpopulation"
 Duplicate fieldId value found: "Ruralpopulation"
 
-SVFMUDPT.SiteAssessment.Layout.Base
+SVFMUDPT.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "Z1"
 Duplicate fieldId value found: "G1"
 Duplicate fieldId value found: "Z3"

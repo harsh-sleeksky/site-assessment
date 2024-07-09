@@ -1,0 +1,880 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteDetails",
+            "caption": "Site Details",
+            "fields": [
+                {
+                    "fieldId": "SiteName",
+                    "fieldType": "TextBox",
+                    "description": "Site Name:",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Address",
+                    "fieldType": "TextBox",
+                    "description": "Address",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "City",
+                    "fieldType": "TextBox",
+                    "description": "City/State/Zip:",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "SitePhone",
+                    "fieldType": "TextBox",
+                    "description": "Site Phone:",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Fax",
+                    "fieldType": "TextBox",
+                    "description": "Fax:",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Website",
+                    "fieldType": "TextBox",
+                    "description": "Website:",
+                    "characterLimit": 100
+                },
+                {
+                    "fieldId": "Operation",
+                    "description": "Days of Operation",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "M"
+                        },
+                        {
+                            "label": "T"
+                        },
+                        {
+                            "label": "W"
+                        },
+                        {
+                            "label": "Th"
+                        },
+                        {
+                            "label": "F"
+                        },
+                        {
+                            "label": "Sa"
+                        },
+                        {
+                            "label": "Sun"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Hours",
+                    "fieldType": "Radio",
+                    "description": "<b>Hours of Operation:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "24/7"
+                        },
+                        {
+                            "label": "9a-5p"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Other1",
+                                    "fieldType": "TextArea",
+                                    "description": "Other,Please specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CategorySetting",
+                    "description": "Category Setting:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Eastern Shore"
+                        },
+                        {
+                            "label": "NOVA"
+                        },
+                        {
+                            "label": "Richmond"
+                        },
+                        {
+                            "label": "SI"
+                        },
+                        {
+                            "label": "Local"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Housing",
+                    "fieldType": "Radio",
+                    "description": "<b>Is Housing Available?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "yes1",
+                                    "fieldType": "TextArea",
+                                    "description": "If yes, please identify point of contact"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Multiple",
+                    "fieldType": "Radio",
+                    "description": "<b>Multiple Office Locations:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "additional1",
+                                    "fieldType": "TextArea",
+                                    "description": "If yes, additional notes:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Safety",
+            "caption": "Safety/Security",
+            "fields": [
+                {
+                    "fieldId": "SafetySecurity",
+                    "description": "Safety/Security:",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Lighted Parking Lot"
+                        },
+                        {
+                            "label": "Security Booth/Booth"
+                        },
+                        {
+                            "label": "Security Cameras"
+                        },
+                        {
+                            "label": "Secured Access to Building/Office"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Other2",
+                                    "fieldType": "TextArea",
+                                    "description": "Other,Please specify"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PracticeInformation",
+            "caption": "Practice Information/Physical Space",
+            "fields": [
+                {
+                    "fieldId": "RotationType",
+                    "description": "<b>Rotation Type:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "EM"
+                        },
+                        {
+                            "label": "FM"
+                        },
+                        {
+                            "label": "IM"
+                        },
+                        {
+                            "label": "WH"
+                        },
+                        {
+                            "label": "Peds"
+                        },
+                        {
+                            "label": "Psych"
+                        },
+                        {
+                            "label": "Elective"
+                        },
+                        {
+                            "label": "GS"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ARCSetting",
+                    "description": "<b>ARC PA Setting:</b>",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Outpatient"
+                        },
+                        {
+                            "label": "Emergency Dept"
+                        },
+                        {
+                            "label": "Inpatient"
+                        },
+                        {
+                            "label": "Operating Room"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PrimarySite",
+                    "fieldType": "TextBox",
+                    "description": "Primary Site Contact:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Email2",
+                    "fieldType": "TextBox",
+                    "description": "Email:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Phone2",
+                    "fieldType": "TextBox",
+                    "description": "Phone:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "AdditionalSite",
+                    "fieldType": "TextBox",
+                    "description": "Additional Site Contact:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Email3",
+                    "fieldType": "TextBox",
+                    "description": "Email:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "studentvisit",
+                    "fieldType": "Radio",
+                    "description": "<b>Will the student visit a hospital or is the site affiliated with/owned by a hospital system?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Hospital1",
+                    "fieldType": "TextBox",
+                    "description": "Hospital 1:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Hospital2",
+                    "fieldType": "TextBox",
+                    "description": "Hospital 2:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Hospital3",
+                    "fieldType": "TextBox",
+                    "description": "Hospital 3:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Hospital31",
+                    "fieldType": "TextBox",
+                    "description": "Hospital 3:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Averagepatients",
+                    "fieldType": "TextBox",
+                    "description": "Average # of patients seen daily?",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Studentspace",
+                    "fieldType": "Radio",
+                    "description": "<b>Student Space</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Students have a designated work space"
+                        },
+                        {
+                            "label": "Students share space with office staff/providers"
+                        },
+                        {
+                            "label": "other (specify)",
+                            "fields": [
+                                {
+                                    "fieldId": "Other4",
+                                    "fieldType": "TextArea",
+                                    "description": "Other,Please specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "practice3",
+                    "description": "Does the practice have any of the following:(select all that apply)",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Lab"
+                        },
+                        {
+                            "label": "Radiology"
+                        },
+                        {
+                            "label": "Computer Access (email, medical literature search)"
+                        },
+                        {
+                            "label": "Lounge or Breakroom"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "practiceExam",
+                    "fieldType": "TextBox",
+                    "description": "How many of the following rooms does the practice have? Exam Rooms",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "ProcedureRooms",
+                    "fieldType": "TextBox",
+                    "description": "Procedure Rooms",
+                    "characterLimit": 500
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PatientPopulation",
+            "caption": "Patient Population",
+            "fields": [
+                {
+                    "fieldId": "Populationpercentages",
+                    "fieldType": "label",
+                    "description": "<b>Patient Population percentages seen by this practice (100% total)</b>"
+                },
+                {
+                    "fieldId": "infant",
+                    "fieldType": "TextBox",
+                    "description": "%infant",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "children",
+                    "fieldType": "TextBox",
+                    "description": "%children",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "adolescent",
+                    "fieldType": "TextBox",
+                    "description": "%adolescent",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "adult",
+                    "fieldType": "TextBox",
+                    "description": "%adult",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "senior",
+                    "fieldType": "TextBox",
+                    "description": "%senior",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "percentpatient",
+                    "fieldType": "label",
+                    "description": "<b>What percent of your patient care involves women’s health?</b>"
+                },
+                {
+                    "fieldId": "gynecologiccare",
+                    "fieldType": "TextBox",
+                    "description": "%gynecologic care",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "prenatalcare",
+                    "fieldType": "TextBox",
+                    "description": "%prenatal care",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "labordelivery",
+                    "fieldType": "TextBox",
+                    "description": "%labor & delivery",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "underservedpopulation",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you serve an underserved population?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Ruralpopulation",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you serve a Rural population?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.PreceptorDetails",
+            "caption": "Preceptor Details",
+            "fields": [
+                {
+                    "fieldId": "professionalsPA",
+                    "fieldType": "Checkbox",
+                    "description": "<b>What other professionals will the PA student encounter during their rotation with the primary preceptor:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Attending Physicians"
+                        },
+                        {
+                            "label": "Intern"
+                        },
+                        {
+                            "label": "Resident"
+                        },
+                        {
+                            "label": "Fellow"
+                        },
+                        {
+                            "label": "PA"
+                        },
+                        {
+                            "label": "NP"
+                        },
+                        {
+                            "label": "A Team of Clinicians"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "learnresidents",
+                    "fieldType": "label",
+                    "description": "<b>Note: students can rotate and learn from residents, but residents may not complete evaluations as per our accrediting body</b>"
+                },
+                {
+                    "fieldId": "preceptother",
+                    "fieldType": "Radio",
+                    "description": "<b>Do you precept other students?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "preceptor4",
+                    "description": "If so, what other students do you preceptor?(select all that apply)",
+                    "fieldType": "Checkbox",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "MD"
+                        },
+                        {
+                            "label": "PA"
+                        },
+                        {
+                            "label": "NP"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Studentratio",
+                    "fieldType": "Radio",
+                    "description": "<b>If so, what is the Student/Preceptor ratio</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1:1"
+                        },
+                        {
+                            "label": "2:1"
+                        },
+                        {
+                            "label": "3:1"
+                        },
+                        {
+                            "label": "4:1"
+                        },
+                        {
+                            "label": "5+:1"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Notes",
+                    "fieldType": "TextArea",
+                    "description": "Notes:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentsInvolvement",
+            "caption": "Students Involvement",
+            "fields": [
+                {
+                    "fieldId": "Studentspractice",
+                    "fieldType": "Checkbox",
+                    "description": "Students Involvement with practice or facility:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Office"
+                        },
+                        {
+                            "label": "Hospital"
+                        },
+                        {
+                            "label": "ED"
+                        },
+                        {
+                            "label": "Inpatient Rounds"
+                        },
+                        {
+                            "label": "Outpatient Clinics"
+                        },
+                        {
+                            "label": "Consults"
+                        },
+                        {
+                            "label": "OR"
+                        },
+                        {
+                            "label": "Pre-op H&Ps"
+                        },
+                        {
+                            "label": "Post-op Care"
+                        },
+                        {
+                            "label": "Home Visits"
+                        },
+                        {
+                            "label": "Hospice"
+                        },
+                        {
+                            "label": "Long-term Care Facility"
+                        },
+                        {
+                            "label": "Psychiatric Facility"
+                        },
+                        {
+                            "label": "Rehab Facility"
+                        },
+                        {
+                            "label": "Skilled Nursing Facility"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "patientslevel",
+                    "fieldType": "Checkbox",
+                    "description": "Acuity level of patients:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Emergent conditions"
+                        },
+                        {
+                            "label": "Acute conditions"
+                        },
+                        {
+                            "label": "Chronic conditions"
+                        },
+                        {
+                            "label": "Preventative medicine"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.Additionallearning",
+            "caption": "Additional learning",
+            "fields": [
+                {
+                    "fieldId": "Additionalopportunities",
+                    "fieldType": "Checkbox",
+                    "description": "Additional learning opportunities available at the site:",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Lectures"
+                        },
+                        {
+                            "label": "Grand Rounds"
+                        },
+                        {
+                            "label": "Directed Reading/Research"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Other8",
+                                    "fieldType": "TextArea",
+                                    "description": "Other,Please specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Ruralpopulation1",
+                    "fieldType": "Radio",
+                    "description": "<b>Will the student be charting in the EMR?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Yes34",
+                                    "fieldType": "TextArea",
+                                    "description": "If so, which program?"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentExpectations",
+            "caption": "Student Expectations",
+            "fields": [
+                {
+                    "fieldId": "StudentAttire",
+                    "fieldType": "TextBox",
+                    "description": "Student Attire:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "weekexpected",
+                    "fieldType": "Radio",
+                    "description": "<b>Avg # of hours per week student is expected to be there? (program requires 40 hrs)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "On-Call"
+                        },
+                        {
+                            "label": "Weekends/Evenings/Nights"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "Other7",
+                                    "fieldType": "TextArea",
+                                    "description": "Other,Please specify"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "StudentEngagement",
+                    "fieldType": "Checkbox",
+                    "description": "Student Engagement: (check all that apply)",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Student will give presentations on selected topics"
+                        },
+                        {
+                            "label": "Student will participate in daily rounds at the hospital"
+                        },
+                        {
+                            "label": "Student will participate in procedures"
+                        },
+                        {
+                            "label": "Student will evaluate patient prior to preceptor"
+                        },
+                        {
+                            "label": "Student will chart"
+                        },
+                        {
+                            "label": "Student will write orders"
+                        },
+                        {
+                            "label": "Student will formulate a plan and present to preceptor"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Ruralpopulation2",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor Prefers to give feedback:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "After each patient"
+                        },
+                        {
+                            "label": "At the end of the day"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "expectationsstudent",
+                    "fieldType": "TextArea",
+                    "description": "Please list any other expectations or requirement of student:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Priorconcerns",
+                    "fieldType": "TextArea",
+                    "description": "Initial Evaluation notes:",
+                    "characterLimit": 500
+                },
+                {
+                    "fieldId": "Itemsdiscussed",
+                    "fieldType": "Radio",
+                    "description": "<b>Items above were discussed.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Followupemail",
+                    "fieldType": "Radio",
+                    "description": "<b>Follow up email sent with required documents:</b>",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "experiencepermitting",
+                    "fieldType": "Radio",
+                    "description": "<b>Will this rotation provide an experience permitting the student to meet the learning objectives for this discipline?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Siteacceptable",
+                    "fieldType": "Radio",
+                    "description": "<b>Site acceptable?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Preceptoracceptable",
+                    "fieldType": "Radio",
+                    "description": "<b>Preceptor acceptable?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "id": "EVMSPA.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRciAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRciAQAAAAAAAA==/",
+    "_etag": "\"0600fb6a-0000-0100-0000-660fd0bd0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1712312509
+}

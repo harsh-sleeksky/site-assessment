@@ -1,0 +1,706 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.SiteSection",
+            "caption": "Site Visit Form",
+            "fields": [
+                {
+                    "fieldId": "A1",
+                    "fieldType": "radio",
+                    "description": "<b>Type:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Site Visit"
+                        },
+                        {
+                            "label": "Phone Call"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A2",
+                    "fieldType": "textbox",
+                    "description": "<b>Facility Name:</b>"
+                },
+                {
+                    "fieldId": "A3",
+                    "fieldType": "textbox",
+                    "description": "<b>Clinical Setting:</b>"
+                },
+                {
+                    "fieldId": "A4",
+                    "fieldType": "checkbox",
+                    "description": "<b>Clinical Education Experience:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "I"
+                        },
+                        {
+                            "label": "II"
+                        },
+                        {
+                            "label": "III"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A5",
+                    "fieldType": "textbox",
+                    "description": "<b>Clinical Instructor Name</b>"
+                },
+                {
+                    "fieldId": "A6",
+                    "fieldType": "textbox",
+                    "description": "<b>Email Address</b>",
+                    "validations": [
+                        {
+                            "name": "required",
+                            "message": "Please enter email"
+                        },
+                        {
+                            "name": "pattern",
+                            "validator": "[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-zA-Z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?",
+                            "message": "Please enter valid email"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A7",
+                    "fieldType": "textbox",
+                    "description": "<b>Phone Number</b>",
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "[0-9]{10}",
+                            "message": "Please enter 10 digits only"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A8",
+                    "fieldType": "label",
+                    "description": "<b><u>Patient population commonly seen at site (ages and diagnoses):</u></b>"
+                },
+                {
+                    "fieldId": "A9",
+                    "fieldType": "radio",
+                    "description": "<b>Continuum of Care</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Acute, Critical Care, ICU",
+                            "fields": [
+                                {
+                                    "fieldId": "AC1",
+                                    "fieldType": "textbox",
+                                    "description": "% Time Spent"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "SNF/ECU/Sub-acute",
+                            "fields": [
+                                {
+                                    "fieldId": "AC2",
+                                    "fieldType": "textbox",
+                                    "description": "% Time Spent"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Rehabilitation",
+                            "fields": [
+                                {
+                                    "fieldId": "AC3",
+                                    "fieldType": "textbox",
+                                    "description": "% Time Spent"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Ambulatory/Outpatient",
+                            "fields": [
+                                {
+                                    "fieldId": "AC4",
+                                    "fieldType": "textbox",
+                                    "description": "% Time Spent"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Home Health/Hospice",
+                            "fields": [
+                                {
+                                    "fieldId": "AC5",
+                                    "fieldType": "textbox",
+                                    "description": "% Time Spent"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Wellness/Fitness/Injury",
+                            "fields": [
+                                {
+                                    "fieldId": "AC6",
+                                    "fieldType": "textbox",
+                                    "description": "% Time Spent"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A10",
+                    "fieldType": "radio",
+                    "description": "<b>Case Mix</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Musculoskeletal",
+                            "fields": [
+                                {
+                                    "fieldId": "AB1",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Neuromuscular",
+                            "fields": [
+                                {
+                                    "fieldId": "AB2",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Cardiopulmonary",
+                            "fields": [
+                                {
+                                    "fieldId": "AB3",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Integumentary",
+                            "fields": [
+                                {
+                                    "fieldId": "AB4",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Other (GI, renal, GU, metabolic, endocrine)",
+                            "fields": [
+                                {
+                                    "fieldId": "AB5",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A11",
+                    "fieldType": "radio",
+                    "description": "<b>Patient lifespan</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "0-12",
+                            "fields": [
+                                {
+                                    "fieldId": "AA1",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "13-21",
+                            "fields": [
+                                {
+                                    "fieldId": "AA2",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "22-65",
+                            "fields": [
+                                {
+                                    "fieldId": "AA3",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Over 65",
+                            "fields": [
+                                {
+                                    "fieldId": "AA4",
+                                    "fieldType": "textbox",
+                                    "description": "% Seen"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A12",
+                    "fieldType": "checkbox",
+                    "description": "<b>Other professions the student has had an opportunity to interact with through the site (e.g. OT/COTA, SLP, physician/physician assistant, etc.):</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "OT/COTA"
+                        },
+                        {
+                            "label": "SLP"
+                        },
+                        {
+                            "label": "Physician"
+                        },
+                        {
+                            "label": "PA"
+                        },
+                        {
+                            "label": "Nurse"
+                        },
+                        {
+                            "label": "CRNP"
+                        },
+                        {
+                            "label": "Respiratory Therapist"
+                        },
+                        {
+                            "label": "Social Worker"
+                        },
+                        {
+                            "label": "Psychiatrist/Psychologist"
+                        },
+                        {
+                            "label": "Nutritionist"
+                        },
+                        {
+                            "label": "ATC"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "AD1",
+                                    "fieldType": "textbox",
+                                    "description": "Please Specify:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A13",
+                    "fieldType": "checkbox",
+                    "description": "<b>Other physical therapy personnel the student has had an opportunity to interact with through the site (e.g. Director of PT, PTA, therapy aides, etc.):</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "PTA"
+                        },
+                        {
+                            "label": "PT Aides"
+                        },
+                        {
+                            "label": "Manager/director"
+                        },
+                        {
+                            "label": "Front Desk Coordinator"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "AD2",
+                                    "fieldType": "textbox",
+                                    "description": "Please Specify:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A14",
+                    "fieldType": "checkbox",
+                    "description": "<b>Other learning opportunities the student has or will be exposed to/participate in during this clinical rotation (e.g. observe surgeries/medical procedures, participate in ground rounds, conferences, cont. ed.)</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Surgery/medical procedure observation"
+                        },
+                        {
+                            "label": "Grand rounds"
+                        },
+                        {
+                            "label": "Conference(s)"
+                        },
+                        {
+                            "label": "Faculty meetings"
+                        },
+                        {
+                            "label": "Continuing education"
+                        },
+                        {
+                            "label": "In-services"
+                        },
+                        {
+                            "label": "Staff development"
+                        },
+                        {
+                            "label": "Research"
+                        },
+                        {
+                            "label": "Observation of specialty practice"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "AD3",
+                                    "fieldType": "textbox",
+                                    "description": "Please Specify:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A15",
+                    "fieldType": "textarea",
+                    "description": "<b>What is the PRODUCTIVITY EXPECTATION of therapists at your clinical site?</b>"
+                },
+                {
+                    "fieldId": "A16",
+                    "fieldType": "textarea",
+                    "description": "<b>How is your work schedule structured (e.g. 4 10-hour days, 5 8-hour days, etc.)?</b>"
+                },
+                {
+                    "fieldId": "A17",
+                    "fieldType": "textbox",
+                    "description": "<b>How many patients is the student typically seeing in one day?</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.CISection",
+            "caption": "For CIs",
+            "fields": [
+                {
+                    "fieldId": "A19",
+                    "fieldType": "radio",
+                    "description": "<b>1. Is the student open and receptive to feedback?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Z1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "Z11",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A20",
+                    "fieldType": "radio",
+                    "description": "<b>2. Do you see the student integrating feedback into practice in a consistent and positive manner?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "G1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "G11",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A21",
+                    "fieldType": "radio",
+                    "description": "<b>3. Does the student’s performance currently meet your expectations of students at this level/site? Why or why not?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "Z3",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "Z31",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A22",
+                    "fieldType": "textarea",
+                    "description": "<b>4. How do you structure your feedback sessions with the student?</b>"
+                },
+                {
+                    "fieldId": "A23",
+                    "fieldType": "label",
+                    "description": "<b><u>Student strengths in knowledge, skills and behavior:</u></b>"
+                },
+                {
+                    "fieldId": "A24",
+                    "fieldType": "textarea",
+                    "description": "<b>CI:</b>"
+                },
+                {
+                    "fieldId": "A25",
+                    "fieldType": "textarea",
+                    "description": "<b>Student:</b>"
+                },
+                {
+                    "fieldId": "A26",
+                    "fieldType": "label",
+                    "description": "<b><u>Please provide any comments or suggestions to Moravian’s PT program or faculty members regarding academic suggestions and/or the clinical education process and preparation:</u></b>"
+                },
+                {
+                    "fieldId": "A27",
+                    "fieldType": "textarea",
+                    "description": "<b>CI:</b>"
+                },
+                {
+                    "fieldId": "A28",
+                    "fieldType": "textarea",
+                    "description": "<b>Student:</b>"
+                },
+                {
+                    "fieldId": "A29",
+                    "fieldType": "textarea",
+                    "description": "<b>Additional Comments:</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.StudentSection",
+            "caption": "For Students",
+            "fields": [
+                {
+                    "fieldId": "A30",
+                    "fieldType": "radio",
+                    "description": "<b>1. Has this site and your CI provided a quality learning environment that is conducive to meeting your learning objectives? Please provide examples.</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "X1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "X11",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A31",
+                    "fieldType": "radio",
+                    "description": "<b>2. Does the CI provide feedback in a manner that is useful, respectful and timely?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "X2",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "X21",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A32",
+                    "fieldType": "textarea",
+                    "description": "<b>3. How do you and your CI structure feedback sessions?</b>"
+                },
+                {
+                    "fieldId": "A33",
+                    "fieldType": "radio",
+                    "description": "<b>4. Would you recommend this site for future Moravian students? Why or why not?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "X3",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "X31",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A34",
+                    "fieldType": "radio",
+                    "description": "<b>5. Do you feel you were sufficiently prepared for this clinical rotation? In what areas did you feel less prepared? Which did you feel more prepared?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "fields": [
+                                {
+                                    "fieldId": "ACB1",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "No",
+                            "fields": [
+                                {
+                                    "fieldId": "ACB11",
+                                    "fieldType": "textarea",
+                                    "description": "Comments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "A35",
+                    "fieldType": "label",
+                    "description": "<b>6.Number of hours student works (typical week):</b>"
+                },
+                {
+                    "fieldId": "A36",
+                    "fieldType": "textbox",
+                    "description": "<b>a) % of time spent with the CI during the day</b>"
+                },
+                {
+                    "fieldId": "A37",
+                    "fieldType": "textbox",
+                    "description": "<b>b) Additional hours spent at site outside of working hours</b>"
+                },
+                {
+                    "fieldId": "A38",
+                    "fieldType": "textbox",
+                    "description": "<b>c) Additional hours spent preparing at home</b>"
+                },
+                {
+                    "fieldId": "A39",
+                    "fieldType": "textarea",
+                    "description": "<b>Do you believe that the expected workload is reasonable? Why or why not?</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.FacultySection",
+            "caption": "Faculty Section",
+            "fields": [
+                {
+                    "fieldId": "A40",
+                    "fieldType": "esign",
+                    "description": "<b>Faculty Signature:</b>"
+                },
+                {
+                    "fieldId": "A41",
+                    "fieldType": "datepicker",
+                    "description": "<b>Date:</b>"
+                }
+            ]
+        }
+    ],
+    "id": "SVFMUDPT.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRcmAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRcmAQAAAAAAAA==/",
+    "_etag": "\"9500f8e5-0000-0100-0000-655b5afd0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1700485885
+}
