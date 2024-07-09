@@ -198,30 +198,30 @@ Duplicate fieldId value found: "comments"
 Duplicate fieldId value found: "comments"
 Duplicate fieldId value found: "comments"
 
-MercyUniversity-PA-Site-Student.SiteAssessment.Layout.Base
+MercyUniversity-PA-Site-Student.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "Feedback/Communication"
 Duplicate fieldId value found: "CLINICALINSTRUCTORINPUT/CONCERNSClinicalKnowledgeBase"
 
-FranuPTAClinicalEducation.SiteAssessment.Layout.Base
+FranuPTAClinicalEducation.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "CE08"
 Duplicate fieldId value found: "CE13"
 
-IthacaPA-Initial.SiteAssessment.Layout.Base
+IthacaPA-Initial.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "awareDistinguishProfession"
 Duplicate fieldId value found: "validLicense"
 
-IthacaPA-Ongoing.SiteAssessment.Layout.Base
+IthacaPA-Ongoing.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "awareDistinguishProfession"
 Duplicate fieldId value found: "validLicense"
 
-AmericanInternationalCollege.SiteAssessment.Layout.Base
+AmericanInternationalCollege.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "education"
 Duplicate fieldId value found: "Comments3"
 
-BethelUniversityMW.SiteAssessment.Layout.Base
+BethelUniversityMW.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "antepartum"
 
-HardinSimmonsUniversityPAClinicalSiteEvaluation.SiteAssessment.Layout.Base
+HardinSimmonsUniversityPAClinicalSiteEvaluation.SiteAssessment.Layout.Base - done
 Duplicate fieldId value found: "BD6"
 
 WISCPA.SiteAssessment.Layout.Base - done

@@ -1,0 +1,318 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Facility",
+            "caption": "Facility",
+            "fields": [
+                {
+                    "fieldId": "Protocols",
+                    "description": "<b>1. Protocols/practice guidelines available:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inadequate"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Above Adequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Consultation",
+                    "description": "<b>2. Consultation mechanisms available:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inadequate"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Above Adequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supportive",
+                    "description": "<b>3. Staff supportive of student role:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inadequate"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Above Adequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ACNM",
+                    "description": "<b>4. Clinical practice guidelines consistent with current ACNM standards:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Inadequate"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Above Adequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Deliveries",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Deliveries at unable to:",
+                    "characterLimit": 300
+                },
+                {
+                    "fieldId": "DeliveriesComment",
+                    "fieldType": "TextArea",
+                    "placeHolder": "Comments:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.clinicalexperiences",
+            "caption": "Clinical Experiences",
+            "fields": [
+                {
+                    "fieldId": "Preconception",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Preconception care visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "antepartum",
+                    "fieldType": "TextBox",
+                    "placeHolder": "New antepartum visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "antepartum1",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Return antepartum visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Labor",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Labor management experiences:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Births",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Births:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Newborn",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Newborn assessments:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Breastfeeding",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Breastfeeding support visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Postpartum",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Postpartum visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Commonhealth",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Primary care Common health problems visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Familyplanning",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Primary care Family planning visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Gynecologic",
+                    "fieldType": "TextBox",
+                    "placeHolder": "Primary care Gynecologic visits:",
+                    "characterLimit": 20,
+                    "validations": [
+                        {
+                            "name": "pattern",
+                            "validator": "^[0-9]+$",
+                            "message": "Please enter number only."
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "DExperiencesComment",
+                    "fieldType": "TextArea",
+                    "placeHolder": "Comments:"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.AnnualSiteVisit",
+            "caption": "Annual Site Visit",
+            "fields": [
+                {
+                    "fieldId": "guidelines",
+                    "description": "<b>1. Changes in practice guidelines:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "rating",
+                    "description": "<b>2. Faculty rating:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Fair"
+                        },
+                        {
+                            "label": "Good"
+                        },
+                        {
+                            "label": "Excellent"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "place",
+                    "description": "<b>3. Contract in place:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments6",
+                    "fieldType": "TextArea",
+                    "placeHolder": "Comments:"
+                },
+                {
+                    "fieldId": "visitdate",
+                    "fieldType": "DatePicker",
+                    "description": "Date of visit:"
+                },
+                {
+                    "fieldId": "Signature3",
+                    "description": "Signature:",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                }
+            ]
+        }
+    ],
+    "id": "BethelUniversityMW.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRepAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRepAQAAAAAAAA==/",
+    "_etag": "\"0f007f6b-0000-0100-0000-666975950000\"",
+    "_attachments": "attachments/",
+    "_ts": 1718187413
+}

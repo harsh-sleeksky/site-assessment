@@ -1,0 +1,201 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Information",
+            "caption": "Clinical Education Site Visit Form",
+            "fields": [
+                {
+                    "fieldId": "CE03",
+                    "description": "<b>Clinical Instructor(s):</b>",
+                    "fieldType": "TextBox"
+                },
+                {
+                    "fieldId": "CE05",
+                    "fieldType": "Radio",
+                    "description": "<b>Clinical Rotation:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1st - Fall"
+                        },
+                        {
+                            "label": "2nd - Spring 1"
+                        },
+                        {
+                            "label": "3rd - Spring 2"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CE06",
+                    "fieldType": "Radio",
+                    "description": "<b>Week of clinical rotation:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "1"
+                        },
+                        {
+                            "label": "2"
+                        },
+                        {
+                            "label": "3"
+                        },
+                        {
+                            "label": "4"
+                        },
+                        {
+                            "label": "5"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CE07",
+                    "fieldType": "Radio",
+                    "description": "<b>Topics discussed with student:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Objectives"
+                        },
+                        {
+                            "label": "Caseload"
+                        },
+                        {
+                            "label": "Rapport with Cl"
+                        },
+                        {
+                            "label": "Supervision ratio"
+                        },
+                        {
+                            "label": "Cl's teaching methods"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CE07Comments",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                },
+                {
+                    "fieldId": "CE081",
+                    "fieldType": "label",
+                    "description": "<b>Topics discussed with clinical instructor(s):</b>"
+                },
+                {
+                    "fieldId": "CE08",
+                    "fieldType": "TextArea",
+                    "description": "<b>Student's strengths</b>"
+                },
+                {
+                    "fieldId": "CE09",
+                    "fieldType": "TextArea",
+                    "description": "<b>Student's weaknesses</b>"
+                },
+                {
+                    "fieldId": "CE10",
+                    "fieldType": "TextArea",
+                    "description": "<b>Areas for improvement and plan</b>"
+                },
+                {
+                    "fieldId": "CE11",
+                    "fieldType": "TextArea",
+                    "description": "<b>Caseload: diagnoses</b>"
+                },
+                {
+                    "fieldId": "CE12",
+                    "fieldType": "TextArea",
+                    "description": "<b>Learning opportunities (clinics, rounds, staffing, surgeries, etc.)</b>"
+                },
+                {
+                    "fieldId": "CE13",
+                    "fieldType": "TextArea",
+                    "description": "<b>Inter-Professional Practice (disciplines)</b>"
+                },
+                {
+                    "fieldId": "CE131",
+                    "fieldType": "TextArea",
+                    "description": "<b>Supervision of PTA and/or Support Staff</b>"
+                },
+                {
+                    "fieldId": "CE14",
+                    "fieldType": "Radio",
+                    "description": "<b>Mid-Term Clinical Performance Instrument (CPI)</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Completed"
+                        },
+                        {
+                            "label": "Not Completed"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CE15",
+                    "fieldType": "Radio",
+                    "description": "<b>Will the student meet the course objectives</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CE15comments",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments:</b>"
+                },
+                {
+                    "fieldId": "CE16",
+                    "fieldType": "Checkbox",
+                    "description": "<b>Educated Cl(s) and/or SCCE on the following topics:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Course syllabus/objectives"
+                        },
+                        {
+                            "label": "Curriculum"
+                        },
+                        {
+                            "label": "Student expectations"
+                        },
+                        {
+                            "label": "PTA MACS"
+                        },
+                        {
+                            "label": "Cl development"
+                        },
+                        {
+                            "label": "Clinical education"
+                        },
+                        {
+                            "label": "Cl credentialing course"
+                        },
+                        {
+                            "label": "CE opportunities"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "CE16comments",
+                    "fieldType": "TextArea",
+                    "description": "Comments:"
+                }
+            ]
+        }
+    ],
+    "id": "FranuPTAClinicalEducation.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdReRAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdReRAQAAAAAAAA==/",
+    "_etag": "\"28005390-0000-0100-0000-662bbb010000\"",
+    "_attachments": "attachments/",
+    "_ts": 1714141953
+}

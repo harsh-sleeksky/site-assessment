@@ -1,0 +1,462 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Site-StudentAssessmentForm",
+            "caption": "Site/Student Assessment Form",
+            "fields": [
+                {
+                    "fieldId": "SUMMARYOFSITE",
+                    "fieldType": "Label",
+                    "description": "<b><u>SUMMARY OF SITE</b></u>"
+                },
+                {
+                    "fieldId": "clinicalteachingsite",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>As a clinical teaching site, what learning experiences are available for students? (Clinics, view surgery, interdisciplinary approach, rounds, conferences, student clinic, journal clubs, tutorial other):</b>"
+                },
+                {
+                    "fieldId": "patientpopulations",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>Give examples of types of patient populations and patient problems with which the student is working:</b>"
+                },
+                {
+                    "fieldId": "learningenvironment",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>Describe the learning environment particularly as it relates to clinical education (consider pace, complexity, size of case load, expectations of students, intensity of experience, willingness to individualize and provide student learning, welcoming atmosphere for students).</b>"
+                },
+                {
+                    "fieldId": "supportclinicaleducation",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>Is there anything special that is done at this facility to support clinical education (unique clinical model,training etc) ?</b>"
+                },
+                {
+                    "fieldId": "physicalfacilities",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>Does the student have adequate access physical facilities(hospital, parking, office)</b>"
+                },
+                {
+                    "fieldId": "studentaccess",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Does the student have access to</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "EMR"
+                        },
+                        {
+                            "label": "Pager"
+                        },
+                        {
+                            "label": "On-call facility"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "PreceptorInformation:",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Preceptor Information:</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Physician Assistant"
+                        },
+                        {
+                            "label": "Attending MD"
+                        },
+                        {
+                            "label": "Resident MD"
+                        },
+                        {
+                            "label": "Other:",
+                            "fields": [
+                                {
+                                    "fieldId": "Other1",
+                                    "fieldType": "TextArea",
+                                    "description": "If other, please specify:"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ratethePreceptor ",
+                    "fieldType": "Label",
+                    "description": "<b><br>Please rate the Preceptor in terms of the following:</b>"
+                },
+                {
+                    "fieldId": "SupervisionandObservation",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Supervision and Observation</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Deficient"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments:",
+                    "fieldType": "TextArea",
+                    "description": "<br>Comments:"
+                },
+                {
+                    "fieldId": "Feedback/Communication",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Feedback/Communication</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Deficient"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments1:",
+                    "fieldType": "TextArea",
+                    "description": "<br>Comments:"
+                },
+                {
+                    "fieldId": "Feedback/Communication-2",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Ability to identify strengths/weakness of student</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Deficient"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments2:",
+                    "fieldType": "TextArea",
+                    "description": "<br>Comments:"
+                },
+                {
+                    "fieldId": "modifyteaching",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Ability to modify teaching to meet student needs</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Adequate"
+                        },
+                        {
+                            "label": "Deficient"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments3:",
+                    "fieldType": "TextArea",
+                    "description": "<br>Comments:"
+                },
+                {
+                    "fieldId": "CLINICALINSTRUCTOR",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>CLINICAL INSTRUCTOR RATING SCALE</b></u>"
+                },
+                {
+                    "fieldId": "Supervision",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>Supervision</b></u>"
+                },
+                {
+                    "fieldId": "SupervisionAboveAverage",
+                    "fieldType": "Label",
+                    "description": "<b>Above Average</b>  <ul style='padding-left:30px'>  <li>  Provides director atleast line of site supervision initially</li><li>Modifies degree of supervision with student progress</li><li>Modifies degree of supervision as complexity of case load dictates</li>"
+                },
+                {
+                    "fieldId": "SupervisionAverage ",
+                    "fieldType": "Label",
+                    "description": "<b>Average</b>  <ul style='padding-left:30px'>  <li>  Provides direct or at least line of site supervision initially</li><li>May not modify degree of supervision as student progress or complexity of patient dictates</li>"
+                },
+                {
+                    "fieldId": "SupervisionInadequate ",
+                    "fieldType": "Label",
+                    "description": "<b>Inadequate</b>  <ul style='padding-left:30px'>  <li>  Does not supervise student or Does not supervise enough or Does not </li><li>allow student any independence as student growth dictates</li>"
+                },
+                {
+                    "fieldId": "AboveAverage",
+                    "fieldType": "Radio",
+                    "description": "<b><br><u>Above Average</b></u>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Inadequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Feedback/Communication1",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>Feedback/Communication</b></u>"
+                },
+                {
+                    "fieldId": "Feedback/CommunicationAboveAverage",
+                    "fieldType": "Label",
+                    "description": "<b><br>Above Average</b>  <ul style='padding-left:30px'>  <li>  Gives frequent constructive feedback in supportive, non-threatening manner Comments on both + and - performance</li><li>Feedback is specific and offers suggestions to improve</li><li>Provides formative and summative feedback</li><li>Independently modifies feedback based on student needs</li"
+                },
+                {
+                    "fieldId": "Feedback/CommunicationAverage",
+                    "fieldType": "Label",
+                    "description": "<b><br>Average</b>  <ul style='padding-left:30px'>  <li>  Gives constructive feedback</li><li>May require cueing from ACCE, CCCE or student to modify the frequency or amount of feedback to meet student needs May provide formative feedback but summative feedback only at midterm and final</li>"
+                },
+                {
+                    "fieldId": "Feedback/CommunicationInadequate",
+                    "fieldType": "Label",
+                    "description": "<b><br>Inadequate</b>  <ul style='padding-left:30px'>  <li>  Does not give feedback</li>"
+                },
+                {
+                    "fieldId": "Providesfeedback",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'> <li>Provides feedback in a manner that is not constructive</li>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Inadequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Evaluation",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>Evaluation</b></u>"
+                },
+                {
+                    "fieldId": "EvaluationAboveAverage",
+                    "fieldType": "Label",
+                    "description": "<b><br>Above Average</b>  <ul style='padding-left:30px'>  <li>  Clearly articulates students strengths and weaknesses </li><li> Able to pinpoint causes of performance issues</li>"
+                },
+                {
+                    "fieldId": "EvaluationAverage",
+                    "fieldType": "Label",
+                    "description": "<b><br>Average</b>  <ul style='padding-left:30px'>  <li>  Recognizes global strengths and weaknesses</li>"
+                },
+                {
+                    "fieldId": "EvaluationInadequate",
+                    "fieldType": "Label",
+                    "description": "<b><br>Inadequate</b>  <ul style='padding-left:30px'>  <li>  Unable to identify strengths/weaknesses</li><li>Does not critically evaluate student performance</li>"
+                },
+                {
+                    "fieldId": "Demonstratesbias",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'>  <li>Demonstrates bias in performance evaluation</li>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Inadequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Teaching:modifiesteachingforlearner",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>Teaching: modifies teaching for learner</b></u>"
+                },
+                {
+                    "fieldId": "Teaching:modifiesteachingforlearnerAboveAverage",
+                    "fieldType": "Label",
+                    "description": "<b><br>Above Average</b>  <ul style='padding-left:30px'>  <li>  Promptly modifies learning activities based on learner </li><li>Provides alternative learning experiences</li>"
+                },
+                {
+                    "fieldId": "Teaching:modifiesteachingforlearnerAverage",
+                    "fieldType": "Label",
+                    "description": "<b><br>Average</b>  <ul style='padding-left:30px'>  <li>  Able to provide effective learning experiences for the average student</li><li>May require guidance for student with additional needs</li>"
+                },
+                {
+                    "fieldId": "Teaching:modifiesteachingforlearnerInadequate",
+                    "fieldType": "Label",
+                    "description": "<b><br>Inadequate</b>"
+                },
+                {
+                    "fieldId": "provideacceptable",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'>  <li>Unable to provide acceptable learning experiences based on student needs</li>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Above Average"
+                        },
+                        {
+                            "label": "Average"
+                        },
+                        {
+                            "label": "Inadequate"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "FacilityRatingScale",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>Facility Rating  Scale</b><u>"
+                },
+                {
+                    "fieldId": "HighlyRecommend",
+                    "fieldType": "Label",
+                    "description": "<b><br>1. Highly Recommend for Future Placement</b>  <ul style='padding-left:30px'>  <li> Offers varied case load and depth in speciality area</li><li>Structured clinical education program with support of clinical education</li><li>Offers additional experiences i.e.: journal club, extra skill sessions, formal in-service program, observe surgery, interdisciplinary approach Preceptors excellent professionals</li>"
+                },
+                {
+                    "fieldId": "RecommendforFuturePlacement",
+                    "fieldType": "Label",
+                    "description": "<b><br>2. Recommend for Future Placement</b>  <ul style='padding-left:30px'>  <li> Varied case load</li><li>May be smaller facility which is unable to offer additional learning experiences such as interdisciplinary approach, surgery etc. Preceptors are acceptable profession</li>"
+                },
+                {
+                    "fieldId": "Recommend/Reservations",
+                    "fieldType": "Label",
+                    "description": "<b><br>3. Recommend/Reservations</b>  <ul style='padding-left:30px'>  <li> Lacks variety of case load</li><li>Quantity of case load may not be appropriate for some students</li><li>Isolated problem with one CI that may need intervention</li><li>Facility could offer a good experience with further development of clinical education program</li>"
+                },
+                {
+                    "fieldId": "DoNotrecommendforFuture",
+                    "fieldType": "Label",
+                    "description": "<b><br>4. Do Not recommend for Future</b>  <ul style='padding-left:30px'>  <li> Unethical or illegal practices noted</li><li>Staff are not acceptable professional role models</li>"
+                },
+                {
+                    "fieldId": "Repeatedproblemsnoteddespiteintervention",
+                    "fieldType": "Radio",
+                    "description": "<ul style='padding-left:30px'>  <li>Repeated problems noted despite intervention</li>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Highly Recommend for Future Placement"
+                        },
+                        {
+                            "label": "Recommend for Future Placement"
+                        },
+                        {
+                            "label": "Recommend/Reservations"
+                        },
+                        {
+                            "label": "Do not recommend for future"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "ONSITECLINICALEVALUATIONOFSTUDENT",
+                    "fieldType": "Label",
+                    "description": "<b><br>ON SITE CLINICAL EVALUATION OF STUDENT</b>"
+                },
+                {
+                    "fieldId": "CLINICALINSTRUCTORINPUT/CONCERNS:",
+                    "fieldType": "Label",
+                    "description": "<b><br><u>CLINICAL INSTRUCTOR INPUT/CONCERNS:</b><u>"
+                },
+                {
+                    "fieldId": "Bytheendoftherotation:",
+                    "fieldType": "Label",
+                    "description": "<b><br>1. By the end of the rotation, what are your student concern regarding</b>"
+                },
+                {
+                    "fieldId": "CLINICALINSTRUCTORINPUT/CONCERNSAssessment",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>a. Assessment?</b>"
+                },
+                {
+                    "fieldId": "CLINICALINSTRUCTORINPUT/CONCERNSClinicalKnowledgeBase",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>b. Clinical Knowledge Base?</b>"
+                },
+                {
+                    "fieldId": "CLINICALINSTRUCTORINPUT/CONCERNSClinicalKnowledgeBase1",
+                    "fieldType": "Radio",
+                    "description": "<b><br>Is this student meeting those expectations?</b>",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Firstorfinalrotation",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>2. How does this student compare with other students at similar points in the curriculum? (First or final rotation)</b>"
+                },
+                {
+                    "fieldId": "studentstrengths",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>3. What are the student's strengths?</b>"
+                },
+                {
+                    "fieldId": "attaincompetence",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>4. What areas does the student need to improve in order to attain competence?</b>"
+                },
+                {
+                    "fieldId": "clinicalclerkship",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>5. Is the student in danger of not meeting the expectations of this clinical clerkship?</b>"
+                },
+                {
+                    "fieldId": "receptivetofeedback",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>6. Student was receptive to feedback?</b>"
+                },
+                {
+                    "fieldId": "curriculumbeimproved",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>7. How might our curriculum be improved to better prepare a student to perform in this particular setting?</b>"
+                },
+                {
+                    "fieldId": "Comments5",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>Comments:</b>"
+                },
+                {
+                    "fieldId": "Actionstobetaken:",
+                    "fieldType": "TextArea",
+                    "description": "<b><br>Actions to be taken:</b>"
+                }
+            ]
+        }
+    ],
+    "id": "MercyUniversity-PA-Site-Student.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRePAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRePAQAAAAAAAA==/",
+    "_etag": "\"2600acf1-0000-0100-0000-662b97820000\"",
+    "_attachments": "attachments/",
+    "_ts": 1714132866
+}

@@ -1,0 +1,447 @@
+{
+    "sections": [
+        {
+            "sectionId": "Section.SiteAssessment.Information",
+            "caption": "CLINICAL EDUCATION INITIAL CONTACT (3-4 WEEKS)",
+            "fields": [
+                {
+                    "fieldId": "Course",
+                    "description": "<b>Course:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "PTR 7336"
+                        },
+                        {
+                            "label": "PTR 7536"
+                        },
+                        {
+                            "label": "PTR 7736"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+            "caption": "CLINICAL INSTRUCTOR INTERVIEW:",
+            "fields": [
+                {
+                    "fieldId": "performance",
+                    "fieldType": "TextArea",
+                    "description": "<b>1. Describe the student’s performance (types of patients seen, interventions, evaluation, etc)</b>"
+                },
+                {
+                    "fieldId": "issues",
+                    "fieldType": "Label",
+                    "description": "<b>2. Are there any issues with:</b>"
+                },
+                {
+                    "fieldId": "safety",
+                    "fieldType": "TextBox",
+                    "description": "<b>a. safety or body mechanics?</b>"
+                },
+                {
+                    "fieldId": "communication",
+                    "fieldType": "TextBox",
+                    "description": "<b>b. communication?</b>"
+                },
+                {
+                    "fieldId": "professionalism",
+                    "fieldType": "TextBox",
+                    "description": "<b>c. professionalism, initiative, accountability and responsibility?</b>"
+                },
+                {
+                    "fieldId": "discussion",
+                    "fieldType": "TextArea",
+                    "description": "<b>3. If there have been issues, has the student been notified and has there been a discussion between the student and the CI?</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.studentinterview",
+            "caption": "STUDENT INTERVIEW:",
+            "fields": [
+                {
+                    "fieldId": "education",
+                    "fieldType": "TextArea",
+                    "description": "<b>How is your clinical education experience going thus far (communication/feedback/supervision/ability to practice skills)?</b>"
+                },
+                {
+                    "fieldId": "action1",
+                    "fieldType": "Label",
+                    "description": "<b>Faculty Signature:</b>"
+                },
+                {
+                    "fieldId": "Signature1",
+                    "description": "Faculty Signature:",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.studentevaluationform",
+            "caption": "SITE EVALUATION FORM",
+            "fields": [
+                {
+                    "fieldId": "Course1",
+                    "description": "<b>Course:</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "PTR 7336"
+                        },
+                        {
+                            "label": "PTR 7536"
+                        },
+                        {
+                            "label": "PTR 7736"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Setting",
+                    "fieldType": "TextBox",
+                    "description": "<b>Facility/Setting:</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+            "caption": "CI ASSESSMENT OF THE STUDENT",
+            "fields": [
+                {
+                    "fieldId": "ci",
+                    "description": "<b>1. The CPI was reviewed with the student and the Clinical instructor.</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "strengths",
+                    "fieldType": "TextArea",
+                    "description": "<b>Student’s strengths</b>"
+                },
+                {
+                    "fieldId": "Goals",
+                    "fieldType": "TextArea",
+                    "description": "<b>Goals for the remainder of the clinical experience</b>"
+                },
+                {
+                    "fieldId": "remediation",
+                    "fieldType": "TextArea",
+                    "description": "<b>2. If Issues have been identified, is a remediation plan indicated?</b>"
+                },
+                {
+                    "fieldId": "caseload",
+                    "fieldType": "TextArea",
+                    "description": "<b>3. What percentage of the caseload is the student currently maintaining and how much supervision does the student require?</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.cistudentassessment",
+            "caption": "CI/STUDENT ASSESSMENT OF THE CURRICULUM/CLINICAL EDUCATION PROGRAM:",
+            "fields": [
+                {
+                    "fieldId": "well",
+                    "fieldType": "Label",
+                    "description": "<b>Was the student well prepared for the clinical education experience?</b>"
+                },
+                {
+                    "fieldId": "ci1",
+                    "fieldType": "TextBox",
+                    "description": "<b>CI</b>"
+                },
+                {
+                    "fieldId": "Student1",
+                    "fieldType": "TextBox",
+                    "description": "<b>Student</b>"
+                },
+                {
+                    "fieldId": "Comments1",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments</b>"
+                },
+                {
+                    "fieldId": "weeks",
+                    "fieldType": "Label",
+                    "description": "<b>Is 10 weeks an adequate length for clinical education experiences?</b>"
+                },
+                {
+                    "fieldId": "ci2",
+                    "fieldType": "TextBox",
+                    "description": "<b>CI</b>"
+                },
+                {
+                    "fieldId": "Student2",
+                    "fieldType": "TextBox",
+                    "description": "<b>Student</b>"
+                },
+                {
+                    "fieldId": "Comments2",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments</b>"
+                },
+                {
+                    "fieldId": "length",
+                    "fieldType": "Label",
+                    "description": "<b>Should all clinicals be the same length of time (ex 10 weeks)</b>"
+                },
+                {
+                    "fieldId": "ci3",
+                    "fieldType": "TextBox",
+                    "description": "<b>CI</b>"
+                },
+                {
+                    "fieldId": "Student3",
+                    "fieldType": "TextBox",
+                    "description": "<b>Student</b>"
+                },
+                {
+                    "fieldId": "Comments3",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments</b>"
+                },
+                {
+                    "fieldId": "didactic",
+                    "fieldType": "Label",
+                    "description": "<b>Keep clinicals after each didactic section or put after completion of all didactic work?</b>"
+                },
+                {
+                    "fieldId": "ci4",
+                    "fieldType": "TextBox",
+                    "description": "<b>CI</b>"
+                },
+                {
+                    "fieldId": "Student4",
+                    "fieldType": "TextBox",
+                    "description": "<b>Student</b>"
+                },
+                {
+                    "fieldId": "Comments4",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments</b>"
+                }
+            ]
+        },
+        {
+            "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+            "caption": "STUDENT ASSESSMENT OF THE CLINICAL EXPERIENCE and CLINICAL INSTRUCTOR:",
+            "fields": [
+                {
+                    "fieldId": "Criteria",
+                    "fieldType": "Label",
+                    "description": "<b>Criteria</b>"
+                },
+                {
+                    "fieldId": "effective",
+                    "description": "<b>Do you feel that your CI is an effective teacher?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "open",
+                    "description": "<b>Do you feel you are able to have open communication with your CI?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "supervision",
+                    "description": "<b>Is your CI providing enough supervision?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "feedback",
+                    "description": "<b>Is your CI providing enough feedback?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "practice",
+                    "description": "<b>Is your CI allowing you enough opportunity/space to practice your skills?</b>",
+                    "fieldType": "Radio",
+                    "display": "inline-grid",
+                    "options": [
+                        {
+                            "label": "Yes"
+                        },
+                        {
+                            "label": "No"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "methods",
+                    "fieldType": "Checkbox",
+                    "description": "<b>Which of the following teaching methods does your CI utilize?</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Demonstration/return demonstration"
+                        },
+                        {
+                            "label": "1:1 review of techniques"
+                        },
+                        {
+                            "label": "Assignments"
+                        },
+                        {
+                            "label": "Other",
+                            "fields": [
+                                {
+                                    "fieldId": "other1",
+                                    "fieldType": "TextArea"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "education1",
+                    "description": "<b>How would you rate this clinical education experience?</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Excellent clinical education experience"
+                        },
+                        {
+                            "label": "Time well spent, would recommend"
+                        },
+                        {
+                            "label": "Some good learning experiences, site needs further development"
+                        },
+                        {
+                            "label": "Clinical Education program not adequately developed at this time"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "Comments31",
+                    "fieldType": "TextArea",
+                    "description": "<b>Comments:</b>"
+                },
+                {
+                    "fieldId": "obtained",
+                    "description": "<b>Based on the information obtained from the site visit, rate this site:</b>",
+                    "fieldType": "Radio",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "Good experience, continue use of site"
+                        },
+                        {
+                            "label": "Student program needs further development"
+                        },
+                        {
+                            "label": "Clinical Site does not meet program expectations"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "privileges",
+                    "fieldType": "Checkbox",
+                    "description": "<b>Rights and Privileges of Cls: Please check the options the CI is interested in accessing. If requesting database access, please ask CI for their email address.</b>",
+                    "display": "grid",
+                    "options": [
+                        {
+                            "label": "To use College library/database access.",
+                            "fields": [
+                                {
+                                    "fieldId": "email",
+                                    "fieldType": "TextBox",
+                                    "description": "Email address:"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "To participate in Clinical Education and/or Curriculum meetings as appropriate"
+                        },
+                        {
+                            "label": "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training"
+                        },
+                        {
+                            "label": "To be advised of special workshop offerings with free or reduced tuition"
+                        },
+                        {
+                            "label": "To request use of the facilities"
+                        }
+                    ]
+                },
+                {
+                    "fieldId": "opportunities",
+                    "fieldType": "TextArea",
+                    "description": "<b>Please list suggested topics for continuing education opportunities for CI’s:</b>"
+                },
+                {
+                    "fieldId": "dce",
+                    "fieldType": "Label",
+                    "description": "<b>DCE/Faculty signature:</b>"
+                },
+                {
+                    "fieldId": "dcesignature",
+                    "description": "DCE/Faculty signature:",
+                    "fieldType": "esign",
+                    "placeHolder": "Please sign here"
+                },
+                {
+                    "fieldId": "Date",
+                    "fieldType": "DatePicker",
+                    "description": "<b>Date:</b>"
+                }
+            ]
+        }
+    ],
+    "id": "AmericanInternationalCollege.SiteAssessment.Layout.Base",
+    "partitionKey": "Exxat",
+    "entityName": "Exxat.Forms.Entity.Layouts.BaseLayout",
+    "_rid": "txoEAMsfdRelAQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAMsfdRc=/docs/txoEAMsfdRelAQAAAAAAAA==/",
+    "_etag": "\"1f01162e-0000-0100-0000-665083f60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1716552694
+}
