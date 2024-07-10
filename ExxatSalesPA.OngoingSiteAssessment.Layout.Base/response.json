@@ -1,0 +1,119 @@
+[
+    {
+        "responseId": "8e2c5c0e-9a6f-4018-a745-454b334850cf",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "safeAccess": "Yes",
+                    "cleanHousing": "Yes",
+                    "adequateSpace": "Yes",
+                    "accesTechnology": "Yes",
+                    "adequateSupervision": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.PatientPopulation",
+                "values": {
+                    "ppMedicalConditions": [
+                        "Preventive"
+                    ],
+                    "ppWomensHealth": [
+                        "Gynecologic care"
+                    ],
+                    "ppPsych": [
+                        "Behavioral health"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "healthprofessionsstudents": "Yes",
+                    "themselves": "Yes",
+                    "appropriatequestions": "Yes",
+                    "physicalexam": "Yes",
+                    "chiefcomplaint": "Yes",
+                    "atypicalfindings": "Yes",
+                    "Formulatesappropriate": "Yes",
+                    "Documentsfindings": "Yes",
+                    "Communicatesfindings": "Yes",
+                    "workingrelationship": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Preceptor",
+                "values": {
+                    "qualifiedorExperience": "Yes",
+                    "validLicense": "Yes",
+                    "validCertification": "Yes",
+                    "programsExpectations": "Yes",
+                    "awareDistinguishProfession": "Yes",
+                    "Evaluationprocess": "Yes",
+                    "schedulingprocess": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.OverallImpression",
+                "values": {
+                    "Recommendationrelationship": "Continue relationship",
+                    "validLicense": "Continue relationship",
+                    "Followuprequired": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "Exxat.OngoingSiteSiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "ExxatSalesPA.OngoingSiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "ExxatSales",
+            "owningOrganizationUnit": "P010",
+            "owningUser": "7273"
+        },
+        "partitionKey": "ExxatSales",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "6576e746-1c21-4066-8d15-d51209c7b29f",
+        "_rid": "txoEAI0Kc-yNBAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yNBAAAAAAAAA==/",
+        "_etag": "\"0001bb29-0000-0100-0000-668e65570000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608087
+    },
+    {
+        "responseId": "bf5d9992-8164-4639-a4ea-c94e7bb591e8",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "safeAccess": "N/A"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "Exxat.OngoingSiteSiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "ExxatSalesPA.OngoingSiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "ExxatSales",
+            "owningOrganizationUnit": "P010",
+            "owningUser": "43398"
+        },
+        "partitionKey": "ExxatSales",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c1c9f651-028b-44d5-9c9a-9bdaeeb51379",
+        "_rid": "txoEAI0Kc-wTJAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wTJAAAAAAAAA==/",
+        "_etag": "\"0001bc29-0000-0100-0000-668e65570000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608087
+    }
+]
