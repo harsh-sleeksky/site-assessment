@@ -1,0 +1,131 @@
+[
+  {
+    "responseId": "a81edcb4-a044-4c36-a668-a9c1a0f6cc12",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.DiscussionWithCI",
+        "values": {
+          "OverallCommunicationSkills": "Could Improve",
+          "DoesStudentaskquestions": "No",
+          "Aretheyappropriatelevelquestions": "Yes",
+          "communicatepertinentinformation": "No",
+          "Comments1": "1",
+          "Organizationskills": "Could Improve",
+          "organizingthedaily": "No",
+          "Comments2": "2",
+          "TimeManagementSkills": "Could Improve",
+          "Comments3": "3",
+          "Abilitytoevaluateoneself": "Accurate",
+          "strengthsandweaknesses": "No",
+          "Comments4": "4",
+          "Abilitytoacceptcriticism": "Not receptive",
+          "feedbackappropriately": "No",
+          "Comments5": "5",
+          "Interactionwithstaff": "Inappropriate",
+          "Comments6": "6",
+          "Confidence6": "Appropriate",
+          "Comments7": "7",
+          "Punctuality7": "Runs late occasionally",
+          "Absences88": "No",
+          "makingupabsences": "8",
+          "UseofFreeTime": "Average",
+          "Comments9": "9",
+          "Cotreat": "10",
+          "Independent": "11",
+          "studentscaseload": "Where Expected",
+          "Typesofptstreated": [
+            "Orthopedic"
+          ],
+          "Anyissueswithpatient": "Yes",
+          "Documentation": "Below Expectations",
+          "AreaNeedingImprovement": [
+            "O"
+          ],
+          "Comments111": "12",
+          "ProblemSolvingSkills": "Developing - recognize problem and formulate solution",
+          "Comments011": "13",
+          "Abilitytoprogresspts": "Beginning - recognizes need for progression",
+          "Comments0111": "14",
+          "Interactswithpatients": "Appropriate",
+          "Commentss1": "15",
+          "OverallAssessmentSkills": "Appropriate",
+          "Areaneedingimprovement": "16",
+          "AdditionalLearningOpportunities": "17",
+          "OverallStrengths": "18",
+          "AreasNeedingImprovement": "19",
+          "AcademicPreparation": "Average",
+          "adequatelyprepared": "No",
+          "Areastheschoolcould": "20",
+          "ClinicalSkills1": "21",
+          "Professionalism2": "22",
+          "Areastheschoolcould1": "23",
+          "Areastheschoolcould2": "24",
+          "Areastheschoolcould3": "25",
+          "employment1": "No",
+          "overridden1": "26"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentDiscussion",
+        "values": {
+          "Overallimpression": "Recommend",
+          "Why1": "27",
+          "CI1": "28",
+          "Student2": "29",
+          "CI2": "30",
+          "Student22": "31",
+          "FeedbackfromCI": "Adequate",
+          "feelchallenged": "No",
+          "RelationshipwithCI": [
+            "Great"
+          ],
+          "Cotreat1": "32",
+          "Independent11": "33",
+          "Isthecaseload": "Adequate",
+          "Typesofptstreated1": [
+            "Neuro"
+          ],
+          "Supervision4": "Adequate",
+          "AdditionalLearningOpportunities1": "34",
+          "ClinicalSkills2": "35",
+          "Professionalism22": "36",
+          "adequatelyprepared1": "No",
+          "Anyareayoufeeltheschool": "37",
+          "Anyareayoufeeltheschool1": "38",
+          "Anyareayoufeeltheschool2": "39",
+          "Anyareayoufeeltheschool3": "40",
+          "TopicForInservice": "41",
+          "PatientIdentified": "No",
+          "DX": "42",
+          "PTAMACS": "Skills DO NOT meet Criteria",
+          "SkillsnomeetingCriteria": "43",
+          "orchallenges": "44",
+          "SummaryofClinical": "45",
+          "StudentConcerns": "46",
+          "Willrecommendations": "No"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "BlinnPTASiteVisit.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "BlinnPTASiteVisit.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "BlinnCollege-PTA",
+      "owningOrganizationUnit": "D002",
+      "owningUser": "40508"
+    },
+    "partitionKey": "BlinnCollege-PTA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "bb471d00-8518-43aa-9e34-a9664b241ff8",
+    "_rid": "txoEAI0Kc-wbGQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wbGQAAAAAAAA==/",
+    "_etag": "\"0001a935-0000-0100-0000-668e65e90000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608233
+  }
+]

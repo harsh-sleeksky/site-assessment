@@ -1,0 +1,210 @@
+[
+  {
+    "responseId": "0a0e91bf-7358-41f9-953c-848f1fd8960f",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "A14": [
+            "Research",
+            "Observation of specialty practice",
+            "Other"
+          ],
+          "A1": "Site Visit",
+          "A2": "1",
+          "A3": "2",
+          "A4": [
+            "I"
+          ],
+          "A5": "23",
+          "A6": "hiral.gohil@exxat.com",
+          "A7": "3411111111",
+          "A9": "Home Health/Hospice",
+          "A10": "Other (GI, renal, GU, metabolic, endocrine)",
+          "A11": "Over 65",
+          "A12": [
+            "Nurse",
+            "Respiratory Therapist"
+          ],
+          "A13": [
+            "Other"
+          ],
+          "A15": "What is the PRODUCTIVITY EXPECTATION of therapists at your clinical site?",
+          "A16": "How is your work schedule structured (e.g. 4 10-hour days, 5 8-hour days, etc.)?",
+          "A17": "How many patients is the student typically seeing in one day?",
+          "AC5": "58",
+          "AB5": "123",
+          "AA4": "34",
+          "AD2": "44",
+          "AD3": "234"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "A19": "Yes",
+          "A20": "Yes",
+          "A21": "Yes",
+          "A22": "4",
+          "A24": "5",
+          "A25": "6",
+          "A27": "7",
+          "A28": "5",
+          "A29": "54"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "A30": "Yes",
+          "A31": "Yes",
+          "A32": "54t",
+          "A33": "Yes",
+          "A34": "Yes",
+          "A36": "54",
+          "A37": "45t",
+          "A38": "54",
+          "A39": "t54"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "A40": "data:image/png;base64,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",
+          "A41": "2023-11-21T18:30:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "SVFMUDPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "SVFMUDPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "MoravianUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "54698"
+    },
+    "partitionKey": "MoravianUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "611cdeb3-91c1-4229-a79f-dda14d791ded",
+    "_rid": "txoEAI0Kc-zfIQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zfIQAAAAAAAA==/",
+    "_etag": "\"0001a93d-0000-0100-0000-668e664e0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608334
+  },
+  {
+    "responseId": "1830ffae-efd6-4abd-bc9b-2233503d822a",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "A12": [
+            "SLP",
+            "PA",
+            "Nurse",
+            "Respiratory Therapist",
+            "Other"
+          ],
+          "A14": [
+            "Conference(s)",
+            "Faculty meetings",
+            "In-services",
+            "Staff development",
+            "Other"
+          ],
+          "A1": "Site Visit",
+          "A2": "Facility Name:",
+          "A3": "Clinical Setting:",
+          "A4": [
+            "I"
+          ],
+          "A5": "Clinical Instructor Name",
+          "A6": "hiral.gohil@exxat.com",
+          "A7": "7016333589",
+          "A9": "Wellness/Fitness/Injury",
+          "A10": "Other (GI, renal, GU, metabolic, endocrine)",
+          "A11": "Over 65",
+          "A13": [
+            "PT Aides",
+            "Manager/director",
+            "Front Desk Coordinator",
+            "Other"
+          ],
+          "A15": "What is the PRODUCTIVITY EXPECTATION of therapists at your clinical site?",
+          "A16": "How is your work schedule structured (e.g. 4 10-hour days, 5 8-hour days, etc.)?",
+          "A17": "How many patients is the student typically seeing in one day?",
+          "AB5": "25",
+          "AA4": "78",
+          "AD1": "53",
+          "AD3": "Other learning opportunities the student has or will be exposed to/participate in during this clinical rotation (e.g. observe surgeries/medical procedures, participate in ground rounds, conferences, cont. ed.)",
+          "AC6": "89",
+          "AD2": "Other physical therapy personnel the student has had an opportunity to interact with through the site (e.g. Director of PT, PTA, therapy aides, etc.):"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "ABC2": "123",
+          "Z2": "2. Do you see the student integrating feedback into practice in a consistent and positive manner?",
+          "A19": "Yes",
+          "A20": "No",
+          "A21": "Yes",
+          "A22": "4. How do you structure your feedback sessions with the student?",
+          "A24": "Student strengths in knowledge, skills and behavior:",
+          "A25": "Student:",
+          "A27": "Please provide any comments or suggestions to Moravian’s PT program or faculty members regarding academic suggestions and/or the clinical education process and preparation:",
+          "A28": "Student:",
+          "A29": "Additional Comments:"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "A32": "3. How do you and your CI structure feedback sessions?",
+          "X4": "5. Do you feel you were sufficiently prepared for this clinical rotation? In what areas did you feel less prepared? Which did you feel more prepared?",
+          "A30": "Yes",
+          "A31": "Yes",
+          "A33": "Yes",
+          "A34": "No",
+          "A36": "11",
+          "A37": "12",
+          "A38": "75",
+          "A39": "74"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "A40": "data:image/png;base64,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",
+          "A41": "2023-11-05T18:30:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "SVFMUDPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "SVFMUDPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "MoravianUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "54698"
+    },
+    "partitionKey": "MoravianUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "c2acd017-23cb-468c-92aa-6bce4e43b2e0",
+    "_rid": "txoEAI0Kc-zZHgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zZHgAAAAAAAA==/",
+    "_etag": "\"0001a63d-0000-0100-0000-668e664e0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608334
+  }
+]

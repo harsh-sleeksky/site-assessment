@@ -1,0 +1,1641 @@
+[
+  {
+    "responseId": "866e5d91-2cc8-4356-b12a-886c5a4f1de3",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Samer Kassar",
+          "RotationName": "Neurology",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "Yes",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2024-03-14T05:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "0435bc00-a5b4-4782-a063-12e74587be29",
+    "_rid": "txoEAI0Kc-zhMgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zhMgAAAAAAAA==/",
+    "_etag": "\"0001f431-0000-0100-0000-668e65b90000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608185
+  },
+  {
+    "responseId": "ac1accf9-261c-4107-bd1d-535a9003e63a",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Nanette Lindesmith",
+          "RotationName": "Family Medicine",
+          "PreceptorSupervisor": "NP",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student seeing patients, coming up with differential, presenting",
+          "Feedbackfrompreceptor": "None",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "04a5c5a2-9506-4bc0-819e-b0bd597216e7",
+    "_rid": "txoEAI0Kc-z-GAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z-GAAAAAAAAA==/",
+    "_etag": "\"0001bd31-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "14d6a954-fd47-4988-992c-721a9fc7ae26",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Dawn Galbreath",
+          "RotationName": "Behavioral Health",
+          "PreceptorSupervisor": "NP",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B4": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "AdditionalComments": "Inpatient and outpatient behavioral health facility"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "051a5fc4-0321-4d03-871c-5d25dbffccbc",
+    "_rid": "txoEAI0Kc-x7GQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x7GQAAAAAAAA==/",
+    "_etag": "\"0001bf31-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "6ad5b73a-0c92-47d4-83c1-80a53d69f1b2",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Natalie Fox",
+          "RotationName": "Orthopedics",
+          "PreceptorSupervisor": "PA",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "1634c89b-0e8a-4265-acb6-7854e267ec91",
+    "_rid": "txoEAI0Kc-wXKQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wXKQAAAAAAAA==/",
+    "_etag": "\"0001e631-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "aca3c2de-c3b0-4a62-b762-771040c03830",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Emily warden",
+          "RotationName": "Internal Medicine",
+          "PreceptorSupervisor": "PA",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "1d895474-93ed-4a80-9fa8-200b492d19dd",
+    "_rid": "txoEAI0Kc-wbKQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wbKQAAAAAAAA==/",
+    "_etag": "\"0001e831-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "616d91f9-0b49-43bf-a48f-1f38f2bad291",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "NorthShore Health Center - Chesterton - Dr. Kimberly Hess",
+          "RotationName": "Women's Health",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "No",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student was pleased with experience noting adequate opportunities to learn, plenty of opportunities to see diversity of patients, good teaching and mentoring by the preceptor, unable to directly observe student encounter, student did report one episode of feeling faint while in OR, no injury, student reported that she was dehydrated and had not eaten well, student reported that she was well cared for at time of incident by staff",
+          "Goalsforstudentimprovement": "Continue to improve upon discipline specific assessments and skills, carry snack bars and food for quick snacks in bag and remember to drink and eat throughout the day",
+          "Feedbackfrompreceptor": "Student performing very well, preceptor has been pleased with quality of Valpo students and their preparedness",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2023-11-30T06:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74296"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "32cb20b1-74a6-4806-93a2-1798c316534c",
+    "_rid": "txoEAI0Kc-x5IwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x5IwAAAAAAAA==/",
+    "_etag": "\"0001dd31-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "83b8f54b-2fa5-482a-b0d8-90b7c7c06601",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Alexandra Halkias",
+          "RotationName": "Emergency Medicine",
+          "PreceptorSupervisor": "NP",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "anything",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "Goalsforstudentimprovement": "Student needs to be confident and engaged",
+          "Feedbackfrompreceptor": "Lina is shy and intimidated.  Needs a little more guidance and hand holding.  Previous student Madison Land was above most students.",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "443a4412-29b3-4952-9e40-81b6c65312d6",
+    "_rid": "txoEAI0Kc-yhIAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yhIAAAAAAAAA==/",
+    "_etag": "\"0001d831-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "cccd9d39-fbd8-42d8-87e8-32286622673d",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Pooja Kinkhabawala",
+          "RotationName": "Endocrinology",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student comfortable with doctor.  Student slightly timid",
+          "Feedbackfrompreceptor": "nothing.",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "481029f7-7218-426e-a672-7c9e184832d6",
+    "_rid": "txoEAI0Kc-xNHQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xNHQAAAAAAAA==/",
+    "_etag": "\"0001c731-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "3f32313c-3f41-45d0-8ad1-82236433e069",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Fadi Alzeidan",
+          "RotationName": "Family Med",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "56aabd34-e945-427b-9911-c694a37803a4",
+    "_rid": "txoEAI0Kc-xRHQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xRHQAAAAAAAA==/",
+    "_etag": "\"0001cd31-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "cad61b08-809d-4a63-bdf9-a8c5672088a9",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Jason Petrungaro",
+          "RotationName": "Plastic Surgery",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F, no weekends",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "Feedbackfrompreceptor": "They recommend not sending students July-September due to low volume",
+          "TA4": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAADUdJREFUeF7tnUnILkcVhk/UaDRxiCNKVMSFiqBCENyo4DpuRBCy0p0LUVFw7VJUFBfiTl05QXDhzo0gKIjiykBw2AgBTeIQNc4TL/mO1l+3h+qvu6vrdD0NF+69X3f1qeecfruGU9W3GQcEIACBIARuC2InZkIAAhAwBIsggAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuApDIQABBIsYgAAEwhBAsMK4CkMhAAEEixiAAATCEECwwrgKQyEAAQSLGIAABMIQQLDCuKo5Q/9tZmn86N9Pbc5KDDoVAQTrVO6sUplUqP5hZk+53FViRTxVcUG/NyHA+vX9NTX/z+Wiv5vZM5IC/nr5N/F0DVWuKSZAgBWj4kQze8LM7hwg4a0u4mmfMPEXhZfebfebANsnwHorVQ/U38zsjt4qXqG+Yquutx/qgqv7rf/37ngFM9q4BYLVhh8iW/Gvy4NDLG3rxW+Z2X1m9h0ze8dA0RKs+83sq9vetu3SCLK2/RPBOj043XZRdnTQXDf7n5cXRVetLARrx4jroOjfmdnzmB3cxdN6Eaj1+rSJ0nXOn0fGFXcx6uhCEayjPRD7/nOtgNi1O876x83sOQUvAglWV2NZCNZ0UGq6/ukDgUMX6EludAf3EbXSF4EG49UC6+Y57qaihXGlABhKgNSD6WMGKkrn9C5aip08270QM6fNECjpDqoIBKuzUHIRyoVbAaPkyLFpev12e09vtoG4YHZwn4eltDuIYO3Dv5lSf2tmzx3JXVFL4Q9mdvcCa7sbP8jY9F7/BaGy6NQlraaxc39tZi+YGbBfZFQrJ/fSJUwzhX3cZWr2pcQ/Hzazz3bcyhLHv5jZs0pgcU4xgS0E67RLpXoQrD0HhksHR4ujNciJ6kqz2HkfZ20pWLLwVM/4qSozED81BMXHu9LFwPuEcjul0h3czxdLWkdj57roefyfJrn0zIJVa2C8x9aGz5pq4oFjewLi+w0ze89M0WMv5FTITvVyObNg1Wr59DZbtqQFsP2j3EeJpcMYY+kPebdy6Dy90NWtf62Z/SwK1rMKVs23So1uZyvx5OL8AzN7SytGndCOkpiaSn/IBevlZvbLZDzLJ6G+bGbvi8TvjIJVu8VTUxz3jq2PmNknZ3Zf0MMkxpohVJoIx/YESoYZpgbnh37zMt3aT5nZx7Y3fd8SzyZYX7y8MWrWq7T5vq8nl5c+J04+TqVuw5JBW397ezcEYVvuG10xN461VLDS1J6az8d1tR+5KqzhI/U5Qjx0TwWP1hy2fjx6SSgcyuxXqykfRPfxqrFlSL8ws3uSFAeVOxVT/tD83sye3zqsg+2bi2X3zbvM7JuZrfk4o/cC3Ddhl5WdSbBK+v17xKCCoXWOeXegZHdQ71prhYCyptccLmxqqaUJu2KHeA2TnYpnF/4HzOzdA5fnrS/5W9zFX7Ggv4v7kpUda/y/2bWtP2ilFa2VwpDbo72InnkJhLTJXWr3nuflrSnZV9q187rsGR8uiN798cXUEsgX7QkmSNlTMa3ftBfZS0bqMjST63uXpZfs6d9dMIczeKIrmH/JZRdgWaG1UieW1CVvTS3trh4xiTC1S4Z+6ykp132tta3PvrL1Pja+5a229PdQGhDK2AmxWtJ6WPLwT507lgOzVflLy0mF6hoec+NVS+1Zc/6UgOmhW7sOdI1tNa+VH39lZi9deNOpFnK6tbJaudKA0pb3QjO2Pz26YNVOYXAPzA2Ibu+p6RI9QK9djOwc9Rmvu2obX3A/1UuTGumD5XUemiwoKLL5Ux42s5ddxpyWrihQb+M3E0J31HOzGnpkwfqomX36gI30jugyjTnaW1XXtKhS8dXfI8XC983szQMtLXFQS/EMO0js3eLVS0BdbbVYP2Rmn1+tJhUKiBSkQzj0JpFjtf91jeOomcihunkLQ/XXwP81R0vie439fs2fLiKVx7N3H1ubEJmqq8au9LFab02ueRnNMf25mb06OUm8PtiyeEUXrDmHbPl7C2KVzvytCeSfmNnrD2idbumPqbLyMTAXZiXBtnhonOrFWSs3HYeq8ZxK9P2r3mq5L+2GVuFaA0SViux8k6P7/PnMn97C1y6L8a7GFvlVO2PfrHifFfMC17RKNzPqMj6VimieH3dU3B1131m2CNYsosM2+l+TRzVWq5I1avNE4p6hSQV1n4/O+E4/3jHVUpaADX21qYYHlFiqoRaJvRZIf6XGTS/30MTPG83se/k9EaxpL/zxMmtWk9PaPKqxGjX71qz4IKS3ShNX9f97t7pcfNyG0hndI2ekf2Rm9ybQJF7vrSBerzCzr5vZ2y6C+T8Taj6IB8XlqtsqWL5rZm9fVUr5xT5usWZ8auhuLYy/lVOoe2ba6nL+W+Z65Rn9S3OeJGz6etPRz+ojyQoE56RewMfN7AsbuuwTl4F/5Z5pC50bx9EQNqzn5kXJKY9VXCai+5W+dZdUFrEqp5WPdelKb+GUJKv6mr18EfjaxcatzeZqw79XXRa9p3RV/x+a2VvLkd8407/2o/wzCeQtB4I1TPYIsdpDHKcynq+MqW4u+4CZfW5FFvjWOWF7vdC2cOjXzOy+ZJZxrkzVRdqj1qdPOuhl8ZCZvWHqYgTrVjo1xUpN6feb2U/N7DVzXl74e2tv5YXmN3e6BOwzIwKmB+/bZvbOHa1Ol9TseJtNin7TJZdrLP9NWfgSKrWiXIM09PKlubsjWDcJ1RQr725sPV6VdmNazTuai0t+v5XAks9/nZYfgvV/19YWKw1YvnCHwVTVQ2/8kjGX0wb2CSvGxz92eFiixkltsRKnrQIwX8qxdDuZqD7D7g4J0MJ6chZojwHvknC6ZgYvFyi/j+rB7p0l1DknLIHeBetIsfKg8T2J0m1SNCipLGPl7ORT5KlAnXVrlbAPFIbvS6BnwWpBrNy7eXZ77nWf8VN3T0mEHBDokkCvgtWSWKWBp8Q7/am1XU6XQU+l4xLoUbBaFau4UYTlEKhEoDfBkljpk92vzPhqI0ClASzl4YlxDHZXClhu0zeBpQ9oTkuzXFEO1TXPvM3rP5aZO1XHtIxrro/CDzshcA2BpYu9J++xVrB4QK9xIddAoB8CazXmBqlNC2vQB+lGaTKv5IvHW1RDXUx/s8gG/V0fXWUwfQu6lNEtgTMKVp4isMdavW4DhopD4EgCZxEsLXNJt5L17SsQqyOji3tDYGMCkQXrQTN7XTaz59vcsrXKxoFCcRBogUBEwcr34s53JrhmfV4LvsAGCEBghkAUwSodl0KsCHkInJhA64KV7rGtbp6+YjP2PT6+CnPiQKVqEBCBlgXLW0sln19iN0biGQIdEGhRsPTlDH22u1RQt9oIrwN3U0UIxCbQmmB5t650i18Xt9bqETsqsB4CjRJo6UFf+kkqF7cfZ1+nbRQ1ZkEAAmsJtCBYWsZy+2VhcslCyfST3w+b2T1rIXA9BCAQg8DRguUD69qnfGz2LyXprbC1X9KN4R2shAAEbhA4UrCWdAFd2FhqQwBDoGMCRwjWki5gmjBK96/jQKXqEChNG9iSlLeUtEPn3RMF+0dGdYpES2NcHBCAQOcEarawSruAdP86D0qqD4ExAjUEy1tLc+NP3lU8ouVHhEAAAgEI1BCskmUz3qp6wszuCsANEyEAgQMItCBYpV3FA/BwSwhAoCUCNQQrX+unnKs7kz3P57qKLfHCFghA4EACNQUrr6aE6vGZ2cID0XBrCECgNQI1BEt19q/IKEXhjtYgYA8EIBCDQC3BikEDKyEAgaYJIFhNuwfjIACBlACCRTxAAAJhCCBYYVyFoRCAAIJFDEAAAmEIIFhhXIWhEIDAfwFcege1+Iu0GQAAAABJRU5ErkJggg==",
+          "TA5": "2023-10-16T05:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "57b066ea-2a4f-4cd6-9fe1-7f1919a9fb4f",
+    "_rid": "txoEAI0Kc-xJHAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xJHAAAAAAAAA==/",
+    "_etag": "\"0001c531-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "7d3ab960-7557-43b3-8c58-a24c79c2b3f2",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Osama Zaghmout",
+          "RotationName": "Women's Health",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "Goalsforstudentimprovement": "Students need to do more PAPs",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "5870d468-5c02-448f-b20e-bb9bd7e19731",
+    "_rid": "txoEAI0Kc-xfIAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xfIAAAAAAAAA==/",
+    "_etag": "\"0001d431-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "136b94e5-7566-4f03-870e-f54ed2616ce3",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Nicole Spence and Ashley Turner",
+          "RotationName": "Behavioral Health",
+          "PreceptorSupervisor": "NP",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2024-02-02T06:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "59be1a95-b98d-4a3b-8461-82b2c02b2f2b",
+    "_rid": "txoEAI0Kc-wtKgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wtKgAAAAAAAA==/",
+    "_etag": "\"0001ec31-0000-0100-0000-668e65b90000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608185
+  },
+  {
+    "responseId": "3d66cabb-7ba5-4064-9ebb-fdb4e25870e7",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Eric Tuchscherer",
+          "RotationName": "Internal Med",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "Varies depending on schedule but any day and nights",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "5c22b3e6-15c9-4cd5-9c21-e47c63802547",
+    "_rid": "txoEAI0Kc-zzJgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zzJgAAAAAAAA==/",
+    "_etag": "\"0001e031-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "7a58f915-077b-4d5a-8728-af6d249e9e46",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "5db14231-2e6f-4c47-8ae9-8d6b941cc9f0",
+    "_rid": "txoEAI0Kc-wBGQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wBGQAAAAAAAA==/",
+    "_etag": "\"0001be31-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "ccc94ae0-8fcf-43b1-aced-9ab184b04c43",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "TS-109",
+          "RotationName": "Mock-109",
+          "PreceptorSupervisor": "MD",
+          "supervisingphysician": "1",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "No",
+          "PreceptorSchedule": "2",
+          "B1": "Yes",
+          "B2": "No",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "No",
+          "B6": "Yes",
+          "B8": "No",
+          "B9": "Yes",
+          "B10": "No",
+          "B11": "Yes",
+          "B12": "No",
+          "B14": "No",
+          "StudentObservationSummary:": "4",
+          "Goalsforstudentimprovement": "5",
+          "Feedbackfrompreceptor": "6",
+          "AdditionalComments": "7",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2023-06-27T18:30:00Z",
+          "B13": "3"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "40508"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "60f4ded0-3ddf-48b0-b31d-f3fecd204dcc",
+    "_rid": "txoEAI0Kc-ydDgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ydDgAAAAAAAA==/",
+    "_etag": "\"0001b431-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "9ad5dae7-6169-41a7-9a32-e317036558d9",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "TA5": "2023-12-07T06:00:00Z",
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Amelia Schroeder",
+          "RotationName": "Pulmonology",
+          "PreceptorSupervisor": "PA",
+          "supervisingphysician": "Dr B Safadi",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "74b374cd-2e46-4429-814a-642f541510f5",
+    "_rid": "txoEAI0Kc-wBJQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wBJQAAAAAAAA==/",
+    "_etag": "\"0001df31-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "8743760b-c761-426e-afac-1d574e8da9cd",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Sanjay Patel",
+          "RotationName": "Allergy and Asthma",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2024-01-16T06:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7a1f51f6-b541-4e05-94e5-2a9e562f9edc",
+    "_rid": "txoEAI0Kc-y7JwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y7JwAAAAAAAA==/",
+    "_etag": "\"0001e331-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "16169ea0-e443-4a8b-bd81-de8c59c866f6",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Robert Khoury",
+          "RotationName": "Family Medicine",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7cd3388b-5941-4c08-a1a1-6c96b642fa46",
+    "_rid": "txoEAI0Kc-xrHwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xrHwAAAAAAAA==/",
+    "_etag": "\"0001d231-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "41241d8e-7bd7-4943-9f86-49d96da5703c",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Robert Garner",
+          "RotationName": "Family medicine",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7f8183ac-3c2f-4979-930c-d437795443ab",
+    "_rid": "txoEAI0Kc-y3IgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y3IgAAAAAAAA==/",
+    "_etag": "\"0001d931-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "e812795a-d0ca-4197-a389-16e93a1c5fe0",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Taylor Coleman",
+          "RotationName": "General Surgery",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student hands on",
+          "Feedbackfrompreceptor": "Going well, enjoying having a student",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "8c9931ed-1b37-4a5c-96dd-8992dc508187",
+    "_rid": "txoEAI0Kc-xTIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xTIwAAAAAAAA==/",
+    "_etag": "\"0001dc31-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "6aad5fb6-634a-409f-829a-b7a756ca8bc6",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Akilah Cook",
+          "RotationName": "Pediatrics",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student enjoying",
+          "Feedbackfrompreceptor": "Preceptor is teaching entire PA pediatric handbook"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "9b5938ed-991c-4043-8a7d-ebe76d1c5d6e",
+    "_rid": "txoEAI0Kc-xPHQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xPHQAAAAAAAA==/",
+    "_etag": "\"0001c931-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "a9a8fc09-151f-405e-a0e4-c9e35b7c5d70",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Sami Ismail",
+          "RotationName": "Family Med",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student comfortable with patients, good bedside manner",
+          "Feedbackfrompreceptor": "Loves teaching. Let's student go in first, come up with Dx and plan.  Then revises if necessary while teaching",
+          "AdditionalComments": "Amazing Doctor",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "a43768cd-44c8-4834-8a0e-906ff8172ad1",
+    "_rid": "txoEAI0Kc-xDGAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xDGAAAAAAAAA==/",
+    "_etag": "\"0001b931-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "e1ef2ce2-ccf2-4ea2-af7e-685378850891",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Matthew Provenzano",
+          "RotationName": "ENT",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "No",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "Yes",
+          "StudentObservationSummary:": "Student answered preceptor correctly when asked a question during pt visit",
+          "Feedbackfrompreceptor": "Wants to know why students do not have EMR access, student does not have a badge",
+          "AdditionalComments": "Will f/u with Franciscan MC as to why student does not have badge or access",
+          "TA4": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAADP9JREFUeF7tnVvoPkUZx7+mpXbwkFH8s4NGmFJIFkVYUkRehHQReSd0EYEXUkEiQnihSBBRQhEUQVfRXXTRxZ8Iw4IO1IURHanQzAwFKzRRKzvw/NmxdX3fd2d3DjvPvJ/38vebnXnm8zzz3ZnZZ2dPEz8IQAACTgic5sROzIQABCAgBIsggAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGIAABNwQQLDcuApDIQABBIsYgAAE3BBAsNy4CkMhAAEEixiAAATcEECw3LgKQyEAAQSLGICATwKvlPQHSc/ZYf5/JJ3us1uHrUawevQqfeqVwL8GIRqP2/9KemoiXCZW/5Z0Rm8gEKzePEp/eiLwF0nnS5qO07kZlImVzby6G9/ddainaKUvR0sgCE4AYLOoP0q6aAERu6a7WRaCtSACKAqBwgS+K+mdQxtPSjo7oT1bPtqSsKsx3lVnEpzLpRDYmoAt82w82sxo10b6UvsQrKXEKA8BCMwSsA3z8EQv5wQCwZpFTwEIQGAJAZtN2c9E67lLLowoi2BFQKIIBCAwTyD38m9XiwjWvB8oEUng95JePXr0vGspYHffkGPzJkm/jKybYu0S+OdoJpVz+YdgtetzF5bFCNK4I0Gcxo+h5wIaQXMRCk8bGZZ/tVINmGH5io+i1q4VJFsKPCrpghXW2WNue0wdniDtErRag2GF+Ud7ScipyvX0LxbkI5LOIa0hFldf5X4j6ZIDzg+znRRBSiVmgva8wca52VlqW1w/TyAIhpX8kaQr5y/JWiLEZI4UiayGpVRGYB+mN37kbCVtD+KxlTOkFD8tubbLQF0CoIGyYVN97hWaUqb+Y3TzKtXGJvUiWM/GPp1N1Z7K5wgEs3mrwZLDfq91jF+p2XJsdev/LaG2FpTT2ZRtWtoSy+svPGHMnd/jlUdJu8ex8zdJLy7Z2Ezd3b74bP0+dsHqYTZ1KH5NtLYeQBuO3eJNj9MUWnng0fWN6lgFq7fZ1L6R+Q1J7+fGlF24fizprUOtLS29w95Zt+O6247tCNHeZ1P7RmW3G7DZZSiuwpBP1eLeptl0l6SLh8TkLce32WI3zGvjsMaV2rJDcRamlzqW2dQhUl3va6SHSFQNNV6niTJkUuhDkr44ZNBPx7OJxsOSzlxT8eiaJ1bs51rO4IuGOrLpTLaKEoGUuDxk+lrdLd4NS/R5TrTM313l5VSAOH7y9wVJH6nQ5qEm7j0we7Kb85casHFsf9YUj14FK0CyO8PzNw6wlpo34X5Q0omWjGrUlq9L+sBgmyWBnreBnTGzp5cON+SWb8rvlvSdgZ+96XHuWpa9CdbPJb0h9zR0LdwGryOpNM4pWy7/7pb0xh0PSvbNnr4t6WonD1Z+LenSlON0ehKsMHVv5fFy3NCoW4q9rMO8x9sINceGzUDunIjO/ZJeFREeHm9CZrOlhCzeW6vplAj2q4uEJze99Gc1iJkLL5P0Kyd341IM9tVb8jC9fW1OPzaxdBB7ml1NGRjvl0iyLwPF/F5mKTreB3i4I7a8fo9xRs0y3b62sRJi7eWfvYv6gpGtKbHrcXYVuv4nSS9f8BDobZJOehYsNtbXjdDukwsjsTw++irNVyV9MPK6lGLjHC5LRbghoTLPs6vQ7XuGnLFvSXrvARamU7aHd8KjYLGxnhDlw3lclh/j0fdpPf//1UE4amapW5s530/1PLsa+/Gzkj4+sxFvS+cfSrrKW9CysZ5nyFqwH+vDiS0Geu42e5hd7drTMk52dtjbR/+0CYo9WTz1Er8nwWJjPY9YWS3HvCy0Zchr8qGcrakE69wCONuJSgUsR9A210Pe2wPDPtfTOuVBsD4l6Way1bOGTDhlwIP/s3a8cmVhgz0n5x5nV1O32OtEdoy4CfObJf00FMgJslQslLhDlbLVU72591Q89b2GrbdLuqXAKqbX2dXUJ9dJ+tr0jx4EyxxkT3TGj4JrBFzvbRxL4G/lxxIfgficpI8OqQBhi2Sr/m3SbuuCRWZ2ubDo8jNQ5XAtrrmEYB39zbt1wSLJcfE4ib7ATiK1F3pbj4HoDjVWMOzD5OLLWGg8WNkYLj8CbRCclHRN+aaOroW/S3phpjHG8n0In1zqXyIacVIJqs+sk433coxzCRYPnUY+al2wWravXKjXq5llRjnWOQQLsZr4p1VBwFHlBtK4Zmax5Tjbl7jt+JS1Yywc7b32+nI927DmVmHYQDKH8U29ssHBjaFNvnaSwYUJYle2VxvW3qJgcWepFxAIVnnWSxmHVJ7LJdl7dPwa38NimVIvRMlzq8M6RrR+JslEyn63Sbq1jmm+WmlthvVXSeczFa4WRHyzsBrqU6dj2Hjb9dWirF+Wqdel+i21Jljc8evGwCckfZIbRDXo45mWfdHprMZXO9XAxDbUmmDFTJ1j+0a5OAK2BOdzaHGscpQan+Nu7B/is2vxWFsTLPav4n2Xq+QxH+aXi+HSeu4bPoa69LqjL9+DYNnnkOzDoPZpbH7LCZA8upwZV2xEoEXBWnp0L6cOpAUPs9o0flxdkUCLgmUZwmcvYJCaUbygqS6Lsm/YpVv77FRLgnWTpE+veGLFDCstNnkym8aPqysSaEmwwnfiltpEZnxawJCLlcaPqysSWCoOJU1bM1MKx8T+QNI7ShrXcd0sCTt2bm9d8yxYbBbnicaWXjS35el7JN2Vp2vU0hsBr4Jlg+xRSef25pDK/Vkzqy1lovn0e5LeVaoB6vVPwKNgWWBb4t1F/vFv3oNWZqmI1eah4MMAT4IV9lq+L+kqH3ibt9KEYmkaSe5OIVa5iXZcX0uCFfKppgf3BaEyN/xW0us69kfNrm2dzhCe7n5Z0vU1O05bfgm0JFhGMQTxlKh9QceOm+WXj8CWy8HwdPcrkj6cr0vU1DuB1gQr8DaBsnODLEeILz6XiUITjc9IsoTdWr+Q82Vt7zoXqpYdtOOUQKuC5RSnG7O3WA6GpT1n9bsJk/YMRbDa80kNi2qe0PATSW8ZOkW81fBux20QQB07d0/XfiHp9Sve2VxDiqN/11Djmr0EEKzjC45ar+KEjXVi7PhirFiPCaZiaJutuPQJo2F/zITx9GYpYJhLAgiWS7etNrr0yQxhVvUxSZ9fbSUXQmAPgVTBsrsoP18EzOdBWHJaXqrenDZSV30CWdNXUgWrRODXR0qLEIBAKQKpGvMMu7JWVqrH1JuFQImDDtlYz+IaKoklgGDFkvJfLuerOHZg4pXD0jLrlN8/ZnpQkgCCVZJuW3WbYP1Z0oWJZoWngGSsJ4Lk8uUEEKzlzDxeketVHJaAHr3fkc0IVkfOPNCVHMvBHHUcB216WYwAglUMbTMVv0/SNxNexQnHKJMI2oxLj9cQBKt/36e8ihOuPSnpmv5R0cPWCSBYrXso3b61JzOwX5XOnhoyE0CwMgNtrLr7Jb1i4XLwEUnnkLLQmCcx5xQBBKvvQFg6uwpPEzmSuu+4cNs7BMut62YNX5rKwBJwFikFtiaAYG3tgXLtmwDdKenqmSYsBmxznXPWy/mCmjMRQLAygWysmticqfB+oc3GzmisD5gDgWcRQLD6C4rYl5xT0h36o0aPXBBAsFy4aZGRMV9zZr9qEVIKt0IAwWrFE3nsmFsKhtkXWet5eFNLZQIIVmXgBZsLr9Ds82mYVT0o6URBO6gaAsUIIFjF0Fav2ARp15EvfG25uitosBQBBKsU2br17ttA52vLdf1Aa4UJIFiFAVeo/glJZ03eWrhb0hVD2/i4ghNoog4BgrkO55KtTF+/4WvLJWlT96YEEKxN8Sc3Pl0Kkq6QjJQKWiaAYLXsncO2/U7Sa4elIF9b9utHLF9AAMFaAKuxoiGNIZh1o6Q7GrMRcyCQlQCClRVn1cqelHQmLy1XZU5jGxNAsDZ2QGLz90q6OLEOLoeAGwIIlhtXYSgEIIBgEQMQgIAbAgiWG1dhKAQg8D/1bewSctWz+gAAAABJRU5ErkJggg=="
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "ba339043-54c2-4754-a980-4c5be815869a",
+    "_rid": "txoEAI0Kc-wdHwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wdHwAAAAAAAA==/",
+    "_etag": "\"0001cf31-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "7cb2ed7c-6eca-48fe-9ea6-8787bcba4ad9",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "TA4": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAAC39JREFUeF7tnTvIHkUUht94y0UTFbxLUoiFgiF2NmJjoa2C4KWxsLGxiaLYiIJgYaGNjaCFGgQtxMpORRCsBBWJRBBFUVHUqDHGOwd3YPNlL7O7M/Pv2X2+KuSfPXPmOWfenZ2dmd0mfhCAAAScENjmxE/chAAEICAEiySAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECw3IQKRyEAAQSLHIAABNwQQLDchApHIQABBIscgAAE3BBAsNyECkchAAEEixyAAATcEECwyoXqV0lnVNUdkbS/XNXUBIFlEECw8sTxuKTtkrr4/ivptDzVYxUCyySAYKWN6z8bImWiZP93WNI1G1XZ3+xHDNLGAGsLJkBnmR7cE5LOqpn5u/bo12fdytooizj0keLvEKCjTMqB+mjKRkunSwqjpiGG7ZohIjfENmUhsCgC3NmHhXPKaKqtpiB8xGJYLCi9QgJ0kvig/1k96k0ZTTXVdlTSHka78YGg5HoJIFhxsc8912QiyFvDuFhQasUEEKz+4OcWK/PAlkHsYJTVHwxKrJsAgtUd/xJiFTxglLXuvkjrIwggWO2QbIL9zAyLO9vs/lHNkbGYNCJxKbJOAghWe9xzjXjCYlJbBlH/2f/bxH59TdfSs9K2K21ysDb/Xu0UaGq/XXPR0sHQvmYCCFa3YNloyOaWUv3+qjroJvc1LG14V9J11Txd6rwLN4GnJR1MFSzszI9A6sSZXwvHeWR38bMzTII3ja4+lnR1hrrGtTzdVeERtynHTKA/knRgZHUvSLq9tkugXgc5PRKqh8sIbvcIK+UK9K5HQe9LGrpGT2Elv80H5vzxpjUn3ZnYRrDaA5HqMc1GGtZZm0TJ60R7ztHT2K4RFvaS02MJOriO4LYH6TtJF0x8VAt7C+3uv2ujqrskvTjRfokUm8PoKaadCFYMJedlEKzuAH4uad8IUekaVYUa57rp+ZeO+bupc085uwuClZPuTGwjWP2BeF/StZGiVd8c3TSqqovVXOetwqiw1NxTfwTiSthSCFsSwjq2OF4uSyFYcWH7QtJeSceqxZ22PCEcd2wW7HTR8LNRSNPaovB3GwnY3+lYcexjS6Wac4ytj3JbQADBiof+hKQHW4rbaMRErG/RZ67lEvGtWG7Jtrewy23xCluGYJUNunUqe3TZWbbaVdRmbF+VdNsqWrvSRiJY5QLPCCAfaybc87GdlWUEq0w4cu1LLOP9/Gth/mr+MUriIYKVBGOnkZJH1ORvzTxrYPQ6z7gk9wrBSo70JINhmQOc83Jm/iov39lYpyPlDYV1pG8kXZq3mlVb97q9adVBG9t4BGssuf7reEzpZ5SiRFhSkntzdQpfsTGRAII1EWDL5Uyy5+G6aZXJ9jKcZ1MLgpU+FHSi9EzbLIbtTWE7UbmaqWlLCCBYabGzHigtzy5rjGLLsZ5NTQhW2lBYJ7JjYw4lMPuppCsT2FmiCd6+LjGqEW1CsCIgRRZJdVxMOPe9bxN1pFuLLMYLjUWGtb9RCFY/o5gSQx9PbBN0/bQHq8NiETZPI1bt1FmIG5ORCy2DYE0PbOwk+1FJu3vO1UKo+uNhN4fPJF3RX5QSSyOAYE2LaNtnu4JV42sjgjpnu4Y1Q+O4x94cxlnnqtkTQLDGh+gNSTe1jJjCY0uwzshpPOdw5QeS9kee/Dq9NizMkgCCNT4sm19q3vxa8VyPQB7f4q29cug84dZ6S+1ZCCBY47CGzmOT5+fU7vr2/z9UX9sZZ5mrmgjYCNXYdh09DbkVEECwhgc5zKPUr2ReajjH2CuYt4oltYJyCFZ8kJmXimeVqmTYckOepiLq3A6J0B3AzXkpKw2zMknPnFUZzq5qofOdGq6wHzD8pd5x4FUmvRGrMpzd1UIH/D9kTSIVPtvFyuqyac22m7K8XdW2ZsHqEqkQRMSqXDpfIunr6ubR933Hcl5R06wIrE2wmtZKtX0AFbEql6pfSrpc0mFJV5erlpq8EViTYIU3TjFfaUasymUyZ4iVY+2+pjUIln2kwPbuxa48R6zKpTViVY71ImpaumCFRYfWMWLmRRCrcmm99DeBN0u6StJT5ZAuv6alCtY7kq6vwhfbRsSqTL6/LemGASPesV7ZRulHJd061sDI6+6W9KSkVyTdO9IGl7UQiO3MngCGUdWQExIQqzIRDrEx3psHGA714BFJNoo5IGnHgAW94WTYHyW9LOm+oRU3lH+oEqd9kr6V9IykxxLYxcQGgaUJ1pitHIhVmW5Rj837kky86j97bLdHqF01MRuSn2H91s+SbBR3S2Xc3jo+J+mayvZpHc01n+ygxZcknSvpp8oXE7ew8do2twcb50l6QJLNk34l6XFJz5fBuc5ahiTEnAkNnVgPbUGs8kf1eDUCMkEZmm9B5ExILMbfS3pP0sOSjiRy/aCk+yVdVBOiLtP1dphfb0m6MZEvmOkhMDSB5gb0WUn3VE59Ut2hY320O7rdNbvuuLG2KHcyAXssurBBoKyDv14b/cANAoMIeBasMB8Su1yhDsaG9eePuOMPgruiwrbw87IWnq8hUCvKhMxN9ShY4fHP0Iz130TO7GzPzHeJ5t+s3vI1jUztJmKP2bbubchLjyVyok0ZCIzt8MGVzYnTDC6eYtJ8nvJp8qnXl2jjHOvYzJWmGIQyU+Izx7bj03gCSadcpgoWiTk+kFwJgTUQmKoxJzFKaiwz/b5PanVVb6+p7+QxpTNC9ZuP/fu36rz6zYs4eTVzomO+nYAnwRp7TtKUyfm15E7fNplj1RqmwGPMi461sKSdGQl4Eawxo6twzZTJ+YzoZ2HaFknukdT2EY36BzdMpD6sVpbPwnmcWB8BL4I1ZHQVHv8smnzNpj2nTXxs9bctSbA3pjurovbZst21y2C4Pl2YbYs9CNaQ0RWPf/GpdkjSHS3FwzcAeakSz5OSBQh4EKyY0VWKtVkFcFMFBCAwhcDcBatrdGXnf19cWzzKo8uUTOBaCDggMHfBahpdbb5WR6gcJBouQiAFgTkLVtjlbz6e2DgxlG0fKaKPDQg4IzBnwWr6DJedObTXGWPchQAEEhGYs2CZONkJAIymEgUbMxDwTmDOguWdLf5DAAKJCSBYiYFiDgIQyEcAwcrHFssQgEBiAghWYqCYgwAE8hFAsPKxxTIEIJCYAIKVGCjmIACBfAQQrHxssQwBCCQmgGAlBoo5CEAgHwEEKx9bLEMAAokJIFiJgWIOAhDIRwDByscWyxCAQGICCFZioJiDAATyEUCw8rHFMgQgkJgAgpUYKOYgAIF8BBCsfGyxDAEIJCaAYCUGijkIQCAfAQQrH1ssQwACiQkgWImBYg4CEMhH4D/c5HKmPqC7+gAAAABJRU5ErkJggg=="
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "bffb6ce5-cbff-4e00-8d6f-392b3d0d14b2",
+    "_rid": "txoEAI0Kc-yHGQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yHGQAAAAAAAA==/",
+    "_etag": "\"0001c331-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "dafd95bf-dea2-4045-bba1-0b87abc66da6",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Brent Cutro",
+          "RotationName": "Internal Medicine",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAADEBJREFUeF7tnU3IdkUZx/9qZWmYaKFggYkYgeHKNkllbUoIRAIhRHRRuHFVrRKE2vixCcHARS0KCgIXQZQLXQQtEoQ+DIoiQxcqlhV9aWUlV52R8x7Puc+ZOXPOzDXnd8PL+7zvMx/X/K5r/vfMnJk5Z4kPBCAAAScEznJiJ2ZCAAIQEIJFEEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4IIFhuXIWhEIAAgkUMQAACbgggWG5chaEQgACCRQxAAAJuCCBYblyFoRCAAIJFDEAAAm4ItC5Yf5R0QeeNmLb+R9Ib3HgRQyFwEAIxndgDklcknS1p2K7/jvzfqfaE9Pa3lccHAhCogIBnwfqHpDdOCJEJjYnXm1YwtvJDfvv5zSvKIisEIJCBgCfB+omk942MeEycbAp3naQfZWAyLCIIF6K1AVyKhEAMAQ+CZUJ1TdcoEyf785Kkt8Y0dGVaG62dEzmtXFkl2SEAgSGBmgVrKFSl15KCWJa2gyiGwGEJ1ChYtQlVPzhMtP4p6dwDRczDkm7s2vvvleuCB8JGU7cgUJNg1SxUgf2RpoYmVDf1puL2o8VLTTGzRZ+gzIoJ1BB8HoRqOMpqfbuDPcSw2Bi2MzzgsPU8PhDYnUBpwZrqGLuDiKjwT5Le1j2ttA7c0ieMIM0vY6IU/FU6blpiTlsiCJQMPM/f1mb7vxpbzwni+3dJ50/EUBDrknETEd4kbY1AicB7VNJHu71TXqcWLT0xDKOqpdNcS/cNSbe21hloT/0E9hYsG5XYGT3vmzBbmRqFdpwaVQ2jOJwisFMGfCCwK4E9BcseiffP+dn2gKmjNbtCSKgs7H7fk1+CmZNZHpL0mcRRruepfE6GlFWAwF4dbmxEEkZbe9mQG6913JiRSe76U8sLXxw2FUwZJbU0HU5lSL5CBPYQi6npk+cRlrnL40gjZSr7OUn3DvZfsR+rUIc9erVbC5Z1EPuMHWfxvgkzpfOXjLfwFHCpz02o7u8Mnrqe5wVJl5RsVMV13yPpq5J+XbGN7kxbGrwpDRuuWVkZ4f9CeZ63BngR3LDeNrW3asy3p/bHhZGxtT9ccrhlHKXEXsk8d0h6UNJ9kr4p6cmSxrRW91aB9gFJPxxMI8Lah/1tgd7Cpktrw7WSnqg0MILw/EHSxQttnFujGq49hjrsy+jot7TaiOqTkj4o6acLeZMsgsBWgmVBHwI4BPjSfT4R5hdP2m9ncWMGBqRMWefEyqoYe1jyJUlf6L6gbPrfwpdRrD9flGRXcl8Zm5H0ywlsIVhh3cqsCOV7nvqdormkgy/3Rp6Uc8drpmpZ2pZTT3fDlL/FL6cpbu+W9AtJj0v6UB4XUsoUgdyC1b9WOGwwXHNNce2eG1unK2lzGNnYBYfnRRiyVKymRljDqoIdLY+2TKh+1l0kebekL0bwJmkigdyCFQL1KN+wtQhW7PGafrjEiNVSwbJ0gU1ra1t9oeIpaaLwpGbLKVhfk3RbF6gpGxJT21AyX2xn38LWsFYVO6oyW1LWuWI3/IY6vI+2Pi3JtipcJAmh2iKSF5SZU7AWVNdckho2j9oIJvUQudn/W0lXRHgmVrD6oy2PI+/HJF3frcc+K+myCFYkzUwAwVoH1DrgDyR9eF0xRXKnjK5ipoRjjfK0tvV8b1Psb3j6VyRGX1cpgpXuh5SRRnpt+XOmjK7WClZ/tJV6ljE/iTNLtPOhb+mmy9+SdMvWFVL+cgII1nJWw5SpI5T0GvPlXGN7rgcNwYbvS7ohX9OSS7pdkq3D2l4qu6/tx8klkXEzAghWOtoaFtxTrU8dXVl9OdsdjvmUXtt6TtKlkr4t6eZUqOTbngCClc7YOtnL3fQhvZT9c4YpT6rvrd12oPeqjKaHta2/7fyC3BxT3IwYKGqOQGrQzpXb+u9NqOzdhB75rbF9ywPf9rTy8i5w9uB6p6QHJP25e6lI6zHbRPv2CIwmQA0asWYNqDSPNYKVczo4xaF/mNp+/pWkqzNDs3WqCyU9IunjmcumuA0JIFhpcPfouGmWzedaK1h7nAv9mKTvnRjB2sK/vcHn/ZKemm/yaym+LulT3b41Yj8CXC1JcVqaJ8I5SY87+lMFq/QNsT/v1s2m7uCy6ernJX15xKV/6a2NeX8BSlrENpILwYp35C8lvcfp+pW1NlWwap0GPy3pnZ0/QjyP3Vjxe0nviHc3OWoigGDFe6PWjru0JQ9LuilBcGu++6vfdhtN2YtgLbZt6nhXdwZwKR/SVUwAwYpzzl97nSEuZ12pY6e0z0h6V4LI1dVqrHFPAMGKc2ENh53jLB5PHfvQwPuoMgczyqiAAIK13Am5jqQsr3G7lLFtaUWotyNKybsQQLCWY7ZOawvu712epeqU1h5bz7KXJpz6hLdEEytVu/MYxhGEy/wcO4VaVmrZVEumeSHNHnuvytKgdhcEEKx5N215HGW+9m1TmBB/V9InRqo59RLcba2idAhMEECw5kMj9onafIn1pJgaZaXu1aqnZVjSJAEE67Rbl0ybvAeGCfJ3JN3YNSRcTFjrBXveeWP/CgII1jS8VvZczYVH/7X0rb9Hco4Fv6+cAII17aAjPco30Qo72Vt+j2Tl3RHz5gggWOOEYvcpzXHm9xCAQAYCCNY4xNb2XGUIFYqAQHkCCNbrfdDinqvykYYFEMhAAME6E2LLe64yhAtFQKAsgbWCFTYXlm1FvtqNR3ghQr5SKQkCxyVwds6mrxUsOndOb1AWBNojsFZjziCStTDHrO3aXHucDw/HTsT09gnQQf/v45aP37QfxbTwMAQQLGnq+I0twBufPiMTNvu3/Y4NlofpJjS0FgJHF6z+VPB3ki6eEKjgr75geXxjTi1xhx0QSCJwdMEKe66Go6gXJF2aRJRMEIDAZgSOKljhRgIDG87RhffdbQabgiEAgXUEjiZY4YxgoHa09q+LFnJDoDCBo3TYsLBuuE20zukWzlmHKhyAVA+BGAItC9Zjkq7vLaLbq9bP7aaAw6d/McxICwEIFCLQomCZUH2k42kjq69IurP7NxtECwUa1UIgB4GWBKsvVPb0b+wMExtEc0QNZUCgEIFWBKt/ze/UYcsj3M9eKIyoFgL7EPAuWOHedRMjW0if+jAV3CeeqAUCmxLwLFhhi8KSt7swFdw0jCgcAvsQ8CpYMdO7mLT7UKcWCEAgiYBHwYoRIKaCSWFBJgjUScCbYD0p6eqIe6uYCtYZd1gFgSQC3gRr6QsiwvpW2CyaBIdMEIBAXQQ8CdaSF0Q8L+mSDvGLkt5eF26sgQAE1hDwJFg2urJbFqYuzgtrW3NbHNbwIi8EIFCQgBfBOrXQ3r8qxkt7CrqcqiHgl4CXDm6jK1uXGt5ZFd7as2Qvll8vYTkEIPA/Ah4Ea2ztKiyqT50ZxL0QgECDBDwIVv/JIIvqDQYhTYLAUgK1C1Y4K2h2sqi+1Kukg0CjBGoXrOFLImq3t9EwoVkQqINA7QLAonodcYIVEKiCQM2C9VlJ981cG1MFRIyAAAT2IVCzYO1DgFogAAE3BF4F+1O0pp3/m70AAAAASUVORK5CYII="
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "c5194ce1-4689-44b1-9d3a-cca1bda83681",
+    "_rid": "txoEAI0Kc-yxGAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yxGAAAAAAAAA==/",
+    "_etag": "\"0001bb31-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "70742919-6e8d-465e-bcab-43e2aca76c7e",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Dr Maralys Colon Betancort",
+          "RotationName": "Behavioral Health",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "Yes",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "c7993cf3-8583-4298-9d2d-83021baaa43d",
+    "_rid": "txoEAI0Kc-zfMgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zfMgAAAAAAAA==/",
+    "_etag": "\"0001f231-0000-0100-0000-668e65b90000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608185
+  },
+  {
+    "responseId": "0780c3c4-2fa3-45a1-baba-3c3ba4ec5277",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Sibil Gill",
+          "RotationName": "Pediatrics",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "Tue-Fri 8-4",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student really enjoying rotation",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2024-01-31T06:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "d03f7ad7-d170-456a-9ba2-b4f9b4e272a4",
+    "_rid": "txoEAI0Kc-y1KQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y1KQAAAAAAAA==/",
+    "_etag": "\"0001eb31-0000-0100-0000-668e65b90000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608185
+  },
+  {
+    "responseId": "c0dd3009-0c8e-470c-bf8d-ff0ad36e65a9",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Stephanie Bryant",
+          "RotationName": "Family Med",
+          "PreceptorSupervisor": "DO",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "M-F",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "Yes",
+          "StudentObservationSummary:": "Comfortable, gets along with staff",
+          "Goalsforstudentimprovement": "none",
+          "Feedbackfrompreceptor": "Impressed with student",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2023-09-07T05:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "d5c88a95-fe05-41fd-99b4-5b076207bcd5",
+    "_rid": "txoEAI0Kc-wxGAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wxGAAAAAAAAA==/",
+    "_etag": "\"0001b731-0000-0100-0000-668e65b60000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608182
+  },
+  {
+    "responseId": "54c509b5-f634-4a9e-9534-69d375dba6f8",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Dr Shabeeb",
+          "RotationName": "General Surgery",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "df76a6c1-690f-4597-a517-036a30bd9f3f",
+    "_rid": "txoEAI0Kc-xhIAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xhIAAAAAAAAA==/",
+    "_etag": "\"0001d631-0000-0100-0000-668e65b70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608183
+  },
+  {
+    "responseId": "8d5bb5c8-b788-477d-b644-c3bff4325dfc",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Anas Safadi and Maureen Kozlow",
+          "RotationName": "Cardiology",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "Feedbackfrompreceptor": "No concerns",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "f241e1e9-bbb8-4a1b-aa68-e0cb32af966c",
+    "_rid": "txoEAI0Kc-z9JgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z9JgAAAAAAAA==/",
+    "_etag": "\"0001e131-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "1d6c3425-cd34-4d92-851b-58a7f572c1e1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Established Clinical Site Visit",
+          "SiteName": "Colleen Costello Lee",
+          "RotationName": "Emergency Medicine",
+          "PreceptorSupervisor": "NP",
+          "HospitalRounds": "No",
+          "affiliationagreement": "Yes",
+          "PreceptorSchedule": "varies",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "No",
+          "StudentObservationSummary:": "Student very comfortable with staff",
+          "Feedbackfrompreceptor": "None",
+          "AdditionalComments": "St Mary's ED high acuity, very busy",
+          "TA4": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "f75c7b25-f77e-4ad6-81c7-8ebb18b6278b",
+    "_rid": "txoEAI0Kc-wdKQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wdKQAAAAAAAA==/",
+    "_etag": "\"0001ea31-0000-0100-0000-668e65b80000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608184
+  },
+  {
+    "responseId": "d7171db8-6582-4224-8564-739d10b46a98",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.ClinicalSiteInformation",
+        "values": {
+          "CIRCLEONE": "Initial Clinical Site Visit",
+          "SiteName": "Carlos Gonzalez",
+          "RotationName": "General Surgery",
+          "PreceptorSupervisor": "MD",
+          "HospitalRounds": "Yes",
+          "affiliationagreement": "Yes",
+          "B1": "Yes",
+          "B2": "Yes",
+          "B3": "Yes",
+          "B4": "Yes",
+          "B5": "Yes",
+          "B6": "Yes",
+          "B8": "Yes",
+          "B9": "Yes",
+          "B10": "Yes",
+          "B11": "Yes",
+          "B12": "Yes",
+          "B131": "Yes",
+          "B14": "Yes",
+          "TA4": "data:image/png;base64,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",
+          "TA5": "2024-03-14T05:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "ClinicalSiteValparisoU.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "ClinicalSiteValparisoU.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "ValparaisoUniversity",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "74291"
+    },
+    "partitionKey": "ValparaisoUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "fc58b495-0142-4e40-af94-f7f1ff134653",
+    "_rid": "txoEAI0Kc-zdMgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zdMgAAAAAAAA==/",
+    "_etag": "\"0001ef31-0000-0100-0000-668e65b90000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608185
+  }
+]

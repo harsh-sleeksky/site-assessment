@@ -1,0 +1,445 @@
+[
+  {
+    "responseId": "7966bf25-32ac-4eeb-b53a-543ac0c24381",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Women's Healthcare Center of McKinney",
+          "SiteB": "4510 Medical Center Drive \nSuite 201\nMcKinney, TX 75069",
+          "SiteC": "469-325-3003",
+          "SiteD": "John Nuss, PA-C",
+          "SiteE": "2024-01-04T06:00:00Z",
+          "SiteF": "On Site",
+          "A1": "Dr. Brock Pierce",
+          "A2": "brockjpierce@gmail.com",
+          "A3": "469-325-3003",
+          "P1": "Yes",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "No",
+          "P6": "No",
+          "P7": "No",
+          "P8": "Will continue to work with Medical City Hospital staff to help provide more opportunities for our students while on campus.",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "92317"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "88951105-c57f-4e59-bfb1-07bc248cef8d",
+    "_rid": "txoEAI0Kc-zJJgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zJJgAAAAAAAA==/",
+    "_etag": "\"0001373b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "2acd643a-aa78-44fe-a36c-ac3f1968a81d",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Total Health Primary Care - Lake Highlands",
+          "SiteB": "10675 E NW Hwy #1615, Dallas, TX 75238",
+          "SiteC": "(214) 609-1720",
+          "SiteD": "Paige Sassmann",
+          "SiteE": "2024-03-11T05:00:00Z",
+          "A1": "Alex Atnip",
+          "A2": "alexandra.atnip@totalmens.com",
+          "A3": "(214) 609-1720",
+          "P1": "No",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "No",
+          "P6": "No",
+          "P7": "No",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "263283"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "a1154a6b-8417-447d-abd1-9f064d439158",
+    "_rid": "txoEAI0Kc-xBMgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xBMgAAAAAAAA==/",
+    "_etag": "\"00013b3b-0000-0100-0000-668e66300000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608304
+  },
+  {
+    "responseId": "32881edd-99f1-420c-bbbc-42c039852075",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Envision",
+          "SiteB": "6060 N Central Expressway, Suite 500\nDallas, TX 75206",
+          "SiteD": "Kelly Clinton",
+          "SiteE": "2023-12-04T06:00:00Z",
+          "SiteF": "Phone",
+          "A1": "Dr. Christian Sanchez",
+          "A2": "Christian.Sanchez@EnvisionHealth.com",
+          "P1": "No",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "Yes",
+          "P6": "Yes",
+          "P7": "Yes",
+          "P8": "Very happy with the program and students so far. Would be interested in having more students. States students have great oral presentation skills. Students each present a formal case to the residents and team while they are there.",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "272677"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "a60e3ffa-ed8f-4abf-b7ed-58145f742d15",
+    "_rid": "txoEAI0Kc-zzIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zzIwAAAAAAAA==/",
+    "_etag": "\"00012e3b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "a842618a-971f-408c-9c63-3c88b8a1892a",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Millenium Medical Care",
+          "SiteB": "1805 W. Campbell Road Suite 101 Garland TX",
+          "SiteC": "4699312206",
+          "SiteD": "Akisha Dave",
+          "SiteE": "2023-10-23T05:00:00Z",
+          "SiteF": "On Site",
+          "A1": "Dr. Sadaf Saleem",
+          "A2": "millennium.admn@gmail.com",
+          "A3": "2146495844",
+          "P1": "Yes",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "No",
+          "P6": "No",
+          "P7": "No",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "167445"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "af64bb2e-6590-4410-bcae-8e0285fd97c3",
+    "_rid": "txoEAI0Kc-zrHAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zrHAAAAAAAAA==/",
+    "_etag": "\"00012b3b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "c6a53347-d404-46ad-bb38-285ef0821efc",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteB": "4801 Medical Center Drive\nMcKinney, TX 75069",
+          "P1": "Yes",
+          "P8": "Per Faith, students will do pre-screen calls week one, shadow MD or FNP week 2, then begin ownership of cases and do presentations which include care plans for their patients during weeks 3-5. They are expected to work at both locations - McKinney and Sherman.",
+          "SiteA": "Psych Urgent Care",
+          "SiteC": "972-369-4220",
+          "SiteD": "John Nuss, PA-C",
+          "SiteE": "2024-01-04T06:00:00Z",
+          "SiteF": "On Site",
+          "A1": "Dr Deepika Bhargava",
+          "A2": "info@doctorhealsmind.com",
+          "A3": "972-369-4220",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "No",
+          "P6": "No",
+          "P7": "No",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "92317"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "b0d320b4-d444-4417-8650-1059b0ea39b3",
+    "_rid": "txoEAI0Kc-yzJgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yzJgAAAAAAAA==/",
+    "_etag": "\"0001303b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "39970209-9a8f-471d-b921-ac4d54fd8b5b",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "The hospital of providence -Transmountain Campus",
+          "SiteB": "2000 Transmountain Road, El Paso, TX 79911",
+          "SiteC": "915-877-8136",
+          "SiteD": "Jerrod Tynes",
+          "SiteE": "2024-03-01T06:00:00Z",
+          "SiteF": "On Site",
+          "A1": "Dr. Randy Goldstein and NP Brenda Mcbroom",
+          "P1": "No",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "Yes",
+          "P6": "Yes",
+          "P7": "Yes",
+          "P8": "None at this time.",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "272677"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "b47af335-8cd5-4856-84fe-98215e1a334f",
+    "_rid": "txoEAI0Kc-x1MQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x1MQAAAAAAAA==/",
+    "_etag": "\"0001393b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "2c33ebb6-c844-4952-b6d2-1c02a656ecc5",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "1",
+          "SiteB": "2",
+          "SiteC": "3",
+          "SiteD": "4",
+          "SiteE": "2023-11-01T18:30:00Z",
+          "SiteF": "On Site",
+          "A1": "q",
+          "A2": "s",
+          "A3": "d",
+          "P1": "Yes",
+          "P2": "No",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "Yes",
+          "P6": "No",
+          "P7": "Yes",
+          "P8": "asd",
+          "P9": "No",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "54698"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "cc99b00f-186c-4ad8-914e-7fdf5e3716e0",
+    "_rid": "txoEAI0Kc-yHHgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yHHgAAAAAAAA==/",
+    "_etag": "\"00012d3b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "9e823619-5cd7-4b19-a09b-cba234d974c1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Psych + Urgent Care Integrated BH & Wellness",
+          "SiteB": "4801 Medical Center Drive\nMcKinney, TX 75069",
+          "SiteC": "972-369-9470",
+          "SiteD": "JohnNuss, PA-C",
+          "SiteE": "2023-07-12T05:00:00Z",
+          "SiteF": "On Site",
+          "A1": "Dr. Deepika Bhargarva",
+          "A2": "info@doctorhealsmind.com",
+          "A3": "972-369-9470",
+          "P1": "No",
+          "P2": "Yes",
+          "P3": "Yes",
+          "P4": "No",
+          "P5": "No",
+          "P6": "No",
+          "P7": "No",
+          "P8": "They have a very specific way of doing the rotation. Suspect that students will do well.",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "92317"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "f1d7001d-70c5-4eb0-b263-3d6b76754c6b",
+    "_rid": "txoEAI0Kc-y9JgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y9JgAAAAAAAA==/",
+    "_etag": "\"0001333b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  },
+  {
+    "responseId": "bf053b92-12aa-46e7-9aaf-b9399b4e29f1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Women's Healthcare Center of McKinney",
+          "SiteB": "4510 Medical Center Drive\nSuite 201\nMcKinney, TX 75069",
+          "SiteC": "469-325-3003",
+          "SiteD": "John Nuss, PA-C, Dayna Vandelinder",
+          "SiteE": "2023-05-15T05:00:00Z",
+          "SiteF": "On Site",
+          "A1": "Dr. Brock Pierce",
+          "A2": "brockjpierce@gmail.com",
+          "A3": "469-325-3003",
+          "P1": "No",
+          "P2": "Yes",
+          "P3": "No",
+          "P4": "No",
+          "P5": "No",
+          "P6": "No",
+          "P7": "No",
+          "P8": "Students report that they are working with various doctors as their patients come in for delivery.",
+          "P9": "Yes",
+          "P10": "Yes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "FUSVWCUPF.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "FUSVWCUPF.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "WestcoastUniversity-PA",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "92317"
+    },
+    "partitionKey": "WestcoastUniversity-PA",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "fee34a38-2f39-4642-ac16-187ed6c1d506",
+    "_rid": "txoEAI0Kc-zHJgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zHJgAAAAAAAA==/",
+    "_etag": "\"0001343b-0000-0100-0000-668e662f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608303
+  }
+]

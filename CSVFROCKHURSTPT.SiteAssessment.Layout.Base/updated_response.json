@@ -1,0 +1,4299 @@
+[
+  {
+    "responseId": "c15a27ff-3419-4419-a336-d43152910290",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Shanna Kotschwar",
+          "CIB": "DPT",
+          "CID": "9",
+          "CIE": "Yes",
+          "CIF": "Ability, Kansas city MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Hands skills, Exceptional student. Eager to learn. self reflection. connects well with others, interventions",
+          "CIR": "Efficiency with evals. Modifying goals and POC as needed.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I'm good with connect with kids, come up with new ideas. Continue to be unique. Documentation.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "01d76fa6-abf4-4310-9dd9-d53ec0cd8be2",
+    "_rid": "txoEAI0Kc-x9PQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x9PQAAAAAAAA==/",
+    "_etag": "\"0001ca3b-0000-0100-0000-668e66370000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608311
+  },
+  {
+    "responseId": "4b0e0f3d-9570-4524-b4cf-1ae395640bcd",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Aegis Therapies",
+          "SiteB": "Connor Jonas",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "michael damot",
+          "CIB": "pt",
+          "CIC": "lymphedema",
+          "CID": "18, geriatrics",
+          "CIE": "Yes",
+          "CIF": "north kc,mo",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Needs Improvement",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Needs Improvement",
+          "CIO": "Appropriate",
+          "CIP": "Needs Improvement",
+          "CIQ": "good rapport with patients, flexible",
+          "CIR": "time management, treatment implementation",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "good variety of pts, good csae load, staff easy to work with",
+          "CIV": "Yes",
+          "CIW": "no",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "strengths  evaluations, improved clinical decision making\nweakness ex px,",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "good variety, good ci, various limits of independence",
+          "student10": "yes, pta, ot, speech",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "No"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55235"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "04fce35c-d804-4a37-9a36-8ea68afcd7ec",
+    "_rid": "txoEAI0Kc-zHIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zHIwAAAAAAAA==/",
+    "_etag": "\"0001983b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "d5debe5e-15df-43d3-81ca-1f0301e8c671",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Brendon Stewart",
+          "SiteB": "Hanh Tran",
+          "SiteC": "Class of 24"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Ariana Domke",
+          "CIB": "DPT, OCS",
+          "CIC": "OCS",
+          "CID": "6.5 years",
+          "CIE": "No",
+          "CIF": "Topeka, KS. Kansas City, MO",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Needs Improvement",
+          "CIK": "Needs Improvement",
+          "CIL": "Needs Improvement",
+          "CIM": "Needs Improvement",
+          "CIN": "Needs Improvement",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "Takes feedback really well, when asked questions willing to put on the spot, communicates well with patients",
+          "CIR": "Recognizing when to progress and regress, taking charge of session, deeper into subjective and less into assessment",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "No",
+          "CIW": "Not the one that manages that",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: active listener, very detailed, critically think through how to write assessment, observing, take criticism well\nAreas for improvement: let patient talk and repeat themselves, need to jump in and take charge, getting more comfortable with patients, thinking about exercises/treatment and how it correlates",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Like the model and setting (focus on motor control, focus on core and whole body)",
+          "student10": "No",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "N/A"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238423"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "09614dbb-bb08-4b1c-aa81-f83995328052",
+    "_rid": "txoEAI0Kc-zzIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zzIgAAAAAAAA==/",
+    "_etag": "\"00017b3b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "8d4d7ab5-853e-4d2e-8956-77215316a764",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "PT Solutions",
+          "SiteB": "Aidan Mills",
+          "SiteC": "Class of 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Nathan Church",
+          "CIC": "OCS, Dry Needle, Sports Metric",
+          "CID": "6",
+          "CIE": "Yes",
+          "CIF": "Kansas City",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Soft skills, building rapport, connecting to clients, progression with exercises/POC (\"ahead of schedule\"), good at diagnosing and prescribing, manual skills (higher level skills)",
+          "CIR": "Time management with eval (subjective/objective), then using objective measures to carry into assessment/POC",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Enjoy students, clinicians and EBP and carry that on to students to better students and clinicians. Site specific: see a lot of variety (8 years old and 98 years old), good site for getting students to think on toes and see wide range of patients. OCS trained therapists (advanced orthopedic skillset)",
+          "CIV": "Yes",
+          "CIW": "15 clinic sites, growing sites and hiring more therapists, accept more students, etc. Would like to be involved with guest lectures, CEUs, etc",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: communication with patients and coworkers, documentation quickly, patient safety and professionalism, taking patient through POC and session (progressing)\nAreas of improvement: POC from scratch, evaluation and time management, diagnosis",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Great opportunity for learning new skills, good environment and clinicians",
+          "student10": "PTs at clinic, nursing",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238423"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "0bd8ffd1-2d22-4c4b-8ea6-4f2c6094d35a",
+    "_rid": "txoEAI0Kc-xLIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xLIwAAAAAAAA==/",
+    "_etag": "\"0001843b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "96e4ef6e-4e27-4a23-8cfc-4f8bd08ca4f2",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Kansas City Rehab and Sports Medicine",
+          "SiteB": "Kat Langenfield",
+          "SiteC": "Class of 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Trina Day",
+          "CIB": "dpt,",
+          "CIC": "not yet",
+          "CID": "2014",
+          "CIE": "Yes",
+          "CIF": "Kansas City, MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "professional, safe, communication",
+          "CIR": "time management, documentation, end goal in mind",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "eclectic group of PTs",
+          "CIV": "Yes",
+          "CIW": "NA",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "strengths: connecting with patients, flexible, empathetic\nweakness: time management",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "wide variety oh pts, good atmosphere",
+          "student10": "not at this time",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55235"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "0dae6518-8f93-4882-b6f3-8a2718fab041",
+    "_rid": "txoEAI0Kc-wLIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wLIwAAAAAAAA==/",
+    "_etag": "\"0001813b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "be2d2a92-4af8-4b53-90e0-0072aeb14854",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Aidan Robidoux",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Olivia Prather",
+          "CIB": "DPT",
+          "CID": "1",
+          "CIE": "No",
+          "CIF": "Kansas City, MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Very eager and takes initiative. Jumps right in. Patient care he does a great job getting familiar with the inpatient subjective and building rapport. He's done a great job of setting patients up for success.",
+          "CIR": "I would like to see him take on a little more case load and planning of the day and prioritizing who needs to be seen first/early and who can wait. And continue to work on communication with other team members.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Unique setting with unique patient population.",
+          "CIV": "Yes",
+          "CIW": "No you all do a great job.",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Continue to work on documentation and getting all subjective info. I do well at safety and patient handling.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Variety of patients. I feel like if you can do this you can do any hospital.",
+          "student10": "Yes a lot of opportunities to work with OT/RN",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "13dff8d5-7c05-4a54-8dae-ebe88ff3188b",
+    "_rid": "txoEAI0Kc-wJOwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wJOwAAAAAAAA==/",
+    "_etag": "\"0001ad3b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "0582ef0a-b4e3-4903-ba24-4d2515124da1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Michael Hauber",
+          "SiteB": "Brooke Elliott",
+          "SiteC": "Class of December 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Jacquelyn Faris",
+          "CIB": "Doctorate",
+          "CIC": "Vestibular rehab specialist, Power certified (Parkinson's and Wellness recovery)",
+          "CID": "2.5 years, vestibular and neurological conditions",
+          "CIE": "Yes",
+          "CIF": "Fountain Hills, AZ",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Needs Improvement",
+          "CIN": "Needs Improvement",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "Communication skills, eagerness to learn - has done really well with asking questions",
+          "CIR": "Joint mobilizations, intervention planning (manual, exercise progressions)",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Wide variety of conditions, ability to interact with PTA, each therapist drives their own practice (some people are more sports-based, some pelvic health, some neuro).",
+          "CIV": "Yes",
+          "CIW": "It has been difficult for her to know what the student's abilities and past curriculum has been",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "-Strengths: doing better at building patient rapport\n-Areas for improvement: taking patients through exercises",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Positive atmosphere, very nice, thorough, and expert clinicians",
+          "student10": "OTs, PTA",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "not that she is aware of"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238425"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "18635185-5229-433b-a420-860699804b07",
+    "_rid": "txoEAI0Kc-x-IwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x-IwAAAAAAAA==/",
+    "_etag": "\"0001913b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "1d12cbaa-c6f1-4211-9fe1-777549844b44",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Performance Rehab",
+          "SiteB": "shayla Collins",
+          "SiteC": "Class of 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "MacKenzie Freeman",
+          "CIB": "--",
+          "CIC": "working on Dry Needling Cert",
+          "CID": "KUMC grad of 2020-- started w/ Perf Rehab x's 1.7 yrs",
+          "CIE": "Yes",
+          "CIF": "O.P., KS",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "good interpersonal skills, jumping into patient care--she is always up for everything,  she does a great job of asking questions",
+          "CIR": "needs more experience with Evals--",
+          "CIS": "Yes",
+          "CIT": "Yes",
+          "CIU": "I have worked in other clinics (3rd company) --from my experience this is the best place to work--the staff is fun/therapists are high level and we enjoy our clients--great work environment-- students get to see alot, Shayla is interested in dancers--trying to get her connected to this PT--wide variety of clients and therapists--great variety --",
+          "CIV": "Yes",
+          "CIW": "is familiar with the APTA CPI--",
+          "CIX": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Wanting to work on exercise--how to be creative with exercise, one was documenting --",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Great staff-- Most clients are here for about 40 mins/session-typically I see every other clients",
+          "student10": "limited, mainly PT's interaction",
+          "student11": "Yes",
+          "student12": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55227"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "1e8a264a-0983-4f4c-906c-54501cf2aa7e",
+    "_rid": "txoEAI0Kc-yrIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yrIgAAAAAAAA==/",
+    "_etag": "\"0001733b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "aa497955-e323-4c08-9573-6ef616e25683",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel",
+          "SiteB": "Alex",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Esteban Azevedo",
+          "CIB": "DPT, ScD",
+          "CIC": "COMT",
+          "CID": "10",
+          "CIE": "Yes",
+          "CIF": "Modern, KCMO",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Needs Improvement",
+          "CIK": "Appropriate",
+          "CIL": "Needs Improvement",
+          "CIM": "Needs Improvement",
+          "CIN": "Needs Improvement",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Hard worker, documentation, willingness to learn, putting in long days, manual therapy",
+          "CIR": "Communication with patients, ex prescription, eval skills",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Manual skills have improved so much, Documentation is good, Openness to help out as needed.\nWork on patient education and exercise prescription",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Yes after getting used to it, it is a good site. Once you get comfortable here it is a great setting.  It is a fun setting.",
+          "student10": "PT/Tech only",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "2514748a-1d6d-4466-8313-b554d787681b",
+    "_rid": "txoEAI0Kc-x5PQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x5PQAAAAAAAA==/",
+    "_etag": "\"0001c83b-0000-0100-0000-668e66370000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608311
+  },
+  {
+    "responseId": "015cce9f-8b66-4141-b76d-b1ee49b50ff0",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Center at Centennial",
+          "SiteB": "Aaron Martin",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIB": "DPT",
+          "CID": "14",
+          "CIE": "Yes",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Aaron is picking up everything well. He is eager and receptive to feedback.",
+          "CIR": "Nothing in particular.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Student friendly environment. Not as high intensity as a fully acute hospital. The schedule is also constructive. The students gain a lot of experience with interpersonal and interprofessional communication.",
+          "CIV": "Yes",
+          "CIW": "No. Things are going well with Aaron. He finds it difficult to completely pan out the whole year in advance. He takes students from 4 PT and 2 PTA schools. It would help to get information to him sooner.",
+          "CIA": "Brain Isherwood"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: Connects well with patients, not a lot of refusals. Getting faster at documentation. \nArea of improvement: Feels like chart reviews could be improved (Scales and measures specifically).",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "The fact that there is a large variety of patients.",
+          "student10": "Yes, with OT and PTA.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "N/A"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238424"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "366bc903-211f-49fc-90cf-a183a35e5c6c",
+    "_rid": "txoEAI0Kc-xRIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xRIwAAAAAAAA==/",
+    "_etag": "\"0001873b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "12c435c0-1ab0-4d9b-bd4f-3bc28b5d949f",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Kat Langenfeld",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Brian Bunken",
+          "CIB": "MSPT, OCS",
+          "CIC": "OCS",
+          "CID": "27",
+          "CIE": "Yes",
+          "CIF": "Omaha, NE",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Needs Improvement",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "She could see any simple patients without my help at all. Even with some complex patients",
+          "CIR": "Becoming more smooth and independence. Forward thinking where you are driving the treatment ideas.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Variety and I am a strong CI. A lot of manual therapy. Small clinic but you get your own space.",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I do well getting along with patients and areas for improvement: Documentation being more timely, Staying on top of everything and not getting behind",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "n/a",
+          "student10": "Only with a PTA",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "418c72fc-b16d-4760-9eda-e773d8131bc6",
+    "_rid": "txoEAI0Kc-wHOwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wHOwAAAAAAAA==/",
+    "_etag": "\"0001aa3b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "ecf38344-f0d5-42df-9454-a15ed0eb7824",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Michael Hauber",
+          "SiteB": "Kylie Campbell",
+          "SiteC": "Class of December 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Kristina Barmann",
+          "CIB": "Doctorate - Rockhurst University",
+          "CIC": "none specific",
+          "CID": "9 / sports medicine, athletes - more high school level, orthopedic",
+          "CIE": "Yes",
+          "CIF": "Cameron, Missouri",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Responds well to feedback, she uses her down time productively",
+          "CIR": "Writing goals, documenting subjective",
+          "CIS": "No",
+          "CIT": "No",
+          "CIU": "Rural setting, very busy. Wide range of diagnoses and patient populations. Age range, diagnoses, patient background. Every setting is there: acute care, inpatient, outpatient. Students have a chance to see every",
+          "CIV": "No",
+          "CIW": "She doesn't take a lot of students and wasn't sure what the expectations were for the student. She wasn't sure how best to prepare for the clinical rotation. She had to reach out to Rockhurst University to ask for more details.",
+          "CIX": "none"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Areas for improvement: confidence (less second-guessing, but this is improving since she is starting to take lead on patient), documentation (writing goals)",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Complex patients: neuro, orthopedics, wide variety. Rural setting - you become close to your patients because there is more of a community aspect.",
+          "student10": "She could observe other professions if she would like (e.g., occupational therapist)",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "no"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238425"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "42a937c0-a22b-4e31-99d0-f7c62e09cf35",
+    "_rid": "txoEAI0Kc-ylIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ylIgAAAAAAAA==/",
+    "_etag": "\"0001703b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "b615e5fb-4e88-4160-9154-98c6abb5cc29",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Aidan Mills",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Megan Mcmahan",
+          "CIB": "MPT",
+          "CIC": "Vestibular",
+          "CID": "20",
+          "CIE": "Yes",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Communication skills are really good. He has picked up really well with rapport.  He is not scared to jump in. He doesn't need much help.",
+          "CIR": "Getting more comfortable with hands on skills.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "We get to see 1 pt for 45 min. We don't overlap. We spend a lot of hands on time with our patients. Students get a lot of time to learn and focus. And it is a combo of OP/IP.",
+          "CIV": "Yes",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Communication is good. My eval skills and my flow are improving. I want to continue working my my hands on skills .",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Unique in the fact that you get IP/OP. They also have PTAs, peds, OTs, pelvic health.",
+          "student10": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "493eb1f8-c94c-466e-b34d-4c53175bf7b3",
+    "_rid": "txoEAI0Kc-xZOwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xZOwAAAAAAAA==/",
+    "_etag": "\"0001af3b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "04e5a69e-0130-432a-9739-93566b421116",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Macey DeWeese",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Will Streck",
+          "CIB": "PT, DPT",
+          "CIC": "CSCS, Dry needling",
+          "CID": "5",
+          "CIE": "Yes",
+          "CIF": "Kansas City Rehab",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Very prepared and wants to learn, open-minded. Talking with patients is excellent",
+          "CIR": "She is not behind anywhere. She is doing great, continue to refine your eval process.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "We do a lot of sports/ortho and a wide range of ortho, A lot of post surgical. Some concussions",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I do well communicating with patients, I do a good job taking feedback and incorporating.\nI would like to improve on evaluation skills",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "dry needling and ortho in all ranges.",
+          "student10": "N/A",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "4a332147-0939-450e-8147-b8be8356bcf8",
+    "_rid": "txoEAI0Kc-xvIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xvIwAAAAAAAA==/",
+    "_etag": "\"00018e3b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "29bbe8c7-0d18-499b-bef1-8b2df55a9430",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGaw",
+          "SiteB": "Coltin Bass",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Jessica Waddle",
+          "CIB": "DPT",
+          "CIE": "Yes",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIS": "No",
+          "CIT": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "4d11606c-fe1c-4b1f-b4d4-ca9267e0a4fe",
+    "_rid": "txoEAI0Kc-w1JwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w1JwAAAAAAAA==/",
+    "_etag": "\"0001a53b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "7d1ab959-b181-49df-81d2-bd1ff64547c6",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Yaqiong Wang",
+          "SiteB": "Tyler Lockton"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Amanda Johnson",
+          "CIB": "DPT",
+          "CIC": "NA",
+          "CID": "10/acute care",
+          "CIE": "No",
+          "CIF": "KS",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "strong on transfer skills/patient handling, communication, interpersonal skills",
+          "CIR": "more experience with patient care",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "strong teamwork, interprofessional collaboration, diversity of patients",
+          "CIV": "Yes",
+          "CIW": "more instructions on CPI",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Needs Improvement",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "her confidence has grown a lot and has stepped in more. Less confident with prognosis and discharge plan",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "everyone is very welcoming, team effort to get things done, make sure the student able to observe surgery",
+          "student10": "strong teamwork, a lot of overlapping with PT/OT",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "no"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238426"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "54ede4b1-caf9-49a5-a731-60db173d6eb2",
+    "_rid": "txoEAI0Kc-wpJQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wpJQAAAAAAAA==/",
+    "_etag": "\"0001a33b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "6818b32c-1a0e-400b-8f19-1c50c8c7525a",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Debbie Rico",
+          "SiteB": "Johanna Schultz",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIE": "Yes",
+          "CIF": "Rockhurst, St Mary, KU, Nebraska",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Communication, people skills, exercise intervention",
+          "CIR": "Needs more experience in the clinic.  Doing very well for her skill level.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "High paced, sports med clinic, Go to universities to work with student athletes",
+          "CIV": "Yes",
+          "CIA": "Matthew Dobratz",
+          "CIB": "PT, DPT"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Learning about the amount of patients/volume of patients. Communication, therapeutic alliance\nStretches: evaluation skills, does not see a lot of evals.",
+          "student5": "No",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "High exposure to multiple pathology and exercise progression, travels to universities and treat athletes",
+          "student10": "Work with Athletic trainers",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "Not sure how this clinic is listed - if there is a way to list as a Sports Med clinic instead of an outpatient clinic"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55234"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "58978487-c8e3-441a-8598-9a5f22ea621b",
+    "_rid": "txoEAI0Kc-wpJAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wpJAAAAAAAAA==/",
+    "_etag": "\"00019b3b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "05de6c0f-2a2d-4f4d-9518-bcdc86772c04",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Coltin Bass",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Jessica Waddle",
+          "CIB": "PT, DPT",
+          "CIC": "CSCS",
+          "CID": "4",
+          "CIE": "Yes",
+          "CIF": "Centerpoint, Independence, MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Motivated and wants to jump in, responds well to feedback, compassionate/empathetic, soft skills",
+          "CIR": "Exercise prescription , time management, doc",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Multidisciplinary clinic, PT/OT/SLP, neuro specialist, vestibular specialist, a lot of opportunities to see different services.",
+          "CIV": "Yes",
+          "CIX": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Interventions and cuing appropriately, Continue to work on low back and objectives measures: Treating and Dx",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Multiple disciplines: vest, cardiac, SLP, OT, Etc",
+          "student10": "Yes see above.",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "N/A"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "5a43865a-368f-43d6-8203-7f8f2f82be78",
+    "_rid": "txoEAI0Kc-ytIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ytIgAAAAAAAA==/",
+    "_etag": "\"0001753b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "7f3e3739-d503-4fb4-bdf9-11e9a0e68acd",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Ann Marie Decker",
+          "SiteB": "Lauren Gunn",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Jan Jurado",
+          "CIB": "OCS",
+          "CIC": "MT Certification thru Tx, OCS",
+          "CID": "Angela State University Grad of 2015--from NJ, practiced in NJ, Austin-- worked at Select x's 2 years",
+          "CIE": "Yes",
+          "CIF": "Select PT in Houston metro, TX",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "professional, good interpersonal skills/picks up content info quickly and is able to implement",
+          "CIR": "more indep with exercise selection, full treatment session without any cuing--I would like her to do a full evaluation before she leaves",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "supportive staff, reasonable and varied caseload",
+          "CIV": "Yes",
+          "CIW": "not at this time"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "consistent",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "clinicians are supportive to students--they are open to student feedback, everyone here makes it a priority to make the student feel welcome--The patient populations is very kind",
+          "student10": "we do have 3 OT's who work in the clinic--they have their own hand therapy-- I would like to observe",
+          "student11": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55227"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "64180bf9-9d0d-4a9c-be97-e20410ab837c",
+    "_rid": "txoEAI0Kc-zVIQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zVIQAAAAAAAA==/",
+    "_etag": "\"0001623b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "7d67f642-d7f5-4134-9a5b-12600d49ffe6",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Debbie Rico",
+          "SiteB": "Lexi Lockett",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Nick Early",
+          "CIB": "APTA CI",
+          "CIC": "none",
+          "CID": "3",
+          "CIE": "Yes",
+          "CIF": "Wichita State, Nebraska, Rockhurst",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Excellent communicator, excellent at receiving feedback. Quick learner, polite, professional and not afraid to speak up and ask questions.",
+          "CIR": "Just more experience in the clinic which will come",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "See a lot of student athletes. Research based practice",
+          "CIV": "Yes",
+          "CIW": "No",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Needs Improvement",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths - soft skills and communication, exercise progression, proactive with things. \nImprovements: Put my thoughts into words that the patient understands when discussing complex things such as pain.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "No",
+          "student8": "Yes",
+          "student9": "philosophy - research based treatment, chiro and personal trainers to see and discuss with them.",
+          "student10": "Chiros, personal trainers and PTA",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "From Lexi's feedback this site would be appropriate for a strong student like Lexi.  There is more autonomy at this site.  The CI is treating 4 patients an hour."
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55234"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "6461c57b-323c-4301-9100-0020215429ad",
+    "_rid": "txoEAI0Kc-xlIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xlIwAAAAAAAA==/",
+    "_etag": "\"00018c3b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "f59ce50c-c7f8-4dd2-9466-14f54dbc1b50",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Emily Goldsbury",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Kelsi Rempe",
+          "CIB": "DPT",
+          "CIC": "FAFS",
+          "CID": "6",
+          "CIE": "Yes",
+          "CIF": "OrthoArizona Scottsdale, AZ",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "connecting with patients. Evals and follow ups are great. She looks at the whole person. appropriate interventions.",
+          "CIR": "Post op patients. More specifics to biomechanical mvt we are trying to achieve. Medically complex patients. Time management and efficiency.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I agree with Kelsi. Rapport with patients is really good. Asking questions is good. Willing to step out of comfort zone. I want to improve on delegating to techs. Feeling more comfortable when the clinic is super busy.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "69ec3f09-53f5-4ee1-a7cd-536d18492dc2",
+    "_rid": "txoEAI0Kc-z9PAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z9PAAAAAAAAA==/",
+    "_etag": "\"0001c43b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "f366371a-3fc1-4530-a279-1ab17441e5e0",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Anna M",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Dana Torrillo",
+          "CIB": "DPT",
+          "CIC": "NCS",
+          "CID": "13",
+          "CIE": "Yes",
+          "CIF": "Barnes Jewish/St. Louis/ MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Hands on skills for simple patients is really good. Transfers/guarding/evaluation",
+          "CIR": "Looking at the big picture, complete chart review, line management.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Very large facility with a lot of opportunities. Acuity is high. Location is unique. Always research and new procedures being done.",
+          "CIV": "Yes",
+          "CIX": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Needs Improvement",
+          "student3": "Yes",
+          "student4": "Ensuring safety. Transfers. Subjective interviews.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Big hospital with a lot of opportunities with different patients. They provide a lot of resources for students too.",
+          "student10": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "6a03786f-3763-46ff-b06f-63adf12ab91f",
+    "_rid": "txoEAI0Kc-w3PAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w3PAAAAAAAAA==/",
+    "_etag": "\"0001b83b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "6209a085-1114-4c3d-8f68-606a7458c89b",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Yaqiong Wang",
+          "SiteB": "Alexi"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Phil",
+          "CIB": "BS",
+          "CIC": "no",
+          "CID": "28 years/ Acute care",
+          "CIE": "Yes",
+          "CIF": "Springfield, MO",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "listens well, receives feedback well, good patient rapport, interact well with other staff",
+          "CIR": "more experience with complicated cases",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "variability of patient, complicated medical conditions",
+          "CIV": "Yes",
+          "CIW": "NA",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "good rapport with patients, need to get more confident with patient care",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "see a variety of patients at different functional levels",
+          "student10": "co-eval with OT, works with RT, check with nurses before going to the room",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238426"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "6f18c4b5-e72f-4d09-8458-b33eb7b7651c",
+    "_rid": "txoEAI0Kc-xhJAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xhJAAAAAAAAA==/",
+    "_etag": "\"00019d3b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "e27bfb68-4075-425d-9f5a-66001dfcffbf",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Tommy Frevert",
+          "SiteB": "Gracie Link",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Tommy Frevert",
+          "CIB": "DPT, MDT",
+          "CIC": "Certified MDT through Mackenzie Institute",
+          "CID": "11",
+          "CIE": "Yes",
+          "CIF": "All In Physical Therapy Kansas City, MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Good job adapting ex to patients abilities and coming up with new ways. Sees a wide range of patients and adapts appropriately",
+          "CIR": "Time management",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Wide range of patients, speacial needs kiddos, high level athletes, and other traditional patients. One on one small business.",
+          "CIV": "Yes",
+          "CIW": "NA",
+          "CIX": "NA"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Learned how to think on my feet, Evals I need to continue work on interviewing.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Everyone offers a different perspective, Learning a lot of different things, we get 45 min with each patient",
+          "student10": "PTAs only",
+          "student11": "Yes",
+          "student12": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7a14dcb7-30f4-4e38-aaeb-f24ec94b50bd",
+    "_rid": "txoEAI0Kc-yhIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yhIgAAAAAAAA==/",
+    "_etag": "\"00016d3b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "b535dfea-fe97-4fc1-af01-4a991847d26c",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Yaqiong Wang",
+          "SiteB": "Emily Goldsbury"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Dylan Sohl",
+          "CIB": "DPT",
+          "CIC": "dry needling certified",
+          "CID": "1 year/outpatient",
+          "CIE": "No",
+          "CIF": "Missouri",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Needs Improvement",
+          "CIQ": "highly motivated, initiative, good communication skill in building patient rapport",
+          "CIR": "time management",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "good clinical education program. CD is very experienced with educating students. Good teamwork, variety of patient population",
+          "CIV": "No",
+          "CIW": "a little more information about CPI ahead of the time",
+          "CIX": "None"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "personable with patient, good connection with CI and other staff. \nBe more firm, confident when talking to patient",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "a very open learning environment, has a emphasize SIJ assessment, aquatic therapy",
+          "student10": "PTA, other PT student",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238426"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7b88ff03-ad33-4961-84a8-07cd585ba2d4",
+    "_rid": "txoEAI0Kc-xvJAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xvJAAAAAAAAA==/",
+    "_etag": "\"00019f3b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "f70e8de8-c912-4017-9ebf-dae9dcc36dd5",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Shayla Collins",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Daivs Cantwell",
+          "CIB": "DPT",
+          "CID": "3",
+          "CIE": "No",
+          "CIF": "FIT Olathe, KS",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Communication, dependability, respect for patients.",
+          "CIR": "Continuing to work on illustrating plan of care, discussing prognosis. This is tough for students/new grads",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I'm becoming better at progression of eSciences. Evals are going well. I want to to get better as some of the plan at the end of the session.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "I like this site b/c they all have their own treatment room. It is personal. I like that we do a lot of manual therapy. I am learning a lot.",
+          "student10": "Yes chiropractors.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7ea647ee-c208-44a4-97e3-a8e06d86b709",
+    "_rid": "txoEAI0Kc-yrPAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yrPAAAAAAAAA==/",
+    "_etag": "\"0001c13b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "fd4352fe-74a2-4521-99b2-be8b3dd253b4",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Brynn Foust",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIB": "DPT",
+          "CID": "9",
+          "CIE": "No",
+          "CIF": "Manhattan, KS",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "very eager to learn and receptive to feedback. She wants to do it right. She is doing really well.  She has great rapport with all of the staff.",
+          "CIR": "Putting it all together. The why (assessment and plan) and convincing the patient of why PT is the right choice for treatment.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIA": "Leah White"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Communication with patients and building rapport. I get along with this population really well.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "They see a lot of ortho. Our surgeons are in the building with us. Everyone is very knowledgeable and has great new equipment. All the staff is helpful and knowledgeable. Dry needling",
+          "student10": "PTA/Tech",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "824f8a5d-2a75-4fab-bf3a-3035d585e69a",
+    "_rid": "txoEAI0Kc-xFPAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xFPAAAAAAAAA==/",
+    "_etag": "\"0001ba3b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "6fa6ebc6-7754-448f-a0cd-7c81279ba958",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Concentra Medical Center",
+          "SiteB": "Grace Moore",
+          "SiteC": "Class of 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Shannon Dickemann",
+          "CIB": "DPT",
+          "CIC": "Manual therapy certified, APTA certifed",
+          "CID": "22 years",
+          "CIE": "Yes",
+          "CIF": "Kansas City",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "Very personable, very easy to build rapport. Able to discuss and bounce ideas off others. Able to step in and follow POC",
+          "CIR": "Nothing significant",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIW": "Would love for rockhurst students to come for longer rotations. Open dialogue with Rockhurst about longer rotations",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: Communication with patients and CI; organization and staying on task. Case load the night before and able to review\nAreas of improvement: More confidence at this point; more explanation and speaking at the level of patient, having answers.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Very equal and good relationship with CI; coworker \"vibe.\" Safe space to learn and make mistake",
+          "student10": "PAs, nurses, another student at the clinic. Concentra is attached to urgent care",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238423"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "832ec12d-c67e-4206-8348-e345ab0ee69c",
+    "_rid": "txoEAI0Kc-w-IwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w-IwAAAAAAAA==/",
+    "_etag": "\"0001833b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "39fdad82-041b-4292-91d1-1a2829dfd7f9",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Michael Hauber",
+          "SiteB": "Kaitlin Vaughan",
+          "SiteC": "PT Class of December 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIS": "No",
+          "CIA": "Kris Henderson",
+          "CIB": "Bachelor's",
+          "CIC": "NDT",
+          "CID": "36 years: currently - acute care, orthopedics, total joint",
+          "CIE": "Yes",
+          "CIF": "O-Fallon, MO (St. Charles County)",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Needs Improvement",
+          "CIL": "Needs Improvement",
+          "CIM": "Appropriate",
+          "CIN": "Needs Improvement",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Fast learner, responds well to feedback, interpersonal skills with patients, willing to jump in and help (i.e., anticipates her CI's needs)",
+          "CIR": "Patient examination, documentation skills, logical sequence with how to perform assessments",
+          "CIT": "Yes",
+          "CIU": "Smaller hospital, good jumping off part with learning the basics. This makes it a perfect spot for the 1st clinical rotation because the pace is a little slower.",
+          "CIV": "Yes",
+          "CIW": "She would like more information about where the student is in their program: curriculum, skills.",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "-Strengths: teaching exercises\n-Areas for improvement: smooth delivery during her evaluations (how she phrases things), patient education (she is hesitant to not overstep with her CI there) for discharge (she would rather discuss discharge recommendations with her CI beforehand so that she does not mislead patient)",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Acute care: smaller hospital, sustainable pace, work with mostly orthopedic patients (total knee, total hip), but you will also have some variety of other conditions. It is not overwhelming.",
+          "student10": "She observed with an OT. She did a co-treat yesterday with an OT. They will communicate with nurses some of the time. Communication with OT to match discharge recommendations.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "Not that she is aware of"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238425"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "86a1b588-0460-4ef9-a493-0d7d8f36641b",
+    "_rid": "txoEAI0Kc-zFIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zFIwAAAAAAAA==/",
+    "_etag": "\"0001973b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "28f9cf6c-8236-4d24-b6fc-27f2c51c2504",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Anna Heck",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Laura Adams",
+          "CIB": "DPT",
+          "CID": "6",
+          "CIE": "No",
+          "CIF": "Baylor, Dallas TX",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Very good at communicating. passionate about her patients. goes above and beyond. Communicating with patients who don't come in. calls/emails. Est rapport.",
+          "CIR": "Confidence with initiating the first visit. Getting the flow down a little better. Creating the plan for a complete eval.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Communication, rapport building, making adjustments as needed. I do a good job getting to know the staff. \nConfidence is what I want to work on.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student10": "yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "8725f8c3-763c-4bdd-b267-7868af9fca73",
+    "_rid": "txoEAI0Kc-zxPAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zxPAAAAAAAAA==/",
+    "_etag": "\"0001c23b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "1501c52c-dcd9-4ff6-a3f0-c9306bdc9964",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Chelsea Johnston",
+          "CIU": "We see a lot of CVA, cervical stenosis with weakness, falls with Fx, variety, SCI, Exoskeleton, Pressure mapping.",
+          "CIB": "DPT, CSRS",
+          "CIC": "CCI, CSRS",
+          "CID": "4",
+          "CIE": "Yes",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Great at building rapport with patients. We have some tough patients but they are happy after working with her. She greats feedback well and adjusts appropriately. I quiz her and she handles that well. When she doesn't know something she is eager to find out.",
+          "CIR": "We haven't had the chance for her to do an eval so I want her to do that. Keep working on clinical reasoning/interventions and being creative.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIW": "na",
+          "CIX": "na"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I agree I am great with communication with CI and patients. I can continue to grow in critical thinking.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Patient population is great. Inpatient with some acuity, it forces you to thinkin outside the box.",
+          "student10": "OT/SLP/Dr.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Grace Moore",
+          "SiteC": "2024"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "8bcca7c9-4ed5-4d4d-94a7-cfaad9f40796",
+    "_rid": "txoEAI0Kc-xhOwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xhOwAAAAAAAA==/",
+    "_etag": "\"0001b43b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "dd29764b-dbee-4f37-ba68-1454ad633e37",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIF": "Lenexa KS",
+          "CIA": "Emily Brewster",
+          "CIB": "PT",
+          "CID": "22",
+          "CIE": "Yes",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Critical thinking skills, Eagerness to learn",
+          "CIR": "Continue to work on productivity and flow",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Great place b/c we get such a depth of patients. You get OP, HH, LTC, Lymph, Vestibular, Inpatient. WE have a great facilities.",
+          "CIV": "Yes",
+          "CIX": "NA"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Communication with patients. I have improved with pushing them but not too hard.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "The caseload is light enough that you can focus on each patient individually. Great vareity",
+          "student10": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Lauren Gunn",
+          "SiteC": "2024"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "9c69902f-9e5c-45ce-b96b-432de4a2378a",
+    "_rid": "txoEAI0Kc-x9OwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x9OwAAAAAAAA==/",
+    "_etag": "\"0001b63b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "69d8f668-5df2-4272-8815-9fb3d4689ad8",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Michael Hauber",
+          "SiteB": "Rustin Hiebert",
+          "SiteC": "Class of December 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Monica Cannon",
+          "CIB": "Doctorate",
+          "CIC": "CSCS",
+          "CID": "3.5 years",
+          "CIE": "Yes",
+          "CIF": "Lansing, KS",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Needs Improvement",
+          "CIQ": "Building rapport with patients, patients really like him. He is doing great carrying on a plan of care that the CI has already established.",
+          "CIR": "Time management, efficiency with documentation, progressing/regressing exercises, coming up with new treatment ideas",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "1-on-1 time with patients makes it a good learning environment. Wide variety of patients: neuro, pediatrics, etc. Well-rounded experience for students.",
+          "CIV": "Yes",
+          "CIW": "none",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "-Strengths: establishing a patient connection, manual therapy skills\n-Areas for improvement: session flow, communication with patients (explaining things in layman's terms)",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Welcoming environment, kind patients and helpful therapists",
+          "student10": "Occupational therapists, PTAs",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "She is unaware of any changes"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238425"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "a0f5cac1-7afa-4205-b6ba-1eb3db175a04",
+    "_rid": "txoEAI0Kc-y1IgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y1IgAAAAAAAA==/",
+    "_etag": "\"0001773b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "bb647c9b-621c-488f-90f6-599aaacc36ef",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "SERC",
+          "SiteB": "Ali Lingle",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CID": "2015, orthopedics, dry needling, bfr",
+          "CIA": "Tyler Lampe",
+          "CIB": "dpt",
+          "CIC": "ocs",
+          "CIE": "Yes",
+          "CIF": "op,ks",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "compassionate, works hard and extra to get information regarding patients",
+          "CIR": "problem solving, time management",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "High volume, varied clientele",
+          "CIV": "Yes",
+          "CIW": "no",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student9": "OP Ortho, high volume",
+          "student10": "No",
+          "student12": "No",
+          "student1": "Needs Improvement",
+          "student2": "Needs Improvement",
+          "student3": "Yes",
+          "student4": "strengths interacting with patient\nweakness ther ex px, time management, documentation",
+          "student5": "Yes",
+          "student6": "No",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student11": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55235"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "a2768ca4-5e1c-4583-bfa7-e2099e69d7a9",
+    "_rid": "txoEAI0Kc-zDIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zDIwAAAAAAAA==/",
+    "_etag": "\"0001953b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "01df9f33-3b53-4516-9280-90b7d6463960",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Jack Heese",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Tommy Frevert",
+          "CIB": "DPT",
+          "CIC": "Cert MDT",
+          "CID": "12",
+          "CIE": "Yes",
+          "CIF": "All in PT, Blue Springs MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Communication with patients is great.",
+          "CIR": "Being able to improvise. Grow the exercise bank and how to adjust on the fly.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student10": "I get the opportunity to hand of to PTAs occasionally.",
+          "student9": "Great environment for learning.",
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "shoulder patients I feel good with them, documentation, evaluations. Get better treating every body part i.e. ankles, creative exercise (continue to grow and modify); understanding timelines of recovery",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "ab93302e-9938-4e34-9a35-6569f6d2bfff",
+    "_rid": "txoEAI0Kc-xjPQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xjPQAAAAAAAA==/",
+    "_etag": "\"0001c63b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "f1653d36-4516-4d82-9944-b9985ff8d457",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Bryce Idoni",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Matt Dobratz",
+          "CIB": "PT, DPT",
+          "CID": "11",
+          "CIE": "Yes",
+          "CIF": "F.I.T. Kansas CIty",
+          "CIG": "No",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Growing in personalism",
+          "CIR": "Continue to grow on stages rehab since we have a lot of high level patients, advanced clinical reasoning",
+          "CIS": "Yes",
+          "CIT": "Yes",
+          "CIU": "Sports med",
+          "CIV": "Yes",
+          "CIW": "N/A",
+          "CIX": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Identify progressions, growing in this area\nContinue to grow in talking with patients - using the appropriate wording",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Very good for sports med, you get to see conversations with parents/coaches, able to go to different universities and the athletic training side.",
+          "student10": "Athletics trainers/coaches",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "b5129957-39e8-485a-bc08-eedf65b4fa51",
+    "_rid": "txoEAI0Kc-zbIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zbIgAAAAAAAA==/",
+    "_etag": "\"0001793b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "baffe109-d35c-4670-b232-440ca97355e4",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Yaqiong Wang",
+          "SiteB": "Baileigh Castanedo"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Sarah Church",
+          "CIB": "MPT",
+          "CIC": "rehab oncology",
+          "CID": "21 years/Geriatric",
+          "CIE": "Yes",
+          "CIF": "Blessing Hospital, Quincy, IL",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "provide excellent patient care, confident, mindful, presents professionally, self- motivated",
+          "CIR": "expose more experiences, especially with complex cases",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "orthopedic surgery observation opportunity. Variety, SNF/inpatient/acute",
+          "CIV": "Yes",
+          "CIW": "CI feels that Rockhurst is giving her enough support. Sarah is also a Rockhurst graduate!",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "getting more confident in communicating with patients. Baileigh thinks is good at building patient's rapport",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "very supportive and nice personnel, elderly patient population. combination of SNF, inpatient rehab and acute care.",
+          "student10": "weekly interprofessional meeting. Surgery observation opportunity",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238426"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "bc123694-b7f0-4daa-a9e2-971d4ab2757c",
+    "_rid": "txoEAI0Kc-wDJAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wDJAAAAAAAAA==/",
+    "_etag": "\"0001993b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "dc9bb1b9-3ce6-4d53-9f2b-a4d58afdcc16",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Debbie Rico",
+          "SiteB": "Gracyn Carmean",
+          "SiteC": "Dec 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CID": "7 years",
+          "CIE": "Yes",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "manual skills, exercise prescription, communication with the patients.",
+          "CIR": "Time management?  \"At this point in Gracyn's schooling, there is nothing that stands out to me that she should know/area of improvement\".  She is doing well for the level she is at.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Good site for 1 on 1 patient care.  Good entry level site",
+          "CIV": "Yes",
+          "CIW": "Knowing what the requirements are for assessing the student on this 5 week clinical.",
+          "CIX": "no",
+          "CIA": "Marty Cummings",
+          "CIB": "DPT, Clinic Director,",
+          "CIC": "CMPT",
+          "CIF": "Merriam, KS"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Able to initiate patient interactions and good therapeutic alliance, giving verbal cues to patients, ability to take criticism",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "This is a good clinical for one on one patient care. They see 1 patient every 40 minutes. Good level of supervision.",
+          "student10": "No.  It is a PT clinic only",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "no. Did discuss with Marty updating the CI training through the APTA"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55234"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "c428c83d-1363-45f0-bca4-17d141c03698",
+    "_rid": "txoEAI0Kc-yfIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yfIgAAAAAAAA==/",
+    "_etag": "\"00016a3b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "b67c5303-c80e-47e5-a725-e8298ec98ee7",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Debbie Rico",
+          "SiteB": "Brock Butel",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIB": "PT, DPT",
+          "CIU": "Diverse patient population",
+          "CIA": "Chuck Mangus",
+          "CID": "41",
+          "CIE": "Yes",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Needs Improvement",
+          "CIM": "Needs Improvement",
+          "CIN": "Needs Improvement",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "Interpersonal communication, professionalism with the patient",
+          "CIR": "Would like Brock to put more into this learning experience so that he may get the most benefit. For example doing his home work and come to the clinic ready to discuss. This is an optional workload",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIW": "No",
+          "CIX": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths- patient communication and therapeutic alliance. \nImprovements: Hitting the books more.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "No",
+          "student8": "Yes",
+          "student9": "Co-treating with OT, wound care, aquatics",
+          "student10": "Yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "No. However this rotation may be better for the 3rd or 4th student rotation due to the high level of volume and diverse patient population."
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55234"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "c733e7d8-120f-4961-9f9a-af879c384952",
+    "_rid": "txoEAI0Kc-yPIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yPIwAAAAAAAA==/",
+    "_etag": "\"0001943b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "4120027b-46b0-47db-9828-ebed72c49f1f",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Hahn Tran",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Emily Gilmore",
+          "CIB": "DPT",
+          "CID": "3",
+          "CIE": "Yes",
+          "CIF": "NKCH, Kansas City, MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Needs Improvement",
+          "CIL": "Needs Improvement",
+          "CIM": "Needs Improvement",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Getting patients started in treatment, getting their subjective, making them feel comfortable. She likes to come up with different ways to do exercises. Professionalism and responds well to feedback.",
+          "CIR": "Take more initiative, confidence in herself. Hands on skills getting more comfortable.",
+          "CIS": "No",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: active listener to patients. Pt communication, MMT, ROM\nImprovement: Explaining the ex better. Giving more detail/information.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student10": "yes",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "c85e3ba2-5eb5-4765-a9b7-64d4d8d7c6bd",
+    "_rid": "txoEAI0Kc-xzPAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xzPAAAAAAAAA==/",
+    "_etag": "\"0001be3b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "6993d5ab-5df1-468d-adc1-81e679542867",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Aidan Robidoux",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Sam Shepard",
+          "CIB": "PT, DPT",
+          "CIC": "SFMA",
+          "CID": "3",
+          "CIE": "No",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Ex selection, A lot of higher level that I let him lead, he is a natural, soft skills, jump right in.",
+          "CIR": "Staying caught up on notes, and billing. He is doing great! Well above average",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "We see a variety of patients, a lot of post op, a little bit of everything, we all do dry needling.",
+          "CIV": "Yes",
+          "CIW": "n/a",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "I do well with selection of ther ex, conversing with patients, getting along with everyone. \nCOntinue to growing in doc / billing",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Great team of PTs, Sam is patient and does so well!",
+          "student10": "OT",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "cc066846-45c2-4005-8a4b-9475d73868f2",
+    "_rid": "txoEAI0Kc-z9IgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z9IgAAAAAAAA==/",
+    "_etag": "\"00017f3b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "0d4de0a2-70ba-4ca7-949c-16e02880216e",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "USA Sports",
+          "SiteB": "Maya Pumphrey and Jessina Rada",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIS": "No",
+          "CIA": "Alex Hage",
+          "CIC": "OCS, CMT, Dry Needling",
+          "CID": "25",
+          "CIE": "Yes",
+          "CIF": "Miami, FL",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "doing well--figuring out the flow and who has taken the lead with clients--",
+          "CIT": "Yes",
+          "CIU": "CI's",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "they are seeing another clinics and a physician --we are doing alot of regenerative medicine--",
+          "student10": "works with Chiro",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55227"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "cc94390d-a155-4323-8a98-2c17c4a845e6",
+    "_rid": "txoEAI0Kc-z5IgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z5IgAAAAAAAA==/",
+    "_etag": "\"00017e3b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "9cfd63e6-7779-4374-8d44-46255a7e49eb",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Hill pro-motion",
+          "SiteB": "Jaysa Zoller",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIC": "TPI certification - Level II",
+          "CID": "3.5",
+          "CIE": "Yes",
+          "CIF": "Hill pro-motion",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Communication, willing to jump in, asks questions, willing to learn, manual techniques are good",
+          "CIR": "Doing well for the most part. Exercise progression is an area to work on.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "The treatment is 1 on 1, for the most part. No more than 2 ever. Students can participate in hands-on treatment. Similar techniques to Rockhurst. Good learning environment.",
+          "CIV": "Yes",
+          "CIW": "\"So far so good\".",
+          "CIX": "No.",
+          "CIA": "Alex Ervin",
+          "CIB": "DPT"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: Comfortable with having conversations with patients. Exercise selection. \nAreas for improvement: Plan of care for new patients., more manual practice.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "There is a pool - Hydorworks rise (has a treadmill in it).",
+          "student10": "There is a PTA",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "No"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238424"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "d14b2803-c8cf-41d8-abb3-5224532b32ce",
+    "_rid": "txoEAI0Kc-yLIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yLIgAAAAAAAA==/",
+    "_etag": "\"0001653b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "7c032176-35bb-4600-bc72-18242cbb29f1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Michael Hauber",
+          "SiteB": "Anna Mikulicz",
+          "SiteC": "Class of December 2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Jodi Morgan",
+          "CIB": "Doctorate at KU Med",
+          "CIC": "none",
+          "CID": "15 years / Amputees, wound care, CVA, brain injuries",
+          "CIE": "Yes",
+          "CIF": "Kansas",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Needs Improvement",
+          "CIN": "Needs Improvement",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "Organized, able to follow along with the treatment and document the entire note. Good grasp on diagnosis.\n-She has been proactive with initiating meetings with her CI to discuss areas of improvement and skills to practice",
+          "CIR": "-Hands on skills\n-Being willing to jump in and guide patients during their treatment. Try to anticipate the patient's needs and be proactive.\n-CI is trying to have her see a couple patients on her own next week.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "- Diverse case load: orthopedics, complex diagnoses (e.g., prosthetic, stroke - 6 months out), specializations (e.g., vestibular therapists, 2 pelvic floor therapists)",
+          "CIV": "Yes",
+          "CIW": "no",
+          "CIX": "no"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Needs Improvement",
+          "student3": "Yes",
+          "student4": "-Areas for improvement: slowing down",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Unique caseload, opportunity to work alongside OT and speech therapist",
+          "student10": "Yes: OT, speech",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "did not ask"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238425"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "de922262-ad04-424a-94e3-c3d222a28fbf",
+    "_rid": "txoEAI0Kc-yVIgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yVIgAAAAAAAA==/",
+    "_etag": "\"0001683b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  },
+  {
+    "responseId": "ea4728f5-0efc-4d1e-8b22-524496279ebc",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Ale Lingle",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Mo Sowani",
+          "CIB": "PT, MPT",
+          "CIC": "Dry needling and pelvic health",
+          "CID": "4",
+          "CIE": "No",
+          "CIF": "North Carolina",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Needs Improvement",
+          "CIQ": "Communicating with Team/CI and all others. Communicates well with PTAs. Does all her homework for complex patients. Doing weekly meetings over each joint. Seeks out learning opportunities with other therapist . Asking questions when unsure. Documentation is great just get more timely",
+          "CIR": "Time management",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIW": "N/a",
+          "CIX": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Variety",
+          "student10": "Yes, PTA, techs only though",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "e23c3c87-c62b-45eb-b0a9-7846955af539",
+    "_rid": "txoEAI0Kc-zhOgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zhOgAAAAAAAA==/",
+    "_etag": "\"0001a83b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "570eef44-699b-467f-aa12-737e36cb930a",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "PT Solutions",
+          "SiteB": "Anna Heck",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIB": "DPT",
+          "CIC": "LSVT big training",
+          "CID": "20",
+          "CIE": "Yes",
+          "CIF": "Olathe KS",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Her strengths are relating to everyone. Gets to the bottom of what patients want out of therapy.",
+          "CIR": "Flow of treatments and workflow. Will improve with time.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "\"We have seasoned veterans here\"",
+          "CIV": "Yes",
+          "CIW": "Student came prepared with goals and overview of the program.",
+          "CIX": "No.",
+          "CIA": "Miguel Catano"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: Ability to speak to clients and get to know patients. Good with monitoring and changing plans. \nImprovement: Confidence with patient care. Coming up with treatments on the fly.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "The way it is ran is unique. Professional and works around everyone's schedules. Great therapists who are accepting.",
+          "student10": "Opportunities to work with other therapists. Good collaboration with other therapists. Calls on Thursdays with PT Solutions students - On Teams, a presenter.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "No."
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238424"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "e4bad50a-b29c-4550-800c-820406bca41e",
+    "_rid": "txoEAI0Kc-xZIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xZIwAAAAAAAA==/",
+    "_etag": "\"0001883b-0000-0100-0000-668e66330000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608307
+  },
+  {
+    "responseId": "3333d493-3128-4121-901a-05b476237502",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteB": "Lily Jackson",
+          "SiteA": "Debbie Rico",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIU": "Good level of supervision and ability to have a light load for their first clinical.",
+          "CIX": "No",
+          "CIA": "Cesar Aldona",
+          "CIB": "DPT",
+          "CIE": "Yes",
+          "CIF": "KU",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Being able to implement and recall learning. Knowing her limitations. Good reflective practice. Patient interaction.",
+          "CIR": "Having more confidence and get less flustered. Mange her stress levels.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes",
+          "CIW": "No",
+          "CID": "2.5",
+          "CIG": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Patient communication and therapeutic alliance, exercise prescription and advancement.\nCatch on a little faster with cueing with patients - observation of compensatory strategies.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Good mix of outpatient medicare, vestibular, and young adult/high school patients.",
+          "student10": "Shadowing OT possibly next week.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "No"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55234"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "e897c238-5113-4612-a7d8-9f5b8afa090b",
+    "_rid": "txoEAI0Kc-xxIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xxIwAAAAAAAA==/",
+    "_etag": "\"00018f3b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "f4e467b2-d887-4e40-a8ec-6d70a3e75e2e",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Yaqiong Wang",
+          "SiteB": "Tran"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIF": "O Fallon, MO",
+          "CIA": "Jennifer/Jessica",
+          "CIB": "MPT, CSCS",
+          "CIC": "pelvic health",
+          "CID": "24/pelvic health, vestibular, dry needling",
+          "CIE": "Yes",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Needs Improvement",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Needs Improvement",
+          "CIN": "Appropriate",
+          "CIO": "Needs Improvement",
+          "CIP": "Appropriate",
+          "CIQ": "good at building patient rapport, communication skills, interpersonal skills, take initiatives to learn, participate,  help CIs w/o being asked",
+          "CIR": "confidence with clinical reasoning with more complicated cases, differential Dx (special tests), manual, time management",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "good diversity of patients, gain good hands on experiences, individualized treatment, critical thinking",
+          "CIV": "Yes",
+          "CIW": "a list of classes the students already taken, communication when CPI completed",
+          "CIX": "none"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Good with patient communication, come up with Ex, needs work on Ex progression\nget more flow with evaluation, being adaptive when things don't go as textbook.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "very hands on, understanding student's needs",
+          "student10": "not much opportunities yet",
+          "student11": "Yes",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238426"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "ebdbdc35-2910-401a-b2cb-e85e726adda2",
+    "_rid": "txoEAI0Kc-wdJQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wdJQAAAAAAAA==/",
+    "_etag": "\"0001a13b-0000-0100-0000-668e66350000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608309
+  },
+  {
+    "responseId": "0577fe15-a33c-4f01-9ad8-a161da5fa32c",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Rachel McGraw",
+          "SiteB": "Brooke Elliott",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "Kacey Miller",
+          "CIB": "DPT, COMT, FFAAOMPT",
+          "CID": "8",
+          "CIE": "Yes",
+          "CIF": "Modern, KC/MO",
+          "CIG": "No",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIR": "Diagnostic skills. Planning interventions she can continue to grow.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIV": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Better at building connections with patients and building rapport. I'm getting better at coming up with treatments on the go.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "They do things a little different here. Their process of treating is great. Pain generator, dysfunctions that come along with that.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "55237"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "f10de1bb-4f28-4ab9-8eec-4553964b35f6",
+    "_rid": "txoEAI0Kc-xXPAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xXPAAAAAAAAA==/",
+    "_etag": "\"0001bc3b-0000-0100-0000-668e66360000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608310
+  },
+  {
+    "responseId": "3464fa09-993f-4188-81dd-7d85d0505e8f",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "Lawrence Memorial Hospital",
+          "SiteB": "Darren Dutterer",
+          "SiteC": "2024"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIB": "DPT",
+          "CIC": "Vestibular CEUs",
+          "CID": "14",
+          "CIE": "Yes",
+          "CIF": "Lawrence/ KS",
+          "CIG": "Yes",
+          "CIH": "Appropriate",
+          "CII": "Appropriate",
+          "CIJ": "Appropriate",
+          "CIK": "Appropriate",
+          "CIL": "Appropriate",
+          "CIM": "Appropriate",
+          "CIN": "Appropriate",
+          "CIO": "Appropriate",
+          "CIP": "Appropriate",
+          "CIQ": "Ability to talk to patients, good at connecting with them, encouragement and providing feedback to the patients. Ready to learn more.",
+          "CIR": "Not at this time.",
+          "CIS": "No",
+          "CIT": "Yes",
+          "CIU": "Clinical rotation in acute care is important. Most of our patients are in the hospital system at some point.",
+          "CIV": "Yes",
+          "CIW": "No",
+          "CIX": "No",
+          "CIA": "Bethany Stadalman"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "Yes",
+          "student4": "Strengths: Being able to communicate with patients. Teaching experiences and practical experience paying off well.\nAreas of improvement: Overall knowledge of hospital life.",
+          "student5": "Yes",
+          "student6": "Yes",
+          "student7": "Yes",
+          "student8": "Yes",
+          "student9": "Based on his perception everyone has been welcoming. Likeable staff.",
+          "student10": "Yes, opportunities for collaboration with nurses, physicians, other therapists, ect.",
+          "student11": "No",
+          "student12": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "No."
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "238424"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "f328f6ce-f75c-4a50-be44-3f4dd0294179",
+    "_rid": "txoEAI0Kc-xbIwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xbIwAAAAAAAA==/",
+    "_etag": "\"00018a3b-0000-0100-0000-668e66340000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608308
+  },
+  {
+    "responseId": "dff6a92d-c4e7-462c-a12b-e0dda79a4f39",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.SiteSection",
+        "values": {
+          "SiteA": "1",
+          "SiteB": "2",
+          "SiteC": "3"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.CISection",
+        "values": {
+          "CIA": "4",
+          "CIB": "5",
+          "CIC": "6",
+          "CID": "7",
+          "CIE": "Yes",
+          "CIF": "9",
+          "CIG": "Yes",
+          "CIH": "Needs Improvement",
+          "CII": "Appropriate",
+          "CIJ": "Needs Improvement",
+          "CIK": "Appropriate",
+          "CIL": "Needs Improvement",
+          "CIM": "Needs Improvement",
+          "CIN": "Needs Improvement",
+          "CIO": "Needs Improvement",
+          "CIP": "Needs Improvement",
+          "CIQ": "345",
+          "CIR": "12. Summary of area student needs to improve.",
+          "CIS": "Yes",
+          "CIT": "No",
+          "CIU": "15. What would you state are reasons future students should consider this site?",
+          "CIV": "Yes",
+          "CIW": "17. Is there anything Rockhurst University could do to assist you in providing high quality clinical internships?",
+          "CIX": "18. Is there a need for Rockhurst University to intervene?"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.StudentSection",
+        "values": {
+          "student1": "Appropriate",
+          "student2": "Appropriate",
+          "student3": "No",
+          "student4": "22. What are your perceived strengths and areas for improvement (check for consistency with CI)?",
+          "student5": "Yes",
+          "student6": "No",
+          "student7": "Yes",
+          "student8": "No",
+          "student9": "27. Are there reasons other students should consider the site (unique learning experiences)?",
+          "student10": "28. Are there opportunities for interprofessional practice?",
+          "student11": "Yes",
+          "student12": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.FacultySection",
+        "values": {
+          "Faculty1": "Continuing relationship",
+          "Faculty2": "32. Are there changes to this location requirements or information?"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "CSVFROCKHURSTPT.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "CSVFROCKHURSTPT.SiteAssessment.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "RockhurstUniversity",
+      "owningOrganizationUnit": "D001",
+      "owningUser": "54698"
+    },
+    "partitionKey": "RockhurstUniversity",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "f6e71a3c-f354-47f7-bc79-6356625c78a8",
+    "_rid": "txoEAI0Kc-ylHQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ylHQAAAAAAAA==/",
+    "_etag": "\"0001603b-0000-0100-0000-668e66320000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608306
+  }
+]

@@ -1,0 +1,1626 @@
+[
+  {
+    "responseId": "3c0d5495-31ac-4828-a1c2-8530317743ff",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Clinica Monsenor Oscar A. Romero",
+          "Date": "2024-04-16T07:00:00Z",
+          "PreceptorName": "Dr. Joshua Zyss",
+          "Administrator": "Cynthia",
+          "Practice": "Family Medicine",
+          "Distance": "6.9 miles (123 Alvardo  Clinic)",
+          "Hours": "M, W, F 7-5  and T/TH 7-8:30, Sat 9-2",
+          "Average": "21-23"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "4 or more",
+          "Number": "3",
+          "credentials": "PA/NP",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "Yes",
+          "Address": "Morengo, Van Nuys, Montelbello"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Chronic care, acute visits, preventive care",
+          "languagespoken": "Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAACjlJREFUeF7tnVvO7jQMRQsIxsUQGArDR0Jc1IdKpbSN7e2mcbrO05G+ONletncv/+2HhX8QgAAEihD4oYhOZEIAAhBYMCyaAAIQKEMAwypTKoRCAAIYFj0AAQiUIYBhlSkVQiEAAQyLHoAABMoQwLDKlAqhEIAAhkUPQAACZQhgWGVKhVAIQADDogcgAIEyBDCsMqVCKAQggGHRAxCAQBkCGFaZUiEUAhDAsOgBCECgDAEMq0ypEAoBCGBY9AAEIFCGAIZVplQIhQAEMCx6AAIQKEMAwypTKoRCAAIYFj0AAQiUIYBhlSkVQiEAAQyLHoAABMoQwLDKlAqhEIAAhkUPQAACZQhgWGVKhVAIQADDogcgAIEyBDCsMqVCKAQggGHRAxCAQBkCGFaZUiEUAhDAsOgBCECgDAEMq0ypEAoBCGBY9AAEIFCGAIZVplQIhQAEMCx6AAIQKEMAwypTKoRCAAIYFj0AAQiUIYBhlSkVQiEAAQyLHoAABMoQwLDKlAqhEIAAhkUPQAACZQhgWGVKhVAIQADDogcgAIEyBDCsMqVCKAQggGHRAxCAQBkCGFaZUiEUAhDAsOgBCECgDAEMq0ypEAoBCGBY9AAEIFCGAIZVplQIhQAEMCx6AAIQKEMAwypTKoRCAAIYFj0AAQiUIYBhlSkVQiEAAQyLHoAABMoQwLDKlAqhEIAAhkUPQAACZQhgWGVKhVAIQADDogcgAIEyBDCsMqVCKAQggGHRAxCAQBkCGFaZUiEUAhDAsOw98E9j6fr5j/btWAkBCHgJYFh2Yi3D2nbCuOxMn1q51Yr+forwS/tSUB/4u0HYGxqm5eOavRrDyiY6yH5PGtbfy7Ko+6vx2Zgtg7CtwbSy6dv3s9TJvhsrhyHwhCFkGJUF0BPaW+daB8G6rnUen8cIwD/Gbfio7KE/mpV6l2F5b5Sdw13RrIOwcVDzH76BBhVordOg8pF1RSB72Hs2yp2ZZee1f6G+/t+yP4+G781dzz58L8sPnmwZPCuW/d1V5r6W86/MK1uHdxAwLUv1ztd4We93UWLjiol8nEDWQL9pVmeQnvqKXWQQIjGPF77AAQo3JbYAmu9KzDKsURvkeOelvlOK5Mn7rNh8RVhHHt1j6oh6hUCGYY12d3UEmWla0SGKxr3SFIMcqjBTYgdJHxlnBDIMq1JzqO+Uorlyl+Wfvyjr9SQl1q+UiG4EVMOq2BiKaSn5KrHdGmKggxReSuxACJByJPBFw1KuwMogKLFf7FyFlxL7RdZlcv6qYUULpAyCEhvVWzlO4aXEVmY2vXbFsL7YFErOSuz0jXiSoMJLif0i6zI5Y1i+UimDoMT6VM6xWuGlxM5Bb9IsMCxfYZVBUGJ9KudYrfBSYuegN2kWGJavsMogKLE+lXOsVngpsXPQmzQLDMtXWGUQlFifyjlWK7yU2DnoTZoFhuUrrDIISqxP5RyrFV5K7Bz0Js0Cw/IVVhkEJdanco7VCi8ldg56k2aBYfkKqwyCEutTOcdqhZcSOwe9SbPAsHyFjQ7C6D8g7qPQZ3WU9apOie2THaeECGBYPmyRQcCsfIy31RHWGbExtUR1IYBh+TBHhigS41M152qFmxI7J81JssKwfIX0DoJ3vU/N3KsVdkrs3FSLZ4dh+QroGQQeBX1sj6s9rDNjNdVEP0oAw/Lh9QyRZ61PxTdWK/yU2G/QLZolhuUrnHUQrOt8p39rtcJQif0W5WLZYli+glkGgUdBH9Or1RbWT8TmqGeXRwhgWD6sd0N0/KvXClufqv6rj7l6FKwMfzQEYFgGSF9bogyV0lBVOd/lvH1mHciqDFbdW67RHCyMlP5SYqM5EdeBgGJY21VW2aNDiqlHXA3C1x4DFUOwxlrXnRVYiU1tGDbLJaCazdoYlqtlrur3dtsPwtlj0RXPs7UjcfMOuHf9vmLWWOs6DOu9eeh+smpYX/t7e1ePQlfmY33X87Z5ecxBvZu0nmVdh2F1t433DlQNa/8+I2Ov90jYTt4blsVkrtbfGZllX5ta+yqPOXjWKmainKPE2qmxsjuBLJP5yqOhdxAsXEZ4XLTmpd5deS5wq6Zof1rz6T5wHKgRiDbE8dSvvIBXBsEy7Ps1d3daio637nq2cy3aLWvuOl+N16aK6McIZBnWduV843HmMTgnGyuDsMW2GFlM606HxRiPqVnzsq5TzUQ9R43v2VOc5SCQaVhfeAEfHYRsE7nT4X3PZtW239fRYpdL73ovytlzF5eRA3t0JpBpWPv3E627iM5pph0XHSTr3dVe6N0F4Oozz7daHIf7rmbWr3ZaQFt6I8oZw7JUoPCabMOa3bSig6TGnQ350QTP7pTWNS2DsGiLGK4yFhZN6mOnoo/Ylwg8YVgzm1Z0kKJxe5bHWh3fdW2f7w2qda73cfCpfom+U7sam1beL40bx6oEnmzAGZsmmlM07s6w1s9aj4Ct94pWXdZ1aj9mPdL11puVN/s0CDxpWNuwtR5JKhUpOgjRuJZhHU3rrJ5XZ1vvriwarDW0fvuLwitTrzUv1nUi8LRhta7wndJMOyY6SNE46/Dd7X9VA4+m1kv31kXpGN/qO4+2s+Kq8WkNw0a5BFqNk3HaTM0TzSUaZzWs7U7r6vdMnb0092ra1qs90TI3T85XWry5qTkR34lAD8Oa6dEwOgjRuIzhPb4XOrZWRg+0zMxiUntdCq89sz+XZfml0yxxTAcCGc1qkTnLo2F0kM7ucCzcMg3r+FjmNRGr3ox1Uc7b2X/tfqtprx7PyJs9GgR6FlMZ2lEKGR0kxSyiZ47CLKIjI+eMPSLaiXmQQE/D2t8tvHV193xl7Ay7MgStF9etMveuVUvPk58rnI+PwF/i9mRNhtj7jWIe33f0Mi/LDxW3ipIxSBHj6sWolX+vzzM4Z+zRK1/OMRJ4w7D2d1r7q6HlL6kY0/rfMvXOiqt2lHwsLsNsMvaIqSfqMQJvGdY+oSfvuLzf/9MCzRC0COV8nsF5rf3678kLYU627GImMIJhnd1xmRMwLsx6pMoYJKPkTy/L4PzHsiw/L8vy06dJTpb8KIZ1d8elIM8yKh4JlSr4YzMM6/dlWX5bluVX//FEjEpANazWNwyOmje6IACBPgRUj/mPSnUzDKtP0TkFAlUJqB6TalhVISq6Mx5XlPOJhcBnCaS630coYlgfKTRpjkcAwxqvJiiCAAQuCGBYtAYEIFCGAIZVplQIhQAEMCx6AAIQKEMAwypTKoRCAAIYFj0AAQiUIYBhlSkVQiEAAQyLHoAABMoQwLDKlAqhEIAAhkUPQAACZQhgWGVKhVAIQADDogcgAIEyBDCsMqVCKAQggGHRAxCAQBkCGFaZUiEUAhDAsOgBCECgDAEMq0ypEAoBCGBY9AAEIFCGAIZVplQIhQAEMCx6AAIQKEMAwypTKoRCAAIYFj0AAQiUIYBhlSkVQiEAAQyLHoAABMoQwLDKlAqhEIAAhkUPQAACZQhgWGVKhVAIQOBfDlG0pgKMGKUAAAAASUVORK5CYII=",
+          "Name": "C. Chloe Powell",
+          "Date2": "2024-04-17T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "07d3b6b1-9d04-4a3b-bc9b-33bdbe5a20c0",
+    "_rid": "txoEAI0Kc-wvOgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wvOgAAAAAAAA==/",
+    "_etag": "\"0001d82c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "cb815f30-49ae-4988-ba95-852a695a5e45",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "Virtual",
+          "Assignments": "Casa de Salud",
+          "Date": "2024-02-06T08:00:00Z",
+          "PreceptorName": "Dr. Akhavan",
+          "Administrator": "Juliet",
+          "Practice": "Family Medicine",
+          "Distance": "11",
+          "Hours": "M-Th 9-7; Friday 8-5",
+          "Average": "40-50"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "3",
+          "credentials": "2 PA-C, 1 NP",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "Yes",
+          "Address": "2490 Vermont, Los Angeles"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "newborn-geriatrics, OB, WH, chronic, acute and preventive care",
+          "languagespoken": "Spanish, English",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Comments": "2-4 hour EMR training prior to start date preferred- EMT PrimeClinicals",
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "C. Chloe Powell DMSc- PA-C",
+          "Date2": "2024-02-06T08:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "3e8ee852-2de6-4069-bea9-fff2eef5c135",
+    "_rid": "txoEAI0Kc-zdKgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zdKgAAAAAAAA==/",
+    "_etag": "\"0001d52c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "365cb60c-b799-4567-91e4-40b02c4ca548",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Initial"
+          ],
+          "Assignments": "Angeles Community Health Center",
+          "Date": "2024-06-06T07:00:00Z",
+          "PreceptorName": "Marcia McCulley NP",
+          "Contact": "866-981-3002",
+          "Practice": "WH",
+          "Email": "Mcculley@angelescommunity.org",
+          "Distance": "10",
+          "Hours": "M-F 8:30-5:00",
+          "Average": "40"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "2",
+          "Number": "1",
+          "credentials": "NP",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "3",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Prenatal, Gyn and Well woman",
+          "languagespoken": "Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "Chloe Powell",
+          "Date2": "2024-06-13T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "58ada4de-1c62-49ad-88b6-af72661bfbb0",
+    "_rid": "txoEAI0Kc-zJRQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zJRQAAAAAAAA==/",
+    "_etag": "\"0001e42c-0000-0100-0000-668e65800000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608128
+  },
+  {
+    "responseId": "a770adaf-0b02-4c08-8113-17a03cb74532",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "Assignments": "Agoura Hills Health Care",
+          "Date": "2024-06-14T07:00:00Z",
+          "PreceptorName": "Dr. Thomas",
+          "Contact": "818-706-2010",
+          "Administrator": "Sherri Morris",
+          "Alternatenumber": "818-706-2010",
+          "Practice": "Family Medicine",
+          "Distance": "48",
+          "Hours": "M-W 8-5, Th/Fri 8-2",
+          "Average": "20"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "1",
+          "credentials": "PA on Wednesdays",
+          "Supervision": "Yes",
+          "Individual": "Yes",
+          "Onboarding": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "3",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Chronic disease, preventive medicine, acute sick visits, addiction medicine, psychiatric care - adolescents and adults, youngest age seen in about 10 y/o",
+          "languagespoken": "English",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "Chloe Powell",
+          "Date2": "2024-06-14T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "58dbec11-220e-45d4-aaff-a266b63faf02",
+    "_rid": "txoEAI0Kc-wjRgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wjRgAAAAAAAA==/",
+    "_etag": "\"0001e82c-0000-0100-0000-668e65800000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608128
+  },
+  {
+    "responseId": "7a13aa4d-4c2d-4f31-9fb0-bf4eeed3d07f",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "Assignments": "Angeles Community Health Center (Banooni/McCulley)",
+          "Date": "2024-06-06T07:00:00Z",
+          "PreceptorName": "Marcia McCulley NP, Dr. Banooni",
+          "Contact": "866-981-3002",
+          "Practice": "WH",
+          "Email": "pbanooni@yahoo.com",
+          "Distance": "10",
+          "Hours": "M-F 8:30-5",
+          "Average": "40"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "2",
+          "Number": "1",
+          "credentials": "NP",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "3",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "Yes",
+          "Address": "1919 W. 7th Street Los Angeles, CA. 90057"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "prenatal care, gyn and well woman",
+          "languagespoken": "Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "Chloe Powell",
+          "Date2": "2024-06-13T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "72fed3a9-2e2a-4c12-a031-f319d9b8abde",
+    "_rid": "txoEAI0Kc-zFRQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zFRQAAAAAAAA==/",
+    "_etag": "\"0001dd2c-0000-0100-0000-668e65800000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608128
+  },
+  {
+    "responseId": "95f07c76-1115-47e3-bc53-2d501bf54de0",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Initial"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Verdugo Hills Hospital",
+          "Date": "2024-03-13T07:00:00Z",
+          "PreceptorName": "Kelley Lu",
+          "Contact": "818-790-7100",
+          "Practice": "Emergency Medicine",
+          "Email": "kelley.lu@med.usc.edu",
+          "Distance": "15",
+          "Hours": "24/7",
+          "Average": "25-30"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "2",
+          "credentials": "PA/NP",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Acute care peds-adults-geriatrics",
+          "languagespoken": "English, Armenian, Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAAC7dJREFUeF7tnU2uLbUORs2PQEIIGu91oEkfRgCDYKQwB94IeG260IEGSEhI/KrglCiKqkrsOKnYtehwdXfi2OtzvpPK3mffV4T/IAABCAQh8EqQPEkTAhCAgGBYNAEEIBCGAIYVRioShQAEMCx6AAIQCEMAwwojFYlCAAIYFj0AAQiEIYBhhZGKRCEAAQyLHoAABMIQwLDCSEWiEIAAhkUPQAACYQhgWGGkIlEIQADDogcgAIEwBDCsMFKRKAQggGHRAxCAQBgCGFYYqUgUAhDAsOgBCEAgDAEMK4xUJAoBCGBY9AAEIBCGAIYVRioShQAEMCx6AAIQCEMAwwojFYlCAAIYFj0AAQiEIYBhhZGKRCEAAQyLHoAABMIQwLDCSEWiEIAAhkUPQAACYQhgWGGkIlEIQADDogcgAIEwBDCsMFKRKAQggGHRAxCAQBgCGFYYqUgUAhDAsOgBCEAgDAEMK4xUJAoBCGBY9AAEIBCGAIYVRioShQAEMCx6AAIQCEMAwwojFYlCAAIYFj0AAQiEIYBhhZGKRCEAAQyLHoAABMIQwLDCSEWiEIAAhkUPQAACYQhgWGGkIlEIQADDogcgAIEwBDCsMFKRKAQggGHRAxCAQBgCGFYYqUgUAhDAsOgBCEAgDAEMK4xUJAoBCGBY9AAEIBCGAIYVRioShQAEMCx6AAIQCEMAwwojFYlCAAIYFj0AAQiEIYBhhZGKRCEAAQyLHoBAPwK/ich+j7HnGngDrwEeU9MSODKa30XkVUXFRzHOpmtjK9LINRTDyqUn1fgQWAyk1VzWGPs9dhV7WZM9eQEfOD4NTpQ8BGqMpuZEdBbniNSRidWskYd6ZSUYViUohj2GQMlo1tevDGX7OKjdY1vz0s5NLxJA0ktMgQoCtUZTMq2S6ZVS2ubBSWtDC8MqtQ6vP4lArdFcGUptjBJXTloHhDCsUtvw+pMIaM3maLw2xhVfz1gpdMSwUshIEQ4ELOawnrS2+2iJ47WvLDk5oJg3hBfYeSskMwjUEbCawzJvvWeyxjjLcDVE7rFeCGFYdc3MqPwErGaznWeNwWNhZX9hWJWgGJaegNVsMKyBrYFhDYTNUlMTsN49YVgDZcWwBsJmqWkJWE9XS0EY1kBZMayBsFlqWgKehuW9p1pymxa4NTFvuNY8mAeBOwm0mML2A55LDd57qiW3O5l2WdsbbpckCQqBzgRaTAHD6izONjyGNRA2S01LwMuweuynltymBW5NrAdgay7Mg8BdBFpMoffv/LXkdhfPbutiWN3QEjgQgRZTwLAGCv1Uw9J8fa23HE9l7s3RMx6G5UmzY6ynbZ47japWxqdpUsul5zgMqyddx9hP2RyzfSHa/p2lI0mfoo1jO5tDYVhmdGMnPmFT1H6L5Fjy56ttzWzG39L3+BdlZmG95oFhzabIST6ZDWu2U5W2JdZNNItplR6nI/cShqXtzpvGR26yErKWJizFHvX6LDXszWprorPk2KJJSw28S9hCXjk3q2G1NKASYdfhd9ZR+68W35mjF/yWGjAsLxUq4mQ0rGh3VlcytWykCvn/MeTqke/qsXRkjtqaase31IBh1VJ2GJfNsDKZ1SJvy0YqtUfpTqr27qxnjqUavF631rB/t7fHfrLm5sVmqjg9AN9ZYDZxj/6RAwvfkjlt3y17VbFAFt7WOjAsRbN4DMWwPCjOGcP6iKepxrrRNWuMGGutA8Maoc5mjUyGZW26wci7LTfCoLbJZ+JtrQXD6tbOx4GzGFa2u6tSG9Q84tXeQZXWOno9G28My9IFN8zJYljWhrsBucuS+5/s6wW95v7Jmkg2s1rZLf/X7gdOWNYuMs7TCmRcpvu0pxlWd6AnC2Q0q6VU65sbGNbgTsSwBgMPulz0X3Oqwb6Yj3Y/YFg1ZB3HaAVyXNo11BNPWCNrHrmWa2Mogi01au/9MCwFYI+hGJYHxXtijDKRUevcQ/HvVS2PhRjWYNUwrMHAHZcbYSRZ76zOZNCcsrb8e2nRK65jG44NhWGN5e25Wu9mfppZLdpomGJYnt1cGQvDqgQ14TDN5tKkn+GC/exzaqU7Kg1TDEvTVU5jMSwnkDeE0Wyu2vQynKpKH6q96vl1bsnY9qexHlpoT3y1Goceh2HFlc9zk+w3edS+ODNcjRGvXK9Max/PU4u1I3vEjNvtL5lHbcw9+CeK61lzzSadvdmvTEnLqjR+/7rlHcYSz1IOpfkpX8ew4sqqaejSY9JKwaMfrPdHZ0q0fvOp5nS1zWHhe8TjLJ7mHcaartPoWxMvxRiPBp0BxBPFPau51pz2m9Pj9xBLa1v6ba3zrM/WR7czHtbeODKgK/PzPmV5G+AM+7Q5B0sDNS/aIYC1KTukMixkaSP3MKRScUc6WE8461pn71qe1b/t6Za1jwyo1GeeJnN2witpkPp1DCuuvGcb9uqy+Khaz5PBlYme5VUygSXnq49a1Bi3tc+3BlRjfl4sa5jE7dyGzK1CNizZZeoTBV5r1hrU0cmliyiboFc51mpXMowj47Ky2TPannZKe8bjlFXLpLdu08UvwZ8u4ZOEEFin1P7E4t0HGqPQaHc1VhNHQ2trhDWcNJ/lurqXq1lLU0eKsVmgeB3FI4naskH3c/eX5RrD2TIrnYKO+GrquNOwNHul5fSr4RGpX11y1YjgsmDHIE+7pLQ2ds07XatMFuPSblZNHVdjr+65rG3X8oFaLYct8+XPmfamlf+/5mWC4nF34AZ2QCDNRj+6t7rSfn8fpDEuzWlNeyIr1dyS916ys8dmDQvt4+SSQ6nGAa315xKficinoxarXSeTYT3tsdDS2Nqf+tsNp9mo2423/vnoc17a+LU1txrX1YdDtaefXjXW7nHLuC9E5GMR+Xw208pkWOvG0G4si6AzzKndvNtcLXO25mNhuzePK3alftTmr1n7KK+jfLQ57B/1SoZ399XGlyLyoYj8KCJvz9Do2xxKDTJbvqV8PN6hKa0xy+uWjWOZs99wlp45M47VAGt1s+avNa6SMS+vl8Yc9ck+jz1La30ePfmViHzwEuh/IvKJR1DvGJbm887BO572scd7/VHxLM1tmeNhWDVMSrpp77tq1rSOqTXYs/hHxnVXfV+LyHsvif5fRD6yQhkxL6NhbR9hstZnrXFmw7q6rL9rM1/twa3pWPvs6ORnjWXxi9WsLKdFy3rNc0bCaU5WGaBlcyqXumW4pT7LnFEnrP06Z49UHr+k7SXY1nBaNn3pdOmV7zbOtyLyn5e/COMDYRI1Kma9azAuN/20CIa1QDz61ocWQ+gtTMtpa3/K6l3n9yLyzguQb0Tk/d5wPONnN6wZHyU89dPGsv4kh2OZtPW0tf0hYtWnnN1f7/q99TLwOxH5b82k2cZkN6z9Y0bvn16j9S2967TP5+jkosk5Gz9N7bVjNZocnXh7mNYa8wcRebe2kBnHPcWwFvY9GuFOTY/Mp0ZPq2lhVvVqH12m7/ldnVq9evUnEXkz2j3VFeaaBr+afyRMvayMhAAEshNo9Zh/8GkNhmFlbzfqg0AbgVaPcTWstlLun11juK7AlSVHe7dMWR7DKwiUvoXiFxF5bRfnzp6tKMk+JG1hBiSau53e3DAqg4CJp9T8YF3K/1lE3kjMge/cqRC3tlkqQqmH9DZGdUJMuJXAvhd/FZHXb81o8OJsCDvwnkbGO3J2XZiZmACGlVhcSoNANgIYVjZFqQcCiQlgWInFpTQIZCOAYWVTlHogkJgAhpVYXEqDQDYCGFY2RakHAokJYFiJxaU0CGQjgGFlU5R6IJCYAIaVWFxKg0A2AhhWNkWpBwKJCWBYicWlNAhkI4BhZVOUeiCQmACGlVhcSoNANgIYVjZFqQcCiQlgWInFpTQIZCOAYWVTlHogkJgAhpVYXEqDQDYCGFY2RakHAokJYFiJxaU0CGQjgGFlU5R6IJCYAIaVWFxKg0A2AhhWNkWpBwKJCWBYicWlNAhkI4BhZVOUeiCQmACGlVhcSoNANgJ/AJG5FbX+DG7sAAAAAElFTkSuQmCC",
+          "Name": "C. Chloe Powell",
+          "Date2": "2024-03-13T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "753de968-abaa-49aa-bc78-ea9ea3100c93",
+    "_rid": "txoEAI0Kc-ynMgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ynMgAAAAAAAA==/",
+    "_etag": "\"0001d72c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "095a97bb-b79a-4b06-a104-0be47a38e727",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Initial"
+          ],
+          "Assignments": "CHLA Anesthesiology and Critical Care",
+          "Date": "2024-01-22T08:00:00Z",
+          "PreceptorName": "Anh Nguyen",
+          "Contact": "323-361-7686",
+          "Administrator": "Jay Martinez",
+          "Alternatenumber": "323-361-2692",
+          "Practice": "Pediatric Chronic Pain",
+          "Email": "anhnguyen1@chla.usc.edu",
+          "Distance": "14",
+          "Hours": "Monday - Friday 9-3:30",
+          "Average": "6"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "Number": "2",
+          "credentials": "PA-C",
+          "Supervision": "Yes",
+          "Individual": "Yes",
+          "Onboarding": "Lynette Ramos",
+          "Email1": "lyramos@chla.usc.edu"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "1",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No",
+          "Address": "4650 Sunset Blvd, Los Angeles CA. 90027"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "ages 5-21 with chronic pain and mood disorders",
+          "languagespoken": "English, Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "C. Chloe Powell DMSc, PA-C",
+          "Date2": "2024-01-22T08:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "7cf6cf64-e144-48e3-8990-2fa7de01287c",
+    "_rid": "txoEAI0Kc-w5KAAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w5KAAAAAAAAA==/",
+    "_etag": "\"0001cb2c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "6da206aa-e494-4018-ac06-37a306db01fd",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Hours": "M/W/Th/Sat",
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Chapters Family Treatment Center",
+          "Date": "2024-02-01T08:00:00Z",
+          "PreceptorName": "Iman Parhami MD",
+          "Contact": "818-307-5813",
+          "Practice": "Mental Health",
+          "Email": "drparhami@chapterstreatment.com",
+          "Distance": "32",
+          "Average": "5-8"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "2",
+          "credentials": "NP, LCSW",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "No",
+          "studentaccess": "No",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Adolescent and Adult Mental Health/SUD",
+          "languagespoken": "English",
+          "Predominant": "No",
+          "voluntaryfaculty": "Yes",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "C. Chloe Powell",
+          "Date2": "2024-02-01T08:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "8ccf45b3-e313-46bb-be9e-af45963c0654",
+    "_rid": "txoEAI0Kc-wDKgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wDKgAAAAAAAA==/",
+    "_etag": "\"0001d32c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "8a156ba6-834a-4ccc-b12f-e8960afeb122",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Administrator": "Cesear Pinon",
+          "Alternatenumber": "shafaimd.inc@gmail.com",
+          "Email": "shafaimd.inc@gmail.com",
+          "Distance": "12 miles",
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Dr. Shafai",
+          "Date": "2024-02-01T08:00:00Z",
+          "PreceptorName": "Dr. Shafai/ Tricia Latiolait PA-C",
+          "Contact": "323-562-3500",
+          "Practice": "Pediatrics",
+          "Hours": "8:30-4:30",
+          "Average": "30"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "1",
+          "credentials": "PA-C",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "No",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "well child, sick visits",
+          "languagespoken": "English, Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "C Chloe Powell",
+          "Date2": "2024-02-01T08:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "987ce8fb-96be-44fe-86c6-636e5d43e257",
+    "_rid": "txoEAI0Kc-z5KQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z5KQAAAAAAAA==/",
+    "_etag": "\"0001d12c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "d2818b71-70e0-4126-9ae7-87d7bed120b1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Farid Yasharpour MD",
+          "Date": "2024-01-30T08:00:00Z",
+          "PreceptorName": "Dr. Yasharpour",
+          "Contact": "818-270-9030",
+          "Administrator": "N/A",
+          "Alternatenumber": "N/A",
+          "Practice": "OB/GYN",
+          "Email": "faridyasharpour@gmail.com",
+          "Distance": "28",
+          "Hours": "M/T 8:30-6, W/TH 9-6, Frid 8-1",
+          "Average": "40-50"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "0",
+          "Supervision": "Yes",
+          "Individual": "No",
+          "Onboarding": "N/A",
+          "Email1": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "No",
+          "facilitiesaccessible": "Yes",
+          "lactation": "Yes",
+          "Address": "Holy Cross Hospital at 15031 Rinaldi Street San Fernando"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "OB/GYN, GYN procedures, Deliveries",
+          "languagespoken": "Spanish, English",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "C. Chloe Powell",
+          "Date2": "2024-01-30T08:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "acece9db-2dc3-4af8-af56-5c89cffaf087",
+    "_rid": "txoEAI0Kc-yXKQAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yXKQAAAAAAAA==/",
+    "_etag": "\"0001ce2c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "24e41262-beb3-452c-b47c-5ff7e53f6e91",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Initial"
+          ],
+          "Assignments": "Sacramento Orthopedic Center",
+          "Date": "2024-07-02T07:00:00Z",
+          "PreceptorName": "Dr. Yuhwan Hong and Dr. Timothy Mar",
+          "Contact": "916-732-3000",
+          "Administrator": "Heather Vincent",
+          "Alternatenumber": "hvincent@sacortho.net",
+          "Practice": "orthopedics",
+          "Email": "does not use email - send evals and all emails to Heather",
+          "Distance": "out of area",
+          "Hours": "M-F 8-4",
+          "Average": "40-50"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "4 or more",
+          "Number": "0",
+          "credentials": "MD",
+          "Supervision": "No",
+          "Individual": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "Yes",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "Yes",
+          "Address": "Sutter Medical Center, Mercy General Hospital"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "sports medicine, joint replacements, arthroscopy, PRP, no spine",
+          "languagespoken": "English, Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "Chloe Powell",
+          "Date2": "2024-07-02T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "ae3df25a-a00e-4958-b22d-58e4b20fa904",
+    "_rid": "txoEAI0Kc-znSgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-znSgAAAAAAAA==/",
+    "_etag": "\"0001ea2c-0000-0100-0000-668e65800000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608128
+  },
+  {
+    "responseId": "cb9aecd3-befa-4d19-b250-a08c933b15c4",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Valley Presbyterian Hospital",
+          "Date": "2024-04-22T07:00:00Z",
+          "PreceptorName": "Dr. Ostick",
+          "Contact": "818-902-2990",
+          "Administrator": "Liana Marzvanyan",
+          "Alternatenumber": "Liana.Marzvanyan@valleypres",
+          "Practice": "EM",
+          "Distance": "27",
+          "Hours": "24/7",
+          "Average": "150 for site"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "4 or more",
+          "Number": "4 or more",
+          "credentials": "PA",
+          "Supervision": "Yes",
+          "Individual": "Yes",
+          "Onboarding": "Monique Torres",
+          "Email1": "monique.torres2@valleypres.org"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Emergency/acute care, mental  health and substance use disorder",
+          "languagespoken": "English, Spanish",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,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",
+          "Name": "C. Chloe Powell DMSc, PA-C",
+          "Date2": "2024-04-23T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "d3b3bbf0-9c99-486f-b8bf-56d4fd845002",
+    "_rid": "txoEAI0Kc-wTOwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wTOwAAAAAAAA==/",
+    "_etag": "\"0001dc2c-0000-0100-0000-668e65800000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608128
+  },
+  {
+    "responseId": "a9af7b28-88c8-4f91-9daf-6697383a7748",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Initial",
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "testsite",
+          "Date": "2023-04-12T18:30:00Z",
+          "PreceptorName": "test preceptort",
+          "Contact": "1589854",
+          "Administrator": "a",
+          "Alternatenumber": "1258985",
+          "Practice": "test prac",
+          "Email": "test@exxat.com",
+          "Distance": "258",
+          "Hours": "5",
+          "Average": "5"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "Email1": "Aks@exxat.com",
+          "physicians": "4 or more",
+          "Number": "4 or more",
+          "credentials": "258985",
+          "Supervision": "No",
+          "Individual": "Yes",
+          "Onboarding": "test onboard"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "Address": "Address1test",
+          "examination": "3",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "No",
+          "access2": "No",
+          "Permit": "No",
+          "security": "No",
+          "facilitiesaccessible": "No",
+          "lactation": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "No",
+          "learningexperiences": "No",
+          "patientspreceptor": "No",
+          "PhysicianAssistant": "No",
+          "clinicalencounter": "No",
+          "supervisionteaching": "No",
+          "clinicalcases": "Yes",
+          "languagespoken": "Yes",
+          "voluntaryfaculty": "Yes",
+          "PPEneeded": "Yes",
+          "cost": "j",
+          "PPEitems": "test"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Name": "Hiral Gohil",
+          "Date2": "2023-04-12T18:30:00Z",
+          "Comments": "test",
+          "Signature": "data:image/png;base64,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"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Site",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "54698"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "dc1d3c0a-4120-48b5-8716-38ef72a286c5",
+    "_rid": "txoEAI0Kc-ztBwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ztBwAAAAAAAA==/",
+    "_etag": "\"0001c72c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "54c1d8b9-30de-48f9-91a0-35a984f4dab1",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "Assignments": "LAGMC - ED",
+          "Date": "2024-06-13T07:00:00Z",
+          "PreceptorName": "Michael Menchine MD, Sabrina DiGiorgio NP",
+          "Contact": "323-409-1945",
+          "Administrator": "Velma Dungca",
+          "Alternatenumber": "vdungca@dhs.lacounty.gov",
+          "Practice": "EM",
+          "Email": "vdungca@dhs.lacounty.gov",
+          "Distance": "5",
+          "Hours": "24/7",
+          "Average": "500-600"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "4 or more",
+          "Number": "4 or more",
+          "credentials": "PA/NP",
+          "Supervision": "Yes",
+          "Individual": "Yes"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "Yes",
+          "access1": "Yes",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "Yes",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "acute illness and trauma",
+          "languagespoken": "Spanish, English, Mandarin, Farsi",
+          "Predominant": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAAC/1JREFUeF7tnD3OLUcRhss/QODAiSVLJATEBi/AlvASWIE3wB6AHZCQewneASBYgH9y5MwkliyLwJL5uyN/cz3fMGemuququ2v6cXK/69tdXf2877ynZ875zivCfxCAAASSEHglSZ+0CQEIQEAILEwAAQikIUBgpZGKRiEAAQILD0AAAmkIEFhppKJRCECAwMIDEIBAGgIEVhqpaBQCECCw8AAEIJCGAIGVRioahQAECCw8AAEIpCFAYKWRikYhAAECCw9AAAJpCBBYaaSiUQhAgMDCAxCAQBoCBFYaqWgUAhAgsPAABCCQhgCBlUYqGoUABAgsPAABCKQhQGClkYpGIQABAgsPQAACaQgQWGmkolEIQIDAwgMQgEAaAgRWGqloFAIQILDwAAQgkIYAgZVGKhqFAAQILDwAAQikIUBgpZGKRiEAAQILD0AAAmkIEFhppKJRCECAwMIDEIBAGgIEVhqpaBQCECCw8AAEIJCGAIGVRioahQAECCw8AAEIpCFAYKWRikYhAAECCw9AAAJpCBBYaaSiUQhAgMDCAxCAQBoCBFYaqWgUAhAgsPAABCCQhgCBlUYqGoUABAgsPAABCKQhQGClkYpGIQABAgsPQAACaQgQWGmkolEIQIDAwgMQgEAaAgRWGqloFAIQILDwAAQgkIYAgZVGKhqFAAQILDwAAQikIUBgpZGKRiEAAQILD8xG4D8isvU910AiByBWIrFo1UzgvycVuBbMeOMLIFI8Y1boT2B7qtp7fhtiy8+v9m+XDh4RILDwxgwE1lA68/s6htAa2BGzBtb+OcaRRBh3YOMWtKYJq7UcoVUAtsfQGQNLE1ZbA3OL0MOZPmuWhBWh5cM8tMpMgVX67hCvtqHWCy++6l3j8ZqgC98QCzx/e/fOPLZhVXKrR2jldYUldCxz8xJL0HnNq0+Cbb1ssTaotnvEvJkU/75Xq2bW+fmIJen47oHlYTyPGknscJs2rZpZ598G5GgbuXNgeZnOq85o2t+5n0Wzklv/PQs0H9Qddw2ssw8KlkpheXhbuhbjfQgsgWPxNoHlo4N7FYuo7s04FvQ2nPUV23FrlLog4PEC4+0fRHMicMfAijBbRE0nCSmzI+ChlUcNhAkgQGDpoGJgHacRRnlo5VFjBBa364HA0kmKgXWcRhjlcfuO3iMoedDD3QIrymhRdQe1Req2rA/cl817hF5qiKM2T2DplCGwdJx6j/J44L4G1t2ujd7auKx/N1GigiWqrouIFHlJwEMnjxpIEkSAwNKBxcQ6Tr1HeejkUaM3h9uuT2DppMXEOk5Xozx+t/NsDQ+deH51pWLHf88UWPuvhzn61QsPwx7JEVW3o/Rdll45rosfaWhpzEMnj4f2lj0w94TA6IF19WV7j76f23tfHhcCRnz+LQorU8/Qsurk9dAerYMIeF/Ynm2e3T48MqbVsI/6j6rryStDrT1Hb67Wetb5GTRI3eNogaW57VuAE1g5bUdg5dRtmK5HCqySB7ItA4tXXT+77lmumnvdFlq14oG7n9YhlUYJLK+vg7EalgfuITZ7WfRIH89nWVb9eeAeq7+5+giB5RVWZ7eKtaCsF0DtunedF30ytupFYA3uvN6B5fnq6h1YnkE6uA2atXcWKB5hYXmXzzK3GcDZF+oVWFFhYH2FXf0Q1d/sfrsKLOuzLEvoeHlndo1D998jsLxPVVtAXqbzqhMqXsLiV4G1bMnqydqTGponMJTVHKVbjAwrr1tCjFuqqn58q8CqOanVBp1+94w0E2gVWK1usTzCxqOGWZibFhg1sNA8ieFaBFarsPI4YbXsNYlFXNtsEVg1z7E4XbnKHFcsOrBaB4DllbJ1r3Gqjlv5LEws2u13XFKrZOy4ZCfpLDKwegTAaj6LfDXPPyzrzTS3VWCtp22NlgRWIgdGBVaPsNreEtZKoDF4bW3mfU9gYXzE2Ts4NL/2470mGgcTiAisXmHl8QwrGDflGwbW1g+PXogIrGSWjAisnibouXYy6bu1++i2MEq7R3Wj1usGdoaFvQOrtwl6rz+DZ6x7bB1Yj07eeMWqZIf5noE1ggFG6KGDjOmWPHqOFa3dUn8Jy9dOvk8tHcjZGvYKrJ7PrbaaRZt+Nn9E7bdHYP3rKaz+/fTnsjcv/0dxou6OgIdgo4QVD93z2PvotrDFi832Yy8e3s9D/CadeojWwmha3CP1ou151nH7U1Yr7bahtZy6fjSrABn3bQ2sVibTsh2tH23fM47bn7JaaLddY/35OxH58YwCZNyzJbBaGKyU6Yg9le5hO77m9+Is67WeexQgFk+e9X/kDUKrteLG9SzmuFs4GFG6T98/G1x5L3++6r7a44KaT4xb2llvDVcvWjxZGljb557Lz1FrW/gwd0PAItBiNMt8hDgnsH9A3OuB8XbdiLDcBnNUaFy9uG73GNUDfncgUBs4VwZwaG3IElfviO6N77GJNSSu1vZY66hGi4s58vRY4tXtXr8RkTejoFK3jgCBVcbt6pTjHVh7fawX9lX/vQJre2tW68mj3mufAa6cvhKRt8oswuhIArXmKHnViuy/Ze3aE04pq7PxNYGzZXQUqGe3ea0eikfcdvYI95Z+nHItAksve2nwrJVL50UG1vYks9/5kRdaB9b6XNT6rMwaVnvt1r/XXi96lzHylECtAKUX4R1kqN1zybyrU9zVv2s5HwXR0UXZMrDWkLKcIr347Dlue/pSRH6qBc04XwI1gVVyAfp227da7b5L5mnGepwejj6qcHS7uA0xTW+1Cq0nq6vbV0196+nsbI3oj3ho9jf1GAJLL3/tBVsyTzvWI7QerXUWXAutGs+cUdbeAj+qsc5v+dm0Zc3IYNS7crKRNebTXlR3Qmm51SjhpR27DZXaC0ez1j68ateqDayRPbR64u8i8vORG71TbwSWTk3NxX11AtCw1q5zdAoqDRPNWpoxOoKPRx3dDlprtpq/fFXNcrLTaNuqp1uvUwO6hYlHg27Zs3audtzCZju2Nrw062nGWLSKrm/pTTt3/Z6tmmtJuwbjngjUQL6DyUoNYNmzdq523D6w1r0cBZdmn2ceKOlJs9Z+THT9mp5q5iz7WE5br9dMZo6eQIbAsjw/0pM4H1l7YZX0XrLG1VhteF3dRka+K3a1By/tWtUhtBqQHj2wthf81cUViav24iqZFzXWyqWkr5K1ouqW9OA59jMReUdEPheRX3gWptYPBGoCq/b3s0q5jxJW21uw9WfNW+glp6tHt3lHzErrlnI/Gu8dLt71PPboUeOvIvKeiPxNRN73KEiN5wRqAmu9uKJOPPuvG4lap8QL+562cx/1t16U2v6143tc7I/2X+OfHoFborV17Lci8hNCy4rxeH6N4UpOA6Vdj3SqujrdaPemZXwWikdraetq+9SM0z4b09Tq0b+mL48xhJYHxYMataaJeBib9ZX30UWsPVltZdGGVk3tCAvVBNgovUfw2NYktAII1wbW9pRlNeDop6oA7JSchMA/ReQNEflYRH49yZ5Dt2kJrG1orU2W1COoQqWl+CAEvn765lJCy0GQkoA5Wq7mlsChbUpAAAJJCFgz5tk2rcUIrCSuoU0IdCJgzRjXwOrEgGUhkJLAP0TkbRH5o4j8JuUOOjftmn6d98LyEMhA4AsR+RmhVScVgVXHjVkQsBAgtCrpEViV4JgGASMBQqsCIIFVAY0pEHAisIbWpy8+q/WuU81blyGwbi0vm0tA4BMR+aWI/OXpA6Z/SNBztxYJrG7oWRgCzwh8JCIfvvi65d+/+L+/g80xAQILZ0BgLAJ/ejptEVoHuhBYY5mVbiCwEFjC6rcvgusDEfkzSH4gQGDhBgiMSeBXhNX/C0NgjWlWuoIABLglxAMQgEBmApywMqtH7xCYjACBNZngbBcCmQkQWJnVo3cITEaAwJpMcLYLgcwECKzM6tE7BCYjQGBNJjjbhUBmAgRWZvXoHQKTESCwJhOc7UIgMwECK7N69A6ByQgQWJMJznYhkJkAgZVZPXqHwGQECKzJBGe7EMhMgMDKrB69Q2AyAgTWZIKzXQhkJkBgZVaP3iEwGQECazLB2S4EMhMgsDKrR+8QmIzA/wDgeRy1M3iVXwAAAABJRU5ErkJggg==",
+          "Name": "Chloe Powell",
+          "Date2": "2024-06-14T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "e5efee77-0675-429e-9cac-d4414302e661",
+    "_rid": "txoEAI0Kc-whRgAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-whRgAAAAAAAA==/",
+    "_etag": "\"0001e62c-0000-0100-0000-668e65800000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608128
+  },
+  {
+    "responseId": "d252427d-a7b2-4f29-8c1a-c381b2659c9a",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Contact": "818-782-9892 (7400 Van Nuys Clinic)",
+          "Evaluation": [
+            "Initial"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Clinica Oscar Romero - 7400 Van Nuys",
+          "Date": "2024-04-23T07:00:00Z",
+          "PreceptorName": "Dr. Lindo",
+          "Administrator": "Karen Escobar",
+          "Alternatenumber": "kescobar@clinicaromero.com",
+          "Practice": "Pediatrics",
+          "Email": "rlindo@clinicaromero.com",
+          "Distance": "24",
+          "Hours": "M-F 8-5",
+          "Average": "17-28"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "3",
+          "Number": "0",
+          "Supervision": "Yes",
+          "Individual": "Yes",
+          "Onboarding": "Andrea Albarracin",
+          "Email1": "aalbarracin@clinicaromero.com"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "3",
+          "workspace": "Yes",
+          "laboratory": "Yes",
+          "studentaccess": "Yes",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "Yes",
+          "Address": "7400 Van Nuys Blvd. T/TH, 6300 Van Nuys Blvd M/F, Alvarado Wed."
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "well child, acute/sick visits, mental health",
+          "languagespoken": "80% Spanish",
+          "Predominant": "No",
+          "voluntaryfaculty": "Yes",
+          "PPEneeded": "Yes",
+          "PPEitems": "N-95 masks"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Comments": "Dr. Lindo requests that all students speak Spanish",
+          "Reviewedoutcomes": [
+            "Reviewed the learning outcomes, rotation-specific syllabus, required procedures, and university’s code of conduct with site."
+          ],
+          "Signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAADQVJREFUeF7tnVuuNTcRhR0QAinz4AkxBpgPg2AQDCED4YUJIAaTIK5N/o76b7rbdbVdvb9IUR6OXa76anm13Xufk28a/0AAAhAoQuCbInmSJgQgAIGGYSECCECgDAEMq0yrSBQCEMCw0AAEIFCGAIZVplUkCgEIYFhoAAIQKEMAwyrTKhKFAAQwLDQAAQiUIYBhlWkViUIAAhgWGoAABMoQwLDKtIpEIQABDAsNQAACZQhgWGVaRaIQgACGhQYgAIEyBDCsMq0iUQhAAMNCAxCAQBkCGFaZVpEoBCCAYaEBCECgDAEMq0yrSBQCEMCw0AAEIFCGAIZVplUkCgEIYFhoAAIQKEMAwyrTKhKFAAQwLDQAAQiUIYBhlWkViUIAAhgWGoAABMoQwLDKtIpEIQABDAsNQAACZQhgWGVaRaIQgACGhQYgAIEyBDCsMq0iUQhAAMNCAxCAQBkCGFaZVpEoBCCAYaEBCECgDAEMq0yrSBQCEMCw0AAEIFCGAIZVplUkCgEIYFhoAAIQKEMAwyrTKhKFAAQwLDQAAQiUIYBhlWkViUIAAhgWGoAABMoQwLDKtIpEIQABDAsNQAACZQhgWGVaRaIQgACGhQYgAIEyBDCsMq0iUQhAoJJh/au19pRvpVpQHgQgYCBQYZP3jOpcdoWaDK1iCgQgsPLmPhrVv1trP+u0axuz/SMZS+chAIGCBFY1LKv57Ca3al0FJULKEFiHwGobW3uquiK5mR2nrHU0RiYQCCOwkmHtpyrvtY5TVpg8CASBtQisYljWK+AdzS3eKrWt1XGygUBhAits6miz2k9oXAsLC5PUIXBFYBXDijaX3QRXqA/lQQACQQRmb+gsY8mKG4SdMBCAgIXATMPKNJXM2BbOzIFA7wvQM/dime7MgpTx3uoIHcMqI8GPSPT4Cbik4Fn7UpLb1DEzwGSb1f7SffvvjPqmNpTFlyOg0fvZ2NDvqZ0zgIz4YuesE1bv2O/dTdEfTnjzYf4zAY1ZHSNd6WjGXl2uv6MhjDKSUetsDd3ENfI0N7pny4m2SEJWszqXdzx1fXzvRwIYaSKZa92dorJPP5k1FfGAMmlGmdVe8FFzI/fscsBHFj9yw2WtdX7HkG1SfJCw3JYRJZShP0xr8EvprYmjDDJDMNFPTZHyD4MyatLmUHn8qPdCmb/L+vGmVdlAnjZP5OY+nqpGnqju3mWM6lllc3p6D3Q+tfb+zpqWQ6T2rtbeTWumFrVMwsaPEn92EzM29/mJPIrVXXNHMwwT2eRAdyfjrJPQiJtEVu6TW9VffsQmnLHRvGseRb4zGsEKs+prVjviSQtenWQ8KKX1RecuXXfquBGbcAZY65pXf0DQGiuysSvkEFnPyFhPJ57od0Kj+7St91FXw1GGNWIdyydqVy9izwIYLcKZT+2RRjJiLcnVKfKd0GgDkdQ3gvOwNbKNZNZml657fKG+Qb96WkljZTVt9vpZdY2IK2UXtfFHvL/66AcahtU/UktFn7EBZ66dUc/omBp+3tNRlOlZGHlzt6w5ZU6mYWnEEl185NqRsTR1Hl/8R3/0rsmj6lht37yGo10vkqs398hcUmNhWH28M4SIWfX70hth6ZvnSmdZr1eD5ucfccrCsPqSGC1EzKrfk94Ia888m94zt1eP5OcfccrCsPpSsIq/H/n/R2BWFmr3HLX69vTaczqLqfrH97FXHxxFxZ8eR9tQTcKe5mvWyR47qg7MKq6TVvOw9nqV0401/zjyyZEwrD7gESLArPp9kI7w9Ms61zpPWpN03Cp5SPNVj8Ow+sgyRXD1zfp+Rox4IuDpl3WudV50J1fJI7qun+JhWH20WSLY424ZZPahX+G7RlivgxsFa6+t86LJr3I1ja4Lw1IQzRAjV0BFAxRDvb2yzrfOU5QmGophiTBdD1qliY4S/jc1so7oX7b11va2+d5eWedb52Xw33LZ/n3ll40zryIrNdEjjKg6uAJ6utCfG3G6sF4nozTSr7I/AsPqM7ocsVITjSWEnLB4se6hL5/r1ZvH8Lxry6vsj1wpl362yhGcsPrArALAqPpsI0dYT0d7DtY+R7828DLx1OFdO30+htVHrBUARtVnGj1C26Or9T0xPHNXZBGdU1g8DKuPUiNG3lP1eWaM0PTobn1PDM/caB4r5RJdW+r3f94CTlrHPu61n9CEqy8uoLRHTyt6YnjmxlH4MdJKuUTXhmEJiN4JQPLnlQXhGRJAIGKTemJ45gaU/1WIlXKJrg3DEhA9C+B47dunc6oSgEwcErFJPTE8nzBGY/HUEZ1LeDzeYfWR3hkWJtVnN2pExCb1xvDOj2K1Sh5R9XwVJ9OwVnrqeOC9WgAeMAvNjejRFsP7EIrIw4t1hRy8NdzOzzSs/QWgVwRpxQsDv1oAQgarD4syG+9+WOFXrzYW3jqW7Xd2YW84ZWFYy8r3p8S8mzRSpzNNK7KOJbuebVj7KWvEOlmAMawssjFxIzZpdI9nmVZ0HTEdCowywkiqQ6yef6BcwkJdfSXkGFyjy4j+RMQ4w5lhWhl1hDU9IpBGGNb1Iv9X4NYcPPPeIIKIU4iH4Xnu1VdDjmM07z0javNeKZ/YHGvN3m9v0OqjzrIB7otHiCpyw2hiVRfByA0j5frEVMvbqy3vfEnNo05bWnaS3JcaM8qw9ndZmifnKqA8IuhdffYao/uw8rfwewZh4e35lNCynlWb+1oZ+yAztrXe8HnRG+UpwZ5Qw4sLCmgVdO/aE5ReN8zIHneTEfyum4V3FcPa+GTsg48wqw3eaDFbxCjZBJljLDlLBJRlaMf3MaP7K+nD0/siC2uvCVjXlNR6NyZ6zeh4ntpS544W9Ki7fCQ0ixgkc66ubVH9kKx/xeicU1Q++1q9vHo/f+qr9ZTlWdOjs8h1nx4CnhyXmxstSEmB1UzLIizNnOj3TZq1z/26OvVFauQpN0/enlOWd12J5nsPBw/jWflb63bN84DyLFzJtCyCsMzZeJ4NQ9sfyVVU8p5xz+W4vjaXq3XuuHjzlp7g7nLa1p/1f5k59lzD+CP/sq0GkMegMp8w0XndnTqkrKxmta/ruZZ51z6eVO64SjlYDMsT+5y7JFYErwj9/fNgmJq8t7Ul4yNyXCLG7GIrnLS0otaOvxOChU3G2vum8J7+rk5tnpORl1sUq8iNLDltRZ1GI/MeFmu2YV090VfI6dgArbC146VXNAmXyLXvTixW48q+Dh45Ssw+mlXUpv1Ha+3nX4Kde/7RZrXacdK6EaKEchdHK2zt+F7+ks23n14yenp3RT33q1fH088z3iH1uG1rSh4Cnrqsc69MawWz+l1r7c/WoiLmrdiw1YxLa0Da8ZI+Sl6wWteVzru7rniNK8Osrk7Ix3WkNUt6kznmzDab1VUtf2qt/ebwgdDvMwvuxV7RsM7vNY41zMhXK27t+F6P9p9LTgyWE5YmX88vsmvWkTKRjrsy1RmbX5rv0x7YfvZDa+1X2mDC8X9trf26tfZ9a+3bL3P+8t///nH26coibmHNocOuxDbSuLSbNHNjPsW2rHt3aupd3yza8Z7EIkU1Uj+WvO8eTn9vrf3CErAz56ydzRA3w/qutfaHhPXMIVdv3Lkwq+i9dWrMQDNW27hIw7Jeva31SX8RXMtEMv7qOmgxXcla1jFnPpIT4GYqv7QueJi39/RvrbXfBsRLC+HdyGmJCZ8I0vW9dWo2qWasNP/zFeGqnt6VsWf+UkaZ9Wl5WMd7vutmXfNunsWoonMoE08q0jIFJSWq2aSasdp0e7ElL+fPxtaLeWd0b9DOrJfamJRW+V/Gv0F0xtJV0zSbOuvpvefQuypIr157HE1tGzTteBXoSYOfmEXtkejfGZ2Eau6yUc2YW0X+6tpNGv2XGKRmtZN42oBnw9PWph2f3534FaSmr115Zzfr9xa1+S43HsOStcSzSXvil/TAs36vwj0/SR77CUs6trd2pZ9bP/DpnYgrMZie6ycKzwI9yjB65vWUW6bwt9gSLURxsPSAORAQibS3icAIAQhA4I6A5EEopucNZj0mixNkIAQgUJqA12O+Kj40WGmsz8m//SokqU8y5sUSoLQVCGBYsi68fbP2XrxrP6WUUWUUBJQEMCwlsBcPvzMlzOrFTa9WGoZVrWN5+Wq+u5WXBZEh8EAAw0IeRwJ8Gxs9LE0Aw1q6PSQHAQgcCWBY6AECEChDAMMq0yoShQAEMCw0AAEIlCGAYZVpFYlCAAIYFhqAAATKEMCwyrSKRCEAAQwLDUAAAmUIYFhlWkWiEIAAhoUGIACBMgQwrDKtIlEIQADDQgMQgEAZAhhWmVaRKAQggGGhAQhAoAwBDKtMq0gUAhDAsNAABCBQhgCGVaZVJAoBCGBYaAACEChDAMMq0yoShQAEMCw0AAEIlCGAYZVpFYlCAAIYFhqAAATKEMCwyrSKRCEAAQwLDUAAAmUI/AdB93q1T8OxvgAAAABJRU5ErkJggg==",
+          "Name": "C. Chloe Powell DMSc, PA-C",
+          "Date2": "2024-04-23T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "24308"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "edf60753-36e0-4c29-b1e2-97fe18b93e27",
+    "_rid": "txoEAI0Kc-wPOwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wPOwAAAAAAAA==/",
+    "_etag": "\"0001da2c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  },
+  {
+    "responseId": "8a9c9768-efdd-475a-8f12-002eb884d7f5",
+    "workflowStatusId": "Step.SiteAssessment.Save",
+    "sections": [
+      {
+        "sectionId": "Section.SiteAssessment.Information",
+        "values": {
+          "Evaluation": [
+            "Continuing"
+          ],
+          "RegularlyScheduled": "In person",
+          "Assignments": "Family Medicine Headquarters",
+          "Date": "2023-07-24T07:00:00Z",
+          "PreceptorName": "Dr. Borbor",
+          "Contact": "626-334-4061",
+          "Practice": "Family Medicine",
+          "Email": "s_borbor@yahoo.com",
+          "Distance": "17",
+          "Hours": "M,T, Th, Fri 9-6, W Telemed",
+          "Average": "30"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.SitePersonnel",
+        "values": {
+          "physicians": "1",
+          "Number": "1",
+          "credentials": "NP",
+          "Supervision": "Yes",
+          "Individual": "Yes",
+          "Onboarding": "N/A",
+          "Email1": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PhysicalSpace",
+        "values": {
+          "examination": "4 or more",
+          "workspace": "Yes",
+          "studentaccess": "No",
+          "radiology": "No",
+          "access1": "No",
+          "onsite": "Yes",
+          "lotwell": "Yes",
+          "access2": "Yes",
+          "Permit": "No",
+          "security": "Yes",
+          "facilitiesaccessible": "Yes",
+          "lactation": "No",
+          "Address": "N/A"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.PracticeInformation ",
+        "values": {
+          "studentsupervision": "Yes",
+          "studentlearning": "Yes",
+          "learningexperiences": "Yes",
+          "patientspreceptor": "Yes",
+          "PhysicianAssistant": "Yes",
+          "clinicalencounter": "Yes",
+          "supervisionteaching": "Yes",
+          "clinicalcases": "Yes",
+          "languagespoken": "Yes",
+          "voluntaryfaculty": "No",
+          "PPEneeded": "No",
+          "cost": "Spanish 80%; Yes, there are translator"
+        }
+      },
+      {
+        "sectionId": "Section.SiteAssessment.Additionalcomments",
+        "values": {
+          "Comments": "N/A",
+          "Name": "Amy Betancourt entered this information on behalf of Chloe Powell",
+          "Date2": "2023-07-24T07:00:00Z"
+        }
+      }
+    ],
+    "contextIds": {
+      "appId": "Exxat.Location",
+      "formId": "USCPA.SiteAssessment",
+      "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+      "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+      "layoutId": "USCPA.SiteAssessmentSitePreceptor.Layout.Base"
+    },
+    "securityContext": {
+      "tenantId": "USC",
+      "owningOrganizationUnit": "D005",
+      "owningUser": "73497"
+    },
+    "partitionKey": "USC",
+    "entityName": "Exxat.Forms.Entity.Response.Data",
+    "id": "fa9251f3-353d-4eaa-acef-474f9fd623d7",
+    "_rid": "txoEAI0Kc-zXEwAAAAAAAA==",
+    "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zXEwAAAAAAAA==/",
+    "_etag": "\"0001c82c-0000-0100-0000-668e657f0000\"",
+    "_attachments": "attachments/",
+    "_ts": 1720608127
+  }
+]
