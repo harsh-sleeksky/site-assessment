@@ -1,0 +1,1153 @@
+[
+    {
+        "responseId": "b334e396-b92d-406f-bf58-1c5149a2d325",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "0",
+                    "complex": "25",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "Yes",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Exceeds Expectations",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Exceeds Expectations",
+                    "Communication": "Exceeds Expectations",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "No",
+                    "credentials": "She's doing great!"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "Comments18": "Use Google doc to write goals each week.",
+                    "adequatesupervision": "Yes",
+                    "Comments18A": "Good balance of guidance and allowing independence.",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "Comments20": "Super confident with general ortho. Doing well with pelvic health and gaining independence there too.",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "185bd3d3-4f1b-494a-af99-9a4f596926d8",
+        "_rid": "txoEAI0Kc-xlMQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xlMQAAAAAAAA==/",
+        "_etag": "\"d60084c6-0000-0100-0000-668b5b620000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408930
+    },
+    {
+        "responseId": "d81d56c5-fa3c-48c6-a2ec-8b47f9419c67",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "10",
+                    "complex": "25",
+                    "RegularlyScheduled": "Yes",
+                    "Comments1": "Definitely.",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "Self-reflecting consistently and asking relevant questions. Always paying attention and learning.",
+                    "Professionalism": "Exceeds Expectations",
+                    "Initiative": "Exceeds Expectations",
+                    "Flexibility": "Exceeds Expectations",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "Comments8": "Working on patient education.",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Exceeds Expectations",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "No",
+                    "credentials": "No, things are going really well!"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "Comments17": "Gives great feedback.",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "Comments22": "New patient evaluations have been challenging because there is a lot to get done and Total Balance focuses on patient buy in and relieving some pain with soft tissue techniques/cupping. Each patient has an hour session which is helpful.",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No, things are going great!"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "1d4d704f-7809-4ac2-ab05-be7c14875b07",
+        "_rid": "txoEAI0Kc-zPMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zPMAAAAAAAAA==/",
+        "_etag": "\"d6001fa9-0000-0100-0000-668b5b4a0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408906
+    },
+    {
+        "responseId": "06476849-fc79-487b-8a67-4754afcf5f72",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "0",
+                    "complex": "25",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Exceeds Expectations",
+                    "Initiative": "Exceeds Expectations",
+                    "Flexibility": "Exceeds Expectations",
+                    "constructive": "Exceeds Expectations",
+                    "Communication": "Exceeds Expectations",
+                    "ListeningSkills": "Exceeds Expectations",
+                    "PatientSkills": "Exceeds Expectations",
+                    "ClinicalReasoning": "Exceeds Expectations",
+                    "Problemsolving": "Exceeds Expectations",
+                    "Documentation": "Exceeds Expectations",
+                    "TimeManagement": "Exceeds Expectations",
+                    "interprofessionalcare": "No",
+                    "credentials": "No."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "Things are going great!"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "21eee6b1-bcbf-473a-b28d-346c276c82e1",
+        "_rid": "txoEAI0Kc-xlMgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xlMgAAAAAAAA==/",
+        "_etag": "\"d60010c0-0000-0100-0000-668b5b5d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408925
+    },
+    {
+        "responseId": "e43e1ceb-c89e-4d96-83db-d2a45ec43475",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "50",
+                    "complex": "90",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Needs Improvement",
+                    "Comments4": "Has been late a couple of times, they have discussed.",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "Comments6": "Just needs guidence on what to do if patient is ready",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Exceeds Expectations",
+                    "Comments10": "Good handling and caring for patients",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Needs Improvement",
+                    "Comments13": "Needs to continue to develop this - takes too much time with notes and needs cues to get all info in there",
+                    "TimeManagement": "Needs Improvement",
+                    "Comments14": "How to wrap up the session and get everything done and off to the next to the next person",
+                    "interprofessionalcare": "No",
+                    "Comments15": "Yes, regularly.",
+                    "credentials": "Overall doing well but needs a fire lit under him with a few things and I'm working on that!"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "Comments17": "Yes, he's straightforward and easy to get along with. Exposing me to a lot of things and goes out of his way to help me learn.",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "Comments19": "Pretty much on same page but he wants to keep pushing me with goals.",
+                    "learningobjectives": "Yes",
+                    "Comments20": "We discussed professionalism and being on time for the clinical experience. He admitted that he was late a couple of days the first week and just barely on time today but overall he is trying to be there 10 minutes early and really working at this as he knows it is important.",
+                    "clinicalconcerns": "No",
+                    "Comments22": "Documentation is challenging.",
+                    "assignmentsMyUJ": "No",
+                    "Comments23": "Questions about time off and uploading the Midterm Assessment Forms",
+                    "commentsquestions": "None - it's been amazing so far!"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "35affe5d-a83d-402f-a827-7fa7917e622e",
+        "_rid": "txoEAI0Kc-x7QgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x7QgAAAAAAAA==/",
+        "_etag": "\"d60054c0-0000-0100-0000-668b5b5d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408925
+    },
+    {
+        "responseId": "46dea560-556c-424a-bb32-02ae7155b6f6",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "10",
+                    "complex": "50",
+                    "RegularlyScheduled": "Yes",
+                    "Comments1": "Lacks confidence",
+                    "studentperformance": "No",
+                    "Comments2": "Asks a ton of questions and is sure to be safe always.",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Exceeds Expectations",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "Comments8": "Connects with anyone and everyone",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Needs Improvement",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "Comments13": "Working on professional language",
+                    "TimeManagement": "Satisfactory",
+                    "Comments14": "Took 2 extra patients and doing well communicating with techs",
+                    "interprofessionalcare": "Yes",
+                    "Comments16": "Have one PTA on her team",
+                    "credentials": "No. Kaitlyin is gaining confidence and is on track to reach entry level."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "Yes",
+                    "Comments21": "Busy schedule with overlapping patients and heavy use of therapy techs so PT expected to do mostly manual therapy during their time with patinet. This has been very challenging but doing ok with it now.",
+                    "anythingUJ": "No",
+                    "Comments22": "Busy schedule is challenging.",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "I was overwhelmed at first but feel like I'm on track now."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4d0cd75d-3c0c-433f-beda-626d1cef100c",
+        "_rid": "txoEAI0Kc-zXMgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zXMgAAAAAAAA==/",
+        "_etag": "\"d60025c2-0000-0100-0000-668b5b5e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408926
+    },
+    {
+        "responseId": "3f150121-c6d8-43fe-ad75-f7b1343df602",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "10",
+                    "complex": "30",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "Asks good questions.",
+                    "Professionalism": "Satisfactory",
+                    "Comments4": "Asked him get there earlier to prepare for the day and he has been doing that now.",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "Comments15": "Chiropractor",
+                    "Comments16": "One PTA on staff that we share patients",
+                    "credentials": "No."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "Comments18": "Go through schedule the night before.",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "Comments22": "Most challenging has been seeing many patients from Ukraine or Russia; many have interpreter with them\nThey use more manual therapy here than on my previous clinicals",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No, things are going well!"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "516a9475-d7fa-4472-a532-4eb3db168453",
+        "_rid": "txoEAI0Kc-xxNwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xxNwAAAAAAAA==/",
+        "_etag": "\"d6000baf-0000-0100-0000-668b5b4f0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408911
+    },
+    {
+        "responseId": "cc7330d9-f054-4076-8ff6-b8f26c5a8160",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "50",
+                    "complex": "75",
+                    "RegularlyScheduled": "Yes",
+                    "Comments1": "Doing really well especially with new patient evaluation",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Exceeds Expectations",
+                    "Initiative": "Exceeds Expectations",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Satisfactory",
+                    "Communication": "Exceeds Expectations",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "Comments13": "She's done many notes, working on flow and efficiency",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "Comments15": "3 OTs that also work in clinic and share patients",
+                    "credentials": "Sarah is doing great and your students overall do really well, we are happy to have them!"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "Comments17": "Both PTs in department have been great",
+                    "expectationsclear": "Yes",
+                    "Comments18": "Go over the schedule daily",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "Comments19": "We were on the same page throughout",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "Comments22": "Most challenging aspect has been that the clinic is very busy with overlapping patients so time management",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No questions. Working with PTAs has been fun and interesting to learn about. Have some pediatric patients now and I've been enjoying that!"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "549524ef-d495-420d-ad25-d00d60de488f",
+        "_rid": "txoEAI0Kc-yFQwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yFQwAAAAAAAA==/",
+        "_etag": "\"d600fbce-0000-0100-0000-668b5b690000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408937
+    },
+    {
+        "responseId": "71ad577b-5143-4d3c-a8eb-454628350cab",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "25",
+                    "complex": "50",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "She's been using MedBridge for videos and exercises; asking questions; using her time wisely",
+                    "Professionalism": "Exceeds Expectations",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "Comments8": "Working on patient education skills",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "Comments10": "ROM; MMT; balance testing",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "Comments13": "Working on efficiency and wording",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "Comments15": "Observing other disciplines including OT vision and pediatrics, wound care, pulmonary"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "Comments18A": "She's always there.",
+                    "midtermperformance": "No",
+                    "Comments19": "Mostly on the same page",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "Comments22": "Documentation and how long it takes",
+                    "assignmentsMyUJ": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "6c9d4c1f-b232-4b82-9033-976486c8655b",
+        "_rid": "txoEAI0Kc-xHRQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xHRQAAAAAAAA==/",
+        "_etag": "\"d60066bb-0000-0100-0000-668b5b590000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408921
+    },
+    {
+        "responseId": "17e3f9f5-4fa1-45bd-afe9-0ab47261521b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "0",
+                    "complex": "10",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Satisfactory",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Exceeds Expectations",
+                    "constructive": "Exceeds Expectations",
+                    "Communication": "Satisfactory",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "credentials": "No."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "Not completed yet",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "70cb8847-5ceb-4c6a-80e2-c9a308562ee4",
+        "_rid": "txoEAI0Kc-w3MQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w3MQAAAAAAAA==/",
+        "_etag": "\"d6006fad-0000-0100-0000-668b5b4e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408910
+    },
+    {
+        "responseId": "7fbd86de-b781-45a1-9091-e4ca363cf3b7",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "0",
+                    "complex": "10",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "Good at asking questions. Internal continueing education opportunities.",
+                    "Professionalism": "Satisfactory",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "Comments10": "Has had to adjust to lower level patients and keeping close for safety with balance but doing well overall and growing in this area.",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "credentials": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "Comments22": "Discharge decisions and realistic goal setting.",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "81ef425c-cdff-47b0-a1ef-3668bebfa822",
+        "_rid": "txoEAI0Kc-x7NwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x7NwAAAAAAAA==/",
+        "_etag": "\"d6002acb-0000-0100-0000-668b5b650000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408933
+    },
+    {
+        "responseId": "07f40dae-baa0-4d3e-ba7d-a9a00f5b564b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "10",
+                    "complex": "50",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "Looking things up and asking questions",
+                    "Professionalism": "Satisfactory",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "Comments6": "Juggling two CIs and caseloads well",
+                    "constructive": "Exceeds Expectations",
+                    "Communication": "Needs Improvement",
+                    "Comments8": "Good at building rapport. Needs to work on patient education and explaining things to patients.",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "Comments13": "Daily notes are good. Working on efficiency with new patient evaluations.",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "Comments15": "OT/SLP. Share space and office.",
+                    "Comments16": "Regular/daily interactions and sharing patients.",
+                    "credentials": "No, things are going great. Mostly neuro with some orthopedic conditions in caseload."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "Comments22": "Filling a full hour with appropriate intervention activities",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "None."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "8a8d3086-4dbb-4b46-aded-ef126cde10f8",
+        "_rid": "txoEAI0Kc-zFKgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zFKgAAAAAAAA==/",
+        "_etag": "\"d60086ba-0000-0100-0000-668b5b580000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408920
+    },
+    {
+        "responseId": "48ba4af9-5ef3-447f-949d-59d6a70b6c46",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Comments1": "3",
+                    "Comments2": "4",
+                    "Comments3": "5",
+                    "Comments4": "6",
+                    "Initiative": "Needs Improvement",
+                    "Comments5": "7",
+                    "Flexibility": "Satisfactory",
+                    "Comments6": "8",
+                    "constructive": "Exceeds Expectations",
+                    "Comments7": "9",
+                    "Communication": "Concern",
+                    "Comments8": "10",
+                    "ListeningSkills": "Needs Improvement",
+                    "Comments9": "11",
+                    "PatientSkills": "Satisfactory",
+                    "Comments10": "12",
+                    "ClinicalReasoning": "Exceeds Expectations",
+                    "Comments11": "13",
+                    "Problemsolving": "Concern",
+                    "Comments12": "14",
+                    "Comments13": "15",
+                    "TimeManagement": "Needs Improvement",
+                    "Comments14": "16",
+                    "interprofessionalcare": "Yes",
+                    "Comments15": "17",
+                    "Comments16": "18",
+                    "credentials": "19",
+                    "supervision": "1",
+                    "complex": "2",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Concern"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "expectationsclear": "No",
+                    "Comments18": "21",
+                    "adequatesupervision": "Yes",
+                    "Comments18A": "22",
+                    "midtermperformance": "No",
+                    "Comments19": "23",
+                    "learningobjectives": "Yes",
+                    "Comments20": "24",
+                    "clinicalconcerns": "No",
+                    "Comments21": "25",
+                    "anythingUJ": "Yes",
+                    "Comments22": "26",
+                    "assignmentsMyUJ": "No",
+                    "Comments23": "27",
+                    "commentsquestions": "28",
+                    "relationshipCI": "Yes",
+                    "Comments17": "20"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "43035"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "8c10e8a4-b2f4-4eb6-ab27-16bde6ca24b5",
+        "_rid": "txoEAI0Kc-yvCQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yvCQAAAAAAAA==/",
+        "_etag": "\"d60052e6-0000-0100-0000-668b5b7e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408958
+    },
+    {
+        "responseId": "c76822a9-acf1-40ad-9145-febbcfa6aff5",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "0",
+                    "complex": "10",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Professionalism": "Satisfactory",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Exceeds Expectations",
+                    "constructive": "Exceeds Expectations",
+                    "Communication": "Satisfactory",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Satisfactory",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "credentials": "No."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "Yes",
+                    "anythingUJ": "No",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "N/A"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c785a45c-df2b-42d2-b5b6-9e9b12e340f0",
+        "_rid": "txoEAI0Kc-xnMgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xnMgAAAAAAAA==/",
+        "_etag": "\"d60047a0-0000-0100-0000-668b5b430000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408899
+    },
+    {
+        "responseId": "fa1bffc9-496f-40e7-8f7c-d9bb3397c0bb",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "20",
+                    "complex": "75",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "Yes",
+                    "Comments2": "Did not",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "Now he is doing these things but she had to suggest them to start with",
+                    "Professionalism": "Satisfactory",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Satisfactory",
+                    "Communication": "Satisfactory",
+                    "Comments8": "Builds rapport easily; needs to work on step by step instructions and clear information and direction",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Needs Improvement",
+                    "Comments13": "Time in, time out, units was a struggle at first. Writing functional goals and appropriate timelines.",
+                    "TimeManagement": "Needs Improvement",
+                    "interprofessionalcare": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "Comments17": "Always there, guiding me",
+                    "expectationsclear": "Yes",
+                    "Comments18": "Start every morning discussing each patient",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "Comments22": "Challenges include meeting patient for the first time and getting them to trust me. Figuring out documentation detail and need to improve efficiency",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "d74fa7f7-4701-49cd-994b-0169c4587c5f",
+        "_rid": "txoEAI0Kc-xtRQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xtRQAAAAAAAA==/",
+        "_etag": "\"d6007ddc-0000-0100-0000-668b5b750000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408949
+    },
+    {
+        "responseId": "33af1bc4-54a7-453b-a8f9-1d6d4c638fe6",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "A",
+                    "complex": "A",
+                    "RegularlyScheduled": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "43035"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e04e9aca-a2b8-4604-812a-5924b46080a7",
+        "_rid": "txoEAI0Kc-yxCQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yxCQAAAAAAAA==/",
+        "_etag": "\"d600b5e2-0000-0100-0000-668b5b7b0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408955
+    },
+    {
+        "responseId": "a21e5477-fe95-4ab5-88a8-142880da582b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "1",
+                    "complex": "2",
+                    "RegularlyScheduled": "Yes",
+                    "Comments1": "3",
+                    "studentperformance": "Yes",
+                    "Comments2": "4",
+                    "Comments3": "5",
+                    "Professionalism": "Concern",
+                    "Comments4": "6",
+                    "Initiative": "Concern",
+                    "Comments5": "7",
+                    "Flexibility": "Concern",
+                    "Comments6": "8",
+                    "constructive": "Concern",
+                    "Comments7": "9",
+                    "Communication": "Concern",
+                    "Comments8": "10",
+                    "ListeningSkills": "Concern",
+                    "Comments9": "11",
+                    "PatientSkills": "Concern",
+                    "Comments10": "12",
+                    "ClinicalReasoning": "Concern",
+                    "Comments11": "13",
+                    "Problemsolving": "Concern",
+                    "Comments12": "14",
+                    "Documentation": "Concern",
+                    "Comments13": "15",
+                    "TimeManagement": "Concern",
+                    "Comments14": "16",
+                    "interprofessionalcare": "Yes",
+                    "Comments15": "17",
+                    "Comments16": "18",
+                    "credentials": "19"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "Comments17": "20",
+                    "expectationsclear": "Yes",
+                    "Comments18": "21",
+                    "adequatesupervision": "Yes",
+                    "Comments18A": "22",
+                    "midtermperformance": "Yes",
+                    "Comments19": "23",
+                    "learningobjectives": "Yes",
+                    "Comments20": "24",
+                    "clinicalconcerns": "Yes",
+                    "Comments21": "25",
+                    "anythingUJ": "Yes",
+                    "Comments22": "26",
+                    "assignmentsMyUJ": "Yes",
+                    "Comments23": "27",
+                    "commentsquestions": "28"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "40508"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "f827c497-ff25-4a55-a050-f9999d405ffe",
+        "_rid": "txoEAI0Kc-yZCQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yZCQAAAAAAAA==/",
+        "_etag": "\"d60094e2-0000-0100-0000-668b5b7b0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408955
+    },
+    {
+        "responseId": "c60cefe7-7acd-48c1-b3f7-f492ce4ce068",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "supervision": "10",
+                    "complex": "75",
+                    "RegularlyScheduled": "Yes",
+                    "studentperformance": "No",
+                    "clinicalexperience": "Yes",
+                    "Comments3": "Active listening and learning; needs to work on being more direct with communication",
+                    "Professionalism": "Satisfactory",
+                    "Initiative": "Satisfactory",
+                    "Flexibility": "Satisfactory",
+                    "constructive": "Exceeds Expectations",
+                    "Communication": "Satisfactory",
+                    "ListeningSkills": "Satisfactory",
+                    "PatientSkills": "Satisfactory",
+                    "ClinicalReasoning": "Satisfactory",
+                    "Problemsolving": "Satisfactory",
+                    "Documentation": "Exceeds Expectations",
+                    "Comments13": "Simple new patient evaluations; daily notes; doing realy well",
+                    "TimeManagement": "Satisfactory",
+                    "interprofessionalcare": "Yes",
+                    "Comments16": "One PTA that she has been working with off and on",
+                    "credentials": "UJ students are always well prepared and do such a good job. I'm impressed with the program!"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Midterm",
+                "values": {
+                    "relationshipCI": "Yes",
+                    "expectationsclear": "Yes",
+                    "Comments18": "Review at end of the day and look at next day's schedule to split up patients",
+                    "adequatesupervision": "Yes",
+                    "midtermperformance": "No",
+                    "learningobjectives": "Yes",
+                    "clinicalconcerns": "No",
+                    "anythingUJ": "No",
+                    "assignmentsMyUJ": "No",
+                    "commentsquestions": "It's going great, I really like it here. Everyone is nice and I'm learning a ton."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "JamestownPT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "JamestownPT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "UniversityofJamestown",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "34804"
+        },
+        "partitionKey": "UniversityofJamestown",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "fb3ad9e6-2508-443d-b27a-7d62ba97f42a",
+        "_rid": "txoEAI0Kc-wfRQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wfRQAAAAAAAA==/",
+        "_etag": "\"d600ebc2-0000-0100-0000-668b5b5f0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408927
+    }
+]
