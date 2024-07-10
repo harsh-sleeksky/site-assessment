@@ -1,0 +1,4220 @@
+[
+    {
+        "responseId": "0afbb826-36a3-4de7-89dd-342e184082ef",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Room",
+                        "Operating Room",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "20",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Nicole Peletier",
+                    "FacilityContacts1option2": "Clinical Nurse Manager",
+                    "FacilityContacts1option3": "701-265-6124",
+                    "FacilityContacts1option4": "nicolep@cavalierhospital.com",
+                    "FacilityContacts3option1": "Laura Ermer PA-C",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "family medicine",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option5": "2024-12-31T06:00:00Z",
+                    "FacilityContacts3option62323": "laurae@cavalierhospital.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography",
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT",
+                        "POCUS"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "StaffingPlan1": "3",
+                    "StaffingPlan2": "2",
+                    "StaffingPlan3": "3",
+                    "StaffingPlan4": "2",
+                    "StaffingPlan5": "10",
+                    "StaffingPlan6": "0",
+                    "StaffingPlan7": "6",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "01f452d7-1318-410b-9177-0d4a0596765e",
+        "_rid": "txoEAI0Kc-y5PQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y5PQAAAAAAAA==/",
+        "_etag": "\"00013b35-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "86b71456-3b9c-441b-b1c6-8afa994ff208",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "6",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Vlad Lelcu",
+                    "FacilityContacts1option2": "COO",
+                    "FacilityContacts1option3": "218-839-1058",
+                    "FacilityContacts1option4": "vlelcu@northstarfamilymedicine.org",
+                    "FacilityContacts3option1": "Kristy Lelcu, MD",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Primary Care",
+                    "FacilityContacts3option4": "ABFM",
+                    "FacilityContacts3option6": "218-382-2870",
+                    "FacilityContacts3option62323": "klelcu@northstarfamilymedicine.org",
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Basic Serology",
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "PracticeBased1": "not answered",
+                    "PracticeBased2": [
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "1",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan3": "0",
+                    "StaffingPlan4": "0",
+                    "StaffingPlan5": "3",
+                    "StaffingPlan6": "1",
+                    "StaffingPlan7": "2",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "RN"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "05601dab-83de-48d2-9f3e-60dc8d0c735c",
+        "_rid": "txoEAI0Kc-yTGgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yTGgAAAAAAAA==/",
+        "_etag": "\"00010435-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "19906763-fce6-40e8-b409-ad5041407bc7",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Intramuscular Injections",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "45",
+                    "Facility2": "4",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Nick Kocourek",
+                    "FacilityContacts1option2": "Office Manager",
+                    "FacilityContacts1option3": "605-504-1100",
+                    "FacilityContacts1option4": "nick.kocourek@avera.org",
+                    "FacilityContacts3option1": "Benjamin Klinkhammer",
+                    "FacilityContacts3option2": "MPAS",
+                    "FacilityContacts3option3": "Orthopedics - PA",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option5": "2024-12-31T06:00:00Z",
+                    "FacilityContacts3option6": "605-359-6971 or 605-504-1100",
+                    "FacilityContacts3option62323": "benjamin.klinkhammer@avera.org",
+                    "OnsiteClinicalServices1": [
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Medical students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "1",
+                    "StaffingPlan2": "2",
+                    "StaffingPlan3": "0",
+                    "StaffingPlan5": "2",
+                    "StaffingPlan6": "1",
+                    "StaffingPlan7": "2",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "0a32ffa3-6537-41a3-8078-2df9c16818c1",
+        "_rid": "txoEAI0Kc-xzNgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xzNgAAAAAAAA==/",
+        "_etag": "\"00012d35-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "444cb4b9-097f-4a10-a183-123a8fe63990",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "No",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Betsy Madden CNP",
+                    "FacilityContacts1option2": "Nurse Practitioner/ Clinic placement coordinator",
+                    "FacilityContacts1option3": "687-209-8640",
+                    "FacilityContacts1option4": "bmadden@dakotachildandfamily.org",
+                    "FacilityContacts3option1": "Dr. Gretchen Moen CNP",
+                    "FacilityContacts3option2": "DNP, APRN, CPNP",
+                    "FacilityContacts3option3": "Pediatric & Adolescent care and behavioral Health",
+                    "FacilityContacts3option4": "PMB",
+                    "FacilityContacts3option5": "2025-02-28T06:00:00Z",
+                    "FacilityContacts3option6": "651-209-8640",
+                    "FacilityContacts3option62323": "gmoen@dakaotachildandfamily.org",
+                    "OnsiteClinicalServices2": [
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Dispensary/Samples Only"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "PracticeBased1": "10-12",
+                    "PracticeBased2": [
+                        "NP students"
+                    ],
+                    "PracticeBased3": [
+                        "Team Meetings",
+                        "Other"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "StaffingPlan1": "0",
+                    "StaffingPlan2": "0",
+                    "StaffingPlan3": "2-3",
+                    "StaffingPlan5": "2",
+                    "StaffingPlan6": "3",
+                    "StaffingPlan7": "5",
+                    "StaffingPlan8": "No",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "fsffd": "Participate in IEP and team meetings  with care teams outside clinic"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "0ae45c4a-c111-4c3c-bd55-dc4f05a867c3",
+        "_rid": "txoEAI0Kc-x-PQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x-PQAAAAAAAA==/",
+        "_etag": "\"00013a35-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "2b5f90bd-a5fa-44a0-8878-eea1ce6b21e6",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Arthrocentesis/joint injection",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "4",
+                    "Facility2": "0",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Allie Rengel",
+                    "FacilityContacts1option2": "Education Coordinator",
+                    "FacilityContacts1option3": "320-293-1026",
+                    "FacilityContacts1option4": "allison.e.rengel@healthpartners.com",
+                    "FacilityContacts3option1": "Andrew Rzepka",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Pediatrics",
+                    "FacilityContacts3option4": "American Board of Pediatrics",
+                    "FacilityContacts3option5": "2026-02-17T06:00:00Z",
+                    "FacilityContacts3option6": "952-993-4841",
+                    "FacilityContacts3option62323": "andrew.rzepka@parknicollet.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology",
+                        "Gynecologic Care",
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "2-5",
+                    "StaffingPlan2": "00",
+                    "StaffingPlan3": "0",
+                    "StaffingPlan4": "00",
+                    "StaffingPlan5": "1-3",
+                    "StaffingPlan6": "2-5",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited1": "Pediatric Grand Rounds"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "1ecc80ef-8b32-43ba-b5cf-2149c7c6fe57",
+        "_rid": "txoEAI0Kc-xVMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xVMAAAAAAAAA==/",
+        "_etag": "\"00012435-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "3c01014e-32be-44e7-a310-28426077e811",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "15",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Syndal Ortman, DNP",
+                    "FacilityContacts1option2": "Lead APP, Hem/Onc",
+                    "FacilityContacts1option4": "syndal.ortman@hcmed.org",
+                    "FacilityContacts2option1": "Emily Mason",
+                    "FacilityContacts2option2": "Manager, APP Professional Center",
+                    "FacilityContacts2option4": "emily.mason@hcmed.org",
+                    "FacilityContacts3option1": "Syndal Ortman, DNP",
+                    "FacilityContacts3option2": "APRN, DNP, FNP-BC",
+                    "FacilityContacts3option3": "Hem/Onc",
+                    "FacilityContacts3option4": "American Nurses Credentialing Center",
+                    "FacilityContacts3option5": "2027-09-13T05:00:00Z",
+                    "FacilityContacts3option6": "612-873-3393",
+                    "FacilityContacts3option62323": "syndal.ortman@hcmed.org",
+                    "OnsiteClinicalServices1": [
+                        "Adult (25-64)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "TechnicalProcedures": [
+                        "Breast Exam"
+                    ],
+                    "PracticeBased1": "6-8",
+                    "PracticeBased2": [
+                        "Fellows",
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "StaffingPlan1": "3-4",
+                    "StaffingPlan2": "1-2",
+                    "StaffingPlan3": "3-4",
+                    "StaffingPlan8": "No",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "Information2": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "239d412d-6bdc-4340-98a4-fe0ab0df7e5e",
+        "_rid": "txoEAI0Kc-xnJQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xnJQAAAAAAAA==/",
+        "_etag": "\"00011935-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "62b34a69-4133-445b-bcb2-e30d30de19a0",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Jill Marquardt",
+                    "FacilityContacts1option2": "Physician Recruitment",
+                    "FacilityContacts1option3": "218-927-2121",
+                    "FacilityContacts1option4": "jmarquardt@rwhealth.org",
+                    "FacilityContacts3option2": "Janet Larson",
+                    "FacilityContacts3option3": "PhD, CFNP, PMHNP",
+                    "FacilityContacts3option5": "2026-07-31T05:00:00Z",
+                    "FacilityContacts3option6": "218-927-2121",
+                    "FacilityContacts3option62323": "jlarson@rwhealth.org",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Mental Health Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan2": "0",
+                    "StaffingPlan3": "1 (2 total)",
+                    "StaffingPlan4": "2 LICSW",
+                    "StaffingPlan5": "1 RN",
+                    "StaffingPlan6": "2",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "23d02740-505c-4161-b2f6-5a357d9b70d1",
+        "_rid": "txoEAI0Kc-xzRQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xzRQAAAAAAAA==/",
+        "_etag": "\"00014035-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "3b563c87-de59-46e0-a6b7-e8a1e04c22c3",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology",
+                        "Full-service"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Room",
+                        "Operating Room",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "6",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Todd Bymark",
+                    "FacilityContacts1option2": "Physician Education and Recruitment",
+                    "FacilityContacts1option4": "todd.bymark@cuyunamed.org",
+                    "FacilityContacts3option1": "Elisabeth Jenkins",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "General, bariatric and foregut surgery",
+                    "FacilityContacts3option4": "NCCPA, 2028",
+                    "FacilityContacts3option6": "218-821-1993",
+                    "FacilityContacts3option62323": "elisabeth.jenkins@cuyunamed.org",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography",
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "TechnicalProcedures": [
+                        "IV Insertion",
+                        "Operating Room Sterile Technique",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Preoperative Exam"
+                    ],
+                    "PracticeBased2": [
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "2",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan3": "1",
+                    "StaffingPlan5": "4",
+                    "StaffingPlan6": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Social Work and case managers",
+                    "FieldEdited1": "Monthly CME led by Physicians"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "2581abfd-c74b-499b-9d1d-ff3aa5ed7b36",
+        "_rid": "txoEAI0Kc-zHMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zHMAAAAAAAAA==/",
+        "_etag": "\"00012835-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "03e471c5-5b5e-419f-9c58-6f2511dc980d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "n/a, hospital",
+                    "Facility2": "n/a",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Jennifer Krepp",
+                    "FacilityContacts1option2": "Hospitalist Scheduler",
+                    "FacilityContacts1option3": "320-251-2700, ext 53201",
+                    "FacilityContacts1option4": "kreppj@centracare.com",
+                    "FacilityContacts3option1": "Beau Gerding",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Hospital Medicine",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option5": "2025-12-31T06:00:00Z",
+                    "FacilityContacts3option6": "320-293-5273",
+                    "FacilityContacts3option62323": "beau.gerding@centracare.com",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "TechnicalProcedures": [
+                        "Preoperative Exam"
+                    ],
+                    "PracticeBased1": "6-10",
+                    "PracticeBased2": [
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "2",
+                    "StaffingPlan2": "2",
+                    "StaffingPlan8": "No",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Social work",
+                    "FieldEdited1": "Grand Rounds",
+                    "sp2": "at site"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "2c1d99eb-1f3e-4896-b17a-c6b8247a2793",
+        "_rid": "txoEAI0Kc-xFKQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xFKQAAAAAAAA==/",
+        "_etag": "\"00012235-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "f0325b2a-5785-43b6-98e7-2a1a11b1eb14",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "10",
+                    "Facility2": "24",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Charlie Primeaux",
+                    "FacilityContacts1option2": "Education Coordinator",
+                    "FacilityContacts1option3": "216-2731982",
+                    "FacilityContacts1option4": "charlie.primeaux@fairview.org",
+                    "FacilityContacts3option1": "Grant Nelson",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Surgery",
+                    "FacilityContacts3option4": "NCCPA, June 2024",
+                    "FacilityContacts3option62323": "grant.nelson@fairveiw.org",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Fellows",
+                        "Residents",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "8",
+                    "StaffingPlan4": "2",
+                    "StaffingPlan5": "2",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "No",
+                    "FieldEdited1": "5"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "2f621435-6f65-495a-ad6e-c04aa078ae7d",
+        "_rid": "txoEAI0Kc-wlIQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wlIQAAAAAAAA==/",
+        "_etag": "\"00010f35-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "afc38589-167b-4986-a406-92988a867758",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "9",
+                    "Facility2": "0",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Allie Rengel",
+                    "FacilityContacts1option2": "Education Coordinator",
+                    "FacilityContacts1option3": "320-293-1026",
+                    "FacilityContacts1option4": "allison.e.rengel@healthpartners.com",
+                    "FacilityContacts3option1": "Andrew Rzepka, MD",
+                    "FacilityContacts3option3": "Pediatrics",
+                    "FacilityContacts3option4": "American Board of Pediatrics",
+                    "FacilityContacts3option5": "2026-12-17T06:00:00Z",
+                    "FacilityContacts3option6": "952-993-4841",
+                    "FacilityContacts3option62323": "rzepka@parknicollet.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Other"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "3-5 depending on the day.",
+                    "StaffingPlan2": "0",
+                    "StaffingPlan3": "0",
+                    "StaffingPlan4": "0",
+                    "StaffingPlan5": "1-3",
+                    "StaffingPlan6": "2-5",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan9": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited1": "Pediatric Grand Rounds"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "334fe4f0-f8bc-4d3a-920f-1ebf945e4166",
+        "_rid": "txoEAI0Kc-whKAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-whKAAAAAAAAA==/",
+        "_etag": "\"00011f35-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "2c71d53e-b6d1-4396-adca-7d30bfdf548d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Splinting/casting extremities",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "StaffingPlan1": "1",
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "3",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "MacKenzie Anderson",
+                    "FacilityContacts1option2": "Students coordinator",
+                    "FacilityContacts1option3": "218-205-1609",
+                    "FacilityContacts1option4": "mlanderson@lrmc.org",
+                    "FacilityContacts2option1": "MacKenzie Anderson",
+                    "FacilityContacts3option1": "Dr. Bruce Money MD",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Internal Medicine",
+                    "FacilityContacts3option4": "ABMS",
+                    "FacilityContacts3option5": "2024-07-31T05:00:00Z",
+                    "FacilityContacts3option6": "218-205-1609",
+                    "FacilityContacts3option62323": "bem@lrhc.org",
+                    "OnsiteClinicalServices1": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Mental Health Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "PracticeBased2": [
+                        "PA students"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "Park in staff parking lot  behind the hospital"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "360fa09d-3b41-453a-a141-5916f2e17fcb",
+        "_rid": "txoEAI0Kc-yxFwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yxFwAAAAAAAA==/",
+        "_etag": "\"0001f634-0000-0100-0000-668e65e00000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608224
+    },
+    {
+        "responseId": "7356b56e-eebc-4c4e-ba69-110125be4bbb",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Operating Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility2": "4",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Jackie Hoyhtya",
+                    "FacilityContacts1option2": "OBGYN Director",
+                    "FacilityContacts1option3": "320-255-5933",
+                    "FacilityContacts1option4": "jacqueline.hoyhtya@centracare.com",
+                    "FacilityContacts3option1": "Courtney Wittrock",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "OBGYN",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option6": "320-420-4666",
+                    "FacilityContacts3option62323": "courtney.wittrock@centracare.com",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Preventive Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Ultrasonography"
+                    ],
+                    "TechnicalProcedures": [
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Assessment of Fundal Height",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Simple Suture closure of Laceration/Incision"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "3+",
+                    "StaffingPlan2": "1+",
+                    "StaffingPlan3": "1+",
+                    "StaffingPlan5": "10+",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "No",
+                    "Resources1": "Yes",
+                    "Resources2": "No",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "Parking lot"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "488a5e65-0208-4e24-9fc6-0eeeff81f41c",
+        "_rid": "txoEAI0Kc-z7KQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z7KQAAAAAAAA==/",
+        "_etag": "\"00012335-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "1e4b084c-6b25-42bd-9422-741197b539e6",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Preoperative Exam"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Operating Room"
+                    ],
+                    "SiteAccreditation": "No",
+                    "Facility1": "3",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Veronica Ramos",
+                    "FacilityContacts1option2": "Practice Manager",
+                    "FacilityContacts1option3": "218-215-8990",
+                    "FacilityContacts1option4": "veronica.ramos@duluthplasticsurgerycenter.com",
+                    "FacilityContacts3option1": "Edgar Saldana",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Plastic Surgery",
+                    "FacilityContacts3option4": "American Board of Plastic Surgery",
+                    "OnsiteClinicalServices1": [
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "PracticeBased1": "15-20",
+                    "PracticeBased3": [
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "1",
+                    "StaffingPlan5": "2",
+                    "StaffingPlan6": "2",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "No",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4ad73d0e-6d48-4232-be60-56eaae06ffdf",
+        "_rid": "txoEAI0Kc-zpKAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zpKAAAAAAAAA==/",
+        "_etag": "\"00012135-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "9eaa1cba-10a9-4c74-a57b-f4fb45f3200e",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Splinting/casting extremities"
+                    ],
+                    "Setting": [
+                        "Emergency Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "42",
+                    "Facility2": "All 42 are procedure rooms however there are 4 large trauma bays.",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Emily Carlson",
+                    "FacilityContacts1option2": "PA-C",
+                    "FacilityContacts1option3": "218-391-3476",
+                    "FacilityContacts1option4": "ecarlson@eppahealth.com",
+                    "FacilityContacts3option1": "Emily Carlson",
+                    "FacilityContacts3option2": "MPAS",
+                    "FacilityContacts3option3": "Emergency Medicine",
+                    "FacilityContacts3option4": "MN Board of Medical Practice",
+                    "FacilityContacts3option5": "2024-11-30T06:00:00Z",
+                    "FacilityContacts3option6": "218-391-3476",
+                    "FacilityContacts3option62323": "ecarlson@eppahealth.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Emergency Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "PA students"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "11-12",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan5": "at least 18 per shift",
+                    "StaffingPlan6": "EC techs 10-11 per shift",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "RN case manager for assistance with TCU's etc."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4d6f5829-c818-43b1-8029-0eab44fcd998",
+        "_rid": "txoEAI0Kc-yVPAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yVPAAAAAAAAA==/",
+        "_etag": "\"00013835-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "37c26875-67f6-485f-a27a-0d1f4ed446e2",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "18",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Joel Wegener, MD",
+                    "FacilityContacts1option2": "MD",
+                    "FacilityContacts1option3": "612-702-0820",
+                    "FacilityContacts1option4": "joel.wegener@fairview.org",
+                    "FacilityContacts3option1": "Same",
+                    "FacilityContacts3option3": "Family Practice",
+                    "FacilityContacts3option4": "American Board of Family Medicine",
+                    "FacilityContacts3option5": "2031-12-15T06:00:00Z",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology",
+                        "Gynecologic Care"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students"
+                    ],
+                    "PracticeBased3": [
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "6",
+                    "StaffingPlan2": "2",
+                    "StaffingPlan3": "1",
+                    "StaffingPlan5": "6",
+                    "StaffingPlan6": "6",
+                    "StaffingPlan7": "3",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4f373905-70f3-4789-9cef-d7447a20d085",
+        "_rid": "txoEAI0Kc-y1JQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y1JQAAAAAAAA==/",
+        "_etag": "\"00011b35-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "f54a7f0d-0bea-44fe-99a2-60efdff2e8ba",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "No",
+                    "Facility1": "4",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Angela Greene PA-C",
+                    "FacilityContacts1option2": "Owner",
+                    "FacilityContacts1option3": "952-412-7062",
+                    "FacilityContacts1option4": "agreene530@gmail.com",
+                    "FacilityContacts2option3": "952-412-7062",
+                    "FacilityContacts3option1": "Angela Greene PA-C",
+                    "FacilityContacts3option2": "MPAS; PA-C",
+                    "FacilityContacts3option3": "Family Medicine, Medical Aesthetics, Wellness, Psychiatry",
+                    "FacilityContacts3option4": "NCCPA, MN Board of Medicine",
+                    "FacilityContacts3option5": "2024-10-31T05:00:00Z",
+                    "FacilityContacts3option6": "952-412-7062",
+                    "FacilityContacts3option62323": "agreene530@gmail.com",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Chronic Care",
+                        "Mental Health Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Dispensary/Samples Only"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Intramuscular Injections",
+                        "Local Anesthesia",
+                        "Incision & Drainage",
+                        "Arthrocentesis/joint injection"
+                    ],
+                    "PracticeBased1": "10",
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "0",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan4": "1",
+                    "StaffingPlan5": "1",
+                    "StaffingPlan6": "1",
+                    "StaffingPlan7": "3",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "No",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "On Site parking"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "646672d2-cb2f-40ec-9268-908178b95b7e",
+        "_rid": "txoEAI0Kc-y7RgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y7RgAAAAAAAA==/",
+        "_etag": "\"00014335-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "a3f2c899-1a08-4fa2-b592-2638781b2839",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Intramuscular Injections",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Cryotherapy"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "5",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Kelley Jensen",
+                    "FacilityContacts1option2": "CNP",
+                    "FacilityContacts1option3": "507-828-9803",
+                    "FacilityContacts1option4": "kelleynelson10@gmail.com",
+                    "FacilityContacts2option3": "507-828-9803",
+                    "FacilityContacts2option4": "kelleynelson10@gmail.com",
+                    "FacilityContacts3option1": "Kelley Jensen",
+                    "FacilityContacts3option2": "CNP",
+                    "FacilityContacts3option3": "Dermatology, Family Medicine",
+                    "FacilityContacts3option4": "AANP",
+                    "FacilityContacts3option5": "2024-10-31T05:00:00Z",
+                    "FacilityContacts3option6": "507-828-9803",
+                    "FacilityContacts3option62323": "kelleynelson10@gmail.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "1 x per month",
+                    "StaffingPlan2": "0",
+                    "StaffingPlan3": "1",
+                    "StaffingPlan4": "none, can travel to Bemidji or Baxter",
+                    "StaffingPlan5": "1",
+                    "StaffingPlan6": "3",
+                    "StaffingPlan7": "3",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "No",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "Park in Back lot of Timberlodge Hotel directly behind clinic and enter clinic through back door"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "67cd134d-03b6-4a91-864d-e1a25fac46f9",
+        "_rid": "txoEAI0Kc-wzNwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wzNwAAAAAAAA==/",
+        "_etag": "\"00013235-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "6221f3b9-247a-4980-9905-9c9869d8fd81",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "40",
+                    "Facility2": "0",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Diane Gustafson",
+                    "FacilityContacts1option2": "Education coordinator",
+                    "FacilityContacts1option3": "(320) 251-2700, ext. 54550",
+                    "FacilityContacts1option4": "GustafsonD@centracare.com",
+                    "FacilityContacts2option1": "Chris Roisland",
+                    "FacilityContacts2option2": "PA-C",
+                    "FacilityContacts2option3": "320-235-4543",
+                    "FacilityContacts2option4": "Christopher.Roisland@centracare.com",
+                    "FacilityContacts3option1": "Chris Roisland",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Hospital Medicine",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option6": "320-235-4543",
+                    "FacilityContacts3option62323": "Christopher.Roisland@centracare.com",
+                    "OnsiteClinicalServices1": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "POCUS"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture"
+                    ],
+                    "PracticeBased1": "6-10",
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "1-2",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan5": "6-10",
+                    "StaffingPlan6": "1-2",
+                    "StaffingPlan7": "numerous",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "FieldEdited": "Social Work",
+                    "FieldEdited1": "Monthly CME lectures"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7a6badd5-51a5-4de7-acfc-568a717d1b26",
+        "_rid": "txoEAI0Kc-xBHQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xBHQAAAAAAAA==/",
+        "_etag": "\"00010a35-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "a38100f7-c7e3-4df7-9556-f032e7d5e9cb",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "FacilityContacts1option3": "d3",
+                    "FacilityContacts1option4": "d4",
+                    "FacilityContacts2option3": "d5",
+                    "FacilityContacts2option4": "d6",
+                    "FacilityContacts3option6": "d1",
+                    "FacilityContacts3option62323": "d2",
+                    "FacilityContacts3option5": "2023-09-09T18:30:00Z",
+                    "OnsiteClinicalServices5": [
+                        "Other"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "Other"
+                    ],
+                    "PracticeBased3": [
+                        "Other"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "FieldEdited": "1",
+                    "FieldEdited1": "10"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "40508"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7b2e4d83-cf61-49c6-85a7-910ffb2be970",
+        "_rid": "txoEAI0Kc-xJGAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xJGAAAAAAAAA==/",
+        "_etag": "\"0001ff34-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "9e451673-b00d-44db-b45a-bc5194fd6396",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices2": [
+                        "Prenatal Care",
+                        "Mental Health Care"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Ultrasonography",
+                        "Other (Please specify)"
+                    ],
+                    "TechnicalProcedures": [
+                        "IV Insertion",
+                        "Nasopharyngeal Swab",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Preoperative Exam"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "1",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "3",
+                    "FacilityContacts1option2": "4",
+                    "FacilityContacts1option3": "5",
+                    "FacilityContacts1option4": "6",
+                    "FacilityContacts2option1": "7",
+                    "FacilityContacts2option2": "8",
+                    "FacilityContacts2option3": "9",
+                    "FacilityContacts2option4": "10",
+                    "FacilityContacts3option1": "11",
+                    "FacilityContacts3option2": "12",
+                    "FacilityContacts3option3": "13",
+                    "FacilityContacts3option4": "14",
+                    "FacilityContacts3option5": "15",
+                    "FacilityContacts3option6": "16",
+                    "OnsiteClinicalServices1": [
+                        "Child (3-10)",
+                        "Adolescent (11-24)"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Gynecologic Care"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Dispensary/Samples Only"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "PFT",
+                        "Other (Please specify)"
+                    ],
+                    "PracticeBased1": "18",
+                    "PracticeBased2": [
+                        "Fellows",
+                        "NP students"
+                    ],
+                    "PracticeBased3": [
+                        "Other (Please explain)"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "21",
+                    "StaffingPlan2": "22",
+                    "StaffingPlan3": "23",
+                    "StaffingPlan4": "24",
+                    "StaffingPlan5": "25",
+                    "StaffingPlan6": "26",
+                    "StaffingPlan7": "27",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "No",
+                    "Resources1": "Yes",
+                    "Resources2": "No",
+                    "Resources3": "Yes",
+                    "Information1": "Yes",
+                    "Information2": "Yes",
+                    "sp1": "28",
+                    "sp2": "29"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "40508"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7d5a16df-af1a-4917-b352-f14283144512",
+        "_rid": "txoEAI0Kc-yZFwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yZFwAAAAAAAA==/",
+        "_etag": "\"0001f534-0000-0100-0000-668e65e00000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608224
+    },
+    {
+        "responseId": "3ab297d5-0cdd-4936-82f2-26cda999b706",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Emergency Room",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "3",
+                    "Facility2": "0",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Jenny Klick",
+                    "FacilityContacts1option2": "Medical Staff Coordinator",
+                    "FacilityContacts1option3": "218-999-1431",
+                    "FacilityContacts1option4": "jenny.klick@fairview.org",
+                    "FacilityContacts2option1": "Kate Tarbuck",
+                    "FacilityContacts2option2": "Recruiter",
+                    "FacilityContacts2option3": "218-999-1447",
+                    "FacilityContacts2option4": "kate.tarbuck@fairview.org",
+                    "FacilityContacts3option1": "Lindsey Peratalo",
+                    "FacilityContacts3option2": "DNP, PMHNP",
+                    "FacilityContacts3option3": "Psych",
+                    "FacilityContacts3option4": "ANCC, Exp 2028",
+                    "FacilityContacts3option6": "218-969-1063 (personal cell)",
+                    "FacilityContacts3option62323": "lperata2@fairview.org  or  lindsey.peratalo@fairview.org",
+                    "OnsiteClinicalServices1": [
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Mental Health Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "PracticeBased1": "8-12",
+                    "PracticeBased2": [
+                        "Medical students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "2",
+                    "StaffingPlan2": "0",
+                    "StaffingPlan3": "2",
+                    "StaffingPlan4": "NA",
+                    "StaffingPlan5": "0",
+                    "StaffingPlan6": "1",
+                    "StaffingPlan7": "3",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Care Coordination",
+                    "FieldEdited1": "Ground Rounds weekly"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7ee1cd05-f80f-4ce5-a014-f6b1f3aeded1",
+        "_rid": "txoEAI0Kc-xnQgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xnQgAAAAAAAA==/",
+        "_etag": "\"00013c35-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "ee9f4fc7-fd8c-4f6f-8159-fe6d64614d6b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "34",
+                    "Facility2": "0",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Gina Seichter",
+                    "FacilityContacts1option2": "Student Coordinator",
+                    "FacilityContacts1option3": "218-362-6822",
+                    "FacilityContacts1option4": "gina.seichter@fairview.org",
+                    "FacilityContacts3option1": "Glen Rebman",
+                    "FacilityContacts3option2": "DO",
+                    "FacilityContacts3option3": "Psychiatry",
+                    "FacilityContacts3option4": "American Board of Psychiatry and Neurology",
+                    "FacilityContacts3option5": "2025-03-01T06:00:00Z",
+                    "FacilityContacts3option6": "218-362-6972",
+                    "FacilityContacts3option62323": "glen.rebman@fairview.org",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Mental Health Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology",
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography",
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "1-2 per day",
+                    "StaffingPlan2": "0",
+                    "StaffingPlan3": "1-2 per day",
+                    "StaffingPlan4": "1-2 MHP's and 4 social workers M-F",
+                    "StaffingPlan5": "4-7 per shift",
+                    "StaffingPlan6": "0",
+                    "StaffingPlan7": "7+",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Social Workers and RN's",
+                    "FieldEdited1": "In person and LMS eLearning"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "84a5ab5d-5bf7-421a-ab6d-e3734eb1f246",
+        "_rid": "txoEAI0Kc-zlQwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zlQwAAAAAAAA==/",
+        "_etag": "\"00013f35-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "5b7b40d5-ee60-4eae-9588-d513f78df79d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "StaffingPlan2": "8",
+                    "StaffingPlan3": "7",
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Stephanie Peters",
+                    "FacilityContacts1option2": "PA-C",
+                    "FacilityContacts1option3": "218-310-7251",
+                    "FacilityContacts1option4": "stephanie.peters@fairview.org",
+                    "FacilityContacts3option1": "Stephanie Peters",
+                    "FacilityContacts3option2": "MSPAS, PA-C, RD",
+                    "FacilityContacts3option3": "Inpatient Medicine",
+                    "FacilityContacts3option4": "PANRE 2017",
+                    "FacilityContacts3option6": "218-310-7251",
+                    "FacilityContacts3option62323": "stephanie.peters@fairview.org",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "Varies",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "88ef5894-95ae-4b4f-8624-85266372110a",
+        "_rid": "txoEAI0Kc-zJMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zJMAAAAAAAAA==/",
+        "_etag": "\"00012a35-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "679b4026-f62d-4ea0-a164-7e5fb1ccf32e",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Wound Culture",
+                        "Vision Screening",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "12",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts2option1": "Sarah Greely",
+                    "FacilityContacts2option2": "Talent Acquisition Specialist",
+                    "FacilityContacts2option3": "920-429-1779",
+                    "FacilityContacts2option4": "sarah.greely@prevea.com",
+                    "FacilityContacts3option1": "Oludayo Sarumi",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Pediatrics",
+                    "FacilityContacts3option4": "AAP",
+                    "FacilityContacts3option6": "715-717-6850",
+                    "FacilityContacts3option62323": "oludayo.sarumi@prevea.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "NP students"
+                    ],
+                    "PracticeBased4": "No",
+                    "StaffingPlan1": "4 Pediatricians",
+                    "StaffingPlan5": "1 RN",
+                    "StaffingPlan6": "1 CMA",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "No",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "8d179e43-fbb8-47d9-b8bb-d96b4241164e",
+        "_rid": "txoEAI0Kc-z5GgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z5GgAAAAAAAA==/",
+        "_etag": "\"00010535-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "6cd9d1ac-9825-4ff9-b7c9-bf0c95fe8e35",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Erika Hunt",
+                    "FacilityContacts1option2": "Hosp Wound PA",
+                    "FacilityContacts1option3": "701-780-6427",
+                    "FacilityContacts1option4": "ehunt@altru.org",
+                    "FacilityContacts3option1": "Erika Hunt",
+                    "FacilityContacts3option2": "PA-C, CWS, OMS",
+                    "FacilityContacts3option3": "Wound Care",
+                    "FacilityContacts3option6": "701-780-6427",
+                    "FacilityContacts3option62323": "ehunt@altru.org",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT",
+                        "Other"
+                    ],
+                    "TechnicalProcedures": [
+                        "Incision & Drainage",
+                        "Wound Culture"
+                    ],
+                    "PracticeBased1": "not answered",
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan3": "2",
+                    "StaffingPlan5": "2",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "8e261eee-d54e-4e9b-b284-6535fbc456c2",
+        "_rid": "txoEAI0Kc-yTMQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yTMQAAAAAAAA==/",
+        "_etag": "\"00012b35-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "08471d18-05e1-411f-b4fa-401031111c5c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "19",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Deena Aus",
+                    "FacilityContacts1option2": "Director of Patient Care",
+                    "FacilityContacts1option3": "320-564-6281",
+                    "FacilityContacts1option4": "deena.aus@avera.org",
+                    "FacilityContacts3option1": "Leiah Hoffman",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Family Medicine",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option5": "2024-04-30T05:00:00Z",
+                    "FacilityContacts3option6": "320-564-6200",
+                    "FacilityContacts3option62323": "leiah.hoffman@avera.org",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "PracticeBased1": "?",
+                    "PracticeBased2": [
+                        "NP students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "1",
+                    "StaffingPlan2": "2",
+                    "StaffingPlan3": "1",
+                    "StaffingPlan4": "1 (LICSW)",
+                    "StaffingPlan5": "10",
+                    "StaffingPlan6": "0",
+                    "StaffingPlan7": "4",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "Free parking around facility"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "a730f4d6-97d6-4e84-b7c4-4fe6c3e24eb3",
+        "_rid": "txoEAI0Kc-zFJAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zFJAAAAAAAAA==/",
+        "_etag": "\"00011635-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "02a3914a-03a2-433a-be24-1a8aa5ab196a",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Fluorescein Eye Staining/Slit Lamp"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "22",
+                    "Facility2": "1-2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Charlie Primeaux",
+                    "FacilityContacts1option2": "Educational Coordinator",
+                    "FacilityContacts1option3": "612-273-1982",
+                    "FacilityContacts1option4": "charlie.primeaux@fairview.org",
+                    "FacilityContacts3option1": "Alexis Peterson",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Family Practice",
+                    "FacilityContacts3option4": "Certified 2000",
+                    "FacilityContacts3option6": "651-322-8800",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "Other"
+                    ],
+                    "PracticeBased3": [
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "6",
+                    "StaffingPlan2": "3",
+                    "StaffingPlan3": "4",
+                    "StaffingPlan4": "1",
+                    "StaffingPlan5": "4-5",
+                    "StaffingPlan6": "12",
+                    "StaffingPlan7": "6",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "aa514cf6-670a-4869-b272-4d78192bba6d",
+        "_rid": "txoEAI0Kc-wjIQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wjIQAAAAAAAA==/",
+        "_etag": "\"00010d35-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "fcb56f32-7c95-49ca-bff5-09ec8a45d69d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Preoperative Exam"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "86",
+                    "Facility2": "6",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Mary Fischer",
+                    "FacilityContacts1option2": "Clinic Manager",
+                    "FacilityContacts1option3": "507 215 2280",
+                    "FacilityContacts1option4": "mary.fischer2@avera.org",
+                    "FacilityContacts3option1": "Ellen Barrios",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Pediatrics",
+                    "FacilityContacts3option5": "2026-01-01T06:00:00Z",
+                    "FacilityContacts3option6": "507 476 4800",
+                    "FacilityContacts3option62323": "ellen.barrios@avera.org",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "15",
+                    "StaffingPlan2": "5",
+                    "StaffingPlan3": "9",
+                    "StaffingPlan4": "3",
+                    "StaffingPlan5": "25",
+                    "StaffingPlan6": "3",
+                    "StaffingPlan7": "8",
+                    "StaffingPlan8": "No",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Care Coordination Provided by RN Staff",
+                    "sp2": "On site free parking"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "b3951ddc-42bd-45b2-9c1a-0f30d3a31e6d",
+        "_rid": "txoEAI0Kc-yzIQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yzIQAAAAAAAA==/",
+        "_etag": "\"00011135-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "5bdf7e85-ede1-4f10-a17c-98d56c31a1dd",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "multiple",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Erika Hunt PA-C",
+                    "FacilityContacts1option2": "Physician Assistant",
+                    "FacilityContacts1option3": "701-780-6427",
+                    "FacilityContacts1option4": "ehunt@altru.org",
+                    "FacilityContacts2option1": "same",
+                    "FacilityContacts3option1": "Erika Hunt",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Wound Management",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option5": "2023-12-31T06:00:00Z",
+                    "FacilityContacts3option6": "701-780-6427",
+                    "FacilityContacts3option62323": "same",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "TechnicalProcedures": [
+                        "Incision & Drainage",
+                        "Wound Culture"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan3": "2",
+                    "StaffingPlan5": "2",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "b4cf3650-f225-4dd2-85fa-b3d509f8ea25",
+        "_rid": "txoEAI0Kc-y1FwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y1FwAAAAAAAA==/",
+        "_etag": "\"0001fa34-0000-0100-0000-668e65e00000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608224
+    },
+    {
+        "responseId": "66bf0f23-7c92-455a-a12d-3b7d47e17f62",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Emergency Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "14",
+                    "Facility2": "0",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Emily Mason",
+                    "FacilityContacts1option4": "Emily.Mason@hcmed.org",
+                    "FacilityContacts3option1": "Cody Bakken, PA-C",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Psychiatry",
+                    "FacilityContacts3option4": "MN Board of Medical Practice",
+                    "FacilityContacts3option6": "701-491-0273",
+                    "FacilityContacts3option62323": "cody.bakken@hcmed.org",
+                    "OnsiteClinicalServices1": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "PracticeBased2": [
+                        "Residents",
+                        "PA students"
+                    ],
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "Varies per shift",
+                    "StaffingPlan2": "Varies per shift",
+                    "StaffingPlan4": "Social Workers",
+                    "StaffingPlan5": "6",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c46d4a02-9c74-47e7-9d3d-f2c373571734",
+        "_rid": "txoEAI0Kc-zFMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zFMAAAAAAAAA==/",
+        "_etag": "\"00012635-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "f5178b60-bd71-4a25-a938-1f21c7a7c4a1",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "Not answered",
+                    "Facility2": "Not answered",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Stacey Waletzko",
+                    "FacilityContacts1option2": "Human Resources Generalist",
+                    "FacilityContacts1option3": "320-864-7812",
+                    "FacilityContacts1option4": "stacey.waletzko@grhsonline.org",
+                    "FacilityContacts3option1": "Dr. Amanda Leino",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Family Practice with OB",
+                    "FacilityContacts3option4": "MN Board of Medical Practice",
+                    "FacilityContacts3option5": "2024-09-30T05:00:00Z",
+                    "FacilityContacts3option6": "320-864-7971",
+                    "FacilityContacts3option62323": "Amanda.Leino@grhsonline.org",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology",
+                        "Other"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "POCUS"
+                    ],
+                    "PracticeBased1": "Unknown",
+                    "PracticeBased2": [
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "StaffingPlan1": "Not answered",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "RN Case Manager",
+                    "sp2": "Onsite campus parking available"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c544726f-eaa2-4ef5-ab03-09cd71848d6d",
+        "_rid": "txoEAI0Kc-y9FwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y9FwAAAAAAAA==/",
+        "_etag": "\"0001fc34-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "d18170f5-7be0-436d-8a95-23cca9335690",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "8",
+                    "Facility2": "2",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Joshua Lugar",
+                    "FacilityContacts1option2": "Director of Surgical Services and Clinic Nursing",
+                    "FacilityContacts1option3": "507-537-9103",
+                    "FacilityContacts3option1": "Charles Eisenhauer IV",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "General Surgery",
+                    "FacilityContacts3option4": "ABS",
+                    "FacilityContacts3option5": "2024-01-20T06:00:00Z",
+                    "FacilityContacts3option6": "606-396-1818",
+                    "FacilityContacts3option62323": "charles.eisenhauer@avera.org",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "PracticeBased1": "13",
+                    "PracticeBased2": [
+                        "Medical students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "21",
+                    "StaffingPlan2": "5",
+                    "StaffingPlan3": "16",
+                    "StaffingPlan4": "5",
+                    "StaffingPlan5": "35",
+                    "StaffingPlan6": "13",
+                    "StaffingPlan7": "20",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited1": "Simulation Lab"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ccae92cd-0170-4369-9b6c-b01b66945cb0",
+        "_rid": "txoEAI0Kc-yfJAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yfJAAAAAAAAA==/",
+        "_etag": "\"00011435-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "9bfe91ac-cf68-4678-ab4e-2ed156d08376",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Room",
+                        "Operating Room",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "117",
+                    "Facility2": "10",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Anne Kate Bush",
+                    "FacilityContacts1option2": "Manager, Provider Practice",
+                    "FacilityContacts1option3": "507-217-5132",
+                    "FacilityContacts1option4": "annakate.bush@allina.com",
+                    "FacilityContacts3option1": "Dr. Bradley Burger",
+                    "FacilityContacts3option2": "DO",
+                    "FacilityContacts3option3": "OBGYN",
+                    "FacilityContacts3option4": "American Osteopathis Board of OBGYN",
+                    "FacilityContacts3option5": "2024-12-31T06:00:00Z",
+                    "FacilityContacts3option6": "507-217-5000",
+                    "FacilityContacts3option62323": "Bradley.Burger@allina.com",
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT",
+                        "POCUS",
+                        "Other"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "PracticeBased1": "10-15",
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds",
+                        "Team Meetings"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "40",
+                    "StaffingPlan2": "11",
+                    "StaffingPlan3": "14",
+                    "StaffingPlan4": "30",
+                    "StaffingPlan5": "40",
+                    "StaffingPlan6": "60",
+                    "StaffingPlan7": "30",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Social Workers and RNs",
+                    "FieldEdited1": "Varies",
+                    "sp2": "Multiple free lots"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ce4a0947-3582-4512-8995-4e23dfca53e1",
+        "_rid": "txoEAI0Kc-yFGgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yFGgAAAAAAAA==/",
+        "_etag": "\"00010135-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "a2098fd2-a41d-447a-b952-a6a98d1f4bb1",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Telemedicine"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "10",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Lainee Gatzlaff",
+                    "FacilityContacts1option2": "PA-C",
+                    "FacilityContacts1option3": "218-249-7882",
+                    "FacilityContacts1option4": "lainee.gatzlaff@slhduluth.com",
+                    "FacilityContacts2option1": "Dena Cyr",
+                    "FacilityContacts2option2": "Education Assistant",
+                    "FacilityContacts2option3": "218-249-5527",
+                    "FacilityContacts2option4": "dena.cyr@slhduluth.com",
+                    "FacilityContacts3option1": "Lainee Gatzlaff, PA-C",
+                    "FacilityContacts3option2": "Masters of Physician Assistant Studies",
+                    "FacilityContacts3option3": "Heme/Onc",
+                    "FacilityContacts3option4": "PANCE",
+                    "FacilityContacts3option5": "2027-06-17T05:00:00Z",
+                    "FacilityContacts3option6": "218-249-7882",
+                    "FacilityContacts3option62323": "lainee.gatzlaff@slhduluth.com",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT",
+                        "POCUS"
+                    ],
+                    "TechnicalProcedures": [
+                        "Breast Exam"
+                    ],
+                    "PracticeBased1": "5-15",
+                    "PracticeBased3": [
+                        "Other"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "4-5",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan3": "1",
+                    "StaffingPlan4": "Pharm, social workers",
+                    "StaffingPlan5": "5-7",
+                    "StaffingPlan6": "3",
+                    "StaffingPlan7": "1-3",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "Yes",
+                    "Information1": "No",
+                    "fsffd": "Weekly Tumor Board Meetings",
+                    "FieldEdited": "Cancer Center Social Workers x2",
+                    "FieldEdited1": "Weekly Tumor Board, Occasional Grand Round presentations at St. Luke's"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e00ac33f-9d60-41c4-87b1-b8ceff6c75ab",
+        "_rid": "txoEAI0Kc-xDOgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xDOgAAAAAAAA==/",
+        "_etag": "\"00013435-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "76aab1e3-556c-49bb-b4c5-72f4c255547c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Mental Health Care",
+                        "Preventive Care",
+                        "Emergency Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology",
+                        "Gynecologic Care",
+                        "Full-service"
+                    ],
+                    "PracticeBased2": [
+                        "Fellows",
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "Setting": [
+                        "Emergency Room"
+                    ],
+                    "Facility1": "7",
+                    "Facility2": "7 includes procedure and trauma",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Carolyn Christensen",
+                    "FacilityContacts1option2": "Emergency Department Manager",
+                    "FacilityContacts1option3": "715-483-0289",
+                    "FacilityContacts1option4": "Carolyn.Christiansen@email.com",
+                    "FacilityContacts2option1": "Dione Thoma",
+                    "FacilityContacts2option2": "Education Director",
+                    "FacilityContacts2option4": "dione.thoma@scrmc.org",
+                    "FacilityContacts3option1": "Dr. Michael Deboer",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Emergency Medicine",
+                    "FacilityContacts3option4": "American Board of Emergency Medicine (ABEM)",
+                    "FacilityContacts3option5": "2025-10-31T05:00:00Z",
+                    "FacilityContacts3option6": "800-828-3627",
+                    "FacilityContacts3option62323": "Michael.B.DeBoer@healthpartners.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography",
+                        "Other"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG",
+                        "PFT"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection"
+                    ],
+                    "PracticeBased3": [
+                        "Rounds"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "StaffingPlan1": "1",
+                    "StaffingPlan3": "1",
+                    "StaffingPlan5": "3",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "Free parking on site"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e21d3e94-31bb-456e-9847-0c7246018e98",
+        "_rid": "txoEAI0Kc-zROgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zROgAAAAAAAA==/",
+        "_etag": "\"00013635-0000-0100-0000-668e65e30000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608227
+    },
+    {
+        "responseId": "0a637eb5-18aa-4e9c-99d8-3869a5fa29b5",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "Facility3": "Yes",
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "FacilityContacts1option1": "Dr.Shea Jorgensen",
+                    "FacilityContacts1option2": "Medical Director",
+                    "FacilityContacts1option4": "sjorgensen@prairieridge.net",
+                    "FacilityContacts3option1": "Dr Shea Jorgensen",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Psychiatry/Behavioral Health",
+                    "FacilityContacts3option4": "Psychiatry",
+                    "FacilityContacts3option5": "2024-12-31T06:00:00Z",
+                    "FacilityContacts3option6": "641-243-7714",
+                    "FacilityContacts3option62323": "sjorgensen@prairieridge.net",
+                    "OnsiteClinicalServices1": [
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Mental Health Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "TechnicalProcedures": [
+                        "Intramuscular Injections"
+                    ],
+                    "StaffingPlan1": "1",
+                    "StaffingPlan5": "1",
+                    "StaffingPlan6": "1",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "sp2": "on site"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ef55c475-3d20-4c51-9a40-abbd86368beb",
+        "_rid": "txoEAI0Kc-x7RQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x7RQAAAAAAAA==/",
+        "_etag": "\"00014235-0000-0100-0000-668e65e40000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608228
+    },
+    {
+        "responseId": "2187a580-509b-4e07-94c0-55783614bdaa",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "TechnicalProcedures": [
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "6",
+                    "Facility2": "6",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Tammy Socher",
+                    "FacilityContacts1option2": "OM",
+                    "FacilityContacts1option3": "612-486-4200",
+                    "FacilityContacts1option4": "tammy.socher@pinnacleskin.com",
+                    "FacilityContacts3option1": "Elizabeth Boyum, PA-C",
+                    "FacilityContacts3option2": "PA-C",
+                    "FacilityContacts3option3": "Dermatology",
+                    "FacilityContacts3option4": "NCCPA",
+                    "FacilityContacts3option6": "612-486-4200",
+                    "FacilityContacts3option62323": "elizabeth.boyum@pinnacleskin.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Surgical Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "Other"
+                    ],
+                    "PracticeBased1": "35+",
+                    "PracticeBased4": "No",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "2",
+                    "StaffingPlan2": "2",
+                    "StaffingPlan3": "0",
+                    "StaffingPlan5": "4",
+                    "StaffingPlan6": "6",
+                    "StaffingPlan7": "1",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "f4bdd04c-7199-4a54-bb30-9315ed89c0f0",
+        "_rid": "txoEAI0Kc-zNFwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zNFwAAAAAAAA==/",
+        "_etag": "\"0001fd34-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    },
+    {
+        "responseId": "20999122-1b9e-4000-9533-843db623ce09",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "SiteAccreditation": "Yes",
+                    "OnsiteClinicalServices1": [
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Facility1": "4",
+                    "Facility2": "1",
+                    "Facility3": "Yes",
+                    "FacilityContacts1option1": "Juanita Ruiter",
+                    "FacilityContacts1option2": "Director",
+                    "FacilityContacts1option3": "605-322-8945",
+                    "FacilityContacts1option4": "juanita.ruiter@avera.org",
+                    "FacilityContacts3option1": "Amanda Kappenman",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "OB/GYN",
+                    "FacilityContacts3option4": "ABOG",
+                    "FacilityContacts3option5": "2024-12-31T06:00:00Z",
+                    "FacilityContacts3option62323": "amanda.kappenman@avera. org",
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Prenatal Care",
+                        "Gynecologic Care",
+                        "Preventive Care"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Full-service"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "None"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Ultrasonography",
+                        "Full Radiology"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "None"
+                    ],
+                    "TechnicalProcedures": [
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Assessment of Fundal Height",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Preoperative Exam"
+                    ],
+                    "PracticeBased1": "10-15",
+                    "PracticeBased2": [
+                        "Residents",
+                        "Medical students",
+                        "NP students",
+                        "PA students"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "No",
+                    "StaffingPlan1": "12",
+                    "StaffingPlan2": "1",
+                    "StaffingPlan3": "8",
+                    "StaffingPlan4": "5",
+                    "StaffingPlan5": "20",
+                    "StaffingPlan6": "2",
+                    "StaffingPlan7": "14",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Resources3": "No",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "FieldEdited": "Care Coordination RN"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "fa258328-4c48-4514-afa2-4d747a19e689",
+        "_rid": "txoEAI0Kc-wdKAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wdKAAAAAAAAA==/",
+        "_etag": "\"00011c35-0000-0100-0000-668e65e20000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608226
+    },
+    {
+        "responseId": "fa723319-be92-46ca-a8a7-f21b80e5359e",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.InitialAssessment",
+                "values": {
+                    "OnsiteClinicalServices2": [
+                        "Acute Care",
+                        "Mental Health Care",
+                        "Emergency Care"
+                    ],
+                    "Setting": [
+                        "Emergency Room"
+                    ],
+                    "SiteAccreditation": "Yes",
+                    "Facility1": "10, 1 negative airflow, 2 trauma and 2 psychiatric rooms. In addition 4 hallway beds and family waiting room are used to see patients.",
+                    "FacilityContacts1option1": "Paige Koehler",
+                    "FacilityContacts1option2": "Admin",
+                    "FacilityContacts1option3": "612-439-1867",
+                    "FacilityContacts1option4": "paige.koehler@eccemergency.com",
+                    "FacilityContacts3option1": "Justin Pattee, MD",
+                    "FacilityContacts3option2": "MD",
+                    "FacilityContacts3option3": "Emergency Medicine",
+                    "FacilityContacts3option4": "Medicine",
+                    "FacilityContacts3option5": "2026-12-31T06:00:00Z",
+                    "FacilityContacts3option6": "515-491-8706",
+                    "FacilityContacts3option62323": "justin.pattee@eccemergency.com",
+                    "OnsiteClinicalServices1": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent (11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "OnsiteClinicalServices3": [
+                        "Rapid Analysis Testing",
+                        "Microscopy",
+                        "Basic Serology"
+                    ],
+                    "OnsiteClinicalServices4": [
+                        "Full Pharmacy"
+                    ],
+                    "OnsiteClinicalServices5": [
+                        "Plain Film",
+                        "Ultrasonography",
+                        "Full Radiology",
+                        "Other"
+                    ],
+                    "OnsiteClinicalServices6": [
+                        "ECG"
+                    ],
+                    "TechnicalProcedures": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundal Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "PracticeBased2": [
+                        "Medical students",
+                        "PA students"
+                    ],
+                    "PracticeBased3": [
+                        "Other"
+                    ],
+                    "PracticeBased4": "Yes",
+                    "PracticeBased5": "Yes",
+                    "StaffingPlan1": "3 (three 8 hour shifts)",
+                    "StaffingPlan2": "9 (one 9 hour shift 12:30-9:30)",
+                    "StaffingPlan8": "Yes",
+                    "StaffingPlan9": "Yes",
+                    "Resources1": "Yes",
+                    "Resources2": "Yes",
+                    "Information1": "No",
+                    "Information2": "Yes",
+                    "fsffd": "Sign-out desktop rounds"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSInitialAssessment.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSInitialAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "fb632f0d-5935-4e6b-8c50-0f3b4d0c0b89",
+        "_rid": "txoEAI0Kc-yTHAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yTHAAAAAAAAA==/",
+        "_etag": "\"00010735-0000-0100-0000-668e65e10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608225
+    }
+]
