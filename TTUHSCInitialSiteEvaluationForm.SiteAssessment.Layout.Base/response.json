@@ -1,0 +1,1745 @@
+[
+    {
+        "responseId": "31e3c7e8-be62-499d-a415-97860c3e55ba",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": "a",
+                    "Program/Institution2:": [
+                        "In-person",
+                        "Electronic"
+                    ],
+                    "Program/Institution3:": [
+                        "W9",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution4:": "a",
+                    "Program/Institution5:": "a",
+                    "Program/Institution6:": "a",
+                    "Program/Institution7:": "a",
+                    "Program/Institution8:": "Yes",
+                    "Program/Institution9:": "a",
+                    "Program/Institution10A:": "a",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution10C:": "a",
+                    "Program/Institution10D:": "a",
+                    "Program/Institution10E:": "a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "a",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "No",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "a",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "Yes",
+                    "PreceptorAssociated4": "a",
+                    "NOTparticipatingA": "Yes",
+                    "NOTparticipatingB": "a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution12:": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "PreceptorAssociated5": "a",
+                    "PreceptorAssociated6": "a",
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution129:": "Chronic ",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "No",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "NOTparticipatingA1": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "PreceptorAssociatedO1": "a",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "uy",
+                    "PreceptorAssociatedO1B": "yu",
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Learning outcomes & objectives",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "gu"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "54698"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "03615847-59f6-4f74-ab1a-14dfb2f9e946",
+        "_rid": "txoEAI0Kc-zdCQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zdCQAAAAAAAA==/",
+        "_etag": "\"0001c02e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "780f55c7-8a82-401b-a6da-549a4b40573f",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Tall City Healthcare Pam Foster PA-c",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Family Medicine & Psych",
+                    "Program/Institution5:": "17",
+                    "Program/Institution6:": "PA05216",
+                    "Program/Institution9:": "NA",
+                    "Program/Institution10A:": "NA",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution10E:": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "secured parking, well lit area",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "na",
+                    "Program/Institution13:": "No",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "M-W 8-5, half days on Thursday, 8-5 Fridays",
+                    "PreceptorAssociated6": "25",
+                    "Program/Institution123:": [
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution129:": "Preventative ",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "Student enters room first, formulates plan and presents to preceptor. Then they both go into the room together"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "Program/InstitutionS:": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "338ab0b9-d0ac-4bfa-8236-a14f0cb4bff8",
+        "_rid": "txoEAI0Kc-xtCgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xtCgAAAAAAAA==/",
+        "_etag": "\"0001c92e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "c9bbab44-e46b-4471-8915-ad428606b5ff",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Dr. Kris Howard - West Texas Dermatology",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Dermatology",
+                    "Program/Institution5:": "27",
+                    "Program/Institution6:": "H0466",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "na",
+                    "Program/Institution10A:": "na",
+                    "Program/Institution10C:": "Nicole Stennett PA-C",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution101D:": "PA10214",
+                    "Program/Institution10E:": "n"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "well lit, secure parking",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "na",
+                    "Program/Institution13:": "No",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "M-Th 8-5, Friday 8-12, no call or weekends",
+                    "PreceptorAssociated6": "25-35 patients per day",
+                    "Program/Institution129:": "Emergent",
+                    "Program/Institution11f:": "Yes",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "na",
+                    "Program/Institution221:": "No",
+                    "PreceptorAssociatedO21": "No",
+                    "PreceptorAssociatedO1A": "na",
+                    "PreceptorAssociatedO1B": "na",
+                    "Program/InstitutionS:": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "34f0334c-c0b0-4875-b0aa-2472741f40bf",
+        "_rid": "txoEAI0Kc-xxCgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xxCgAAAAAAAA==/",
+        "_etag": "\"0001cb2e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "2668cb7d-869f-4e91-a649-dd8ac740c3ee",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Ward Memorial Hospital",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Emergency Medicine + Family Medicine + HRSA Rotation",
+                    "Program/Institution5:": "10 years",
+                    "Program/Institution6:": "PA08765",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Ward Memorial Hospital",
+                    "Program/Institution9A:": ".",
+                    "Program/Institution9B:": ".",
+                    "Program/Institution10A:": "28 beds",
+                    "Program/Institution10C:": "DeeAnn Bean PA-C (Family medicine preceptor)",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution10D:": ".",
+                    "Program/Institution101E:": ".",
+                    "Program/Institution101D:": "PA06958",
+                    "Program/Institution101F:": ".",
+                    "Program/Institution102F:": ".",
+                    "Program/Institution10E:": "N",
+                    "Program/Institution103F:": ".",
+                    "Program/Institution104F:": "."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "secured parking; front entrance has a person checking people in",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Department"
+                    ],
+                    "PreceptorAssociated5": "M-F 8-5",
+                    "PreceptorAssociated6": "Varies (5-10 in Emed, 20+ in family med)",
+                    "Program/Institution129:": "Acute",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "Yes",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "Yes",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "NA",
+                    "PreceptorAssociated678": "NA"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "States he wants to talk with his providers and get back with me",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "No - our students have been wonderful. He did state some preceptors \"pimp\" students and ask questions on the fly, but that our students have been handling it well.",
+                    "PreceptorAssociatedO1B": "None",
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "Would like to speak to providers and get back with me via email",
+                    "NOTparticipatingA131": "."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "36c7da4f-17cb-4231-8751-74a5b6546df8",
+        "_rid": "txoEAI0Kc-xhFAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xhFAAAAAAAAA==/",
+        "_etag": "\"0001e42e-0000-0100-0000-668e65960000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608150
+    },
+    {
+        "responseId": "845cada2-5cf1-4708-adb3-730ee3424416",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Dr. Suresh Prasad",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Internal Medicine",
+                    "Program/Institution5:": "23",
+                    "Program/Institution6:": "K8430",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "MCH",
+                    "Program/Institution10A:": "402",
+                    "Program/Institution10C:": "Grace Andrade, PA-C",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution10D:": "Roxana Nieto PA-C",
+                    "Program/Institution101E:": "Marlene Cereceres PA-C",
+                    "Program/Institution101D:": "PA11628",
+                    "Program/Institution101F:": "PA14056",
+                    "Program/Institution102F:": "PA13915",
+                    "Program/Institution10E:": "n",
+                    "Program/Institution103F:": "n",
+                    "Program/Institution104F:": "n"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "Secured parking",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "na",
+                    "Program/Institution13:": "No",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "8-12, 1:30-5 M-F; no weekend or call",
+                    "PreceptorAssociated6": "18 per provider",
+                    "Program/Institution129:": "Acute",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "na",
+                    "PreceptorAssociated678": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "na",
+                    "Program/Institution221:": "No",
+                    "PreceptorAssociatedO21": "No",
+                    "PreceptorAssociatedO1A": "na",
+                    "PreceptorAssociatedO1B": "na",
+                    "Program/InstitutionS:": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "38d1b064-3a39-47c5-8f99-25bce0746ee6",
+        "_rid": "txoEAI0Kc-x3CgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x3CgAAAAAAAA==/",
+        "_etag": "\"0001d12e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "23a19e29-7563-4e65-b51d-c9c3f91bc0cd",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution7:": "TX",
+                    "Program/Institution9A:": ".",
+                    "Program/Institution9B:": ".",
+                    "Program/Institution10B:": ".",
+                    "Program/Institution10D:": ".",
+                    "Program/Institution101E:": ".",
+                    "Program/Institution101F:": ".",
+                    "Program/Institution102F:": ".",
+                    "Program/Institution103F:": ".",
+                    "Program/Institution104F:": ".",
+                    "Program/Institution:": "Steward Medical Group/Scenic Mountain - Dr. Chavez Pediatrics",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Pediatrics",
+                    "Program/Institution5:": "25 years",
+                    "Program/Institution6:": "K7515",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Scenic Mountain",
+                    "Program/Institution10A:": "146",
+                    "Program/Institution10C:": "Alyx Woodward Nurse Practitioner",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution101D:": "APRN-CNP 1019226",
+                    "Program/Institution10E:": "N"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "PreceptorAssociated": ".",
+                    "PreceptorAssociated3": ".",
+                    "Program/Institution10:": "Yes",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "Yes",
+                    "NOTparticipatingA": "Yes",
+                    "NOTparticipatingB": "Howard College"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "PreceptorAssociated678": ".",
+                    "Program/Institution12:": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "PreceptorAssociated5": "M-F  8-5",
+                    "PreceptorAssociated6": "40-50 per day",
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)"
+                    ],
+                    "Program/Institution129:": "Acute",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "Yes",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "Na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "PreceptorAssociatedO1": ".",
+                    "Program/Institution221:": "No",
+                    "PreceptorAssociatedO21": "No",
+                    "PreceptorAssociatedO1A": ".",
+                    "PreceptorAssociatedO1B": ".",
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "Program/InstitutionS:": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "564b5ffc-40c0-4d3d-bdac-30b0d3b99e40",
+        "_rid": "txoEAI0Kc-wJFAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wJFAAAAAAAAA==/",
+        "_etag": "\"0001e12e-0000-0100-0000-668e65960000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608150
+    },
+    {
+        "responseId": "bbabda59-ac78-4a59-bbfd-dfadc4d1b6e6",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.TTUHSCInitialSiteEvaluationForm",
+                "values": {
+                    "SiteName": "Family Practice",
+                    "preceptorName": "15",
+                    "CurrentLicense": "L9626",
+                    "State": "TX",
+                    "B1": "No",
+                    "beds": "27",
+                    "B2": "Yes",
+                    "Anyuniqueremarks": "Great place for students.",
+                    "B3": "Yes",
+                    "B4": "Yes",
+                    "B6": [
+                        "Outpatient",
+                        "Emergency Department"
+                    ],
+                    "normalworking": "Monday - Friday (8-5)",
+                    "approximate": "21",
+                    "A6": "Yes",
+                    "A8": "Yes",
+                    "A9": "No",
+                    "A10": "No",
+                    "A11": "No",
+                    "A12": "No",
+                    "A13": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "96968"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "5f8b8f49-7da6-4199-9178-a15d0d48e256",
+        "_rid": "txoEAI0Kc-yfOgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yfOgAAAAAAAA==/",
+        "_etag": "\"0001e92e-0000-0100-0000-668e65960000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608150
+    },
+    {
+        "responseId": "2affcfc8-cf1f-46c6-bd50-8a9e5fc51ab4",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Crane Memorial - April Floyd PA-C",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Internal Medicine",
+                    "Program/Institution5:": "14 years",
+                    "Program/Institution6:": "PA06464",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Crane Memorial Hospital",
+                    "Program/Institution9A:": ".",
+                    "Program/Institution9B:": ".",
+                    "Program/Institution10A:": "25",
+                    "Program/Institution10B:": ".",
+                    "Program/Institution10C:": "..",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution10D:": ".",
+                    "Program/Institution101E:": ".",
+                    "Program/Institution101D:": ".",
+                    "Program/Institution101F:": ".",
+                    "Program/Institution102F:": ".",
+                    "Program/Institution10E:": ".",
+                    "Program/Institution103F:": ".",
+                    "Program/Institution104F:": "."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "Badge access",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "Student can purchase lunch for $5 per day. Student is housed onsite.",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "Yes",
+                    "NOTparticipatingA": "Yes",
+                    "NOTparticipatingB": "See Exxat"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Department"
+                    ],
+                    "PreceptorAssociated5": "M-F, 8-5, Thursday nights on call.",
+                    "PreceptorAssociated6": "15-20 patients per day",
+                    "Program/Institution129:": "Chronic ",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "Yes",
+                    "Program/Institution110:": "Yes",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "NA",
+                    "PreceptorAssociated678": "NA"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "POC Ultrasound training",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "Need to know actual doses of medication/formulation, not just which medicine is used to treat. They need to learn how to do procedures in more detail. Possibly medical Spanish.",
+                    "PreceptorAssociatedO1B": "None",
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "Health Fairs, high school mentorship. CEO Laci Harris states they are working to become more involved with the community moving forward.",
+                    "NOTparticipatingA131": "."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "76d40064-051c-473d-a994-8b0ca1686a35",
+        "_rid": "txoEAI0Kc-zvFgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zvFgAAAAAAAA==/",
+        "_etag": "\"0001e72e-0000-0100-0000-668e65960000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608150
+    },
+    {
+        "responseId": "11b7262f-c503-4c31-83d4-1bd4d94e5e7c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Preventative Health Care Services",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Internal Medicine",
+                    "Program/Institution5:": "34",
+                    "Program/Institution6:": "G4949",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Big Bend",
+                    "Program/Institution10A:": "na",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution10E:": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "secured parking",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "n/a",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "Yes",
+                    "PreceptorAssociated4": "yes",
+                    "NOTparticipatingA": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "M-F 8-5; no weekend or call; occasionally will need to travel to alternate PCHS sites",
+                    "PreceptorAssociated6": "12-15",
+                    "Program/Institution129:": "Emergent",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "Yes",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "Yes",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "Preferred Spanish Speaking** student; student sees patient first, followed then with the provider"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "individually driven be the preceptor",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "medical spanish",
+                    "PreceptorAssociatedO1B": "medical spanish",
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "assist in city wide sports physical and the town has many initiatives"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "806dd5f5-17a6-4cdf-92dc-2b51ce4122e2",
+        "_rid": "txoEAI0Kc-x1CgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x1CgAAAAAAAA==/",
+        "_etag": "\"0001cd2e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "e33f8728-5f3e-4f99-b19a-213e54c3ff07",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.TTUHSCInitialSiteEvaluationForm",
+                "values": {
+                    "B5": [
+                        "Clinical Contact Form",
+                        "Copy of Board Certification"
+                    ],
+                    "SiteName": "1",
+                    "preceptorName": "2",
+                    "CurrentLicense": "3",
+                    "State": "4",
+                    "B1": "Yes",
+                    "HospitalAffiliations": "5",
+                    "beds": "6",
+                    "bedsA": "7",
+                    "B2": "Yes",
+                    "PrimaryContactName": "8",
+                    "License": "9",
+                    "Restriction": "10",
+                    "WebsiteAddress": "11",
+                    "License1": "12",
+                    "Restriction1": "13",
+                    "Anyuniqueremarks": "14",
+                    "B3": "Yes",
+                    "B4": "No",
+                    "ContactA": "15",
+                    "B6": [
+                        "Outpatient"
+                    ],
+                    "normalworking": "16",
+                    "approximate": "17",
+                    "A1": "18",
+                    "A2": "18",
+                    "A3": "19",
+                    "A4": "20",
+                    "A5": "21",
+                    "A6": "Yes",
+                    "A7": "No",
+                    "A8": "Yes",
+                    "A9": "No",
+                    "A10": "Yes",
+                    "A11": "No",
+                    "A12": "Yes",
+                    "A13": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "40508"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "80869827-279e-48b6-b98f-1eabcfedd626",
+        "_rid": "txoEAI0Kc-zjEwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zjEwAAAAAAAA==/",
+        "_etag": "\"0001de2e-0000-0100-0000-668e65960000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608150
+    },
+    {
+        "responseId": "2fae3cd6-3ba9-49fd-8510-311adabc7c23",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Jared Hough PA-C Cogdell Memorial Hospital",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Internal Medicine",
+                    "Program/Institution5:": "17 years",
+                    "Program/Institution6:": "PA09176",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Cogdell Memorial",
+                    "Program/Institution10A:": "25",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution10E:": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "secured parking",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "HRSA site",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "Yes",
+                    "PreceptorAssociated4": "Yes",
+                    "NOTparticipatingA": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "M-F 8-5",
+                    "PreceptorAssociated6": "12 patients",
+                    "Program/Institution129:": "Chronic ",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "na",
+                    "PreceptorAssociated678": "This site is wonderful - patient sees a variety of patients and are exposed to many different disease pathways. This is a wonderful HRSA experience with a preceptor who truly cares."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "PreceptorAssociatedO1": "Chronic issues; anything pertaining to internal medicine",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "Spanish curriculum; besides this no",
+                    "PreceptorAssociatedO1B": "Spanish training",
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "Need to contact the local college - lots of opportunity for community involvement",
+                    "NOTparticipatingA131": "na"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "87887563-c9d4-4415-87bc-02d760e5a203",
+        "_rid": "txoEAI0Kc-xzDwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xzDwAAAAAAAA==/",
+        "_etag": "\"0001db2e-0000-0100-0000-668e65960000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608150
+    },
+    {
+        "responseId": "507f0bd0-656f-48c4-b7f3-1d78ee52efde",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "First Physicians - Javier Espinoza PA-C",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Family Medicine",
+                    "Program/Institution5:": "15",
+                    "Program/Institution6:": "PA05989",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "MCH",
+                    "Program/Institution10A:": "402",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution10D:": "na",
+                    "Program/Institution101E:": "na",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution101F:": "na",
+                    "Program/Institution102F:": "na",
+                    "Program/Institution10E:": "na",
+                    "Program/Institution103F:": "na",
+                    "Program/Institution104F:": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "na",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "na",
+                    "Program/Institution13:": "No",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "Monday 9-4, Tuesday 8-12, Wednesday 9-4, Thurs and Friday 10-5; no weekend or call",
+                    "PreceptorAssociated6": "25-30",
+                    "Program/Institution123:": [
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution129:": "Emergent",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "na",
+                    "PreceptorAssociated678": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "na",
+                    "Program/Institution221:": "No",
+                    "PreceptorAssociatedO21": "No",
+                    "PreceptorAssociatedO1A": "na",
+                    "PreceptorAssociatedO1B": "na",
+                    "Program/InstitutionS:": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "b8ad067e-7ffd-480d-9d90-d93828081b72",
+        "_rid": "txoEAI0Kc-x5CgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x5CgAAAAAAAA==/",
+        "_etag": "\"0001d42e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "6a1cb233-06cd-4219-803c-bb640cb5a9d7",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "Ward Memorial Hospital (Dee Ann Bean and Shane Bailey)",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Family Medicine/Emergency Medicine",
+                    "Program/Institution5:": "13, 10",
+                    "Program/Institution6:": "PA06958, PA08765",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Ward Memorial Hospital",
+                    "Program/Institution10A:": "25",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution10D:": "na",
+                    "Program/Institution101E:": "na",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution101F:": "na",
+                    "Program/Institution102F:": "na",
+                    "Program/Institution10E:": "n",
+                    "Program/Institution103F:": "n",
+                    "Program/Institution104F:": "n"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "badge access and entry",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "n/a",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "yes",
+                    "NOTparticipatingA": "Yes",
+                    "NOTparticipatingB": "Hospital"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Department"
+                    ],
+                    "PreceptorAssociated5": "Shift work ER; M-F 8-5 clinic",
+                    "PreceptorAssociated6": "varies - 1-3 in emergency,20+ family",
+                    "Program/Institution129:": "Emergent",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "Yes",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "na",
+                    "PreceptorAssociated678": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "rural health specific CME",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "n/a",
+                    "PreceptorAssociatedO1B": "n/a",
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "outreach initiatives"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c3e784e9-d2a6-4edb-8401-9b51bde7da10",
+        "_rid": "txoEAI0Kc-x7CgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x7CgAAAAAAAA==/",
+        "_etag": "\"0001d62e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "010b23a1-5e20-40ca-83e9-985c6c2f0996",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution10A:": "na",
+                    "Program/Institution10C:": "NA",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution10E:": "na",
+                    "Program/Institution:": "Dr. Sudolcan - Reagan Memorial Hospital",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's"
+                    ],
+                    "Program/Institution4:": "Family medicine",
+                    "Program/Institution5:": "32",
+                    "Program/Institution6:": "H0859",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Reagan Memorial Hospital",
+                    "Program/Institution8A:": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "PreceptorAssociated3": "nA",
+                    "NOTparticipatingB": "Hospital",
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "Secured Parking, locked doors to hospital",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "Yes",
+                    "PreceptorAssociated4": "Yes",
+                    "NOTparticipatingA": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution12:": [
+                        "Outpatient",
+                        "Emergency Department"
+                    ],
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "PreceptorAssociated5": "8-5 in the clinic; on call in the ED",
+                    "PreceptorAssociated6": "varies  7-20 patients per day",
+                    "Program/Institution129:": "Preventative ",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "Yes",
+                    "Program/Institution110:": "Yes",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "NA"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "He is \"open\" to any and all CME activities. Looking to retire soon, however.",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "Medical Spanish, communication",
+                    "PreceptorAssociatedO1B": "NA",
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "Up to the student - plenty of \"outreach\" in the community"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "cf7f57ff-99e0-439e-860d-60ca7dcce594",
+        "_rid": "txoEAI0Kc-xpCgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xpCgAAAAAAAA==/",
+        "_etag": "\"0001c22e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "3f222009-1cf2-4a0d-aa6e-91f1c75d9231",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution10A:": "25",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution10E:": "na",
+                    "Program/Institution:": "Jared Hough Cogdell Memorial",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Internal Medicine",
+                    "Program/Institution5:": "17 years",
+                    "Program/Institution6:": "PA09176",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Cogdell Memorial Hospital",
+                    "Program/Institution8A:": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "Secured parking",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "Program/Institution13:": "Yes",
+                    "Program/Institution11E:": "Yes",
+                    "PreceptorAssociated4": "Yes",
+                    "NOTparticipatingA": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "PreceptorAssociated678": "na",
+                    "Program/Institution12:": [
+                        "Outpatient"
+                    ],
+                    "PreceptorAssociated5": "M-F 8-5",
+                    "PreceptorAssociated6": "12 patients",
+                    "Program/Institution123:": [
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution129:": "Chronic ",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "NA"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "NOTparticipatingA131": "na",
+                    "PreceptorAssociatedO1": "Chronic disease medicine/any chronic issues (kidney disease, diabetes, HTN, etc)",
+                    "Program/Institution221:": "Yes",
+                    "PreceptorAssociatedO21": "Yes",
+                    "PreceptorAssociatedO1A": "Nothing to add except maybe Spanish speaking course, lessons in charting",
+                    "PreceptorAssociatedO1B": "Canopy (Spanish speaking course)",
+                    "Program/InstitutionS:": "Yes",
+                    "NOTparticipatingA13": "WTC (college) - serving projects, MASH projects, low income health services"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e1ca65c1-7fd6-418c-891d-8093e51fd7b6",
+        "_rid": "txoEAI0Kc-xvDwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xvDwAAAAAAAA==/",
+        "_etag": "\"0001d92e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    },
+    {
+        "responseId": "8c3c7bcc-8b3d-4596-b7d1-0e18f9f599cd",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution3:": [
+                        "Clinical Contact Form",
+                        "W9",
+                        "Copy of Current CV's",
+                        "Copy of Board Certification"
+                    ],
+                    "Program/Institution:": "MMH ER - Diva Wilson",
+                    "Program/Institution2:": [
+                        "In-person"
+                    ],
+                    "Program/Institution4:": "Emergency Medicine",
+                    "Program/Institution5:": "12",
+                    "Program/Institution6:": "PA07467",
+                    "Program/Institution7:": "TX",
+                    "Program/Institution8:": "No",
+                    "Program/Institution9:": "Midland memorial",
+                    "Program/Institution10A:": ">400",
+                    "Program/Institution10C:": "na",
+                    "Program/Institution8A:": "Yes",
+                    "Program/Institution101D:": "na",
+                    "Program/Institution10E:": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.STUDENT",
+                "values": {
+                    "Program/Institution10:": "Yes",
+                    "PreceptorAssociated": "Badge access needed to enter ER",
+                    "Program/Institution11:": "Yes",
+                    "Program/Institution11A:": "Yes",
+                    "Program/Institution11B:": "Yes",
+                    "PreceptorAssociated3": "na",
+                    "Program/Institution13:": "No",
+                    "Program/Institution11E:": "No",
+                    "PreceptorAssociated4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SITE",
+                "values": {
+                    "Program/Institution123:": [
+                        "Infants (Birth-1yr)",
+                        "Children (1-11yrs)",
+                        "Adolescents (12-17yrs)",
+                        "Adults (18-64yrs)",
+                        "Elderly (>65yrs)"
+                    ],
+                    "Program/Institution12:": [
+                        "Emergency Department"
+                    ],
+                    "PreceptorAssociated5": "shift work - 10 hour shifts",
+                    "PreceptorAssociated6": "varies - 160-180 for the entire ER department per day",
+                    "Program/Institution129:": "Emergent",
+                    "Program/Institution11f:": "No",
+                    "Program/Institution113:": "No",
+                    "Program/Institution11g:": "Yes",
+                    "Program/Institution11h:": "No",
+                    "Program/Institution110:": "No",
+                    "Program/Institution21:": "No",
+                    "Program/Institution22:": "No",
+                    "Program/Institution22A:": "Yes",
+                    "PreceptorAssociated67": "na",
+                    "PreceptorAssociated678": "na"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Actions",
+                "values": {
+                    "Program/Institution221:": "No",
+                    "PreceptorAssociatedO21": "No",
+                    "Program/Institution123A:": [
+                        "Preceptor Evaluation of Student",
+                        "Preceptor Handbook/Policies",
+                        "Learning outcomes & objectives",
+                        "Contacting the program",
+                        "Students not substitute for clinical/admin staff"
+                    ],
+                    "PreceptorAssociatedO1": "na",
+                    "PreceptorAssociatedO1A": "na",
+                    "PreceptorAssociatedO1B": "na",
+                    "Program/InstitutionS:": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "TTUHSC.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TTUHSCInitialSiteEvaluationForm.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "TTUHSC",
+            "owningOrganizationUnit": "P006",
+            "owningUser": "58048"
+        },
+        "partitionKey": "TTUHSC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ef2d492f-1930-4eaa-95bb-3014e3a7914b",
+        "_rid": "txoEAI0Kc-xrCgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xrCgAAAAAAAA==/",
+        "_etag": "\"0001c62e-0000-0100-0000-668e65950000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608149
+    }
+]
