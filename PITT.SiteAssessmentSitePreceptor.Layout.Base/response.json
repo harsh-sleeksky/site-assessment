@@ -1,0 +1,158 @@
+[
+    {
+        "responseId": "962d387a-32b5-4293-9830-e4196288c61c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.ContactInformation",
+                "values": {
+                    "PreceptorName": "1",
+                    "Degree": "2",
+                    "AreaofInstruction": "3",
+                    "ContactA": "4",
+                    "Supervising": "5",
+                    "ContactB": "6",
+                    "Title": "7",
+                    "Email": "8",
+                    "Phone": "9"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": [
+                        "Annual/Ongoing Evaluation"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Documentation",
+                "values": {
+                    "CurriculumVitae": "Yes",
+                    "OtherEvidence": "No",
+                    "CurrentlyLicensed": "Yes",
+                    "NOTparticipating": "10",
+                    "LicenseExpiration": "2024-02-28T18:30:00Z",
+                    "VerificationLicense": "Yes",
+                    "CurrentlyCertified": "No",
+                    "AreaofCertification": "11",
+                    "InitialCertification": "2023-02-28T18:30:00Z",
+                    "ExpirationDate": "2024-02-28T18:30:00Z",
+                    "VerificationCertification": "Yes",
+                    "AttestationOrientation": "No",
+                    "AttestationProgramDirector": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Effectiveness",
+                "values": {
+                    "ClinicalPreceptor": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Comments",
+                "values": {
+                    "Comments": "11",
+                    "ResidentialProgram": "12",
+                    "Date2": "2023-02-28T18:30:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "PITT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "PITT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "PITT",
+            "owningOrganizationUnit": "D109",
+            "owningUser": "40508"
+        },
+        "partitionKey": "PITT",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "781e6453-3a40-46e6-b697-2aaa3683f61f",
+        "_rid": "txoEAI0Kc-wbBgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wbBgAAAAAAAA==/",
+        "_etag": "\"0001b32b-0000-0100-0000-668e65700000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608112
+    },
+    {
+        "responseId": "9b00d9fd-8cb4-4295-b4e2-a1d7694b3def",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.ContactInformation",
+                "values": {
+                    "PreceptorName": "Hiral Mistry",
+                    "Degree": "QA",
+                    "ContactA": "hiral.gohil@exxat.com",
+                    "Supervising": "test PA"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": [
+                        "Preceptor Initiated Evaluation"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Documentation",
+                "values": {
+                    "CurriculumVitae": "Yes",
+                    "OtherEvidence": "No",
+                    "CurrentlyLicensed": "Yes",
+                    "NOTparticipating": "guj",
+                    "LicenseExpiration": "2023-02-27T18:30:00Z",
+                    "VerificationLicense": "Yes",
+                    "CurrentlyCertified": "No",
+                    "AreaofCertification": "technical QA",
+                    "InitialCertification": "2023-02-06T18:30:00Z",
+                    "ExpirationDate": "2023-02-27T18:30:00Z",
+                    "VerificationCertification": "Yes",
+                    "AttestationOrientation": "No",
+                    "AttestationProgramDirector": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Effectiveness",
+                "values": {
+                    "ClinicalPreceptor": "No",
+                    "NOTparticipating": "test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Comments",
+                "values": {
+                    "Comments": "testing purpose.",
+                    "ResidentialProgram": "test PA",
+                    "Date2": "2023-02-26T18:30:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "PITT.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "PITT.SiteAssessmentSitePreceptor.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "PITT",
+            "owningOrganizationUnit": "D109",
+            "owningUser": "54698"
+        },
+        "partitionKey": "PITT",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "fa4e7832-c104-4422-8fd7-cd32a656fb3a",
+        "_rid": "txoEAI0Kc-wJBgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wJBgAAAAAAAA==/",
+        "_etag": "\"0001b12b-0000-0100-0000-668e65700000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608112
+    }
+]
