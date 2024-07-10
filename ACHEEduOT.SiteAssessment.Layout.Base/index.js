@@ -1,4 +1,4 @@
-function correctResponse(response) {
+export function correctResponse(response) {
   let sectionIndex = response.sections.findIndex(
     (section) => section.sectionId == "Section.SiteAssessment.interventions"
   );

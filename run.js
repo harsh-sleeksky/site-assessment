@@ -1,4 +1,9 @@
-export function correctResponse(response) {
+const fs = require("fs");
+const path = require("path");
+
+const responses = require("./AmericanInternationalCollege Responses.json");
+
+function correctResponse(response) {
   let sectionIndex = response.sections.findIndex(
     (section) =>
       section.sectionId ==
@@ -22,3 +27,17 @@ export function correctResponse(response) {
   }
   return response;
 }
+
+const updatedResponses = responses.map(correctResponse);
+
+fs.writeFile(
+  path.join(__dirname, "AmericanInternationalCollege Responses.json"),
+  JSON.stringify(updatedResponses),
+  (err) => {
+    if (err) {
+      console.error("An error occurred while writing to the file:", err);
+    } else {
+      console.log("File has been written successfully");
+    }
+  }
+);

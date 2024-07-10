@@ -19,3 +19,5 @@ function updateResponse(response) {
 
   return response;
 }
+
+module.exports.method = updateResponse;

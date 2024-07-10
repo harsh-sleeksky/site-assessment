@@ -22,3 +22,5 @@ function correctResponse(response) {
 
   return response;
 }
+
+module.exports.method = correctResponse;

@@ -1,6 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
+const responses = require("./responses.json");
+
 function hasDuplicateFields(layout) {
   const fieldIdset = new Set();
   let fieldCount = 0;
@@ -75,5 +77,5 @@ const searchAndProcessFiles = (dir) => {
 };
 
 // Start searching from the current directory
-const startDir = __dirname;
-searchAndProcessFiles(startDir);
+// const startDir = __dirname;
+// searchAndProcessFiles(startDir);
