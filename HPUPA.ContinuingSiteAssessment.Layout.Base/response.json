@@ -1,0 +1,93 @@
+[
+    {
+        "responseId": "060e578f-aeeb-4033-a9c1-54ec6639c965",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.EvaluationType",
+                "values": {
+                    "Care1": [
+                        "1st HPU PA Student with Preceptor/Site"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.StudentPreceptor",
+                "values": {
+                    "SPE1": "No",
+                    "SPE2": "Yes",
+                    "SPE3": "No",
+                    "SPE4": "Yes",
+                    "SPE5": "test",
+                    "SPE6": "test",
+                    "SPE7": "No (explain)",
+                    "NO1": "test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SiteDetailSafety",
+                "values": {
+                    "SDS1": "No",
+                    "SDS2": "Yes",
+                    "SDS3": [
+                        "Tuesday",
+                        "Sunday",
+                        "Days",
+                        "Evenings"
+                    ],
+                    "SDS5": "Yes",
+                    "SDS6": "No",
+                    "SDS7": "Yes",
+                    "SDS8": "No",
+                    "SDS9": "Yes",
+                    "SDS10": "Yes",
+                    "SDS11": "Yes",
+                    "SDS12": "test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.SCPEINFO",
+                "values": {
+                    "CareExperiences1": [
+                        "Gynecological Care Experiences",
+                        "Preventative Care Experiences",
+                        "Acute Care Experiences",
+                        "Emergent Care Experiences"
+                    ],
+                    "AgesandStages1": [
+                        "Adolescents (Menarche/Puberty (11-12 yrs. -18 yrs.)"
+                    ],
+                    "Care1": [
+                        "Emergency Department ",
+                        "Operating Room"
+                    ],
+                    "SDS13": "No",
+                    "SDS14": "No",
+                    "SDS15": "Yes",
+                    "SCPE4": "test",
+                    "SCPE5": "test"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "Exxat.ContinuingSiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "HPUPA.ContinuingSiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "EIM-PA",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "54698"
+        },
+        "partitionKey": "EIM-PA",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "3d9540fd-f290-45e3-8c53-4a13eb9f8219",
+        "_rid": "txoEAI0Kc-yRBgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yRBgAAAAAAAA==/",
+        "_etag": "\"0001cf2b-0000-0100-0000-668e65720000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608114
+    }
+]
