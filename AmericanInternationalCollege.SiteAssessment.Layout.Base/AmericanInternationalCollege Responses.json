@@ -1,0 +1,845 @@
+[
+    {
+        "responseId": "89396927-27ed-42ce-bc4a-9fd0da23c702",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7536"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Test",
+                    "safety": "Test",
+                    "communication": "Test",
+                    "professionalism": "Test",
+                    "discussion": "Test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Test",
+                    "Signature1": "data:image/png;base64,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"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7536",
+                    "Setting": "Test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Test",
+                    "Goals": "Test",
+                    "remediation": "Test",
+                    "caseload": "Test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "Test",
+                    "Student1": "Test",
+                    "Comments1": "Test",
+                    "ci2": "Test",
+                    "Student2": "Test",
+                    "Comments2": "Test",
+                    "ci3": "Test",
+                    "Student3": "Test",
+                    "Comments3": "Test",
+                    "ci4": "Test",
+                    "Student4": "Test",
+                    "Comments4": "Test"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "methods": [
+                        "Demonstration/return demonstration",
+                        "1:1 review of techniques",
+                        "Other"
+                    ],
+                    "effective": "No",
+                    "open": "No",
+                    "supervision": "Yes",
+                    "feedback": "No",
+                    "practice": "Yes",
+                    "education": "Clinical Education program not adequately developed at this time",
+                    "Comments3": "Test",
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "opportunities": "Test",
+                    "dcesignature": "data:image/png;base64,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",
+                    "Date": "2024-05-22T18:30:00Z",
+                    "email": "Test"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "6762"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "22bde982-e772-4837-8a21-162c8023428c",
+        "_rid": "txoEAI0Kc-yDQAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yDQAAAAAAAAA==/",
+        "_etag": "\"0001e842-0000-0100-0000-668e66910000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608401
+    },
+    {
+        "responseId": "89248b58-f8af-4c3b-9aa2-20631ced4537",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7336"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "The student is doing really well.  She is a pleasure to have in the clinic. She is a super-quick learner and very motivated to learn. she is doing parts of treatment sessions and co-treatment for evaluations. She is independent with clinical reasoning.",
+                    "safety": "no",
+                    "communication": "no",
+                    "professionalism": "no",
+                    "discussion": "n/a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Things have been going really well. Able to apply what she has learned in the classroom. Starting to take patients on her own. Seeing ortho, has 2 CRPS- Clinical has been really eye-opening - all different exercises, how to progress and regress exercises and how different patients with the same diagnosis present. first eval was a patient with a distal tib fracture with fibromyalgia and very deconditioned.  Difficult donning and doffing boot and very limited ankle range after being immobilized. The CI is supportive, checks in several times per day  - does not hover and asks questions to help her learn.  Has shown her how to do Graston.",
+                    "Signature1": "data:image/png;base64,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"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7336",
+                    "Setting": "outpatient ortho"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Professionalism, initiative takes an active role in her learning, completing the subjective portion of the eval and knowing when to cut the patient off if on a tangent, documentation",
+                    "Goals": "Progression/regression of program, communicating with patients who do not speak English, understanding how psychosocial factors impact delivery of care, nuances of billing, diagnosing movement versus specific condition, delegating to PTA",
+                    "remediation": "n/a",
+                    "caseload": "50% - 5-6 patients per day including evals\nNew Grad: 10-12"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "yes",
+                    "Student1": "yes",
+                    "Comments1": "Student: felt prepared didactically. Would benefit from more in person ICE versus remote - to get more experience speaking to patients",
+                    "ci2": "yes",
+                    "Student2": "yes",
+                    "Comments2": "Feel 10 weeks is good in this setting.",
+                    "ci3": "no",
+                    "Student3": "no",
+                    "Comments3": "Last one should be longer to allow the student more time to be practicing as a PT prior to graduation",
+                    "ci4": "There are good and bad of both - good - you have all the coursework, bad - the expectations of CI for backended student is higher because the had all didactic.  Sees the benfit of both.",
+                    "Student4": "Keep as is - likes to practice skills just learned"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "education": "Excellent clinical education experience",
+                    "Comments3": "Site is excellent - has a gravity treadmill, a tank to do water therapy, a very large attached gym for athletes to return to sport\nCI is excellent - great communication, great teacher, she allows the student the opportunity to practice skills without being over-protective.",
+                    "effective": "Yes",
+                    "open": "Yes",
+                    "supervision": "Yes",
+                    "feedback": "Yes",
+                    "practice": "Yes",
+                    "methods": [
+                        "Demonstration/return demonstration",
+                        "1:1 review of techniques"
+                    ],
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "opportunities": "none",
+                    "dcesignature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAACrdJREFUeF7t3U/oNVMcx/GP//9JUTYKoR5ZWUlZWGBn4U/KUlk8C7aIjfzNliRlr4gsSYmSpZU/kZSyID0RC//5fXvu6bl+z713zpn7/Z6Zc+Z9y+Lxm/nOmdc58+nM3Jm5p4gPAggg0IjAKY20k2YigAACIrAYBAgg0IwAgdVMV9FQBBAgsBgDCCDQjACB1UxX0VAEECCwGAMIINCMAIHVTFfRUAQQILAYAwgg0IwAgdVMV9FQBBAgsBgDCCDQjACB1UxX0VAEECCwGAMIINCMAIHVTFfRUAQQILAYAwgg0IwAgdVMV9FQBBAgsBgDCCDQjACB1UxX0VAEECCwGAMIINCMAIHVTFfRUAQQILAYAwgg0IwAgdVMV9FQBBAgsBgDCCDQjACB1UxX0VAEECCwGAMIINCMAIHVTFfRUAQQILAYAwgg0IwAgdVMV9FQBBAgsBgDCCDQjACB1UxX0VAEECCwGAMIINCMAIHVTFfRUAQQILAYAwgg0IwAgdVMV9FQBBAgsBgDCCDQjACB1UxX0VAEECCwGAMIINCMAIHVTFfRUAQQILAYAwgg0IwAgdVMV9FQBBAgsPYfA39JOn3/MlRAAIEhAQJrSGj33/+WdKokHPdzZG0EsgQ40LKYti707+ovOO7nyNoIZAlwoGUxbVzoM0lHCKzxgKyJQKkAgVUqdnz59bCyf+M4zpG1ECgS4EAr4joprMzPTgtxLHdkDQSKBTjQysg2nQYuKbDsS4bTyshYGgE/AQIr33LbNaulBBZfMOSPFZYMEiCw8mG3HbBLCKx/Vqe9RyW9nE/Gkgj4ChBYeZ7pfqs/JZ25tor9224a7dkx7aOFFqeDeeOFpYIEej7QPMlsFmX/2U2i658085jCscYp2uMHIfXkln339KUWAlkCUxxoWQ2b0UK7gmGqwErb3RSiXnQprKwe48RLlTp7CTAQd/NtOxVMa22bee3VKQMrp1M0a1vUM4yEVWQPUnu0AIG1m24okOzvta/tRJ8KElajDydWjBYgsLYL5wSDLfOHpLOiO2pVP/oU9B1Jt622xdio1KlsJl+AQbnZKgXDb5LO2cJZ+00Nb0u6I/AC+CMHwfssYZV/8LBkfQEC62RzmzGdkREM0bOd9ZalsIq6AE5Y1T/22OIIAQLrZLScU0Fba+j61oju2LhKdFgdk3QxMyuv7qJOpACB9X/dklmTBZa9bdRmY1Gf6LBK+xs1c4tyoe5CBQisEx2frknlfOtX6/pV7mxvzPCtcS/XmHaxDgJbBQisEzQlp3glM7Gxwy9t40VJD44tsmG9LyVds/r/30i6yrE2pRAIFSCwjvOWBlBJuI3pwJLZXkl9TgFLtFh2dgIE1vEuKQ2gyOtXr0u6O+NbytLBxClgqRjLz06AwBo3u7KOjLBLYeVZf/09Xl9JunZ2o5AGIZApEHHQZW56NouVzK5KTx1LdjIirDgFLOkBlp29wNIDqySA0rIRDx1HhlXkGx1mP8BpYF8CSw+s3NmV3W9lL6+LOvhLgnPbCHxC0mOHftj1c0nX9TVk2ZslCyw5sEpCIjfYxo6lMfU/kHTzlmtpUcE6dv9YDwEXgaUGlj3UbG9YyLlJtCTYxnRKSf30nOP6diycft/xkPaYNrEOArMUWGpg5d5BHvWyvLT9TYPiO0nnS7pgNXva1EcR19FmOUBpFALrAksMrHRTps1Kzh4YDrnBVjqqdgXW4Vpp2a/X7lAv3R7LI9CFwBIDK/d6UcmpWulgsNr2Mf/01tIfJdljOPdJOrL6+1uS7iwtzvII9CqwtMDKDSF7xu6KwG8FbTwNBWeaCUa/EaLXsc1+dSiwtMAaCgnr4hRWaQYU0e25wbnt16Yj2kRNBGYvsKTAygmJGmGVM7vadh1rSf01+4OHBtYXWNIBMDS7qhlWY2ZvQ+2vP3rYIgKVBZYSWDmzq6hvBNe7NLXj6YO3ldrPaZV87pf06uqeq6FvN0vqsiwCzQgsJbCGZicpSCIfZfF4x9WHq7vbv5d0WTOjjIYi4CSwhMAaml15BElOdwyFZk4NW+YHSZdKek/SrbkrsRwCPQgsIbB2BUUKq+hn74ZCs3Qs2U2vZ0q6R9IbpSuzPAKtCvQeWLuCIl2zig4rGxtes6tN18N678NWjy3aHSDQ+2Afml3ZK2OiP96zq/X21viiINqH+ghkC/QcWLV+imsIO2J2lbZ5oaSfJfEw9FAv8PcuBHoOrMiZTW7n15gBvSLpAUm/SLIA44NAtwI9B1bkzCZnQKQZXo0gsR+XuFrSF2sPTue0kWUQaEqg98Ca6sHhlyQdDX54+vBA+1XSeZJekPRQU6OQxiKQKdBrYE15OpjCyrqgtm9693zt7WYONxZDYD+BXgf2lKeDNa5b7ep12769StleAc0Hga4EegysKWdXNjimDEvb/muS7pX0vKSHuxqt7MziBXoMrCkD47lVSEztyqnh4g/tPgGmPrC8Vac8HftI0k2rHZqDq1nYK3Ou8kamHgJTCczhwPLa93Qbgf3SjT1nV/Pz1OpHTKe40L5tP9ND0j31cc0+ZVszFOhpME95Kmhd+76kW2bWx2by6cED0tfPrF00B4FRAr0E1lwewxnVCYEr2SzrktXP1wduhtII1BHoJbCm/mawTm+Vb+VySd+uvgiwbw35INC0QC+BNfXp4JwHgX1jaPdlnTvnRtI2BHIEegis31Y3Sd4g6ZOcnV7YMm9LumOCu+4Xxszu1hDoIbA4HRweKTYDfVPSXcOLsgQC8xXoIbA4HRweX8ck2S/tcFo4bMUSMxZoPbA+lnQjL7AbHGHPHPw82KOcFg46scDMBVoOrBRWRtzyftQaIjYTxamWNtsJEag1gNMjM+9Kut1hT36SdNGqTq19cGj2pCUIrEn52biHQK2DPV0Y92jzeo1a7fdu9xT17PaG06fYMNtEwEug9gFvweX1OdWr0ELq2IPQVy5kX9nNTgVqB1anjOwWAgjUECCwaiizDQQQcBEgsFwYKYIAAjUECKwaymwDAQRcBAgsF0aKIIBADQECq4Yy20AAARcBAsuFkSIIIFBDgMCqocw2EEDARYDAcmGkCAII1BAgsGoosw0EEHARILBcGCmCAAI1BAisGspsAwEEXAQILBdGiiCAQA0BAquGMttAAAEXAQLLhZEiCCBQQ2DfwEpvEq3RVraBAALtCeybMf/b432LpV+sSUWt3uFX8a6H2rbtpWXG/t22v28N7/W3OaR93PTK4sNtKK2xaX2zWd/m+r+T27r7pm0e/vtQzfYOK1ocJbBvxrgGVtROUhcBBBA4ScA1/fBFAAEEIgUIrEhdaiOAgKsAgeXKSTEEEIgUILAidamNAAKuAgSWKyfFEEAgUoDAitSlNgIIuAoQWK6cFEMAgUgBAitSl9oIIOAqQGC5clIMAQQiBQisSF1qI4CAqwCB5cpJMQQQiBQgsCJ1qY0AAq4CBJYrJ8UQQCBSgMCK1KU2Agi4ChBYrpwUQwCBSAECK1KX2ggg4CpAYLlyUgwBBCIFCKxIXWojgICrAIHlykkxBBCIFCCwInWpjQACrgIElisnxRBAIFKAwIrUpTYCCLgKEFiunBRDAIFIAQIrUpfaCCDgKkBguXJSDAEEIgUIrEhdaiOAgKsAgeXKSTEEEIgUILAidamNAAKuAv8BlR1Ipjr7v+EAAAAASUVORK5CYII=",
+                    "email": "keelin.mcsweeney@baystatept.com"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "d33f989a-9c5b-4f06-aee8-e27d76138128",
+        "_rid": "txoEAI0Kc-wXRgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wXRgAAAAAAAA==/",
+        "_etag": "\"0001eb42-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    },
+    {
+        "responseId": "078bb7ee-9b86-4440-92b9-2e9e5263d0c4",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7336"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Things have been great. Taking a hand full of patients every day. Given a list of patient for the day, develops a plan and writes the notes. Practicing a lot of clinical reasoning and evals daily.",
+                    "safety": "occasional issues with body mechanics but responds well to feedback",
+                    "communication": "CI and student a lot throughout the day",
+                    "professionalism": "excellent - always prepared ahead of time and open to learning",
+                    "discussion": "no"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Clinical going well. Likes her clinical. Seeing a lot of patients with LBP, post-op TKR, ORIF, shoulder and vertigo. CI is great and getting enough supervision and feedback. Learning a lot  - always talking about patients, treatment, ways to improve skills."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7336",
+                    "Setting": "outpatient ortho"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Professionalism - positive attitude, willingness to learn and try new things, accepts and implements feedback well, understands strengths and limitations\nCommunication - written and oral\nSubjective portion of eval - MMT/goals\nFocus on quality of care - able to adapt to patient response\nManual techniques - goni and MMT are spot on!",
+                    "Goals": "Billing/documentation (nuances between codes, ST/LTG)\nContinue to work on clinical reasoning\nSpeak to patient in layman's/confidence\nLearning more about socioeconomic status/psychosocial impact on care",
+                    "remediation": "no issues",
+                    "caseload": "25 - 50 % closer to 50%"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "Yes - first student who he did not need to review goniometry and MMT",
+                    "Student1": "Felt well prepared - liked all the clinical cases",
+                    "ci2": "Thinks 12 week would be better",
+                    "Student2": "Thinks 12 week would be better",
+                    "Comments2": "both feel longer clinicals would be beneficial for learning",
+                    "ci3": "3 - 12 week",
+                    "Student3": "3 - 12 week",
+                    "ci4": "Yes",
+                    "Student4": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "dcesignature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAAC3FJREFUeF7tnTmrLEUYhl+9rogLKIJmLgiuIGJiKmqgGJgIIoih/0DRQEHxHxiLoIEIImggmgsGiqKCuGAiuAXu+3ZKp7CcOz1V1V093d9Xz4Aczj3d1fU9b/VjdU1PzwniBQEIQMAIgROM9JNuQgACEBDCYhBAAAJmCCAsM1HRUQhAAGExBiAAATMEEJaZqOgoBCCAsBgDEICAGQIIy0xUdBQCEEBYjAEIQMAMAYRlJio6CgEIICzGAAQgYIYAwjITFR2FAAQQFmMAAhAwQwBhtY3qr6S5bySd07Z5WoNA3wQQVrv8o6zCz8gVabXjS0sQ4MPPjcbAnxtJfSnp/E2b6Wyr9H8Mv0s6qVGfaAYC7giUnkjuCm9Y0B+STpQUpHVsq90oslLO6exsTBcR3hhq7GOGQOmJZKagBToaJBP+C9La9aqRUM2228eqleMCqDgkBKYRQFjT+OUkEWdfpZynCCsnzmmVsjcEVkCg9ERaQVdX2YV9kkgX4YdmX2lRtXJL982Jc5Xw6BQEagkgrFpi/22fE0ztbGnKDGnKvuMJsCcEDkwAYY0HnpPEGGHtWrjP9TDO5MgyR4q/myfAIB8XYXg3Lrwj+K2ksweaGCOs2jy4FByXH3sZJVB7ghgts3m3c7Oarzciq+FbK7goq3Bpyr1bzSOmwTUSqDmh1tj/JfoU7l4/S9KQKKKsQt9q+NYIK87w9t1OsQQbjgmBWQnUnFCzdsRQ47nLsNxi/FCpNcLKrZ8ZwklXIVBOAGGVs4pbBlnsWxzPCW2qsMYKsb5S9oDAygggrLpASmQxdvZTOsMa235dpWwNgRUSQFh1oZTMnoJQwhrTyXVN//PxnpI8cjO8ysOyOQTsECg5QexUM39Pc7ObEqFNuSTMvTs5PwGOAIEFCSCsOvi52VNOaPuOlpthxcvR3ySdUtdttoaADwIIqzzH3PrVlNlVru2XJd2ceSpEeSVsCQGjBBBWeXD7hBTvvRp7X9S+tqOsQk/JqzwvtnRIgBOgPNShy72xN4qmRx5qG1mV58OWHRBAWOUh71q/aiGr0IOhtTEW2cvzYcsOCCCsspB3rTG1klUU1nYWLLKXZcNWHRFAWGVhb68xtZTVLmFFWY1dEyuriq0gYIwAwioLLF1jai2rVFjhloX45AVkVZYNW3VEAGGVhR3XmH5Inn/Vkl0UYmyzZdtlFbIVBAwQ4MTIhxQvz8JjZeLD+lpzi4vrzKryebBFxwRan3geUaaXgz9JOr1hkS9Iun3T3pjPHzbsCk1BYP0EEFY+o7k+bJzKKvSCLPJZsEXnBDhJ9g+A3EdmaobPF5LO2+yQco+fIXzo6AkPj9U0yLYQ6I0Awtqf+JQPM8fHGO87wtAHnsO/XyXpvd4GJPVCYB8BhJUXVu1Xb6WiipeTT0m6J/k6+3RxPb3HK7wLGdbItmdgl0t6n6EMgd4JIKzhEVDz9IXvJJ2RiCYVUrysDEfa9S7g0CzuFUk3bsnrDknP9z5oqb9fAghrOPvc5eD9kh7f2n1bSCW3K+SegxUO8aKkWzfHCutcYb2LFwS6I4Cwdkeem12lsvpe0pk7min94HKJsGLzsc3bJL3U3Wil4O4JIKzdQ2Df7CqV1RC/eBn4c8F9WzXCipeV4WdYkL+y+xEMgK4IIKzj446L5rvYlMjqaUl3VTwdtFZYocdxBsid8V2drhSLsI4fA7nLwX2C+UjSxZsmS9h+LOmikTeNfirpwopjMdohYJ5AyUllvsjKAnKL7UPC+kDSpRUCibIKu0zJoXStrBIDm0NgfQSmnCjrq6ZNj8YIK9wjdVmFrNLLuqkZXHv0ecQ3Rn4XYhtitAKBAxGYerIcqJsHO0x81tW+r9JKZ1hPSLov6V0pzw8lXVKxzpUDEC8P35F0dW5j/g4BqwRKTzCr9dX0u/TBfPESLG27ZvG79Dg1fQ/bxncmb5D0Wu3ObA8BCwQQ1r8p1UgkLMqnrxMrgq5d56po+p9No0yRVi05tjdBAGH9F9OY2wvGhDz3cZDWmFTYxwQBhHVYYR3qHT2kZeL0o5O1BBDW4YR16K/tQlq1ZwPbr54AwjqcsHK3S8wxWJDWHFRpczECCOtf9Lm721sENPfa1VAfkVaL9GhjFQSWFFb4zF78Dr6lYcw5+3lX0hWbApfijbSWHmEcvwmBpU6g0PmlZhy7wM3Vl/R2iZp7tZqEu9VIlNYjR//+8BwHoE0IzE1gaWHVPn54Lh5zCCvcdR4f/7Ik55RZvPR9VdJNc8GkXQjMRWDJEymePKG2Jfsx12zvEOtiY8bFL5JOkfSZpAvGNMA+EFiKwNKiiLIIP8Pb/kusabX8Kq+Y49ubz/QtfRk4NK6+knSupJIHDC41NjkuBI4jsAZhxY+6hL4scYK3XnBPv3RiDXyHhv3rR49Zvn7zDukxzg0IWCCwphMqPdEPubYVhNXieOmHopcQ75jx9uDRrPbRzY5rGgtjamGfDgiscZCma1vfSDpnxhxarTNFWVkR1TbS2P/waJrwZgEvCKySwBqFFUHFk2guacVbDqZIxuKsamggRnkjrVWeqnQqEFizsNIF+dbSqnmczL6Rkj5qpuYxM2sdffGyHGmtNaHO+7V2Yc0hrVay8jp0kJbXZB3UZUFYqbSmXL6FdpBV2aBFWmWc2OrABKwIK2BJF+PHiAtZ1Q2uKK1nJd1ZtytbQ2AeApaEFQmk4gr/VnLDqZV7o+ZJeXyrP0k6TVK4Oz785AWBRQlYFFYEFr+hOf4eZl3PSLo7IZqKasysbNFwVnLwByQ9tnmD5pPNF7+upGt0ozcCloUVswqXemfteccTUbUZ1W9JumbT1JOS7m3TLK1AoJyAB2Gl1f669XlED7calKd5mC1/lHT6Zk3xwqPvZfz8MIflKBBY/31YZLReAmF961RJb0q6br3dpGeeCHibYXnKxkItzx19aestks600Fn6aJ8AwrKfIRVAoBsCCKubqCkUAvYJICz7GVIBBLohgLC6iZpCIWCfAMKynyEVQKAbAgirm6gpFAL2CSAs+xlSAQS6IYCwuomaQiFgnwDCsp8hFUCgGwIIq5uoKRQC9gkgLPsZUgEEuiGAsLqJmkIhYJ8AwrKfIRVAoBsCCKubqCkUAvYJICz7GVIBBLohgLC6iZpCIWCfAMKynyEVQKAbAgirm6gpFAL2CSAs+xlSAQS6IYCwuomaQiFgnwDCsp8hFUCgGwIIq5uoKRQC9gkgLPsZUgEEuiGAsLqJmkIhYJ8AwrKfIRVAoBsCCKubqCkUAvYJICz7GVIBBLohgLC6iZpCIWCfAMKynyEVQKAbAgirm6gpFAL2CSAs+xlSAQS6IYCwuomaQiFgnwDCsp8hFUCgGwIIq5uoKRQC9gkgLPsZUgEEuiGAsLqJmkIhYJ8AwrKfIRVAoBsCCKubqCkUAvYJICz7GVIBBLohMFVYf3VDikIhAIExBKY65n/HnNpYEFYqrdBe+D1td/vvu4qO2wz1J/f30GZum0P/fYhDrHH777tqqG1ju8bc7/GY23nlfg/7pXWkv48Z1Ozjl8BUxzQVll/MVAYBCKyOQFP7ra46OgQBCLgigLBcxUkxEPBNAGH5zpfqIOCKAMJyFSfFQMA3AYTlO1+qg4ArAgjLVZwUAwHfBBCW73ypDgKuCCAsV3FSDAR8E0BYvvOlOgi4IoCwXMVJMRDwTQBh+c6X6iDgigDCchUnxUDANwGE5TtfqoOAKwIIy1WcFAMB3wQQlu98qQ4CrgggLFdxUgwEfBNAWL7zpToIuCKAsFzFSTEQ8E0AYfnOl+og4IoAwnIVJ8VAwDcBhOU7X6qDgCsCCMtVnBQDAd8EEJbvfKkOAq4IICxXcVIMBHwTQFi+86U6CLgigLBcxUkxEPBNAGH5zpfqIOCKAMJyFSfFQMA3gb8BpG6Npm3hC2AAAAAASUVORK5CYII=",
+                    "Date": "2024-06-17T04:00:00Z",
+                    "email": "david.clarke@baystatept.com"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "a5c4e7a7-cded-49f5-a54a-f2e7dcc8f966",
+        "_rid": "txoEAI0Kc-xRRgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xRRgAAAAAAAA==/",
+        "_etag": "\"0001ed42-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    },
+    {
+        "responseId": "927e51f6-7697-44b0-8ec9-5520509a87fc",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7336"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Student doing well acclimating to the facility. Completed orientation and letting him practice various aspects of eval, treatment and notes in EMR",
+                    "safety": "no",
+                    "communication": "no",
+                    "professionalism": "no",
+                    "discussion": "n/a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "1st week intro to the facility, staff and new patients\n2nd week some IE and treatments\nCommunication, feedback and supervision are all good at this time.",
+                    "Signature1": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAACztJREFUeF7tnT3IHUUUht/8mJiAiViJIOIPCCJqIaiFIFhGwUIEsRNtAoJYCClEC8F0giAptLIQBC1ESSXYiIJWCoqFooho5W+UxPgT75A7+ebb3Pvt7N2dnTkzz230y52dOec5My/nzJ3d3SU+EIAABIwQ2GXETsyEAAQgIASLSQABCJghgGCZCRWGQgACCBZzAAIQMEMAwYoL1V2SPoprSisIQCAVAQSrn+y5ZZPTkg72N6cFBCCQigCCtZ7sf9K2HyVglWoW0i8EIgmwCFeD+lfSbkkuu3KMzkg6EMmUZhCAQCICCNZqsE6ofCnoGMEp0QSkWwgMIcBCvJiWFypXErosy/13zxCotIUABNIQQLC2c/Wl4D+S9i6zLCdafCAAgQIIIFjbg+BLQc8lBZ8vJd1ImVnA7McEcwRSLEhzEJYG+1LQb7S7LOuSBM74Xx9hnwAuXdZNgEVzPr5eRLxYpdy38lkcpWbdawvvEhBAsKQ3JD0UHGFIKVYuhE6wUo+RYKrQJQTyE0Cwto4veDFJmfmcXZaZxyQdzx9+LICALQKtC9bcp9nZv7K1PrC2MAItC5bbVA/PV6XaZA9Dzv5VYQsAc2wRaFmw/K+CLmKuVNufOHReIFtmnhgx3ddOoNXFEx5hSLlnFc4fysHaVxP+JSfQmmCFe1ZzlIDdcpBfB5NPaQaomUBLghWKlcuw5sqs3Pzxt/y0xLvmdYNvmQi0sID8UQJ/bCHH0xfYbM80wRm2LgK1C1aYVTlfcwmHG9dlWe6Gaj4QgMCGBGoWrPB2G/+YmBzZFZvtG05OLoNAl0CtguVFItzkzpldzb1nxkyHQJUEahSsVWKVK8t5WdJRSackHapyBuEUBGYkYF2w/l4+V8qVfKEvYWb1kqQnMt1wnEsoZ5xCDAWB+QhYF6zwtLp/CkJ3YzunaOQqQ+ebQYwEgRkJWBesPlT+SEOOX+j+krRP0klJR/oM5XsIQKCfQO2CFb75pp/GtC1yZnbTekJvECiEQM2C5U+Xu0zn0gy8KQczQGfIugnULFg5BeMnSVdIelzSq3VPIbyDwHwEahWs3OVY7vHnm0GMBIEZCdQqWDmzKxe+3OPPOIUYCgLzEahRsHJnN79KOkw5ON8kZqR2CNQoWLmzm9yC2c7sxdPmCNQmWCWIRW7BbG4S43A7BGoSLH9QM+dTPTcpB0sQ2XZmPJ6aJlCTYOU8JOonwVDxWXWjtukJhfEQSEmgFsE6s3zrzRxvv9kpHkPKQcQq5cym7yoJ1CJYQzObFMEcUg4iVikiQJ/VE6hFsIZkNqmCGiuaiFWqCNBv9QRqEqwcT2QIJ0iMaCJW1S8pHExJoAbBKuEVWjHlIGKVcibTdxMEahCs2FIsZUD7bECsUtKn72YI1CBYMaVY6oDuZANilZo+/TdDwLpg+eMMxyUdyxQ198r7PZI+lXRbxwZ/NiznYdZMWBgWAtMTsC5YfaXY9MQu7tGL0s8L0XSn7a9avvDCs/1M0q1zGMIYEKidgHXByl0OfiXp+jWThHcR1r568G92AjUIVs7jDGHJ598q7f7N/f+Py2xr9qAyIARqJWBZsEo4zhC+ZszNEb9X5d6X6F43ZplvrXMevwwTsLygcu9f9Y1fws3YhqcmpkPgYgKWBSv3/lXf+K9LepjSkGUHgekIWBUsf5zhQUlvTYcjuqfYcpTSMBopDSHQT8CqYPWVY/2ej2vRl12FvVMajmPN1RC4QMCqYA0RjKnD/Z2kqyX9IemyiM7fk3SvpG8lXRvRniYQgMAaApYFK9dxhk2yO//4Zqu8WUAQKIKAxQUUu3+UCrDL7ja51YbSMFVE6LcZAhYFa5MMZ6qAjhn7FUmPSXIb8S8sXrb67FRG0Q8EWiFgUbBy7l+NHdvdIH3LcnJZZN/KusDPQgn4ReNvJynUzAtm+b2gdyXdP7OxU5Wit0v6RNIzi9Pwz8/sA8NBwDQBJ1j+Bt5cm9hDAI4pyYaMs6rt2Owq7NM9ofTA8k0/Y+3iegg0QyDMsJzTpZcpU4rGkCD/IulySZ9LunnIhWva3iHpw+VztCboji4g0AYBL1DujNA1kr6RdF2hrvsH5Z2WdHBmG1Nkdn9KelvS04vN+O9n9ofhIGCSQJhR5cpeYsHlPBaQgs2jkp5aZGxvLgA8FwuBdhBomUAoWCmyiCnZOtH4XdLhKTuN6MtndqWXyxGu0AQCtgmEi3CqX8FSEcn1S2bpQp6KN/1CoDgCoWA9ucheXlwebNxXmKW1lYOF4cUcCNgg0C1zUuzVjCHhsxvXx9kMxwBKzzrHsOVaCJgj0BWsUsqf3yQdWtLM+TKHnJmducmEwRBITaArWL4sPBUIRmobuv2HWZX7ud89yiXXZ9MbnXPZy7gQqJrAql++cm1u+/LLAd/kaQhTB4pycGqi9AeBkQRyC9YPkq4MTtjnLP+6KEvbzxsZai6HgH0CuQQrLPscxZKEykfV2WTh/kr7sxAPIBBJYJ1gnVw8UeBIZB+xzcKSz4uUezbU/tgOZmxXyo8PM7rMUBAon8A6wZpqD8mdEt/dual6qr5T0qUcTEmXviGwIYF1gjWmRFslUmP629C1UZc5e92rxNwjYPhAAAKFEFglWJuUQzWIlA/JJv4XEk7MgEDdBDYRrNckPbIs81adlHcloOUP5aDl6GF71QRWCVb36QSrsicPxR+s3FsJpfcl3SPpa0k3VOITbkCgGgLrHpnihSjMlnzm8Y6kB6ohsN0RysFKA4tbdRDYSbCch06k7pPkjjm08KEcbCHK+GiWwE4PpbtJ0hdmPRtuuDsT5krbDyTdPfxyroAABFIT4CmaW4QpB1PPNvqHwEgCCNYWQJ7MMHIycTkEUhNAsM4TJrtKPdPoHwITEGhdsPyjdNhsn2Ay0QUEUhNAsLYIn5B0NDVw+ocABDYngGCdP7pxp6SPN8fIlRCAwBwEWhcst3dl/VaiOeYJY0CgCAKtC1YRQcAICEAgjgCCFceJVhCAQAEEEKwCgoAJEIBAHAEEK44TrSAAgQIIIFgFBAETIACBOAIIVhwnWkEAAgUQQLAKCAImQAACcQQQrDhOtIIABAoggGAVEARMgAAE4gggWHGcaAUBCBRAAMEqIAiYAAEIxBFAsOI40QoCECiAAIJVQBAwAQIQiCOAYMVxohUEIFAAAQSrgCBgAgQgEEcAwYrjRCsIQKAAAghWAUHABAhAII4AghXHiVYQgEABBBCsAoKACRCAQBwBBCuOE60gAIECCCBYBQQBEyAAgTgCCFYcJ1pBAAIFEECwCggCJkAAAnEEEKw4TrSCAAQKIIBgFRAETIAABOIIIFhxnGgFAQgUQADBKiAImAABCMQRGCtY5+KGoRUEINAogbEasw3b2M6cYIWi5fpzf4f9dr9fFTffZp09fd+7PvvazP39Og7ex+73q3wY2kfXx76//ZjdePX97a4L/Qj/bnRd4vYaAmM1ZlLBIkoQgAAEZiMwqfrNZjUDQQACTRJAsJoMO05DwCYBBMtm3LAaAk0SQLCaDDtOQ8AmAQTLZtywGgJNEkCwmgw7TkPAJgEEy2bcsBoCTRJAsJoMO05DwCYBBMtm3LAaAk0SQLCaDDtOQ8AmAQTLZtywGgJNEkCwmgw7TkPAJgEEy2bcsBoCTRJAsJoMO05DwCYBBMtm3LAaAk0SQLCaDDtOQ8AmAQTLZtywGgJNEkCwmgw7TkPAJgEEy2bcsBoCTRJAsJoMO05DwCYBBMtm3LAaAk0SQLCaDDtOQ8AmAQTLZtywGgJNEkCwmgw7TkPAJgEEy2bcsBoCTRJAsJoMO05DwCYBBMtm3LAaAk0SQLCaDDtOQ8Amgf8BqsmJpq06YwYAAAAASUVORK5CYII="
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7336",
+                    "Setting": "outpatient ortho"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Professionalism - respectful, understanding of own strengths and weaknesses, asks for feedback\nCommunication: non verbal is good, getting better with EMR\nGood foundational knowledge of ortho\nUnderstanding of outcome measures as it relates to reimbursement",
+                    "Goals": "Billing - differentiating between therex v ther act v neuro reed and 8 minute rule\nNeeds cues for ID landmarks when doing ROM assessments (more because as the patient changes positions the goniometer moves and is not lined up correctly.\nLearning when to modify treatment",
+                    "remediation": "No issues at this time",
+                    "caseload": "Student does not have a caseload as of yet - doing parts of treatment and evals - CI slow to relinquish responsibilities to student"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "yes",
+                    "Student1": "yes",
+                    "ci2": "yes",
+                    "Student2": "yes",
+                    "ci3": "no",
+                    "Student3": "no",
+                    "ci4": "There are good and bad of both - good - you have all the coursework, bad - the expectations of CI for backended student is higher because the had all didactic.  Sees the benfit of both.",
+                    "Student4": "Keep as is - likes to practice skills just learned"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "effective": "Yes",
+                    "open": "Yes",
+                    "supervision": "Yes",
+                    "feedback": "Yes",
+                    "practice": "Yes",
+                    "methods": [
+                        "1:1 review of techniques"
+                    ],
+                    "education": "Time well spent, would recommend",
+                    "Comments3": "Student voiced concerns that he has not been allowed more of a caseload and there are no modalities utilized in this site and feels he is not getting a full experience without using the modalities. Discussed that modalities are not used in all clinics and will have opportunity to use on a patient during other clinicals if it does not exist for this one.\n\nCI has a lot of experience but is hesitant to assign caseload - discussed that the student should be seeing 50% caseload by the end of this experience.  CI appeared to understand.",
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "opportunities": "none",
+                    "dcesignature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAACe1JREFUeF7tnbvrHUUUx7+Jj4gKQUQjiooxoBYWVoKPwsZCrBR8lPYWFgoidiIiVvoXpPOBlinsBEGtxEI0EkRUFLSQgEQSfMTfgR3YXO5jd+bM7py9nwuB/H53Z+bM55z9MLN3f3sPiRcEIACBIAQOBYmTMCEAAQgIYVEEEIBAGAIIK0yqsgO9IOlIdmsaQqAhAgiroWRUCuWixEq6Elu6nZgAwpoY+Mjh/pF0+cg2q4cjrEKANG+HAMJqJxfrIvGQjUcfbVMiur0hgLDqpPqMpOOSLivs3kM2Hn0UToPmEPAhgLB8OPZ7MVmd6H5RytdDNh59+FOiRwhkECg9oTKG3IsmJgl7lfL1kI1HH3uRNCbZPoHSE6r9GU4f4ffddhBhTc+eERdOAGH5JrgvK1vZHC7s3mN15NFH4TRoDgEfAgjLh2Pq5b/eNtD+z0V3X770tucEEJZvAdhqJq1oPNiWro6SQD1i8SVFbxDIIEAhZ0Db0iRdbPfYDtowpcJKAi3dmvpSojcIZBJAWJng1jT7UdJt3e89toOlwvL6pNKPED1BoJAAwioE2DU/K+lorysvrrkrrH+7C/6/SrrFZ4r0AoH5CXidWPPPZL4I0komReC1HSxZYbEVnK8eGLkiAYRVBvcXSTd315q+k3S3JK/tYK6w2AqW5ZTWDRNAWHnJeUfS871bGE53srLePJmO3RKyFczLJ62CEPA8uYJMuTjM/hbQ/p9WVt6yGrvCevXgvq/XutUenwoWp5kOWiSAsMZnxbZ89pyqKyV9W2ll1b8eNiRHSVY1pDmeEC0gUInAkJOh0tCL6DZtwWpxHLIlRFaLKCUmMYRArRNtyNhLOKb2neS7hIWsllBFzGEwAYQ1GNXaA2vfPrBNWB9LerSLijyW5ZHWQQhQ6PmJOt99G82DB+L4LL+brS03Cevlg7HfQFaVqNNtswQQVn5qam8HN/V/StJjyCo/cbSMSwBh5eduiu3g6l3zL0p6C1nlJ42WsQkgrPz8mUzsU8LSr+FaF8G6Tx/PSboaWeUnjJbxCSCsvBzW3g6urt7SeJ5/p5g3c1pBYEYCCCsPfs3t4G+SbpT0d7d6Szmyn+1mVV4Q2FsCCGt86musrlaf+LArKtsyfi7p4V0H8j4ElkQAYY3PZo3VlUkwvSwnmwS26fHLD3QCGz8bWkAgEAGENS5ZNVZX/QjGPhrmU0kPdR0grXG55OiABBDWuKTVWF2lCNIngznXqpLokNa4fHJ0MAIIa3jCpvhD55JPAZHW8FxyZFACCGt44mquruxxNfYdhqX5GLulHD57joRAAwRKT5AGpjBZCCYDz8cf9wP3vDZmcZoAr5iMDANBYCICCGsY6Na3g/1ZvCvpGUm/Szo2bHocBYEYBBDWsDzV3A5aBN79p5tP3zt4hPOzw6bIURBonwDCGpajmtvBJKwLkq4aFs6go9Kd8vdK+npQCw6CQOMEENbuBNW+kO15/Wp1Nmkri7R255kjAhBAWNuTVHJv1ND0e28HkdZQ8hwXjgDC2pyydKtByb1RuwoibdvelvTCroML3melVQCPpu0QQFjrc5G2gTVlZSPX3A6y0mrnPCMSJwII61KQSSD22ynuZap9MR9pOZ0odNMGAYQlvSTpzd5d5rVXVSnzU66u+tXG9rCNc48oMgjss7DSNaqEbSpR9cebesy+LO362ZGMmqEJBGYjEFlYJpzc56n3HzmcvnZ+yiTMtbpKc3xC0keSvpJ035QTZywIlBCILCxbnXwi6ZGBAExMh3tbv1p/F7grnLQlm2t1leI7I+mEpOOSftgVNO9DoAUC0YWVw3BuUdS+EXUME5O4vXJXqmPG4lgIFBOILCybfP/Rwttg2HGtnJQtCevowf1fZyX9JOn24mqiAwhUJhBdWJXxVOk+Sda2py28vpB0v6TnJJ1sISBigMAmAgiL2jAC57uvEGtFomQFAmsJICwKIxGwreofkq4HCQRaJYCwWs3M9HF9KOlJSbX/rnH6mTHiYgggrMWk0mUif0q6prv9w6VDOoGAJwGE5UlzGX3ZhwJ/Sbp2GdNhFksigLCWlE2fubwu6RVJpyQ97tMlvUDAhwDC8uG4tF7sCyxucPjasaVxYT4zE0BYMyeg4eHtLvhzkuzmUl4QaIIAwmoiDU0G8ZSk9yV9IOnpJiMkqL0jgLD2LuWjJnxa0l1sDUcx4+CKBBBWRbgL6Zqt4UISuYRpIKwlZLHuHNga1uVL7yMIIKwRsPb40LQ1vEmSfas0LwjMQgBhzYI95KAmqusk3Yq0QuZvEUEjrEWkcbJJmLTsj6PvkWRPLOUFgUkJIKxJcS9isG8kHZN0Z/fwv0VMiknEIICwYuSptSi/lHRH98+eWMoLApMQQFiTYF7kID9317MWOTkm1SYBhNVmXogKAhBYQwBhURYQgEAYAggrTKoIFAIQQFjUAAQgEIYAwgqTKgKFAAQQFjUAAQiEIYCwwqSKQCEAAYRFDUAAAmEIIKwwqSJQCEAAYVEDEIBAGAIIK0yqCBQCEEBY1AAEIBCGAMIKkyoChQAEEBY1AAEIhCGAsMKkikAhAAGERQ1AAAJhCCCsMKkiUAhAAGFRAxCAQBgCCCtMqggUAhBAWNQABCAQhgDCCpMqAoUABBAWNQABCIQhgLDCpIpAIQABhEUNQAACYQggrDCpIlAIQABhUQMQgEAYAggrTKoIFAIQQFjUAAQgEIYAwgqTKgKFAAQQFjUAAQiEIYCwwqSKQCEAAYRFDUAAAmEIIKwwqSJQCEAAYVEDEIBAGAIIK0yqCBQCEEBY1AAEIBCGAMIKkyoChQAEEBY1AAEIhCGAsMKkikAhAAGERQ1AAAJhCCCsMKkiUAhAAGFRAxCAQBgCCCtMqggUAhBAWNQABCAQhgDCCpMqAoUABBAWNQABCIQhgLDCpIpAIQABhEUNQAACYQiUCutimJkSKAQgMAeBUsdcEnNpZyasvrSsP/u53+/q++ugpWM2xbPrfetz1zFTv7+JQ5rj6vvr5jC2j9U57vo5jbmar10/W7v+PPo/z3FSMGa7BEod4yqsdjERGQQgsDgCrvZbHB0mBAEINEUAYTWVDoKBAAS2EUBY1AcEIBCGAMIKkyoChQAEEBY1AAEIhCGAsMKkikAhAAGERQ1AAAJhCCCsMKkiUAhAAGFRAxCAQBgCCCtMqggUAhBAWNQABCAQhgDCCpMqAoUABBAWNQABCIQhgLDCpIpAIQABhEUNQAACYQggrDCpIlAIQABhUQMQgEAYAggrTKoIFAIQQFjUAAQgEIYAwgqTKgKFAAQQFjUAAQiEIYCwwqSKQCEAAYRFDUAAAmEIIKwwqSJQCEAAYVEDEIBAGAIIK0yqCBQCEEBY1AAEIBCGAMIKkyoChQAE/geY1ximu7+B6AAAAABJRU5ErkJggg==",
+                    "Date": "2024-06-17T04:00:00Z",
+                    "email": "sean.baker@baystatept.com"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "9a582432-3cdf-442c-8518-a66f25b2f0b8",
+        "_rid": "txoEAI0Kc-xDRwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xDRwAAAAAAAA==/",
+        "_etag": "\"0001ee42-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    },
+    {
+        "responseId": "a326562c-2bfe-40b1-9d34-8b3a19b7d661",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7336"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Student is doing well. Acclimating to the facility - doing patient treatments, some documentation and portions of the eval.",
+                    "safety": "Body mechanics  - minor issues",
+                    "communication": "none",
+                    "professionalism": "Student is always professional - no issues",
+                    "discussion": "none"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Clinical is gowing well. Learning how to be more efficient and determine the best questions to ask, best tests to utilize. CI taking it slow - talks things through. Excellent communication with CI and the right amount of feedback and supervision. Doing MMT, Special tests, history, getting to the point of almost doing a full eval and follow -up visits.  Learning a lot - especially time management. No concerns at this time",
+                    "Signature1": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAACL1JREFUeF7t3c+rPXUdx/GXZanYD6EQVy4M3AVB4CYiQVy0KVq1cOPKglbSIv8F27WJfoBt+gMCN0KBgu7cupJ+EASRRJFpaZl6P3CGxsv9MXPvzDnz/szjwJcv9945n8/783y9z5OZOXPm3BEPBBBAoAiBO4rUqUwEEEAghKUJEECgDAHCKhOVQhFAgLD0AAIIlCFAWGWiUigCCBCWHkAAgTIECKtMVApFAAHC0gMIIFCGAGGViUqhCCBAWHoAAQTKECCsMlEpFAEECEsPIIBAGQKEVSYqhSKAAGHpAQQQKEOAsMpEpVAEECAsPYAAAmUIEFaZqBSKAAKEpQcQQKAMAcIqE5VCEUCAsPQAAgiUIUBYZaJSKAIIEJYeQACBMgQIq0xUCkUAAcLSAwggUIYAYZWJSqEIIEBYegABBMoQIKwyUSkUAQQISw8ggEAZAoRVJiqFIoAAYekBBBAoQ4CwykSlUAQQICw9gAACZQgQVpmoFIoAAoSlBxBAoAwBwioTlUIRQICw9AACCJQhQFhlolIoAggQlh5AAIEyBAirTFQKRQABwtIDCCBQhgBhlYlKoQggQFh6AAEEyhAgrDJRKRQBBAhLDyCAQBkChFUmKoUigABh6QEEEChDgLDKRKVQBBAgLD2AAAJlCBBWmagUigAChKUHEECgDAHCKhOVQhFAgLD0AAIIlCFAWGWiUigCCBCWHkAAgTIECKtMVApFAAHC0gMIIFCGAGGViUqhCCBAWHoAAQTKECCsMlEpFAEECEsPIIBAGQKEVSYqhSKAAGHpAQQQKEOAsMpEpVAEECAsPYAAAmUIEFaZqBSKAAKEpQcQQKAMAcIqE5VCEUCAsPQAAgiUIUBYZaJSKAIIEJYeQACBMgQIq0xUCkUAAcLSAwggUIYAYZWJSqEIIEBYp+uB95J8PMnbST51ujLMjEAdAoR1uqw+OEwtg9NlYOZiBLxYThPY+0kG9jI4TQZmLUjAi+X4od1UVsPzZHb8zMy4EQKa/7hBDNJph4ON/VT+w/mu9vx23mvK4/UkD0/Z0DYIVCEw9QVTZT1brvO/Se5M0qTzscP/U+Uz53zX/w7jNxby3XJHqG02AQ09G9mNn3DTvavhea8meeSK2ceHmk1wbe/qtzeu1hMR2CABwjpeKE0iw6Hg1EO7QUKXbf9ukk+OltDG/3ySvx1vWWZC4HgECOs4rMd7P1Nl9Z8kn7jk0PGXSZ4Ylf5mks8eZylmQeB0BAjrOOyHc1BTZdWquuy81Vh+zyZ55jhLMAsCpydAWOtncN1h3UUVDM95JclXDxsMJ+3bj+1dw7b35YHArggQ1rpxj0+0t3cGpzzGgvt3knZ5wpcO7/i1va6p40yZyzYIlCJAWOvFNfcC0V8l+cYVlyK0c1p3rVeukRHYPgHCWiej85cYTNkrGs5ZtYr+meQz65RmVATqEiCsZbMbX7Q5jDyF8U3Ocy1budEQKEBgyoupwDJOXuJYVG1PaXg3sJ0oH18ndVGh7TzV3aNrtGRy8jgVsFUCXhzzkmkCGj/aod5wuNdE9aMkT19xScJFs40vX5jzEZx5ldsagQ4IENa8EMfnmYZntt99J8nPD78YPqj8jyT3XTP8cCj4QpKvJ/lNksfO3hVsJ+C/Na80WyPQPwHCul3Gjyf59bkh5uwljQ8fh2HcRuZ2mXh2xwQIa9lw/37Yq3oryacnDD3cuWG8adtb+0mS7yb56YQxbILAbggQ1rJRL7V31Pa8pkpv2RUYDYENEyCsZcMZ7sgw5bqrq2b+S5L73c9q2XCMVp8AYS2X4fgGfVNvzHfZ7A+cncj/c5LvnYnrx8uVaCQEahPYq7DaV2u1x70LxjfnZPuUaR0WTqFkm10R2KuwBrm8k+SeBRJf6tzVuBSHhQsEY4i+COxVWC3FQVq3/VDxWh+rGQ4Lf5jkB321ndUgcDMCexbWWFpNXu3jNXPuMTX+OM6cG/PNSarV9VqSL855km0R6JXA3oXVcj3/geUmn/bvqkc7qd7YNaF8M8nzKzXIvw7ftHPd5xFXmt6wCGyLAGH9P4/2kZh21fpUJmvtVY075MUkj86oaVvdpRoEFiYw9cW58LSbHu4LSX63kQofTPLHszcG3Lt9I4Eo47QECOu0/KfM3t7JbJdhfG7KxrZBoGcChLX9dH+R5EmHhdsPSoXrEyCs9RkvMUM7X/Zykq8tMZgxEKhKgLBqJPf7JO181p1nbwx85fAlqt8/uz6r3a3UA4HdECCsGlE3Wf3h7PKJLx9uPfOzM4E9V6N0VSKwHAHCWo7l2iO168VeSvLXJN9eezLjI7BFAoS1xVQurqndH6tdid8uu/hTnbJVisByBAhrOZZrj9SuDXvIu4VrYzb+lgkQ1pbT+Wht7Ysp2seAZFYnM5UuTEDzLwx0xeGeOtzjXWYrQjb0tglo/m3nc766Nw53bmj3yvJAYHcECGt3kVswAnUJEFbd7FSOwO4IENbuIrdgBOoSIKy62akcgd0RuK2whvui7w6cBSOAwCQCt3XMRya57WDDF4cOgw63DR6PO5baZfNd9xVZ1/29zX/dNsf+e5vvIg7D787//aI1zB3j/Bqv+3mY83yd1/3cnjdex/jnSV1so90QuK1jFhXWbqhbKAIInJ7AovY7/XJUgAACPRMgrJ7TtTYEOiNAWJ0FajkI9EyAsHpO19oQ6IwAYXUWqOUg0DMBwuo5XWtDoDMChNVZoJaDQM8ECKvndK0Ngc4IEFZngVoOAj0TIKye07U2BDojQFidBWo5CPRMgLB6TtfaEOiMAGF1FqjlINAzAcLqOV1rQ6AzAoTVWaCWg0DPBAir53StDYHOCBBWZ4FaDgI9EyCsntO1NgQ6I0BYnQVqOQj0TICwek7X2hDojABhdRao5SDQMwHC6jlda0OgMwKE1VmgloNAzwQIq+d0rQ2BzggQVmeBWg4CPRMgrJ7TtTYEOiNAWJ0FajkI9EyAsHpO19oQ6IzAh5FDu5ciyhHeAAAAAElFTkSuQmCC"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7336",
+                    "Setting": "outpatient ortho"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Professionalism - EL - solicits and accepts feedback well. Understands when things are outside of her comfort zone or scope of practice. She treats all patients respectfully.  Uses EBP and CPG to guide patient treatment. She is able to collect and synthesize information from the evaluations and treatment and progress and regress treatment plans accordingly. Doing well with documentation and completes it in a timely manner.  Understands billing procedures.",
+                    "Goals": "Work on making explanations more concise\nStreamline assessments\nWording of goals\nTime management - staying on schedule with pt care\nPractice more hands on skills",
+                    "remediation": "none",
+                    "caseload": "50% of the caseload - supervision depends on the complexity of the patients and varies day to day. Needs full supervision with evals."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci4": "Has taken first and third year students - both were prepared - depends on the student. Feels AIC's curriculum works for Synergy",
+                    "ci1": "yes",
+                    "Student1": "yes",
+                    "ci2": "yes",
+                    "Student2": "yes",
+                    "ci3": "no",
+                    "Student3": "no",
+                    "Student4": "Keep as is - likes to practice skills just learned"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "effective": "Yes",
+                    "open": "Yes",
+                    "supervision": "Yes",
+                    "feedback": "Yes",
+                    "practice": "Yes",
+                    "methods": [
+                        "Demonstration/return demonstration",
+                        "1:1 review of techniques",
+                        "Assignments"
+                    ],
+                    "education": "Excellent clinical education experience",
+                    "Comments3": "Overall is an excellent experience. Students only concern is that she needs more space during evals - CI quick to jump in and take over if they identify something the student did not ask or assess. Discussed this with the CI and recommended she let the student complete the eval and unless there is a safety concern, to add to the eval at the end of the evaluation to see if student eventually gets there on their own.",
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "opportunities": "none",
+                    "dcesignature": "data:image/png;base64,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",
+                    "Date": "2024-06-26T04:00:00Z",
+                    "email": "emkenny@synergypt413.com"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "40d4cfb2-113b-4248-aab3-b15396072778",
+        "_rid": "txoEAI0Kc-xbSQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xbSQAAAAAAAA==/",
+        "_etag": "\"0001f142-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    },
+    {
+        "responseId": "76530ede-17ff-476c-a00e-ccff3151ea25",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7336"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Student is doing well. Was a little shy at first, but coming out of her shell.  She is doing portions of treatments, subjective portion of the evaluations and documentation. She accepts feedback well and implements it accordingly. Eager to learn and connects well with patients",
+                    "safety": "no",
+                    "communication": "no",
+                    "professionalism": "no",
+                    "discussion": "n/a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Initially it was chaotic with not much orientation when she started due to staffing. Second and third week are going much better and now Enjoying the clinical and learning a lot. Doing treatments and parts of the eval. Learning the documentation system and billing. CI has been great - open communication, talk a lot throughout the day, supervision is good and no concerns at this time.",
+                    "Signature1": "data:image/png;base64,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"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7336",
+                    "Setting": "outpatient ortho"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "* CI did not complete the CPI; however, the CI, Student and SCCE discussed each criteria. Student will be graded at the advanced beginner level. She is very professional, takes feedback well, has identified areas of concern (i.e. PTA doing treatments that were d/c by the PT) and learning how to handle them in a tactful manner.  The complexity of the caseload has been high and although ortho, patients have many co-morbidities as well as neuro issues in addition to ortho issues. The student comes to the clinic prepared, takes feedback well and integrates it. She knows her limitations and is not afraid to ask for help. She treats all patients with dignity and respect and is mindful of psychosocial issues that impact care. She is slowly building a caseload. Evals - doing all parts and learning to streamline and determine which special tests to perform (sometimes does too many). Treatments are going well and practicing manual skills.",
+                    "Goals": "Be able to select the best special tests to do during eval\nImprove goal writing\nImprove proficiency with non-complex and complex patients\nTime management",
+                    "remediation": "none",
+                    "caseload": "25-50% depending on the day with 25% supervision with non-complex and 50-75% supervision with complext patients"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "yes",
+                    "Student1": "yes",
+                    "ci2": "no",
+                    "Student2": "no",
+                    "Comments2": "CI and student feel all clinicals should be 12 weeks",
+                    "ci3": "yes",
+                    "Student3": "yes",
+                    "Comments3": "CI and student feel all clincials should be 12 weeks",
+                    "ci4": "yes",
+                    "Student4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "effective": "Yes",
+                    "open": "Yes",
+                    "supervision": "Yes",
+                    "feedback": "Yes",
+                    "practice": "Yes",
+                    "methods": [
+                        "Demonstration/return demonstration",
+                        "1:1 review of techniques",
+                        "Assignments"
+                    ],
+                    "education": "Excellent clinical education experience",
+                    "Comments3": "Great place to be - alot of variety of patients and levels of complexity - gen ortho to post op to both with multiple medical issues",
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "dcesignature": "data:image/png;base64,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",
+                    "email": "colleen.calvanese@atipt.com"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "0d7e6462-f831-40ae-844e-48f5b21f7357",
+        "_rid": "txoEAI0Kc-xfSQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xfSQAAAAAAAA==/",
+        "_etag": "\"0001f242-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    },
+    {
+        "responseId": "7b7144d1-c0f6-490e-a94c-8b009bb9dde2",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7536"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Josiah is doing an excellent job.  He is professional and always comes in ready to work and learn. He is not afraid to ask questions and takes feedback well. He has seen a number of patients of varying complexity on the inpatient acute care unit. Being a student at RI Hospital, the CI gets to cherry pick the new evals the student is exposed to. No issues with any red flag areas - just working on typical inpatient acute care - setting up the environment and getting comfortable responding to changes in medical status",
+                    "safety": "no - just working on setting up the environment",
+                    "communication": "no - excellent communication",
+                    "professionalism": "no issues",
+                    "discussion": "n/a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Student reported he is enjoying his clinical. He is taking on more evals and treats on his own and doing documentation. He is completing the subjective section of evals. Notes him and his CI work well and the CI provides effective feedback as needed.  No concerns at this time.",
+                    "Signature1": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACWCAYAAABkW7XSAAAAAXNSR0IArs4c6QAACUlJREFUeF7t3burLFkVB+A1vl/ogIEoCgYDKk5grBOZKwiigaAYGPgHmIkoauIfYCIaiYEDgwaGZmpoIooMCL4C0UB84ftxNvbGOmX3OdW9q3fvVfV1crn39N171bd2/6iqrqrzRHgRIEAgicATSepUJgECBEJgWQQECKQREFhpWqVQAgQEljVAgEAaAYGVplUKJUBAYFkDBAikERBYaVqlUAIEBJY1QIBAGgGBlaZVCiVAQGBZAwQIpBEQWGlapVACBASWNUCAQBoBgZWmVQolQEBgWQMECKQREFhpWqVQAgQEljVAgEAaAYGVplUKJUBAYFkDBAikERBYaVqlUAIEBJY1QIBAGgGBlaZVCiVAQGBZAwQIpBEQWGlapVACBASWNUCAQBoBgZWmVQolQEBgWQMECKQREFhpWqVQAgQEljVAgEAaAYGVplUKJUBAYFkDBAikERBYaVqlUAIEBJY1QIBAGgGBlaZVCiVAQGBZAwQIpBEQWGlapVACBASWNUCAQBoBgZWmVQolQEBgWQMECKQREFhpWqVQAgQEljVAgEAaAYGVplUKJUBAYFkDBAikERBYaVqlUAIEBJY1QIBAGgGBlaZVCiVAQGBZAwQIpBEQWGlapVACBASWNUCAQBoBgZWmVQolQEBgWQMECKQREFhpWqVQAgQEljVAgEAaAYGVplUKJUBAYFkDBAikERBYaVqlUAIEBJY1QIBAGgGBlaZVCiVAQGBZAwQIpBEQWGlapVACBASWNUCAQBoBgZWmVQolQEBgWQMECKQREFhpWqVQAgQEljVAgEAaAYGVplUKJUBAYFkDBAikERBYaVqlUAIEBJY1QIBAGgGBlaZVCiVAQGBZAwQIpBEQWMta9feIePGyt3oXAQLXEhBYD8v+MyJecHhLi9U/IuKFEfGriHj9tZppXAJbF2j5EG7dpobVvyOiOLVYlTHKq2WMU96lzr9MfvjKrTfG9u1X4BofoK1olpCZBs2lVnXvqoTKy1fE+deJALy0zhVLMxSB6whY3Mdda1CVsHlRRJRwKId0l7zW3LuaHqKWWsrY9ZD1ktr8HwKpBATW/7er7rnUQ8GWQ7k61q8j4nUXrowSmiWUpr0qwVWC1IvArgQE1v1214Apf5aQaNmzmo517t5ZCaT5eTN7U7v6aNrYYwIC638q87Bq2bMql0Fccig5Py8lpHxuCUwEBNZ/Meq5oRoYLd8KTkNnia/zUj6SBBYKLPlALRwq9dvm3wheeii49DDQeanUy0XxtxIQWPcvXSjBdc2w+m5EvHPSbId8t1r55k0psPfAqodj9VqpSw8Fl+xZTQ8Vn42ID6RcMYomcEOBvQfWGoeCNexO7ZlNz1Fduvd2wyViagLjCOw5sOoFnfV6q0vD5NSFodM9Kod+46x5lSQW2Gtgzb8VLIFyybVS9Srzn0TEU5NvG+uSEFSJPxxKH09gr4FVDwUvua1leohXxnl3RHx7dovM3yLipeO1W0UEcgvsMbBa7u2b3rYzD6oy7tN3J9N/lHtJqJ7AuAJ7C6x6grz8ee4D+WrQ1T2saieoxl3fKtuYwN4C65y9q58eev3GE+e3yljlhubfbGxN2BwCwwrsMbD+HBGveKQj5dlV83NQJaDKvz/2f4dttsIIZBfYY2At2ea6Jzbvb/n35yPirdkbr34CGQWWfHgzbtexmqc3Nj+0Tb+NiCcPb/jr4ST6Ox54vHEJsXJe69xzYltxtR0EugnsIbDOudJ86ZMWvh8Rp0JsySFntwabiMCWBPYQWPWaq/dHxHMnmje/tuqS67NKUL1sNr4ng27p02Jbbi6w9cBaehhY3ldez0TE91boyi8j4g2zw8gSnF+NiA+vML4hCOxSYKuBdc5hYGn8myLiF1daAd+IiPceCa+fR8SbrzSnYQlsUmBrgTU/tHtfRHxzoM695XASvx5yutdwoOYoZXyBLQXW9LaZ0YLq2Er4TkS86/CDr0fEB8dfLiokcFuBTIFVfrFDfdUnK8zrv/QRMbfswvR3ILo04padMPfwAhkCa/5LGqao9RvAcgV65l/RXrex3Dj99uFXjQIJ3EggQ2DVb/DeExHfupFTj2nPuc+xRz3mIDCcQIbAKnscPxxObv2CPnl3k/VnD1fN+63O6/sacQMCGQJrA8yLN+F3EfHqw7Vg9YT84v/sjQS2LiCwxuuwQ8PxeqKiQQQE1iCNmJRRDw0/fXex6WfGK09FBG4nILBuZ//QzGUv65Knoo65NaoisJKAwFoJcuVh/nR4UKD+rAxruNwCPhBj9u/jEfHFiPhxRLxtzBJVRaC/gMDqb750xqVPmlg6nvcRSC8gsMZtYXl+17N3DwosT3so90Z6Edi9gMAaewnYyxq7P6rrLCCwOoOfOd0n7k6+f+HuefGfv/vWsFzu4EVg1wICa/z2l72sconDS8YvVYUErisgsK7ru8bo9blZerWGpjFSC/gQ5GhfuZD0Zx6pnKNZqryegMC6nu2aI/8hIl71wO9GXHMuYxEYVkBgDduae4U9HRE/cCFpjmap8noCAut6tmuPXJ5GWq56L8/M+tTagxuPQAaB1sCqj0LJsK1qJECgv0BrxtyruHWw+kz1OmgZr/zbdNxpqJ2a77FnQD328zL/Y+/p/fNTDtVg/vNj23BsjLntMevpHGXcU3+vcz425jlz9P9ImHFkgdaMWTWwRobacm0lyH4fEa/Z8kbaNgJzgVXTD283ga/cXebw0Yj4WkR8KCK+FBEf6za7iQjcSEBg3Qh+hWmfj4inIqL8Fuljh5crTGEIAmMJCKyx+nFuNeWWnT8eDg318lw9708nYJGna9m9gj8SEV++u8yh3G/oXsPcvVT9AgGBtQBp8Ld8LiLKE0pfO3idyiPQLCCwmgkNQIBALwGB1UvaPAQINAsIrGZCAxAg0EtAYPWSNg8BAs0CAquZ0AAECPQSEFi9pM1DgECzgMBqJjQAAQK9BARWL2nzECDQLCCwmgkNQIBALwGB1UvaPAQINAsIrGZCAxAg0EtAYPWSNg8BAs0CAquZ0AAECPQSEFi9pM1DgECzgMBqJjQAAQK9BARWL2nzECDQLCCwmgkNQIBALwGB1UvaPAQINAsIrGZCAxAg0EtAYPWSNg8BAs0CAquZ0AAECPQSEFi9pM1DgECzgMBqJjQAAQK9BP4DzI/sl4N3fOgAAAAASUVORK5CYII="
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7536",
+                    "Setting": "in patient acute care"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Professionalism - he understands his strengths and weaknesses.  He understands when potential unprofessional behaviors and challenging ethical situations arise. He is a proactive learner - just attended RI burn center meeting. He is able to take feedback without defensiveness and implement it and is able to provide his CI with feedback as well. He has effective verbal and non verbal communication.  Recognizes socioeconomic, psychological influences on care  All ratings between an Intermediate and Advanced intermediate.",
+                    "Goals": "research diagnoses/EBP/objective measures for acute care setting\ndetermine when to refer to another service when indicated\ndiscuss POC/disposition with other HCP\nComplex patients\nMore confident with discharge disposition and independence with chart review",
+                    "remediation": "none",
+                    "caseload": "about 50% but varies depending on the caseload mix"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "yes",
+                    "Student1": "yes",
+                    "ci2": "yes",
+                    "Student2": "yes",
+                    "Comments2": "both voiced 12 weeks would help the student become more confident and would allow opportunities to expose them to other areas of acute care",
+                    "ci3": "no",
+                    "Student3": "no",
+                    "Comments3": "depends on the type of clinical",
+                    "ci4": "as long as the student has had the bulk of the course work prior to entering acute care does not matter if it is integrated or backended",
+                    "Student4": "prefers the way the program is set up"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "effective": "Yes",
+                    "open": "Yes",
+                    "supervision": "Yes",
+                    "feedback": "Yes",
+                    "practice": "Yes",
+                    "methods": [
+                        "Demonstration/return demonstration",
+                        "1:1 review of techniques",
+                        "Assignments"
+                    ],
+                    "education": "Excellent clinical education experience",
+                    "Comments3": "Excellent site - many great learning opportunities and able to cherry pick cases to optimize student learning. Student attended burn center rounds and has been exposed to ortho, neuro, amputees, wounds, ICU and adults across the lifespan with varying psychosocial, economical and ethnic/religious backgrounds",
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "dcesignature": "data:image/png;base64,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",
+                    "email": "eheffernan@lifespan.org"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ee90e347-597b-4999-9612-7b360aff0424",
+        "_rid": "txoEAI0Kc-x5SQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x5SQAAAAAAAA==/",
+        "_etag": "\"0001f542-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    },
+    {
+        "responseId": "86e41a5b-55b6-46d5-8351-c4a4494c528e",
+        "workflowStatusId": "Step.SiteAssessment_Non_PA.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Information",
+                "values": {
+                    "Course": "PTR 7536"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.clinicalinstructorinterview",
+                "values": {
+                    "performance": "Everything is going wonderful. Progressing well. Evals  subjective information independently and objective with the CI. Did 2 TKR evals today. He is able to progress treatment, challenge patients and knows when to regress, monitor VS and very professional",
+                    "safety": "no",
+                    "communication": "no",
+                    "professionalism": "no",
+                    "discussion": "n/a"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentinterview",
+                "values": {
+                    "education": "Clinical is going better than expected - likes the setting, the patients and co-workers. Learning a lot.  Doing portions of evals and treatments. Wide variety of patients - post op joints, amputee, wounds, general medical, LTC.  CI has been great and communication and feedback are what he needs. No concerns at this time.",
+                    "Signature1": "data:image/png;base64,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65gAgayAwMqKaU+AQDcBgdWNXscECGQFBFZWTHsCBLoJCKxu9DomQCArILCyYtoTINBNQGB1o9cxAQJZAYGVFdOeAIFuAgKrG72OCRDICgisrJj2BAh0ExBY3eh1TIBAVkBgZcW0J0Cgm4DA6kavYwIEsgICKyumPQEC3QQEVjd6HRMgkBUQWFkx7QkQ6CYgsLrR65gAgayAwMqKaU+AQDcBgdWNXscECGQFBFZWTHsCBLoJCKxu9DomQCArILCyYtoTINBNQGB1o9cxAQJZAYGVFdOeAIFuAgKrG72OCRDICgisrJj2BAh0ExBY3eh1TIBAVkBgZcW0J0Cgm4DA6kavYwIEsgICKyumPQEC3QQEVjd6HRMgkBUQWFkx7QkQ6CYgsLrR65gAgayAwMqKaU+AQDcBgdWNXscECGQFBFZWTHsCBLoJCKxu9DomQCArILCyYtoTINBN4NLAer7byHVMgMAIApdmzENzvLRYCax5aJV65fd53ePH70Oe2pwaz7nHS81zba79+CmHaY7Hj983h2yN4zme+33q83i9zv1ejpvPY/77CH+IjPF6ApdmTNXAut609USAwO4Fqqbf7jUBECDQVEBgNeVVnACBmgICq6amWgQINBUQWE15FSdAoKaAwKqpqRYBAk0FBFZTXsUJEKgpILBqaqpFgEBTAYHVlFdxAgRqCgismppqESDQVEBgNeVVnACBmgICq6amWgQINBUQWE15FSdAoKaAwKqpqRYBAk0FBFZTXsUJEKgpILBqaqpFgEBTAYHVlFdxAgRqCgismppqESDQVEBgNeVVnACBmgICq6amWgQINBUQWE15FSdAoKaAwKqpqRYBAk0FBFZTXsUJEKgpILBqaqpFgEBTAYHVlFdxAgRqCgismppqESDQVEBgNeVVnACBmgICq6amWgQINBUQWE15FSdAoKbAfwHrjeSXsa+OqwAAAABJRU5ErkJggg=="
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentevaluationform",
+                "values": {
+                    "Course1": "PTR 7536",
+                    "Setting": "SNF"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.ciassessmentofthestudent",
+                "values": {
+                    "ci": "Yes",
+                    "strengths": "Student is very professional  - he is kind, caring and compassionate and patients connect well with him and some prefer him over the CI\nHe has good communication skills verbally and non-verbally. \nHe understands his strengths and weaknesses \nKnows when to push the patients and when to back off\nUnderstands changes in medical status and when to monitor vital signs\nGood understanding of exercises for this population",
+                    "Goals": "Documentation - patient is very slow, but improving and responding well to feedback\nNeeds greater initiative to look up diagnosis unfamiliar with",
+                    "remediation": "none",
+                    "caseload": "50% of caseload with varying supervision depending on the complexity of the patient - non-complex - is independent, needs about 50-75% supervision for complex patients"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.cistudentassessment",
+                "values": {
+                    "ci1": "yes",
+                    "Student1": "yes",
+                    "ci2": "no",
+                    "Student2": "yes",
+                    "Comments2": "CI recommends 12 weeks",
+                    "ci3": "no",
+                    "Student3": "yes",
+                    "Comments3": "CI feels 12 weeks would be better",
+                    "ci4": "unable to determine - based on course work - should have had cardiopulm, integ and neuro prior to SNV",
+                    "Student4": "yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.studentassessmentoftheceandci",
+                "values": {
+                    "effective": "Yes",
+                    "open": "Yes",
+                    "supervision": "Yes",
+                    "feedback": "Yes",
+                    "practice": "Yes",
+                    "methods": [
+                        "Demonstration/return demonstration",
+                        "1:1 review of techniques",
+                        "Assignments"
+                    ],
+                    "education": "Excellent clinical education experience",
+                    "Comments3": "Student getting exposure to a lot of different learning experiences and patients",
+                    "obtained": "Good experience, continue use of site",
+                    "privileges": [
+                        "To use College library/database access.",
+                        "To participate in Clinical Education and/or Curriculum meetings as appropriate",
+                        "To be included in the New England Consortium Institute Workshops/Clinical Faculty Training",
+                        "To be advised of special workshop offerings with free or reduced tuition"
+                    ],
+                    "dcesignature": "data:image/png;base64,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",
+                    "email": "Halkioma@gmail.com"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "AmericanInternationalCollege.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "AmericanInternationalCollege.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "AmericanInternationalCollege",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "159246"
+        },
+        "partitionKey": "AmericanInternationalCollege",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7b574926-c894-4da7-8c1d-3e59075e2413",
+        "_rid": "txoEAI0Kc-x7SQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x7SQAAAAAAAA==/",
+        "_etag": "\"0001f842-0000-0100-0000-668e66920000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608402
+    }
+]
