@@ -1,0 +1,68 @@
+[
+    {
+        "responseId": "df6fedf7-45d5-4d9e-9abe-fb2b5cac6259",
+        "workflowStatusId": "Step.SiteAssessment.Start",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.ClinicalInstructor",
+                "values": {
+                    "suggestionsForClinicalteam": "aa"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "Exxat.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TuftsPhoenixPT.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "Tufts",
+            "owningOrganizationUnit": "D1001",
+            "owningUser": "30229"
+        },
+        "partitionKey": "Tufts",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4609af79-3a4c-4992-a411-7fe773420c60",
+        "_rid": "txoEAI0Kc-yVAQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yVAQAAAAAAAA==/",
+        "_etag": "\"d600f4e3-0000-0100-0000-668b5b7c0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408956
+    },
+    {
+        "responseId": "30e36423-8baa-49a6-bf5c-e4456854f2e6",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.StudentInterview",
+                "values": {
+                    "PracticeSetting": [
+                        "Inpatient-Acute Care"
+                    ]
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "Exxat.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "TuftsPhoenixPT.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "Tufts",
+            "owningOrganizationUnit": "D1001",
+            "owningUser": "109774"
+        },
+        "partitionKey": "Tufts",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "d4d545ec-878e-4daa-9eb1-e9d0c499fe33",
+        "_rid": "txoEAI0Kc-wrSQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wrSQAAAAAAAA==/",
+        "_etag": "\"d600e2b0-0000-0100-0000-668b5b510000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408913
+    }
+]
