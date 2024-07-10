@@ -3,19 +3,9 @@ const path = require("path");
 
 // Function to process each JSON file
 const processJsonFile = (filePath, callback) => {
-  fs.readFile(filePath, "utf8", (err, data) => {
-    if (err) {
-      console.error(`Error reading file ${filePath}:`, err);
-      return;
-    }
-    try {
-      const responses = JSON.parse(data);
-      // Call the callback function with the JSON data
-      return responses.map(callback);
-    } catch (jsonErr) {
-      console.error(`Error parsing JSON from file ${filePath}:`, jsonErr);
-    }
-  });
+  const data = fs.readFileSync(filePath, "utf8");
+  const responses = JSON.parse(data);
+  return responses.map(callback);
 };
 
 // Function to search for all responses.json files in directories and process them
@@ -43,7 +33,7 @@ const searchAndProcessFiles = (dir) => {
               const updatedResponses = processJsonFile(fullPath, method);
 
               fs.writeFile(
-                path.join(dir, "updated_response.json"),
+                path.join(dir, "response.json"),
                 JSON.stringify(updatedResponses, null, 2),
                 (err) => {
                   if (err) {
