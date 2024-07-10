@@ -1,4 +1,4 @@
-export function correctResponse(response) {
+function correctResponse(response) {
   let sectionIndex = response.sections.findIndex(
     (section) =>
       section.sectionId ==
@@ -22,3 +22,5 @@ export function correctResponse(response) {
   }
   return response;
 }
+
+module.exports.method = correctResponse;

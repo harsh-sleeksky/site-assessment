@@ -4,9 +4,17 @@ function updateResponse(response) {
   );
 
   if (sectionIndex !== -1) {
-    response.sections[sectionIndex].values["validLicense1"] =
-      response.sections[sectionIndex].values["validLicense"];
-    delete response.sections[sectionIndex].values["validLicense"];
+    const updatedvalues = {};
+
+    for (const [key, value] of Object.entries(
+      response.sections[sectionIndex].values
+    )) {
+      if (key == "validLicense") {
+        updatedvalues[`${key}1`] = value;
+      } else updatedvalues[key] = value;
+    }
+
+    response.sections[sectionIndex].values = updatedvalues;
   }
 
   return response;

@@ -9,7 +9,7 @@ function updateResponse(response) {
     for (const [key, value] of Object.entries(
       response.sections[sectionIndex].values
     )) {
-      if (key == "adequatelyprepared1") {
+      if (key == "adequatelyprepared") {
         updatedvalues["adequatelyprepared1"] = value;
       } else updatedvalues[key] = value;
     }

@@ -33,7 +33,7 @@ const searchAndProcessFiles = (dir) => {
               const updatedResponses = processJsonFile(fullPath, method);
 
               fs.writeFile(
-                path.join(dir, "response.json"),
+                path.join(dir, "updated_response.json"),
                 JSON.stringify(updatedResponses, null, 2),
                 (err) => {
                   if (err) {
