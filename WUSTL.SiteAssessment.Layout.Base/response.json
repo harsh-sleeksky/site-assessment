@@ -1,0 +1,1049 @@
+[
+    {
+        "responseId": "29595c07-f025-4308-aeb1-c778e325c67d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Clinicalsite2": "No",
+                    "PreceptorAssociated21": "Did not discuss this",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "3. Aide/tech"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience I",
+                        "Clinical Experience II"
+                    ],
+                    "PreceptorAssociated2": "Small general acute care hospital with very cohesive therapy staff.  Patients are simple to moderate complexity.  Each floor does patient rounds with nurse, MD etc every morning which is very helpful.  Current CI is a WU alum from 2019, and she works on the 3rd floor primarily which is neuro telemetry.  Learners can have exposure to OT, speech, all the other floors.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "6 PTs plus 1 float, each PT covers a different floor in the hospital",
+                    "PreceptorAssociated6": "Unknown",
+                    "PreceptorAssociated7": "ICU, cardiac, neurological - CVA, vestibular, myriad of other neuro dx's - general deconditioning, acute ortho, cognitive/behavioral issues",
+                    "PurposeEvaluation20": [
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "PreceptorAssociated8": "Presenting patients to MDs during rounds, working with OT, observing speech/ barium swallows",
+                    "PreceptorAssociated9": "OT, Speech",
+                    "PreceptorAssociated10": "8-14",
+                    "PreceptorAssociated11": "N/a",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "Student would definitely recommend this experience.  well rounded, given appropriate supervision/indep levels, able to apply medical knowledge learned and basic skills from first year"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "PreceptorAssociatedC": "Very close working relationship with CI and CI very open to learner's ideas;",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedD": "Proper balance of indep and supervision; learner is handling at least 3-4 patients on her own; needs assist with others; CI always available when needed to jump in",
+                    "PreceptorAssociatedO2": "No real weaknesses; might not be challenging enough for a final rotation for someone wanting to pursue acute care",
+                    "PreceptorAssociatedO3": "Challenging patient situations due to medical or social conditions - no negative encounters",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5270"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "1e6c6522-b244-427d-af04-5a256ad36711",
+        "_rid": "txoEAI0Kc-yjDQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yjDQAAAAAAAA==/",
+        "_etag": "\"0001a92c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "04f4fa9b-8503-42e8-9feb-55c4c120a444",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor",
+                        "3. Clinical Director"
+                    ],
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Clinicalsite1": "Yes",
+                    "PreceptorAssociated": "New curriculum, new application processes.",
+                    "Clinicalsite2": "Yes",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "5. Other"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience III",
+                        "Clinical Experience IV"
+                    ],
+                    "PreceptorAssociated2": "Must review anatomy and biomechanics.  Good to review post-op management and level 3 exercise prescription.",
+                    "PreceptorAssociated4": "Later schedule due to kids in school.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "3 (Kody, Ryan, resident)",
+                    "PreceptorAssociated6": "SCS, OCS",
+                    "PurposeEvaluation20": [
+                        "1. Pediatric (0-18)",
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)"
+                    ],
+                    "PreceptorAssociated9": "CSC",
+                    "PreceptorAssociated10": "10-12",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "Good mentorship, strong high-level sports experience",
+                    "PurposeEvaluation": [
+                        "3. Formalized student curriculum"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "Clinicalsite32": "Yes",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "2b35d537-3781-4804-93f7-254b205db968",
+        "_rid": "txoEAI0Kc-yVEgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yVEgAAAAAAAA==/",
+        "_etag": "\"0001b62c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "9d27e31e-59b5-43d3-8b1f-348636e9147c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "1. New facility"
+                    ],
+                    "Program/Institution2:": [
+                        "2. Visit with student"
+                    ],
+                    "Clinicalsite1": "No",
+                    "PreceptorAssociated": "1",
+                    "PreceptorAssociated2": "2",
+                    "PurposeEvaluation": [
+                        "1. student manual"
+                    ],
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience II"
+                    ],
+                    "PreceptorAssociated3": "3",
+                    "PreceptorAssociated4": "4",
+                    "PreceptorAssociatedA": "5",
+                    "PreceptorAssociated5": "6",
+                    "PreceptorAssociated6": "7",
+                    "PreceptorAssociated7": "8",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)"
+                    ],
+                    "PreceptorAssociated8": "9",
+                    "PreceptorAssociated9": "10",
+                    "PreceptorAssociated10": "11",
+                    "PreceptorAssociated11": "12",
+                    "PreceptorAssociated12": "13",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "14"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "3. Acceptable",
+                    "PreceptorAssociatedC": "15",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedD": "16",
+                    "PreceptorAssociatedO2": "17",
+                    "PreceptorAssociatedO3": "18",
+                    "Clinicalsite33": "Yes",
+                    "PreceptorAssociatedO1": "19"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WUSTL",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "40508"
+        },
+        "partitionKey": "WUSTL",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4e90d50b-c98a-431d-b557-c58b52afef1a",
+        "_rid": "txoEAI0Kc-wXBwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wXBwAAAAAAAA==/",
+        "_etag": "\"0001a02c-0000-0100-0000-668e657c0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608124
+    },
+    {
+        "responseId": "670c2bca-ec35-4ba1-bcb2-4e3a767b50c2",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "1. New facility"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE"
+                    ],
+                    "Clinicalsite1": "Yes",
+                    "PreceptorAssociated": "1",
+                    "Clinicalsite2": "Yes",
+                    "PreceptorAssociated21": "2",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "1. ATC"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience I"
+                    ],
+                    "PreceptorAssociated2": "3",
+                    "PreceptorAssociated3": "4",
+                    "PreceptorAssociated4": "5",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociatedA": "6",
+                    "PreceptorAssociated5": "7",
+                    "PreceptorAssociated6": "8",
+                    "PreceptorAssociated7": "9",
+                    "PurposeEvaluation20": [
+                        "1. Pediatric (0-18)"
+                    ],
+                    "PreceptorAssociated8": "10",
+                    "PreceptorAssociated9": "11",
+                    "PreceptorAssociated10": "12",
+                    "PreceptorAssociated11": "13",
+                    "PreceptorAssociated12": "14",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "15",
+                    "PurposeEvaluation": [
+                        "1. student manual"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "PreceptorAssociatedC": "16",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedD": "17",
+                    "PreceptorAssociatedO2": "18",
+                    "PreceptorAssociatedO3": "19",
+                    "Clinicalsite33": "Yes",
+                    "PreceptorAssociatedO1": "20"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "40508"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "60ac2a43-5b67-4c94-98f4-5918c632e3fa",
+        "_rid": "txoEAI0Kc-xZBwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xZBwAAAAAAAA==/",
+        "_etag": "\"0001a62c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "acec6df4-209e-4723-920a-349f35a9b958",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Program/InstitutionA:": [
+                        "4. N/A"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience III",
+                        "Clinical Experience IV"
+                    ],
+                    "PreceptorAssociated5": "7",
+                    "PreceptorAssociated6": "No requirements but they do take on special projects.",
+                    "PreceptorAssociated7": "All pelvic floor.",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "PreceptorAssociated8": "Various modalities.",
+                    "PreceptorAssociated9": "Only PT",
+                    "PreceptorAssociated10": "7-12",
+                    "Clinicalsite31": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PreceptorAssociatedO2": "A bit slow to ramp up, likely because of the patient population.",
+                    "PreceptorAssociatedO3": "TIC is challenging but good practice.",
+                    "PurposeEvaluation": "1. Very Good",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "6caa9836-0673-4a7e-8b71-f9da38110966",
+        "_rid": "txoEAI0Kc-xpEgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xpEgAAAAAAAA==/",
+        "_etag": "\"0001b22c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "68a9dbeb-3123-47e1-9e60-86b94a066bd1",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "Yes",
+                    "Clinicalsite2": "Yes",
+                    "PreceptorAssociated21": "Have a wonderful binder with expectations, goals, learning style survey, communication style questionnaire, orientation.",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA",
+                        "3. Aide/tech"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience III",
+                        "Clinical Experience IV"
+                    ],
+                    "PreceptorAssociated2": "Intensives, DMI, vibration plates, spider cages, CP.",
+                    "PreceptorAssociated3": "They have been very impressed with our last 2 students.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "Staff is ~20 therapists total across all disciplines.",
+                    "PreceptorAssociated6": "DMI certification",
+                    "PreceptorAssociated7": "See location notes",
+                    "PurposeEvaluation20": [
+                        "1. Pediatric (0-18)"
+                    ],
+                    "PreceptorAssociated8": "See location notes",
+                    "PreceptorAssociated9": "OT/SLP",
+                    "PreceptorAssociated10": "4 intensives, 3 traditional",
+                    "PreceptorAssociated11": "1:1",
+                    "PreceptorAssociated12": "PDMS, DAY-C, GMFM",
+                    "Clinicalsite31": "Yes",
+                    "PurposeEvaluation": [
+                        "1. student manual",
+                        "2. Weekly goals",
+                        "3. Formalized student curriculum",
+                        "4. Designated and routine meeting time"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedO3": "None yet",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "781d70c7-4586-41fd-96b3-2f3d02f502a6",
+        "_rid": "txoEAI0Kc-x3EgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x3EgAAAAAAAA==/",
+        "_etag": "\"0001b32c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "37b9f132-9a00-4a7a-bd04-ab85cea25152",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Clinicalsite2": "No",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA",
+                        "3. Aide/tech"
+                    ],
+                    "PurposeEvaluation2": [
+                        "All Clinical Experiences"
+                    ],
+                    "PreceptorAssociated2": "Supervision model is 1:1; CI sees 8-10 patients per day. CIs may work 8 or 10 hour days. Coverage at the hospital may occur with patient cancellations.",
+                    "PreceptorAssociated3": "CI works on anatomical/pathologic diagnoses and works with learners to discuss our movement related diagnoses.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociatedA": "CI reports the student excelled for where they were in their level of education. Suggested curriculum may want to discuss nerve gliding prior to clinical experiences in outpatient orthopedics.",
+                    "PreceptorAssociated5": "10 PTs, 1 PTA at location to fill about 8 FTEs",
+                    "PreceptorAssociated6": "OCS, WCS, SCS",
+                    "PreceptorAssociated7": "acute and chronic pain, TKR THR, Shoulder ORIF, ankle fx, conus medullaris syndrome, vestibular dysfunction, CVA, LBP, pelvic health, surgical repairs",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "PreceptorAssociated8": "surgical observation, work with OT/SP, variety of patients, ability to see some inpatients during patient cancellations",
+                    "PreceptorAssociated9": "OT, SP, MD",
+                    "PreceptorAssociated10": "8-10",
+                    "PreceptorAssociated11": "anatomical/pathophysiologic focus, manual therapy, motor training, therapeuticc exercise, joint mobilization, special tests",
+                    "PreceptorAssociated12": "variety of outcome measures used dependent on joint involved",
+                    "Clinicalsite31": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "PreceptorAssociatedC": "1:1 supervision. CI pushes learner to continuously grow as a clinician. Practice of skills with the CI during downtime in the clinical setting.",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedO2": "variety of patients, time for mentorship with the CI and other providers at the site.",
+                    "PreceptorAssociatedO3": "NA",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5271"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7ec79d43-107e-4ec7-b002-29775a77fb47",
+        "_rid": "txoEAI0Kc-wpRQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wpRQAAAAAAAA==/",
+        "_etag": "\"0001c32c-0000-0100-0000-668e657e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608126
+    },
+    {
+        "responseId": "3322caa4-241c-4aec-aad7-f4dd1984db33",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor",
+                        "3. Clinical Director"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Clinicalsite2": "No",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA",
+                        "3. Aide/tech"
+                    ],
+                    "PurposeEvaluation2": [
+                        "All Clinical Experiences"
+                    ],
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "3 1/2\n1 PTA",
+                    "PreceptorAssociated6": "pelvic health, lymphedema",
+                    "PreceptorAssociated7": "large variety, ortho, neuro, deconditiong, age babies to adults",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "Great site and CI (alum) to work with students and provide quality feedback and opportunities for learning."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "Clinicalsite32": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5271"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "87def1ab-5450-427d-8c6c-3150288656c9",
+        "_rid": "txoEAI0Kc-x3QwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x3QwAAAAAAAA==/",
+        "_etag": "\"0001c22c-0000-0100-0000-668e657e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608126
+    },
+    {
+        "responseId": "248ddae5-36d2-49dd-afb3-3fe826b007a1",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No",
+                    "PurposeEvaluation2": [
+                        "All Clinical Experiences"
+                    ],
+                    "PreceptorAssociated2": "As of 2023, due to various reasons associated with qualifications and reimbursement of therapy services, the clinic is seeing more children that have behavioral problems. The facility has worked to diversify the students experience by having the students work with different therapists (one who sees the younger kids, ones who sees the older kids and one who does all the evaluations). This can be a rewarding experience, but the student must be interested in pediatrics and be willing to work with kids with behavioral issues.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "approx 10",
+                    "PurposeEvaluation20": [
+                        "1. Pediatric (0-18)"
+                    ],
+                    "PreceptorAssociated9": "OT & ST",
+                    "PreceptorAssociated11": "One on one care.",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "We should continue to monitor the students experiences to make sure they are working to offer the students a diverse experience."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "2. Good",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "71545"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "8d42f303-5562-4ddd-abae-bf1d57ebc0ab",
+        "_rid": "txoEAI0Kc-z1FAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z1FAAAAAAAAA==/",
+        "_etag": "\"0001b82c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "b2acbce7-7dde-4da1-bbd3-90f588844950",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "3. Aide/tech"
+                    ],
+                    "PreceptorAssociated2": "Wide variety, but not much sports.",
+                    "PreceptorAssociated3": "No",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "10-12",
+                    "PreceptorAssociated7": "Ortho, vestibular, cardiac rehab, pelvic health",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "PreceptorAssociated9": "MT",
+                    "PreceptorAssociated11": "1:1",
+                    "Clinicalsite31": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "PreceptorAssociatedC": "Best CI she's ever had.",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedO2": "Strengths:  CI, laid back, 1:1, variety, clinic culture.",
+                    "PreceptorAssociatedO3": "Inappropriate, racist comments by patients.  CI and student both comfortable shutting it down/redirecting.",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "90f27f73-e8d3-4ee8-8b06-41f8082412ba",
+        "_rid": "txoEAI0Kc-wvFQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wvFQAAAAAAAA==/",
+        "_etag": "\"0001bd2c-0000-0100-0000-668e657e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608126
+    },
+    {
+        "responseId": "863048a0-62e7-498c-8d94-019896c737b8",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "PurposeEvaluation20": [
+                        "1. Pediatric (0-18)"
+                    ],
+                    "PreceptorAssociated8": "See location notes.",
+                    "PreceptorAssociated9": "OT, SLP",
+                    "Clinicalsite31": "Yes",
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Clinicalsite2": "Yes",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA"
+                    ],
+                    "PurposeEvaluation2": [
+                        "Clinical Experience III",
+                        "Clinical Experience IV"
+                    ],
+                    "PreceptorAssociated2": "Patient population can change from SSD depending on CI availability.\nIf you have Ashleigh you will see chronic pain and ortho.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociatedA": "CI feels WashU students are the best prepared, esp with regard to clinical reasoning."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedO2": "No weaknesses besides it wasn't the population she thought she was getting.",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ac691dd7-9dbe-4965-a891-2273adae1950",
+        "_rid": "txoEAI0Kc-wtFQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wtFQAAAAAAAA==/",
+        "_etag": "\"0001bb2c-0000-0100-0000-668e657e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608126
+    },
+    {
+        "responseId": "13f0493d-c24d-4853-9f3d-40f10982d14b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "PreceptorAssociated2": "Need to review neuro and gen med.  Need to be emotionally prepared for acute care/ICU.",
+                    "PreceptorAssociated3": "Yes, a lot.  They don't feel our students are prepared.  They stated that they know we are a high-quality institution but recommend that our admissions processes be such that we don't only look at grades.  With further questioning they revealed that they have had a couple students that caused their CIs to state they would no longer take WashU students, and have only done so because they wanted to help us when we were in a bind (ad hocs).  They then stated they believe this is because they were international students and perhaps it was communication and culture, but they felt they were unprofessional.  One example was that one would fall asleep while at the CE.  When asked if this was ever reported to us they stated that they didn't think so but they weren't their students.  They reiterated that the current student has been \"lovely.\"",
+                    "Clinicalsite30": "No",
+                    "PreceptorAssociatedA": "see above",
+                    "PurposeEvaluation20": [
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)",
+                        "2. Young adult (18-35)"
+                    ],
+                    "PreceptorAssociated12": "None",
+                    "PreceptorAssociatedB": "Proceed with caution.  The comments from the SCCE and CI were concerning, as was the fact that they apparently do not want to take our students anymore but have not reached out to discuss.  The current student has had a generally positive experience, but they seem to have a bias again international students.",
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "No"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "2. Good",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedO3": "See interventions.",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c1c3a800-9140-4cc3-a5d0-24e38e5aec02",
+        "_rid": "txoEAI0Kc-zNEAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zNEAAAAAAAAA==/",
+        "_etag": "\"0001af2c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "b7d4ff71-b6d5-4fd2-b209-3a440853a2b2",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor"
+                    ],
+                    "Clinicalsite1": "Yes",
+                    "PreceptorAssociated": "CIs requested information related to our new curriculum outline. Information provided to the CIs prior to site visit via email. We then discussed the curriculum during the site visit.",
+                    "Clinicalsite2": "No",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA",
+                        "3. Aide/tech",
+                        "5. Other"
+                    ],
+                    "PurposeEvaluation2": [
+                        "All Clinical Experiences"
+                    ],
+                    "PreceptorAssociated2": "Large medical center and level 1 trauma center.",
+                    "PreceptorAssociated3": "SCCE and CIs feel like our curriculum prepares students for patient care at the site.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociated5": "6-8 PTs and 1 PTA in acute care, 6-8 PTs in outpatient therapy.",
+                    "PreceptorAssociated6": "WCS, OCS, SCS, NCS",
+                    "PreceptorAssociated7": "post-operative orthopedic surgeries, cardiovascular and pulmonary surgeries and medical conditions, Infectious disease, amputation, vascular surgery, Renal failure, CVA, PD,",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "PreceptorAssociated8": "work with Octarians, able to follow patient from ICU to medical floor,",
+                    "PreceptorAssociated9": "OT, SLP, Nsg, MD, Dietician, PCT, SW, Case workers",
+                    "PreceptorAssociated10": "6-8 patients/day. Ideally, 4 in the am and 4 in the pm",
+                    "PreceptorAssociated11": "pace is appropriate for the acute care setting and outpatient setting.",
+                    "PreceptorAssociated12": "wide variety depending on patient diagnosis, 6 Clicks, 6 MW, Tug etc in the acute care settings.",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "Site has a wide variety of patients with varied diagnoses. Good productivity standards, good mentorship"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "PreceptorAssociatedC": "Two Cis to work with student. They are focusing care in the inpatient setting.",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedD": "CI has been with the learner 100% of the time, just beginning to allow student to complete patient interview and patient care skillls while Ci is outside the room or at the nsg station. CIs available for feedback.",
+                    "PreceptorAssociatedO2": "Strengths-CI supervision and mentorship, wide variety of patient conditions, productivity standards, continued development of CIs from a educational standpoint, opportunities to observe surgeries and other disciplines.",
+                    "PreceptorAssociatedO3": "NA",
+                    "Clinicalsite33": "Yes",
+                    "PreceptorAssociatedO1": "Student feels very supported in the environment and within their learning."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5271"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "cacb2dc8-fb9a-4fcb-989d-02dc22d86fce",
+        "_rid": "txoEAI0Kc-wrRQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wrRQAAAAAAAA==/",
+        "_etag": "\"0001c42c-0000-0100-0000-668e657e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608126
+    },
+    {
+        "responseId": "c797a455-f607-4bde-85ec-6820a082536d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "PreceptorAssociated7": "Neuro, ortho",
+                    "Program/Institution:": [
+                        "3. Visit without student"
+                    ],
+                    "Program/Institution2:": [
+                        "4. Other"
+                    ],
+                    "Clinicalsite1": "No"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5274"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e4bac97a-7a88-437d-a22c-2f4c147a2a3a",
+        "_rid": "txoEAI0Kc-ypEAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ypEAAAAAAAAA==/",
+        "_etag": "\"0001ac2c-0000-0100-0000-668e657d0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608125
+    },
+    {
+        "responseId": "3bf25659-4c28-4d0e-9aeb-ed1284311e32",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SiteInformation",
+                "values": {
+                    "Program/Institution:": [
+                        "2. Visit with student"
+                    ],
+                    "Program/Institution2:": [
+                        "1. SCCE",
+                        "2. Clinical Instructor",
+                        "3. Clinical Director"
+                    ],
+                    "Clinicalsite1": "No",
+                    "Clinicalsite2": "No",
+                    "Clinicalsite3": "Yes",
+                    "Program/InstitutionA:": [
+                        "2. PTA",
+                        "3. Aide/tech"
+                    ],
+                    "PurposeEvaluation2": [
+                        "All Clinical Experiences"
+                    ],
+                    "PreceptorAssociated2": "Rural community hospital",
+                    "PreceptorAssociated3": "a discussion regarding our new curriculum occured with the SCCE. NO concerns related to changes or student performance.",
+                    "Clinicalsite30": "Yes",
+                    "PreceptorAssociatedA": "The SCCE and owner of 21st Century are alumni from our program and thus knowledgable about changes to the curriculum.",
+                    "PreceptorAssociated5": "3 1/2 Hampton, \n7-8 at Nevada location\nGenerally, 2 at smaller locations.",
+                    "PreceptorAssociated6": "SCS, OCS, Pelvic Health, Lymphedema",
+                    "PreceptorAssociated7": "Large variety. Both NEvada and Hampton have hospital affiliations",
+                    "PurposeEvaluation20": [
+                        "2. Young adult (18-35)",
+                        "3. Middle-age adults (36-55)",
+                        "4. Older adults (>55 years old)"
+                    ],
+                    "PreceptorAssociated8": "pelvic health, Lymphedema, dry needling, cupping, pool in Hampton",
+                    "PreceptorAssociated9": "OT/PT, Nursing, MD, SLP",
+                    "PreceptorAssociated10": "8-9",
+                    "PreceptorAssociated11": "MSI influence, time for feedback and reflection. Productivity expectations of one patient/hour.",
+                    "PreceptorAssociated12": "will vary depending on patient needs and diagnoses",
+                    "Clinicalsite31": "Yes",
+                    "PreceptorAssociatedB": "Site is excellent experience for learners to see a varity of patients and practice in a location that values patient centered care and building of a community."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Purpose",
+                "values": {
+                    "PurposeEvaluation": "1. Very Good",
+                    "PreceptorAssociatedC": "1:1, time to practice, get feedback, have a good level of independence.",
+                    "Clinicalsite32": "Yes",
+                    "PreceptorAssociatedO2": "see above",
+                    "Clinicalsite33": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "WUSTL.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "WUSTL.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "WashU",
+            "owningOrganizationUnit": "D001",
+            "owningUser": "5271"
+        },
+        "partitionKey": "WashU",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "f89ad577-109d-40a9-b670-be67334675c1",
+        "_rid": "txoEAI0Kc-x1QwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x1QwAAAAAAAA==/",
+        "_etag": "\"0001bf2c-0000-0100-0000-668e657e0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608126
+    }
+]
