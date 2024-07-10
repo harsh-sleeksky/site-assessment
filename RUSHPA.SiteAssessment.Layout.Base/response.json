@@ -1,0 +1,500 @@
+[
+    {
+        "responseId": "b66ba1c5-3328-4175-bf2f-ee092a2a2e49",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO1": [
+                        "MD"
+                    ],
+                    "LO2": [
+                        "Urban",
+                        "Inner City"
+                    ],
+                    "LO3": [
+                        "Infants",
+                        "Children",
+                        "Adolescents",
+                        "Adults",
+                        "Elderly"
+                    ],
+                    "LO4": [
+                        " Emergency Dept."
+                    ],
+                    "LO4A": [
+                        "Chronic",
+                        "Emergent",
+                        "Acute"
+                    ],
+                    "LO4AB": [
+                        "2nd year students",
+                        "3rd year students"
+                    ],
+                    "LO5": [
+                        "Phone visit"
+                    ],
+                    "LO6": "Yes ",
+                    "LO7": "Yes ",
+                    "LO8": "Yes ",
+                    "LO9": "Yes ",
+                    "LO10": "Yes ",
+                    "LO11": "Yes ",
+                    "LO12": "Yes ",
+                    "LO13": "Yes ",
+                    "LO14": "Yes ",
+                    "LO15": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "Repost for location assessment. Please see comments under \"site assessment\".",
+                    "LO19": "Excellent—the rotation site consistently exceeds program expectations. ",
+                    "TA2": "Dan Doherty",
+                    "LO20": "2023-08-25T05:00:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "60825"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "6976898f-960a-45a2-976c-e579e2718f55",
+        "_rid": "txoEAI0Kc-xJGgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xJGgAAAAAAAA==/",
+        "_etag": "\"00010a2d-0000-0100-0000-668e65820000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608130
+    },
+    {
+        "responseId": "537460c1-2c3c-4fe5-b684-cd016fe175b9",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO1": [
+                        "PA"
+                    ],
+                    "LO2": [
+                        "Rural",
+                        "Urban",
+                        "Inner City"
+                    ],
+                    "LO3": [
+                        "Infants",
+                        "Children",
+                        "Adolescents",
+                        "Adults"
+                    ],
+                    "LO4": [
+                        "Inpatient"
+                    ],
+                    "LO5": [
+                        "Phone visit"
+                    ],
+                    "LO6": "Yes ",
+                    "LO7": "Yes ",
+                    "LO8": "Yes ",
+                    "LO9": "Yes ",
+                    "LO10": "Yes ",
+                    "LO11": "Yes ",
+                    "LO12": "Yes ",
+                    "LO13": "Yes ",
+                    "LO14": "Yes ",
+                    "LO15": "Yes ",
+                    "LO16": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "test1",
+                    "LO19": "Excellent—the rotation site consistently exceeds program expectations. ",
+                    "TA2": "hir",
+                    "LO20": "2023-04-18T18:30:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "54698"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "8159dea6-d2fd-4441-a038-df92fadc3a51",
+        "_rid": "txoEAI0Kc-ydCAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ydCAAAAAAAAA==/",
+        "_etag": "\"0001012d-0000-0100-0000-668e65810000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608129
+    },
+    {
+        "responseId": "2bb64951-fa79-4ac4-ac76-2835887db42b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO3": [
+                        "Infants",
+                        "Children",
+                        "Adolescents",
+                        "Elderly"
+                    ],
+                    "LO1": [
+                        "MD"
+                    ],
+                    "LO2": [
+                        "Urban",
+                        "Inner City"
+                    ],
+                    "LO4": [
+                        " Emergency Dept."
+                    ],
+                    "LO4A": [
+                        "Chronic",
+                        "Emergent",
+                        "Acute"
+                    ],
+                    "LO4AB": [
+                        "2nd year students",
+                        "3rd year students"
+                    ],
+                    "LO5": [
+                        "Phone visit"
+                    ],
+                    "LO6": "Yes ",
+                    "LO7": "Yes ",
+                    "LO8": "Yes ",
+                    "LO9": "Yes ",
+                    "LO10": "Yes ",
+                    "LO11": "Yes ",
+                    "LO12": "Yes ",
+                    "LO13": "Yes ",
+                    "LO14": "Yes ",
+                    "LO15": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "Broad based EM exposure in an urban setting of Chicago. Students are highly engaged in all aspects of the ED and have excellent supervision by Dr. Bermudez and team.",
+                    "LO19": "Excellent—the rotation site consistently exceeds program expectations. ",
+                    "TA2": "Dan Doherty",
+                    "LO20": "2023-09-15T05:00:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "60825"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "82b53eb8-3df6-4d60-b20b-f93b3a52e4cb",
+        "_rid": "txoEAI0Kc-wjGQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wjGQAAAAAAAA==/",
+        "_etag": "\"0001042d-0000-0100-0000-668e65810000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608129
+    },
+    {
+        "responseId": "c9505977-10f3-4c20-b561-a8ddc240a6a0",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO1": [
+                        "MD"
+                    ],
+                    "LO2": [
+                        "Suburban",
+                        "Urban",
+                        "Inner City"
+                    ],
+                    "LO3": [
+                        "Infants",
+                        "Children",
+                        "Adolescents",
+                        "Adults",
+                        "Elderly"
+                    ],
+                    "LO4": [
+                        " Emergency Dept."
+                    ],
+                    "LO4A": [
+                        "Chronic",
+                        "Emergent",
+                        "Acute"
+                    ],
+                    "LO4AB": [
+                        "3rd year students"
+                    ],
+                    "LO5": [
+                        "In-person Site visit"
+                    ],
+                    "LO6": "Yes ",
+                    "LO7": "Yes ",
+                    "LO8": "Yes ",
+                    "LO9": "Yes ",
+                    "LO10": "Yes ",
+                    "LO11": "Yes ",
+                    "LO12": "Yes ",
+                    "LO13": "Yes ",
+                    "LO14": "Yes ",
+                    "LO15": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "Repost for location assessment. Please see comments under \"site assessment\".",
+                    "LO19": "Excellent—the rotation site consistently exceeds program expectations. ",
+                    "TA2": "Dan Doherty",
+                    "LO20": "2023-08-15T05:00:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "60825"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "9aadce41-b74a-42cd-a25d-63a2c7c3dbde",
+        "_rid": "txoEAI0Kc-xLGgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xLGgAAAAAAAA==/",
+        "_etag": "\"00010c2d-0000-0100-0000-668e65820000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608130
+    },
+    {
+        "responseId": "bf07620d-8f31-4de7-b27e-04cdc21c0e89",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO1": [
+                        "PA",
+                        "MD"
+                    ],
+                    "LO2": [
+                        "Suburban"
+                    ],
+                    "LO3": [
+                        "Infants",
+                        "Children",
+                        "Adolescents",
+                        "Adults",
+                        "Elderly"
+                    ],
+                    "LO4": [
+                        "Outpatient"
+                    ],
+                    "LO4AB": [
+                        "2nd year students",
+                        "3rd year students"
+                    ],
+                    "LO5": [
+                        "Zoom visit"
+                    ],
+                    "LO6": "Yes ",
+                    "LO8": "Yes ",
+                    "LO9": "Yes ",
+                    "LO10": "Yes ",
+                    "LO11": "Yes ",
+                    "LO12": "No",
+                    "LO13": "Yes ",
+                    "LO14": "Yes ",
+                    "LO15": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "Full-spectrum family medicine clinic serving a large Spanish speaking population. Providers with average primary care/family medicine experience > 20 years.",
+                    "LO19": "Excellent—the rotation site consistently exceeds program expectations. ",
+                    "TA2": "Dan Doherty",
+                    "LO20": "2023-10-11T05:00:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "60825"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e91ba0c1-93b4-4d82-aedc-aa9a92c10136",
+        "_rid": "txoEAI0Kc-yvGwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yvGwAAAAAAAA==/",
+        "_etag": "\"00010e2d-0000-0100-0000-668e65820000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608130
+    },
+    {
+        "responseId": "c63ad685-73ca-45a1-8577-98be96f4cce5",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO1": [
+                        "PA"
+                    ],
+                    "LO2": [
+                        "Rural"
+                    ],
+                    "LO3": [
+                        "Children",
+                        "Adolescents"
+                    ],
+                    "LO4": [
+                        "Outpatient"
+                    ],
+                    "LO5": [
+                        "Zoom visit"
+                    ],
+                    "LO6": "No",
+                    "LO7": "No",
+                    "LO8": "No",
+                    "LO9": "No",
+                    "LO10": "No",
+                    "LO11": "No",
+                    "LO12": "No",
+                    "LO13": "No",
+                    "LO14": "No",
+                    "LO15": "Yes ",
+                    "LO16": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "1",
+                    "LO19": "Excellent—the rotation site consistently exceeds program expectations. ",
+                    "TA2": "2",
+                    "LO20": "2023-04-17T18:30:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "54698"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "f4db1b88-ca70-4508-878f-a0f7bc5edf85",
+        "_rid": "txoEAI0Kc-yDCAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yDCAAAAAAAAA==/",
+        "_etag": "\"0001ff2c-0000-0100-0000-668e65810000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608129
+    },
+    {
+        "responseId": "c2dd2420-c7da-4dd8-9e6a-eecc38bc1f51",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.RUSHPA_ClinicalSite",
+                "values": {
+                    "LO1": [
+                        "MD"
+                    ],
+                    "LO2": [
+                        "Urban",
+                        "Inner City"
+                    ],
+                    "LO3": [
+                        "Infants",
+                        "Children",
+                        "Adolescents",
+                        "Adults",
+                        "Elderly"
+                    ],
+                    "LO4": [
+                        " Emergency Dept."
+                    ],
+                    "LO4A": [
+                        "Chronic",
+                        "Emergent",
+                        "Acute"
+                    ],
+                    "LO4AB": [
+                        "2nd year students",
+                        "3rd year students"
+                    ],
+                    "LO5": [
+                        "In-person Site visit"
+                    ],
+                    "LO6": "Yes ",
+                    "LO7": "Yes ",
+                    "LO8": "Yes ",
+                    "LO9": "Yes ",
+                    "LO10": "Yes ",
+                    "LO11": "Yes ",
+                    "LO12": "Yes ",
+                    "LO13": "Yes ",
+                    "LO14": "Yes ",
+                    "LO15": "Yes ",
+                    "LO17": "Yes ",
+                    "LO18": "Dr. Moustoukas and team provide immense hands on EM experience in a north-side Chicago, smaller neighborhood ED. Students have great supervision and the ability to learn from and care for the spectrum of ED patients presenting here.",
+                    "LO19": "n/a",
+                    "TA2": "Dan Doherty",
+                    "LO20": "2023-09-15T05:00:00Z"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "RUSHPA.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "RUSHPA.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "RushUniversity",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "60825"
+        },
+        "partitionKey": "RushUniversity",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ff840e2f-2ac9-43f8-befa-2fc19202a10d",
+        "_rid": "txoEAI0Kc-wnGQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wnGQAAAAAAAA==/",
+        "_etag": "\"0001072d-0000-0100-0000-668e65820000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608130
+    }
+]
