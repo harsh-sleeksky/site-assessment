@@ -1,0 +1,82 @@
+[
+    {
+        "responseId": "ad5d2397-2eb1-41ef-ae26-05f29338ef05",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.SAQuestionnaire1",
+                "values": {
+                    "TB": "Mock Name",
+                    "B5": "Yes",
+                    "B1": "No",
+                    "B2": "N/A",
+                    "B3": "Yes",
+                    "B4": "No",
+                    "B7": "N/A",
+                    "B8": "Yes",
+                    "B9": "No",
+                    "B10": "N/A",
+                    "B11": "Yes",
+                    "B12": "No",
+                    "B13": "N/A",
+                    "B14": "Yes",
+                    "B15": "No",
+                    "B16": "N/A",
+                    "B17": "Yes",
+                    "A1A": "No",
+                    "A2A": "N/A",
+                    "A6": "Yes",
+                    "A7": "No",
+                    "A8": "N/A",
+                    "A10": "Yes",
+                    "A11": "No",
+                    "A12": "N/A",
+                    "A13": "Yes",
+                    "A15": "No",
+                    "A16": "N/A",
+                    "A17": "Yes",
+                    "A18": "No",
+                    "A19": "N/A",
+                    "A20": "Yes",
+                    "A21": "No",
+                    "A22": [
+                        "1 CI : 1 student",
+                        "1 CI : > 2 students",
+                        "2 CIs (split rotations) : 1 student",
+                        "Others"
+                    ],
+                    "A23": "N/A",
+                    "A24": "Yes",
+                    "A25": "No",
+                    "A26": "Yes",
+                    "A27": "No",
+                    "A28": "N/A",
+                    "A29": "Yes",
+                    "A30": "No",
+                    "A31": "N/A",
+                    "TA1": "Additional Comment"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "SFCCSAQuestionnaire1.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "SFCCSAQuestionnaire1.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "SFCC",
+            "owningOrganizationUnit": "D002",
+            "owningUser": "40499"
+        },
+        "partitionKey": "SFCC",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "68cda034-a06c-44fc-9c45-c0e7e9fa5892",
+        "_rid": "txoEAI0Kc-y9GAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-y9GAAAAAAAAA==/",
+        "_etag": "\"d60078d0-0000-0100-0000-668b5b6a0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720408938
+    }
+]
