@@ -1,0 +1,4125 @@
+[
+    {
+        "responseId": "b920d485-0fee-4030-87a9-86833e4b9bdb",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2023-12-14T06:00:00Z",
+                    "ClinicalRotationName": "Jordyn Peterson",
+                    "SiteSpeciality": [
+                        "Women's Health"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Women's Health"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Preoperative Exam"
+                    ],
+                    "Prenatal": [
+                        "Prenatal"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Would like students to have more OR suture experience coming into rotation as the student assists in surgery (note: this was students' first clinical rotation)"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "85",
+                    "ta2": "5",
+                    "ta3": "10",
+                    "ta5": "8"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Student says this has been a good learning experience for her"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "0612dcc6-ada7-422b-bd7b-8d1039d4bac7",
+        "_rid": "txoEAI0Kc-z-JQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z-JQAAAAAAAA==/",
+        "_etag": "\"00015135-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "a891917b-ed27-4963-b6a8-c0fd725ac916",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-03-07T06:00:00Z",
+                    "ClinicalRotationName": "Brooke Brown",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care",
+                        "Emergency Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "SurgicalOptions": [
+                        "Post-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta2": "95",
+                    "ta4": "5",
+                    "ta5": "4-6",
+                    "ta6": "difficult to know what each provider expects, they are very different"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Mark Zellmer PA  plans to retire in a year, but Caitlin will continue working there"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "273c1095-e19a-4b51-b434-e0a22c4f09d2",
+        "_rid": "txoEAI0Kc-z3MQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-z3MQAAAAAAAA==/",
+        "_etag": "\"00016f35-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "21175e30-0fe7-4a27-a100-c5a76c137af0",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "Technical": [
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage"
+                    ],
+                    "Date": "2024-06-11T05:00:00Z",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Prenatal": [
+                        "Gynecologic"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Joe was busy with patients, but in the brief time we had to talk he seemed enthusiastic about teaching."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "12",
+                    "ta6": "Less women's health issues when with Joe, but student is able to spend time with other APPs who see more well women exams. With Joe, seeing more ortho and male GU exams."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "34e2c872-50be-40ec-83d0-d4903b58b73c",
+        "_rid": "txoEAI0Kc-zLRAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zLRAAAAAAAAA==/",
+        "_etag": "\"00018e35-0000-0100-0000-668e65e80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608232
+    },
+    {
+        "responseId": "f8a2ff7c-68d6-400e-9f36-19674d0004f1",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "SiteSpeciality": [
+                        "Elective"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Operating Room"
+                    ],
+                    "Patient": [
+                        "Surgical"
+                    ],
+                    "Technical": [
+                        "IV Insertion",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "She is doing well. Has had a chance to be involved in several procedures and a few larger surgeries as well as dermatology visits."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "No",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "70%",
+                    "ta3": "30%",
+                    "ta5": "Varies depending on the number and size of the surgeries being done that day.",
+                    "ta6": "She is enjoying her time with the plastic surgery.  Dr. Saldana is a great teacher."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Dr. Saldana would like to have more students."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "360c1268-9a74-4dd2-b788-94ee4e1603e1",
+        "_rid": "txoEAI0Kc-xpNAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xpNAAAAAAAAA==/",
+        "_etag": "\"00017735-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "e5151f16-dfd2-4704-a2fb-2010c27e02ca",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-04-30T05:00:00Z",
+                    "ClinicalRotationName": "S. Hanowski",
+                    "SiteSpeciality": [
+                        "Emergency Medicine"
+                    ],
+                    "Setting": [
+                        "Emergency Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Emergency Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Prenatal": [
+                        "Gynecologic"
+                    ],
+                    "SurgicalOptions": [
+                        "Pre-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "No",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Stephanie shared learning objectives with co-preceptor at beginning of rotation, as Dr Foster works a stretch on and then a week or two off and student had a different preceptor initially.  He said Stephanie is eager to learn and he has enjoyed hab=ving her as a student"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "No",
+                    "ta4": "100",
+                    "ta5": "varies 10-15 average, more on weekends",
+                    "ta6": "good learning opportunity with preceptor",
+                    "PS3": "Nursing staff are reportedly 'cold' and not helpful to student learning"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "May need to advise students who rotate at this site that nursing staff may not be friendly to student learners"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "3b70063a-35a3-4dc8-bb98-64584ada91b9",
+        "_rid": "txoEAI0Kc-xZPAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xZPAAAAAAAAA==/",
+        "_etag": "\"00018735-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "768708a1-2e7d-4ebf-847d-8fcfcec4520b",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-02-01T06:00:00Z",
+                    "ClinicalRotationName": "Ashley Haga",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Emergency Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta2": "95%",
+                    "ta4": "5%",
+                    "ta5": "6-10",
+                    "ta6": "Learning a lot; Sandstone, obs unit in Miller-Dwan, and general floors at Essentia"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "4f97d3b5-f82a-4026-b3e3-2bcd8b4d57b0",
+        "_rid": "txoEAI0Kc-wzKgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wzKgAAAAAAAA==/",
+        "_etag": "\"00015c35-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "24d55b83-d929-40b9-a56c-e16ae7d9c21c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2023-12-19T06:00:00Z",
+                    "ClinicalRotationName": "Kaitlin Mulcahy",
+                    "SiteSpeciality": [
+                        "Pediatrics"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Ear irrigation/Cerumen Removal",
+                        "Cryotherapy",
+                        "Vision Screening",
+                        "Tympanometry/Audiometry"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Clearly excited about teaching"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "99%",
+                    "ta2": "1%",
+                    "ta5": "12",
+                    "ta6": "Good rotation!  All preceptors are easy to work with."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "52d8b886-8e36-423f-8a7a-a1f0fe6d7c98",
+        "_rid": "txoEAI0Kc-wZJgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wZJgAAAAAAAA==/",
+        "_etag": "\"00015435-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "be775608-1c84-47bf-ba28-9ad929397d3f",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-04-12T05:00:00Z",
+                    "ClinicalRotationName": "Harsh Parikh",
+                    "SiteSpeciality": [
+                        "Behavioral Medicine"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Emergency Care"
+                    ],
+                    "Patient": [
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "No",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Harsh is well-liked in Amberwing; He is easy-going and gets along well with everyone.\nLots of group therapy opportunities, but not a lot of ability to see patients and present them."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta2": "70%",
+                    "ta4": "30%",
+                    "ta5": "2-6",
+                    "ta6": "Good variety of diagnoses;  very little exposure to medication management; NP student there at the same time; rotation doesn't translate well to PA mental healthcare; good exposure to therapy and treatment options"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "DCE is currently working with EH psych on having students spend more time with an outpatient mental healthcare provider"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "54089737-c0e4-4010-8be9-c93bd11371ad",
+        "_rid": "txoEAI0Kc-xVOQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xVOQAAAAAAAA==/",
+        "_etag": "\"00017935-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "2e8bc831-f6c2-414f-8505-f7211df74de8",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2023-12-12T06:00:00Z",
+                    "SiteSpeciality": [
+                        "Women's Health"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care"
+                    ],
+                    "Patient": [
+                        "Women's Health"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Assessment of Fundamental Height",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Preoperative Exam"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "92%",
+                    "ta2": "5%",
+                    "ta3": "3%",
+                    "ta4": "0",
+                    "ta5": "10-12",
+                    "ta6": "Great learning experience"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "57898505-cd2d-4898-89b9-5352c82e4597",
+        "_rid": "txoEAI0Kc-xlLwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xlLwAAAAAAAA==/",
+        "_etag": "\"00016635-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "cc127c4f-9ea3-4ff8-b8ec-f6b00c7c03c3",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-04-12T05:00:00Z",
+                    "ClinicalRotationName": "Ryan Rubinstein",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care"
+                    ],
+                    "Patient": [
+                        "Geriatric"
+                    ],
+                    "PatientAges": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "No",
+                    "Student10": "Yes",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta2": "98%",
+                    "ta4": "2%",
+                    "ta5": "6",
+                    "ta6": "Upcoming opportunities with IR and a hospitalist; not a lot of chronic medication management",
+                    "overridden3": "Could use a bit more patient variety"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa5": "Yes",
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Some concerns with previous student, but not the one before or the current student.  More difficult and demanding IM rotation due to critical care/post surgical nature of patients."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "6a298fbe-3032-4c05-8f68-f2ffc5efa3f9",
+        "_rid": "txoEAI0Kc-xjOQAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xjOQAAAAAAAA==/",
+        "_etag": "\"00017a35-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "ea9caba9-f29a-4421-bb09-c0a94efdd4d9",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2023-12-19T06:00:00Z",
+                    "SiteSpeciality": [
+                        "Pediatrics"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)"
+                    ],
+                    "Technical": [
+                        "Pharyngeal Swab",
+                        "Cryotherapy",
+                        "Vision Screening"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Dr. Tomlinson is excited to be able to teach the PA medicine students."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "10",
+                    "ta6": "Enjoyable rotation.  Student has also been able to spend time with Dr. Krause and he has been a wonderful teacher.  No concerns about his style of teaching."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "6bbeeef8-72ed-40b2-a5bc-6a936bbcef30",
+        "_rid": "txoEAI0Kc-wVLwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wVLwAAAAAAAA==/",
+        "_etag": "\"00016335-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "8dc8d025-d5be-4096-8311-a34268011ecf",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Nebulizer treatments",
+                        "Local Anesthesia",
+                        "Incision & Drainage",
+                        "Wound Culture"
+                    ],
+                    "Date": "2024-06-04T05:00:00Z",
+                    "ClinicalRotationName": "John Welter",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Stephanie is very impressed with John. He is taking 3-4 patients on his own, rounding, presenting, planning and charting. See the rest of the list/patients with the preceptor. He has gotten much better at presenting the patient incorporating only the pertinent information instead of the life story.  Assessment/Plan has improved quite a bit since the first week as well."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "0",
+                    "ta2": "80",
+                    "ta4": "20 (some days they are on admit)",
+                    "ta5": "When working Obs, 8-10. When working admission 12+ (had 7 in the first 2 hours the day of the visit)",
+                    "ta6": "None"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "She seems to be a great preceptor. Good at urging John just a bit out of his comfort zone which has helped improve his confidence and performance."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "7493f3b9-9954-45ce-8e3f-2c48bb82c99c",
+        "_rid": "txoEAI0Kc-xtQgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xtQgAAAAAAAA==/",
+        "_etag": "\"00018935-0000-0100-0000-668e65e80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608232
+    },
+    {
+        "responseId": "0bdcab2f-4253-472c-9ee7-08fff9ec8462",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "Technical": [
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Wound Culture"
+                    ],
+                    "Date": "2024-06-10T05:00:00Z",
+                    "ClinicalRotationName": "Morgan M",
+                    "SiteSpeciality": [
+                        "Women's Health"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Women's Health"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Prenatal": [
+                        "Prenatal"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Precepts for PA, NP and medical students"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "50",
+                    "ta2": "25",
+                    "ta3": "25",
+                    "ta4": "rare",
+                    "ta5": "10-18",
+                    "ta6": "none"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "no concerns"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "87ed9e74-b19e-4deb-abfe-4223239b6814",
+        "_rid": "txoEAI0Kc-zXQwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zXQwAAAAAAAA==/",
+        "_etag": "\"00018a35-0000-0100-0000-668e65e80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608232
+    },
+    {
+        "responseId": "be78df85-3ff2-4a25-a476-eeefa980a6de",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Cryotherapy",
+                        "Vision Screening",
+                        "Preoperative Exam"
+                    ],
+                    "Date": "2023-12-05T06:00:00Z",
+                    "ClinicalRotationName": "Ryan Rubenstein",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "8"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "882d13b4-e173-4f3d-9435-090196d35cf6",
+        "_rid": "txoEAI0Kc-w9JAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w9JAAAAAAAAA==/",
+        "_etag": "\"00014d35-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "a5d30af3-a610-43ea-8051-f54a9772138d",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-03-14T05:00:00Z",
+                    "ClinicalRotationName": "Hannah Johnson",
+                    "SiteSpeciality": [
+                        "Women's Health"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Women's Health"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Assessment of Fundamental Height",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Operating Room Sterile Technique",
+                        "Rectal/Prostate Exam",
+                        "Preoperative Exam"
+                    ],
+                    "Prenatal": [
+                        "Prenatal"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Hannah is one of the best, most professional students she has had. \nSome issues with vacation time during student rotations, but the other providers are usually willing to help out."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "90%",
+                    "ta2": "5%",
+                    "ta3": "5%",
+                    "ta5": "8-14",
+                    "ta6": "None;"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Low hours on this rotation, but the students that reach out to other providers and are willing to take call and stay late seem to acheive more hours."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "93a922dc-c3c0-4a66-a2a6-c7bf079eae50",
+        "_rid": "txoEAI0Kc-zFMgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zFMgAAAAAAAA==/",
+        "_etag": "\"00017335-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "123bc23a-81ae-4982-9c2f-29d7859e31e4",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Prenatal Exam",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Date": "2024-04-30T05:00:00Z",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Prenatal": [
+                        "Prenatal"
+                    ],
+                    "SurgicalOptions": [
+                        "Pre-operative",
+                        "Post-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Plans to hire Karsyn after she graduates in Hayward WI, very impressed with students professionalism and knowledge"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100",
+                    "ta5": "8-12"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "a good preceptor and site"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "93b117d8-1770-4219-af0e-58d2429b81ff",
+        "_rid": "txoEAI0Kc-xTPAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xTPAAAAAAAAA==/",
+        "_etag": "\"00018535-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "5b81b6f5-c96c-42c9-80da-6dbdb0a130ea",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2023-12-13T06:00:00Z",
+                    "ClinicalRotationName": "Corina Mark",
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain"
+                    ],
+                    "Patient": [
+                        "Geriatric"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Corina is a very eager student with great questions. She is always ready for the day, presents patients well."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "ta3": "-",
+                    "ta4": "-",
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "20%",
+                    "ta2": "80%",
+                    "ta5": "10-12",
+                    "ta6": "None"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "None"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "94d75ad3-7943-409b-9e6d-3b984cbcaa34",
+        "_rid": "txoEAI0Kc-w9JgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w9JgAAAAAAAA==/",
+        "_etag": "\"00015735-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "884bf9bf-97c0-4a30-aa6e-508c27572165",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Encounter": [
+                        "Acute Care",
+                        "Emergency Care"
+                    ],
+                    "Date": "2024-06-17T05:00:00Z",
+                    "ClinicalRotationName": "Lydia Vetsch",
+                    "SiteSpeciality": [
+                        "Emergency Medicine"
+                    ],
+                    "Setting": [
+                        "Emergency Room"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Splinting/casting extremities"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Dean is impressed with Lydia. Thinks CSS is preparing our students well. She is charting right in the chart, Dean states that he reviews her notes and hardly has to correct anything at this point in her rotation. She is also improving on her presentation skills. Still working on broadening her differentials and charting why/how she ruled any of them out."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta4": "100%",
+                    "ta5": "10-15. Student taking 5-8 on her own.",
+                    "ta6": "She is enjoying her EM rotation. Dean is a great preceptor. She likes the variety of  Emergency Medicine."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Dean seems to like precepting and feels our students are well prepared."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "a0fe5d76-ff05-45c5-9e29-3b0f3847a3c8",
+        "_rid": "txoEAI0Kc-wnRgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wnRgAAAAAAAA==/",
+        "_etag": "\"00018f35-0000-0100-0000-668e65e80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608232
+    },
+    {
+        "responseId": "a9b348ac-84c6-4e6d-8ce7-c47368513bbf",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Cryotherapy",
+                        "Vision Screening",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Date": "2023-12-13T06:00:00Z",
+                    "ClinicalRotationName": "Anna Gloria Mwamasika",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "99%",
+                    "ta2": "1%",
+                    "ta5": "12"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Preceptor is very enthusiastic about teaching.  Multiple other preceptors at the site make this a feasible pediatrics option."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "a3290045-4807-4223-b0e7-f3cb06e8fff5",
+        "_rid": "txoEAI0Kc-wXJgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wXJgAAAAAAAA==/",
+        "_etag": "\"00015235-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "d928eb6e-7e21-4dd2-9396-ccad5682a4a7",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Operating Room Sterile Technique",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Date": "2024-01-24T06:00:00Z",
+                    "ClinicalRotationName": "Hannah Disinger",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "She is doing ok, student is seeing about 6 patients a day. Lacks confidence."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "14-19"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ba12c7c7-4f3f-4bcf-bed2-15ea6cf1371e",
+        "_rid": "txoEAI0Kc-wpMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wpMAAAAAAAAA==/",
+        "_etag": "\"00016e35-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "b5020150-4a9d-4642-be29-50de3ccc64fb",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Emergency Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Date": "2023-09-06T05:00:00Z",
+                    "ClinicalRotationName": "Sabrina Ratanpal",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine",
+                        "Emergency Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Peak flow assessments",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Splinting/casting extremities",
+                        "Preoperative Exam"
+                    ],
+                    "SurgicalOptions": [
+                        "Post-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student11": "No",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "student is very happy with this rotation, preceptor has a structured learning plan and has been an enthusiastic educator"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ba734425-7fed-47ca-a149-23331fbb22bb",
+        "_rid": "txoEAI0Kc-zdFwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-zdFwAAAAAAAA==/",
+        "_etag": "\"00014c35-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "162c2990-bf9c-4521-9d13-c1ea781bcf22",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Pharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Preoperative Exam"
+                    ],
+                    "Date": "2024-01-30T06:00:00Z",
+                    "ClinicalRotationName": "Michael Lick",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "States student is professional and she has no concerns"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "0%",
+                    "ta2": "100%",
+                    "ta5": "8-12",
+                    "ta6": "none"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Busy site both on medical floor and ICU"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "bac3b17c-d0d8-434c-a1d0-f6592c6d1a46",
+        "_rid": "txoEAI0Kc-w1KwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w1KwAAAAAAAA==/",
+        "_etag": "\"00015e35-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "d274c9ab-2227-4946-a411-c993af08135c",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-01-31T06:00:00Z",
+                    "ClinicalRotationName": "Emily Martinson",
+                    "SiteSpeciality": [
+                        "Surgery"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "Encounter": [
+                        "Acute Care"
+                    ],
+                    "Patient": [
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Intramuscular Injections",
+                        "Operating Room Sterile Technique",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Preoperative Exam"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Very inquisitive, asks great questions, jumps into procedures and learning opportunities that arise."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "60%",
+                    "ta2": "10%",
+                    "ta3": "30%",
+                    "ta4": "0",
+                    "ta5": "12-16",
+                    "ta6": "None"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c51026a5-53e8-47b4-933a-bbadc1e5b62f",
+        "_rid": "txoEAI0Kc-wlMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wlMAAAAAAAAA==/",
+        "_etag": "\"00016935-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "89532ad2-737c-40e1-9bc3-5580bfcb30d2",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Arthrocentesis/joint injection"
+                    ],
+                    "Prenatal": [
+                        "Prenatal",
+                        "Geriatric"
+                    ],
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Kelly is enjoying having a student. Hannah keeps Kelly on her toes with her inquisitive questions and enthusiasm."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Nice little facility."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c533ee35-936b-4ebc-a003-2761cc3908a1",
+        "_rid": "txoEAI0Kc-w-JgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w-JgAAAAAAAA==/",
+        "_etag": "\"00015a35-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "6839c0de-4903-4cd4-b08d-1c725314c862",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam",
+                        "Tympanometry/Audiometry"
+                    ],
+                    "Date": "2023-12-07T06:00:00Z",
+                    "ClinicalRotationName": "John Welter",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "Prenatal": [
+                        "Prenatal",
+                        "Geriatric"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta2": "0",
+                    "ta3": "0",
+                    "ta4": "0",
+                    "ta5": "12-18",
+                    "ta6": "Great learning environment"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa5": "Yes",
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "c7434b52-7e47-439d-bd69-588d246c8bcd",
+        "_rid": "txoEAI0Kc-xpLwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xpLwAAAAAAAA==/",
+        "_etag": "\"00016835-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "718ba49b-22e9-4d49-bbfb-791c5ddd70fd",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Vision Screening",
+                        "Preoperative Exam"
+                    ],
+                    "Date": "2024-03-12T05:00:00Z",
+                    "ClinicalRotationName": "Jordyn Peterson",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "SurgicalOptions": [
+                        "Pre-operative",
+                        "Post-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Jordyn is doing great and Leiah is enjoying teaching."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "99%",
+                    "ta2": "1%",
+                    "ta5": "10-18",
+                    "ta6": "Students can stay in on call rooms at the hospital if needed."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "The facility looks great with plenty of other providers to teach if needed.  The clinic is attached to the local hospital."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "d23ec18b-32bd-4c58-890e-1c095aab4733",
+        "_rid": "txoEAI0Kc-xxMgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xxMgAAAAAAAA==/",
+        "_etag": "\"00017235-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "4a206fbc-cffd-4ea1-b9a3-eb34dc424be3",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Setting": [
+                        "Emergency Room",
+                        "Operating Room"
+                    ],
+                    "Patient": [
+                        "Women's Health",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "Technical": [
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Assessment of Fundamental Height",
+                        "Incision & Drainage"
+                    ],
+                    "Date": "2023-09-03T18:30:00Z",
+                    "ClinicalRotationName": "1",
+                    "SiteSpeciality": [
+                        "Primary Care",
+                        "Behavioral Medicine",
+                        "Elective"
+                    ],
+                    "Encounter": [
+                        "Chronic Pain"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)"
+                    ],
+                    "overridden1": "2",
+                    "Prenatal": [
+                        "Geriatric"
+                    ],
+                    "SurgicalOptions": [
+                        "Pre-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Unsatisfactory",
+                    "StudentAppearance": "Competent",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "No",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "No",
+                    "Preceptor5": "Yes",
+                    "Preceptor6": "No",
+                    "Preceptor7": "3"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "No",
+                    "Student3": "Yes",
+                    "Student4": "No",
+                    "Student5": "Yes",
+                    "Student6": "No",
+                    "Student7": "Yes",
+                    "Student8": "No",
+                    "Student9": "Yes",
+                    "Student10": "Yes",
+                    "Student11": "No",
+                    "Student12": "Yes",
+                    "Student13": "Yes",
+                    "Student14": "No",
+                    "Student15": "No",
+                    "ta1": "7",
+                    "ta2": "8",
+                    "ta3": "9",
+                    "ta4": "10",
+                    "ta5": "11",
+                    "ta6": "12",
+                    "PS1": "4",
+                    "PS2": "5",
+                    "PS3": "6"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "No",
+                    "fsa2": "No",
+                    "fsa3": "No",
+                    "fsa4": "No",
+                    "fsa5": "No",
+                    "Concerns": "18",
+                    "PleaseSpecify2": "14",
+                    "PleaseSpecify1": "13",
+                    "PleaseSpecify3": "15",
+                    "PleaseSpecify4": "16",
+                    "PleaseSpecify5": "17"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "40508"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "d3717172-65be-4ac6-91cd-05180f767fd5",
+        "_rid": "txoEAI0Kc-ybFwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-ybFwAAAAAAAA==/",
+        "_etag": "\"00014935-0000-0100-0000-668e65e50000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608229
+    },
+    {
+        "responseId": "dfc021e2-5521-4d2e-b11a-b9d41735ed67",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-06-11T05:00:00Z",
+                    "ClinicalRotationName": "Mike Lick",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Cryotherapy",
+                        "Vision Screening",
+                        "Preoperative Exam"
+                    ],
+                    "Prenatal": [
+                        "Gynecologic"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Ashley appears to have a great background in teaching and is able to gear her teaching style to fit a variety of student learners."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "8",
+                    "ta6": "None.  Enjoying his time here."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "They have other students, but try not to have more than one student at a time with the providers.  Vlad is very helpful and gave a thorough tour of the well-equipped office."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132049"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "de37239d-f287-4268-9199-925c562ef602",
+        "_rid": "txoEAI0Kc-yvRAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-yvRAAAAAAAAA==/",
+        "_etag": "\"00018b35-0000-0100-0000-668e65e80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608232
+    },
+    {
+        "responseId": "e9473261-ea70-4457-85af-64a428a31548",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Preoperative Exam"
+                    ],
+                    "Date": "2024-01-30T06:00:00Z",
+                    "ClinicalRotationName": "Lexi Biermaier",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Pain",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health",
+                        "Surgical"
+                    ],
+                    "Prenatal": [
+                        "Prenatal"
+                    ],
+                    "SurgicalOptions": [
+                        "Pre-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta2": "0%",
+                    "ta3": "0%",
+                    "ta4": "0%",
+                    "ta5": "8-12",
+                    "ta6": "none"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "Small clinic, sees all age ranges, has lab and x-ray on site. Refers to Wadena if needed"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "df28dbb3-bb67-464f-878c-f2cba05043fa",
+        "_rid": "txoEAI0Kc-w3KwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-w3KwAAAAAAAA==/",
+        "_etag": "\"00016135-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "cb796a77-419a-4ccf-9e6e-a5300d41b09f",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-06-18T05:00:00Z",
+                    "ClinicalRotationName": "Anisaa Husein Ali",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Vision Screening",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Prenatal": [
+                        "Gynecologic"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "This preceptor had same student for her first rotation PC1.  She notes increased confidence seeing patients, and increased knowledge"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "12-16, student sees about half of patients",
+                    "ta6": "none"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Site",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132046"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e25f4431-c36d-499e-a62c-a47885c83d8c",
+        "_rid": "txoEAI0Kc-wDSwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wDSwAAAAAAAA==/",
+        "_etag": "\"00019135-0000-0100-0000-668e65e80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608232
+    },
+    {
+        "responseId": "98c7f640-6e25-49d4-8303-3e58ce9947bc",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "Date": "2024-01-24T06:00:00Z",
+                    "ClinicalRotationName": "Stephanie Hanowski",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Setting": [
+                        "Outpatient"
+                    ],
+                    "Encounter": [
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "IV Insertion",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Assessment of Fundamental Height",
+                        "Intramuscular Injections",
+                        "Fetal Heart Tone Identification",
+                        "Nebulizer treatments",
+                        "Prenatal Exam",
+                        "Peak flow assessments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Rectal/Prostate Exam",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Stephanie is very enthusiastic. Asks very tough but pertinent questions that the preceptor sometimes has to research herself."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "No",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "13-16"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "e9f0cdfa-a7d6-4cba-99bc-0edbe268520b",
+        "_rid": "txoEAI0Kc-wnMAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-wnMAAAAAAAAA==/",
+        "_etag": "\"00016c35-0000-0100-0000-668e65e60000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608230
+    },
+    {
+        "responseId": "378e35e0-ff87-4d92-8324-81c871c52cdf",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Technical": [
+                        "Venipuncture",
+                        "Breast Exam",
+                        "Cervical Cancer screening",
+                        "Pharyngeal Swab",
+                        "Vaginal Swab/Wet Prep/KOH collection",
+                        "Nasopharyngeal Swab",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Ear irrigation/Cerumen Removal",
+                        "Local Anesthesia",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Cryotherapy",
+                        "Fluorescein Eye Staining/Slit Lamp",
+                        "Vision Screening",
+                        "Splinting/casting extremities",
+                        "Arthrocentesis/joint injection",
+                        "Preoperative Exam"
+                    ],
+                    "Date": "2024-04-18T05:00:00Z",
+                    "ClinicalRotationName": "Kira Musial",
+                    "SiteSpeciality": [
+                        "Primary Care"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care",
+                        "Preventive Care"
+                    ],
+                    "Patient": [
+                        "Geriatric",
+                        "Women's Health",
+                        "Behavioral Health"
+                    ],
+                    "PatientAges": [
+                        "Infant (0-2)",
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Prenatal": [
+                        "Gynecologic"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Kira jumps right in, is excited to see patients even challenging ones.\nPaige enjoys precepting. She feels our students are strong, wishes the Scholastica NP's could take the PA charting class."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "No",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "100%",
+                    "ta5": "Sees 80% of the patients on her own. The rest tag team.",
+                    "ta6": "None"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "None"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "f0f6daac-464c-4ddd-8592-c8b9bb2c22df",
+        "_rid": "txoEAI0Kc-xhOgAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xhOgAAAAAAAA==/",
+        "_etag": "\"00017c35-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "4b03918d-ed20-4344-9f4c-da2e27a822ac",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Operating Room"
+                    ],
+                    "SiteSpeciality": [
+                        "Surgery"
+                    ],
+                    "Patient": [
+                        "Surgical"
+                    ],
+                    "PatientAges": [
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Operating Room Sterile Technique",
+                        "Local Anesthesia",
+                        "Simple Suture closure of Laceration/Incision",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture",
+                        "Preoperative Exam"
+                    ],
+                    "SurgicalOptions": [
+                        "Pre-operative",
+                        "Intra-operative",
+                        "Post-operative"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Competent",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "He is always prepared for cases and clinic. He is able to answer anatomy/surgical questions when asked. He is ready to jump in and assist or seek out different opportunities on scope days since he has seen many."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "2-3 days a week",
+                    "ta2": "every day",
+                    "ta3": "2-3 days a week",
+                    "ta4": "rare",
+                    "ta5": "Clinic 15-17, inpatient 2-6",
+                    "ta6": "He is enjoying this rotation."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "I wish they stapled less and sutured more."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "fdbfc78c-e58d-43ab-a798-1c6ce1680448",
+        "_rid": "txoEAI0Kc-x5OwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x5OwAAAAAAAA==/",
+        "_etag": "\"00018335-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "bfc21ed0-e7bb-423b-8c3c-af010af2b282",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Setting": [
+                        "Outpatient",
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Intramuscular Injections",
+                        "Nebulizer treatments",
+                        "Skin Biopsy",
+                        "Incision & Drainage",
+                        "Wound Culture"
+                    ],
+                    "Date": "2024-03-19T05:00:00Z",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Encounter": [
+                        "Acute Care",
+                        "Chronic Care"
+                    ],
+                    "Patient": [
+                        "Geriatric"
+                    ],
+                    "PatientAges": [
+                        "Child (3-10)",
+                        "Adolescent(11-24)",
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "Rachel is very inquisitive, and continues to grow in her abilities in Inpaitient Medicine.  Dr Child's is trying to get Rachel to apply to one of the positions with him. He loves to teach and would like more of our students."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "80",
+                    "ta2": "10",
+                    "ta4": "10",
+                    "ta5": "The number varies greatly. If there is a low census she will follow another specialty.",
+                    "ta6": "Tamarack is a great place to rotate. Everyone is welcoming and eager to teach."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes"
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ff84e5bf-322f-41f2-8e60-56a6a75a0a31",
+        "_rid": "txoEAI0Kc-xXNAAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-xXNAAAAAAAAA==/",
+        "_etag": "\"00017535-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    },
+    {
+        "responseId": "7038c0cb-95e4-4a5c-9498-1b2491acf375",
+        "workflowStatusId": "Step.SiteAssessment.Save",
+        "sections": [
+            {
+                "sectionId": "Section.SiteAssessment.Site",
+                "values": {
+                    "Date": "2024-03-15T05:00:00Z",
+                    "ClinicalRotationName": "Lydia Vetsch",
+                    "SiteSpeciality": [
+                        "Inpatient Medicine"
+                    ],
+                    "Setting": [
+                        "Inpatient",
+                        "Emergency Room"
+                    ],
+                    "PatientAges": [
+                        "Adult (25-64)",
+                        "Elderly (>=65)"
+                    ],
+                    "Technical": [
+                        "Venipuncture",
+                        "IV Insertion",
+                        "Nasopharyngeal Swab",
+                        "Nebulizer treatments"
+                    ]
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Learning",
+                "values": {
+                    "StudentPerformance": "Outstanding",
+                    "StudentAppearance": "Outstanding",
+                    "Preceptor1": "Yes",
+                    "Preceptor2": "Yes",
+                    "Preceptor3": "Yes",
+                    "Preceptor4": "Yes",
+                    "Preceptor5": "No",
+                    "Preceptor6": "Yes",
+                    "Preceptor7": "As all students are at the beginning, Lydia was green but quickly jumped into the role. She is ver inquisitive and eager to learn new things. She has had a chance to follow other preceptors for a more well rounded experience.. She has become very comfortable seeing patients, keeping up with charting."
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.Student",
+                "values": {
+                    "Student1": "Yes",
+                    "Student2": "Yes",
+                    "Student3": "Yes",
+                    "Student4": "Yes",
+                    "Student5": "Yes",
+                    "Student6": "Yes",
+                    "Student7": "Yes",
+                    "Student8": "Yes",
+                    "Student9": "Yes",
+                    "Student10": "No",
+                    "Student11": "Yes",
+                    "Student12": "Yes",
+                    "Student13": "No",
+                    "Student14": "Yes",
+                    "Student15": "Yes",
+                    "ta1": "0",
+                    "ta2": "95",
+                    "ta4": "5",
+                    "ta5": "8-10. The student is taking up to 4 patients a day on her own.",
+                    "ta6": "None"
+                }
+            },
+            {
+                "sectionId": "Section.SiteAssessment.School",
+                "values": {
+                    "fsa1": "Yes",
+                    "fsa2": "Yes",
+                    "fsa3": "Yes",
+                    "fsa4": "Yes",
+                    "fsa5": "Yes",
+                    "Concerns": "The preceptor Beau would like to take more of our students. He is impressed by the quality of CSS PA students."
+                }
+            }
+        ],
+        "contextIds": {
+            "appId": "Exxat.Location",
+            "formId": "STSOngoingClinical.SiteAssessment",
+            "targetId": "f597fbe3-b676-40a7-9bfe-1e27ef0548ab",
+            "groupId": "4c9918b3-819e-4dc7-8f62-5760f1da31db",
+            "layoutId": "STSOngoingAssessment.SiteAssessment.Layout.Base"
+        },
+        "securityContext": {
+            "tenantId": "CSS",
+            "owningOrganizationUnit": "D005",
+            "owningUser": "132050"
+        },
+        "partitionKey": "CSS",
+        "entityName": "Exxat.Forms.Entity.Response.Data",
+        "id": "ffdac945-2c12-4413-a587-727b1cf222c8",
+        "_rid": "txoEAI0Kc-x3OwAAAAAAAA==",
+        "_self": "dbs/txoEAA==/colls/txoEAI0Kc-w=/docs/txoEAI0Kc-x3OwAAAAAAAA==/",
+        "_etag": "\"00018035-0000-0100-0000-668e65e70000\"",
+        "_attachments": "attachments/",
+        "_ts": 1720608231
+    }
+]
