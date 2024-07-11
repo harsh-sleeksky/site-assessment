@@ -89,7 +89,7 @@
                     "characterLimit": 500
                 },
                 {
-                    "fieldId": "questionspaperwork",
+                    "fieldId": "questionspaperworkD",
                     "fieldType": "textarea",
                     "description": "15. Other feedback, concerns, information:  ",
                     "characterLimit": 500
@@ -156,12 +156,12 @@
                     "description": "9. Do you have any questions about the assessment process of this experience and how that works?"
                 },
                 {
-                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldId": "suggestionsForClinicalteam1",
                     "fieldType": "textarea",
                     "description": "10. Is there anything you would like to discuss regarding this student or clinical education in general?"
                 },
                 {
-                    "fieldId": "suggestionsForClinicalteam",
+                    "fieldId": "suggestionsForClinicalteam2",
                     "fieldType": "textarea",
                     "description": "11. Is there anything we can do to make the clinical education process easier for you?"
                 }
