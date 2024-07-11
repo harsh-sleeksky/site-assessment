@@ -80,7 +80,7 @@
                     "characterLimit": 500
                 },
                 {
-                    "fieldId": "Label3",
+                    "fieldId": "Label31",
                     "fieldType": "label",
                     "description": "Years of experience practicing in this specialty/profession at this level (as a physician, surgeon, PA, nurse practitioner, or nurse-midwife) before the beginning of the student’s first assignment for a SCPE experience"
                 }
